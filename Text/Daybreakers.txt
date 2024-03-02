@@ -1,0 +1,1014 @@
+CardStat = 20000
+{
+global.CardName[CardStat] = 'Peridot Pridevalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20001
+{
+global.CardName[CardStat] = 'Travel : Cordinate'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+COST [Counter Blast 1] to play this card.
+
+AUTO: When this card is put into the Order Zone, Draw a card.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20002
+{
+global.CardName[CardStat] = 'Tsurugi "Leader" Tsubaki'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is placed by riding on "Peridot Pridevalue", search your deck / drop for a Mana Source card, put it into your Order Zone as rest, shuffle your deck.
+
+CONT [RC]: During your turn, this unit gets power +2000 for your Mana Source cards in rest.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20003
+{
+global.CardName[CardStat] = 'Fullbloom Ember Fox'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+ACT [Drop]: COST [Rest a Mana Source card from your Order Zone], call this unit to RC as rest.
+
+AUTO [RC] 1/Turn: When this unit attacks or boosts, if your rear-guards and Mana Source cards in rest are total five or more, this unit gets power +6000 until end of battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20004
+{
+global.CardName[CardStat] = 'Goddess of pae-pae row'
+global.CardText[CardStat] = 'Daybreakers/Spirit
+
+AUTO: When this unit is placed on RC, COST [Counter Blast 1, rest a Mana Source card], choose up to one unit card with grade less than or equal to your vanguard from your drop, call it to front row RC in the same column as this unit.
+
+AUTO [RC]: At the end of battle that this unit attacks or boosts, you may choose one of your Mana Source cards, and stand it. If you have no other units in the same column as this unit, COST [put this unit into soul], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20005
+{
+global.CardName[CardStat] = 'Surprise Scatter, Crys'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT [RC]: If you have a grade 3 or greater vanguard with "Tsubaki" in its card name, this unit gets "Intercept", and can intercept from the back row, and gets power +5000. 
+
+AUTO:When this unit is placed on RC except from hand, COST [Choose a normal unit from drop, ant put it on bottom of deck, rest a Mana Source card], choose a unit with "Tsubaki" in its card name, and until end of turn, that unit and this unit get power +5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20006
+{
+global.CardName[CardStat] = 'Crys, value of pride'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is placed by riding on "Tsurugi "Leader" Tsubaki", COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card neither <Omnia> nor <Admin>, reveal it and put it into hand, and shuffle the deck.
+
+AUTO [RC]:When it attacks, if you have a vanguard with "Tsubaki" in its card name, COST [rest any number of Mana Source card], until end of that battle, this unit gets power +3000 for cards rest for this cost, at the end of that battle, stand all of your Mana Source cards.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20007
+{
+global.CardName[CardStat] = 'Lindworm of flowerbloom scenery'
+global.CardText[CardStat] = 'Daybreakers/Cyber Dragon
+
+CONT [Hand/Deck/Order Zone]: This card is also regarded as Mana source Set Order.
+
+AUTO [RC]: When this is placed on [RC] from Order Zone, this unit gets "Boost", and power + 5000.
+
+AUTO [RC]: At end of the battle this unit attacked or boosted, If you have a vanguard with "Tsubaki" in its card name, put this unit into your Order Zone as rest.
+
+AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], call this card to an RC as stand. This abillity may only be used by a card with the same card name once a turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20008
+{
+global.CardName[CardStat] = 'Mark of THE TIDAL'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: This card cannat be played.
+
+CONT [Order Zone]: You may have only one of "Mark of THE TIDAL" in your order zone.
+
+AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], choose one of your opponent’s rear-guards, and retire it.
+
+ACT [Order Zone]: COST [rest this card], choose up to one mana source card from your hand, and put it into your Order Zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20009
+{
+global.CardName[CardStat] = 'Tsubaki Suzuna, pink camellia'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [VC] 1/Turn: COST [Counter Blast 1], search your deck or hand for up to one card of Mana source Set Order, and put it into the order zone. If you searched your deck, shuffle your deck.
+
+AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card], search your deck and drop for each up to one card total grade less than or equal to the number of rest for thsi cost, call them to RC. If your opponent’s svanguard is grade 3 or greater, called unis get power + 5000 untill end of turn for every two Mana source in your order zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Tsubaki'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20010
+{
+global.CardName[CardStat] = 'Manapath Re-constructor'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO [GC]: When this unit placed on GC, COST [rest one of Mana source card], this unit gets shield + 5000 until end of that battle.
+
+AUTO [R]: When this unit attacks, COST [Counter Blast 1, rest one or two of Mana source card], this unit gets power + 5000 until end of that battle, If you rest two for this cost, your opponent canot call grade 1 or greater units from hans to GC until end of that battle. At the end of that battle, COST [put this unit on the bottom of your deck], choose a Mana source card from your damage zone or drop, and put it into your hand. If you choose from your damage zone, put a card from your hand into your damage zone face down.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20011
+{
+global.CardName[CardStat] = 'Glitter Flatter Encounter, Tsubaki'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is placed by riding from "Tsubaki Suzuna, pink camellia", search your deck for up to one Mana source card, put it into the order zone, shuffle deck, and activate persona ride.
+
+AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card, bind a "Tsubaki Suzuna, pink camellia" from soul], search your soul, deck and drop for each up to one card total grade less than or equal to the number of rest for this cost, call them to RC, shuffle the deck, choose up to Mana source card in your order zone to the number of called "Crys" in its card name, stand it. At the end of that turn, ride the card bouded for this cost as rest.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Tsubaki'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20012
+{
+global.CardName[CardStat] = 'Mark of THE TIDAL '
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: This card cannat be played.
+
+CONT [Order Zone]: You may have only one of "Mark of THE TIDAL" in your order zone.
+
+AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], choose one of your opponent’s rear-guards, and retire it.
+
+ACT [Order Zone]: COST [rest this card], choose up to one mana source card from your hand, and put it into your Order Zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20013
+{
+global.CardName[CardStat] = 'Watcher of Heaven and Depth'
+global.CardText[CardStat] = 'Daybreakers/Elemental/Draw Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20014
+{
+global.CardName[CardStat] = 'Egonoid of the heavy ego'
+global.CardText[CardStat] = 'Daybreakers/Omnia/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20015
+{
+global.CardName[CardStat] = 'Skywalker Universe'
+global.CardText[CardStat] = 'Daybreakers/Omnia/Front Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20016
+{
+global.CardName[CardStat] = 'Rising red violent'
+global.CardText[CardStat] = 'Daybreakers/Admin/Critical Trigger
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20017
+{
+global.CardName[CardStat] = 'Moonlight Storymaker'
+global.CardText[CardStat] = 'Daybreakers/Omnia/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20018
+{
+global.CardName[CardStat] = 'Administrator of Red Violent'
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - choose one of your opponent’s vanguard, deal it one damage, and during that damage check, all trigger effects are nullified.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20019
+{
+global.CardName[CardStat] = 'Administrator of Blue Honesty'
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - Draw a card. Choose a card from your hand or soul, and call it to RC. It is regarded as it was on VC this turn, and cannot stand. At the end of that turn, return that unit to hand.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20020
+{
+global.CardName[CardStat] = 'Administrator of Yellow Warmth'
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - Search your deck and drop for each card with different name, reveal it, and put them into your hand. Until end of this fight, the number of cards in your damage zone for you to lose becomes seven.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20021
+{
+global.CardName[CardStat] = 'Magenta, Primal Tricolor'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20022
+{
+global.CardName[CardStat] = 'Magenta, Eternal Violent'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT: If your opponent’s damage zone is one or less, when you would ride a unit with "Magenta" in its card name from your ride deck, you can ride without discarding a card from your hand.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20023
+{
+global.CardName[CardStat] = 'Magenta, Genesis Admin'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by a unit with "Magenta, Unquestioning will" in its card name, your opponent choose a card from their damage zone, heal it, choose one of your vanguard, and deal one damage.
+
+AUTO [VC]: When this unit’s attack hits a vanguard, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20024
+{
+global.CardName[CardStat] = 'Magenta, Unquestioning will'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [VC]: During your turn, if a card was putted into your opponent’s damage zone this turn, all of your front row units get power +10000.
+
+ACT [VC] 1/Turn : COST [Counter Blast 1, put a card from your hand into soul], remove all of your opponent’s front row rear-guards. If your opponent’s damage zone is four or less, and you putted unit with "Magenta" in its card name for this cost, choose one of your opponent’s vanguard, and deal it one damage.
+
+AUTO [VC] 1/Turn : When your opponent’s damage check reveals a trigger unit, nullify that trigger effect, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Magenta'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20025
+{
+global.CardName[CardStat] = 'Magenta, to the point where cheeks are red'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+DressUp - "Magenta, Unquestioning will" (During this fight, this card is also regarded as the specified card)
+
+ACT [VC]: COST [Soul Blast 6 "Magenta"], choose one of your opponent’s vanguard, deal it one damage.
+
+ACT [VC] 1/Turn : COST [Put a card from your hand into soul], choose a trigger unit except over trigger from your opponent’s drop zone, activate that trigger effect, and put that card into top of deck. If you putted card with "Magenta" in its card name, remove that card instead.
+
+AUTO [VC] : During your turn, when trigger effect is activated, choose one of your units, and that unit gets power +5000 until end of turn.
+
+AUTO [VC] : At the end of battle this unit attacked, choose a "Magenta, Unquestioning will" from your drop zone or soul, ride it as rest. If attack did not hit, your opponent chooses a card from their damage zone, remove it, choose one of your opponent’s vanguard, deal it one damage.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Magenta'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20026
+{
+global.CardName[CardStat] = 'Yellow, Sweat worked hard for is golden'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +5000 / shield +5000.
+
+AUTO [RC]: When your opponent’s damage check reveals a trigger unit, COST [Counter Blast 1], this unit also gets power of revealed trigger effect.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20027
+{
+global.CardName[CardStat] = 'Cyan, refresh from cool cheering'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC] 1/Turn : During your turn, when trigger effect selects this unit, if you have a vanguard with "Magenta" in its card name, and if you did not Counter Charge this turn, Counter Charge 1.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20028
+{
+global.CardName[CardStat] = 'Administrator of Roaring dragon'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC]: If trigger effect was activated this turn, this unit gets power +5000.
+
+AUTO [RC]: At the end of battle this unit boosted, if you have a <Admin> vanguard with grade 3 or greater, and a card was putted into opponent’s damage zone during this battle, COST [Put this unit into soul], draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20029
+{
+global.CardName[CardStat] = 'Administrator of Human error'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC] 1/Turn : When a card putted into opponent’s damage zone, COST [Counter Blast 1], draw a card. If putted card was a trigger unit, choose your vanguard with "Magenta" in its card name, and that unit gets power +5000 until end of turn.
+
+ACT [RC] 1/Turn : COST [Discard a trigger unit], until end of turn, this unit gets power +10000 and "AUTO [RC]: When this unit attacks a vanguard, If this unit or attacked unit got trigger effect this turn, this unit gets critical +1 until end of that battle."'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20030
+{
+global.CardName[CardStat] = 'Zenith of the Sword'
+global.CardText[CardStat] = 'Daybreakers/Spirit/Heal Trigger
+
+AUTO: When this unit is put on GC, if the attacking unit’s critical is 2 or greater, and its critical is increased by an ability other than trigger effect or its original critical is 2 or greater, this unit gets shield +15000 until end of that battle.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20031
+{
+global.CardName[CardStat] = 'Wish of Cyanite'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20032
+{
+global.CardName[CardStat] = 'Swirling Yellow Warmth'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When the attack this unit boosted grade 3 vanguard hits, draw a card, or Counter Charge 1.
+
+AUTO: When this unit revealed by damage check, if a card was putted into your damage zone this turn, and your damage zone is five or more, COST [Counter Blast 2], put this unit into your hand, you do not get more damage by this attack.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20033
+{
+global.CardName[CardStat] = 'Embracing Blue Honesty'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this card is discarded from hand during your ride phase, COST [Soul Blast 1 & put this card on the bottom of deck], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1], look at the top five cards of your deck, choose up to one grade 3 card, reveal it and put it into your hand, and shuffle your deck. If you did not reveal a card, this unit gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20034
+{
+global.CardName[CardStat] = 'Desire of Magentir'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on RC or put on GC, COST [put a total of two cards from soul or drop that were in the ride deck into ride deck face up], and perform either of the following according to the circle this unit is on.
+¡ÜRC - Choose a normal unit with the same race name as your vanguard without sentinel from your drop, and put it into hand.
+¡ÜGC - This unit gets shield +15000 until end of that battle.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20035
+{
+global.CardName[CardStat] = 'Pray of Yellorium'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When this unit is placed on RC or put on GC, choose up to one grade 4 card from your hand, and reveal it. If you revealed a card, or your vanguard is grade 4, perform one of the following according to the circle this unit is on
+¡ÜRC - Counter Charge 1, or COST [Counter Blast 1], draw a card.
+¡ÜGC - This unit gets shield +15000 until end of that battle.
+
+AUTO: When this card is discarded from hand while riding a grade 3 from the ride deck or paying the cost for Stride, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20036
+{
+global.CardName[CardStat] = 'VOLTEX Megaphone'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: You may only use Origin Record order a total of one time in a fight.
+
+COST [Counter Blast 1, Soul Blast 2] to play this card.
+
+Choose up to one unit each with a different grade from your deck, drop, soul, and hand, call them to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20037
+{
+global.CardName[CardStat] = 'Reverse of the DEMISE'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: You may only use Origin Record order a total of one time in a fight.
+
+Choose a card from your damage zone, heal it, choose one of your vanguard, and deal it one damage. If a trigger unit did not revealed, you may Soul Charge 1. Choose one of your units being attacked, until end of that battle, it gets power +25000.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 25000
+
+CardStat = 20038
+{
+global.CardName[CardStat] = 'CONSTELLATION Sketchbook'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: You may only use Origin Record order a total of one time in a fight.
+
+AUTO: When this card is put into the Order Zone, Draw a card, shuffle your opponent’s soul into their deck. Your opponent Soul Charge equal to shuffled cards.
+
+AUTO [Order Zone]: When your vanguard attacks, look the top card of your deck.
+
+AUTO [Order Zone]: When your opponent’s vanguard attacks, your opponent reveals the top card of their deck.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20039
+{
+global.CardName[CardStat] = 'Light of the FLASHBACK'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20040
+{
+global.CardName[CardStat] = 'Recordover Hiijacker'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
+
+AUTO [RC]: When this unit attacks a vanguard, COST [put a card from your hand or RC into soul], and perform all of the following.
+¡ÜChoose up to one opponent’s unit in the same column as this unit, until end of turn, this unit gets power equal to that unit’s power.
+¡ÜCOST [Remove a over trigger from drop], choose one of your opponent’s vanguard, that unit gets power -5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20058
+{
+global.CardName[CardStat] = 'Yellow, Primal Tricolor'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20059
+{
+global.CardName[CardStat] = 'Yellow, Eternal Warmth'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by "Yellow, Genesis Admin", look at the top seven cards of your deck, choose up to one card among them, and drop it. If you dropped grade 2 or greater, choose one of your vanguard, and that unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20060
+{
+global.CardName[CardStat] = 'Yellow, Genesis Admin'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by "Yellow, Enduring truth", choose a card with grade 2 or greater from your drop, and put it into your hand. If you did not, draw a card.
+
+AUTO [VC]: When this unit’s attack hits, draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20061
+{
+global.CardName[CardStat] = 'Yellow, Enduring truth'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on VC, choose a card from your drop, and call it to RC, choose one of your rear-guards in the same column of this unit, and stand it. If placed during ride phase, until end of turn, called unit gets "AUTO [RC]: At the end of battle it attacked, stand this unit, and it cannot activate abilities this turn".
+
+AUTO [VC] 1/Turn : When this unit attacks, or be attacked, choose one of your rear-guards, perform all of the following.
+¡ÜYour turn - until end of turn, that unit gets power +5000, and its ability with "when hits" activates even when they do not hit for the battles of this turn.
+¡ÜOpponent’s turn - that unit gets "Intercept", and can intercept from back row, and shield +10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Yellow'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20062
+{
+global.CardName[CardStat] = 'Grow! Fullbloom smile¢Ü Yellow'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+DressUp - "Yellow, Enduring truth" (During this fight, this card is also regarded as the specified card)
+
+CONT [VC]: If you have "Yellow, Enduring truth" in your soul, its ability with "when hits" activates even when they do not hit, and activates while attack if requires boost.
+
+ACT [VC]: COST [Counter Blast 1], choose one of your rear-guards, until end of turn, this unit gets that unit’s ability with "when hits", and can activate on VC. You cannot choose units with same name this turn.
+
+AUTO [VC]: When attacks, until end of that battle, this unit gets power +5000 each for your damage zone, if your damage zone is five or more, this unit gets drive + 1 until end of battle.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Yellow'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20063
+{
+global.CardName[CardStat] = 'Administrator of Venus'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When this unit’s attack hits a vanguard, choose one of your opponent’s rear-guards, and retire it. If you persona rode this turn, COST [Counter Blast 1, retire this unit], draw a card, If you drove check this turn, you may only drive check up to one time this turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20064
+{
+global.CardName[CardStat] = 'Initialize your heart Magenta'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC]: If you have a grade 3 or greater vanguard with "Yellow" in its card name, this unit gets power +5000.
+
+AUTO [back row center RC]: When this unit boosts grade 3 vanguard with "Yellow" in its card name, COST [Soul Blast 2, discard a critical trigger from your hand], until end of that battle, boosted unit gets critical +1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20065
+{
+global.CardName[CardStat] = 'Meow to rewrite Cyan'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+ACT [RC] 1/Turn : Choose one of your units, until end of turn, it gets "AUTO [VC/RC]: When this unit’s attack hits, draw a card."
+
+AUTO: When this unit intercepts, COST [Soul Blast 2], choose one of your vanguard being attacked with "Yellow" in its card name, it gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20066
+{
+global.CardName[CardStat] = 'Administrator of dawn silver'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When this unit boosts, if you have a vanguard with "Yellow" in its card name, COST [choose a unit with same name as boosted unit from drop to soul], until end of that battle, ability with "when hits" of boosted unit activates even when they do not hit.
+
+AUTO [RC]: When the attack hits a vanguard that this unit boosts, choose one of your units, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20067
+{
+global.CardName[CardStat] = 'Administrator of Gold sunlight'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Yellow" in its card name, COST [Counter Blast 1], choose a grade 1 unit from your drop, call it to back row RC. If your opponent have a vanguard with grade 3 or greater, called unit gets power +5000 until end of turn.
+
+AUTO [RC]: When your other unit’s attack hits a vanguard, this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20068
+{
+global.CardName[CardStat] = 'Cyan, Primal Tricolor'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20069
+{
+global.CardName[CardStat] = 'Cyan, Eternal Honesty'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by "Cyan, Genesis Admin", choose up to one grade 1 or less card from your hand, and call it to back row center RC. If you called, draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20070
+{
+global.CardName[CardStat] = 'Cyan, Genesis Admin'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by "Cyan, Unfading purity", COST [Retire a rear-guard], look at seven cards from top of your deck, choose up to two grade 2 or less cards, call one of them to RC, and rewrite the rest to called unit.
+
+AUTO [VC]: When this unit’s attack hits a vanguard, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20071
+{
+global.CardName[CardStat] = 'Cyan, Unfading purity'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [VC]: During your turn, if your rear-guards ability activated thrice or more, this unit gets power +10000.
+
+AUTO [VC]: When placed or attacks, choose a card from your hand or drop, call it to RC, if a unit was already exists, rewrite it.
+
+AUTO [VC]: When your unit retires during your turn, COST [Soul Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Cyan'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20072
+{
+global.CardName[CardStat] = 'Cyan, from relieving blue ocean'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+DressUp - "Cyan, Unfading purity" (During this fight, this card is also regarded as the specified card)
+
+CONT [VC]: Whenever you call a unit to RC that already unit exists, rewrite it.
+
+ACT [VC] 1/Turn : If "Cyan, Unfading purity" exists in your soul, COST [Counter Blast 1, discard a card], choose one of your rear-guards with grade 3 or less, at the next time that unit attacks, it performs drive check.
+
+AUTO [VC]: At the end of battle this unit attacked, choose a card named "Cyan, Unfading purity" from your soul, ride it as rest. You may Soul Charge 1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Cyan'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20073
+{
+global.CardName[CardStat] = 'Magenta, under the burning heat'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When an attack hits this unit attacks or boosts, choose one of your opponent’s rear-guards, retire it. If you have a vanguard with "Cyan" in its card name, COST [put this unit into soul], choose one of your units, that unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20074
+{
+global.CardName[CardStat] = 'Yellow, on the sparkling sandy beach'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC]: If you have a grade 3 or greater vanguard with "Cyan" in its card name, this unit gets power +2000 for this units AUTO ACT CONT ability.
+
+CONT [RC]: This unit’s "when attack hits" effects activate even if the attack did not hit.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20075
+{
+global.CardName[CardStat] = 'Administrator of Purple sky'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [RC]: When your vanguard with "Cyan" in its card name attacks, this unit gets power +5000 until end of turn.
+
+AUTO [back row RC] 1/Turn : When your unit placed, you may stand this unit.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20076
+{
+global.CardName[CardStat] = 'Administrator of Thousand nightsky'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC]: If this unit is rewrote, this unit gets power +5000.
+
+ACT [RC] 1/Turn : COST [Rest this unit], choose a card from your hand, call it to RC that unit already exists, if you have no face-up cards in your damage zone, Counter Charge 1.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20077
+{
+global.CardName[CardStat] = 'Administrator of Brooding scarlet'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on RC from hand, if you have a vanguard with "Cyan" in its card name, COST [Counter Blast 1], look at five card from top of your deck, choose up to two unit cards among them, call them to RC in the same column as this unit, shuffle your deck.
+
+AUTO [RC] 1/Turn : When this unit attacks a vanguard, if five or more units placed on your RC this turn, COST [Soul Blast 1], until end of that battle, when your opponent would call cards from their hand to GC, they must call two or more at the same time.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20078
+{
+global.CardName[CardStat] = 'Essence caller restrainted in sorrow'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+AUTO: When this unit is put on GC from hand or discarded from hand while riding from the ride deck, COST [Counter Blast 1 or Energy Blast 3], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1 or Energy Blast 3], loot at five cards from top of your deck, choose up to one unit card that an unit with same name exists on your circle, reveal it and put into your hand. Shuffle your deck. If you did not revealed, this unit gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20079
+{
+global.CardName[CardStat] = '1116 Outbreak'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Counter Blast 1] to play this card.
+
+Choose up to one each of your rear-guards with grade 1, 2 and 3, until end of turn, they gets power +6000. If you choose three units, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20080
+{
+global.CardName[CardStat] = 'Solving the secret of slate'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Choose another order card from your hand, reveal it] to play this card.
+
+Loot at five cards from top of your deck, choose up to one card with grade less or equal to your vanguard, call it to RC. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20081
+{
+global.CardName[CardStat] = 'In dawn, back of the gathering stars'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order
+
+COST [Soul Blast 1] to play this card.
+
+Choose one of your vanguards, until end of turn, it gets "CONT [VC]: All of your rear-guards gets "Intercept", and can intercept from back row" and "AUTO [VC]: At the end of your opponent’s turn, if you have no rear-guard, draw a card". If you have a vanguard with "Aura" in its card name, choose a grade 1 or greater unit from your drop, and call it to RC.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

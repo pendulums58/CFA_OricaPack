@@ -1,0 +1,19 @@
+/*  1  */
+/*  1.0.0  */
+global.CustomFactionClanId[100] = 0
+global.CustomFactionNationId[100] = 100
+global.CustomFactionName[100] = 'Daybreakers'
+global.CustomFactionFile[100] = 'Daybreakers.txt'
+
+global.CustomFactionClanId[101] = 0
+global.CustomFactionNationId[101] = 101
+global.CustomFactionName[101] = 'Yggdrasil Seeker'
+global.CustomFactionFile[101] = 'Yggdrasil Seeker.txt'
+
+global.CustomFactionClanId[102] = 0
+global.CustomFactionNationId[102] = 102
+global.CustomFactionName[102] = 'Mysterious Kabalon'
+global.CustomFactionFile[102] = 'Mysterious Kabalon.txt'
+ 
+global.MaxCustomFaction = 103
+global.AllCard = 20081
