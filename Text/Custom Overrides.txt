@@ -14,4 +14,4 @@ global.CustomFactionName[102] = 'Mysterious Kabalon'
 global.CustomFactionFile[102] = 'Mysterious Kabalon.txt'
  
 global.MaxCustomFaction = 103
-global.AllCard = 20081
+global.AllCard = 20077
