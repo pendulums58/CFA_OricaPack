@@ -1012,3 +1012,168 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20082
+{
+global.CardName[CardStat] = 'Chrono, Impending time'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20083
+{
+global.CardName[CardStat] = 'Chrono, Standing Space'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20084
+{
+global.CardName[CardStat] = 'Chrono, Selecting Spacetime'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20085
+{
+global.CardName[CardStat] = 'Chrono, Destination of spacetime'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20086
+{
+global.CardName[CardStat] = 'Sensitive fourleaf clover'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20087
+{
+global.CardName[CardStat] = 'The conflicting voice'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20088
+{
+global.CardName[CardStat] = 'Prey, disappearing life'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20089
+{
+global.CardName[CardStat] = 'Elder eyes Administrator'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20090
+{
+global.CardName[CardStat] = 'Ivory Administrator'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20091
+{
+global.CardName[CardStat] = 'CELESTIAL meaning'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20092
+{
+global.CardName[CardStat] = 'Origin Guardian of Space'
+global.CardText[CardStat] = 'Daybreakers/Omnia/G Unit
+
+texts WIP.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 100
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20093
+{
+global.CardName[CardStat] = 'Eternity Joker'
+global.CardText[CardStat] = 'Daybreakers/Omnia/G Unit
+
+texts WIP.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 100
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20094
+{
+global.CardName[CardStat] = 'Diamond Mental Master'
+global.CardText[CardStat] = 'Daybreakers/Admin/Draw Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
