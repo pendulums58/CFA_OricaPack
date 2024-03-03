@@ -1141,6 +1141,7 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
 
 CardStat = 20092
 {
@@ -1177,3 +1178,62 @@ global.DCards[CardStat] = 100
 global.TriggerUnit[CardStat] = 1
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20095
+{
+global.CardName[CardStat] = 'Wishing Cloudream'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is placed on RC other than by a unit card’s ability, if you played a normal order this turn, COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card with grade less than or equal to your vanguard from among them and reveal it, call it to RC if it is a unit card, and put it into hand if it is a normal order. Shuffle the deck.
+
+AUTO [RC]: When this unit attacks a grade 3 or greater unit, this unit gets power +3000 each for races on your circle until end of that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20096
+{
+global.CardName[CardStat] = 'Expert that bringing happiness'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO [RC] 1/Turn : When this unit attacks, COST [put a card from your hand into soul], this unit gets power +5000 until end of turn. If races of your circle is three or more, draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20097
+{
+global.CardName[CardStat] = 'Hermes, top alchemist'
+global.CardText[CardStat] = 'Daybreakers/Noble
+
+ACT [RC] 1/Turn : If you persona rode this turn, COST [Retire one other rear-guard], look at the top five cards of your deck, choose up to one unit with another race with retired unit for this cost, call it to RC. Shuffle your deck.
+
+CONT [RC]: This unit in back row gets power of persona ride and front trigger as it was on front row, but its power plus is 5000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20098
+{
+global.CardName[CardStat] = 'Blooming Moonstear'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Energy Blast 2] to play this card.
+
+Choose up to three normal units without sentinel from your drop, shuffle it into your deck. If you choose three, draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
