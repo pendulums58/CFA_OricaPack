@@ -1,0 +1,378 @@
+CardStat = 20101
+{
+global.CardName[CardStat] = 'Allan, ember of twilight'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20102
+{
+global.CardName[CardStat] = 'Phoenix, match of hatred'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20103
+{
+global.CardName[CardStat] = 'Phoenix, lamp of boundary'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20104
+{
+global.CardName[CardStat] = 'Phoenix, signal of dawn'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20105
+{
+global.CardName[CardStat] = 'Silent Blue Flame'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+global.Arms[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20106
+{
+global.CardName[CardStat] = 'Starcloud Stepper'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20107
+{
+global.CardName[CardStat] = 'Rading Whitefeather'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20108
+{
+global.CardName[CardStat] = 'Blue flash of MIRAGE'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20109
+{
+global.CardName[CardStat] = 'Northenclaw, Meteor Shackles'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20110
+{
+global.CardName[CardStat] = 'Mentality care Porte'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20111
+{
+global.CardName[CardStat] = 'Witch of Ash'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20112
+{
+global.CardName[CardStat] = 'Echoing Diva'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20113
+{
+global.CardName[CardStat] = 'Mercenery of Relationship'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Critical Trigger
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20114
+{
+global.CardName[CardStat] = 'Laevatein Dragon'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Flame Dragon/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20115
+{
+global.CardName[CardStat] = 'Naoto, leader of unity'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Front Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20116
+{
+global.CardName[CardStat] = 'Millionare of Britain'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Draw Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20117
+{
+global.CardName[CardStat] = 'One who wishes to return'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberroid/Over Trigger
+
+Additional Effect - choose five cards from your drop, and call them to RC. If you did not call five cards, draw a card, all your front row units get power +10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20118
+{
+global.CardName[CardStat] = 'One who wishes to success'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
+
+Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit뭩 drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20119
+{
+global.CardName[CardStat] = 'One who wishes to win out'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
+
+Additional Effect - Choose one of your opponent뭩 guardian, retire it, and that unit뭩 effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20120
+{
+global.CardName[CardStat] = 'Blanc Recital'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20121
+{
+global.CardName[CardStat] = 'Ouroboros, blooming MIRAGE'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20122
+{
+global.CardName[CardStat] = 'Ouroboros, Revealed leyline'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20123
+{
+global.CardName[CardStat] = '"Immortal Snake" Ouroboros'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20124
+{
+global.CardName[CardStat] = 'Buring wing of twilight'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20125
+{
+global.CardName[CardStat] = 'Teary Eldermaster'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20126
+{
+global.CardName[CardStat] = 'Mousse, light of MIRAGE'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20127
+{
+global.CardName[CardStat] = 'Glacia, Data Processor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/High Beast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20128
+{
+global.CardName[CardStat] = 'Rosemary of cistern experiment'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20129
+{
+global.CardName[CardStat] = 'Pyrite Archiver'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
