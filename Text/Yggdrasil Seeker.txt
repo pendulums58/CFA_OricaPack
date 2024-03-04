@@ -434,7 +434,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
 
 AUTO [RC]: When this unit attacks a vanguard, COST [Soul Blast 1], and perform all of the following.
-¡ÜThis unit gets power + 5000 until end of that battle. If a rear-guard moved except to drop this turn, gets additional critial +1.
+¡ÜThis unit gets power + 5000 until end of that battle. If a rear-guard moved except to drop this turn, gets additional critical +1.
 ¡ÜCOST [Remove a over trigger from drop], choose a grade 3 card with different name as your vanguard from your deck, reveal it and put it into your hand, shuffle your deck.'
 
 global.UnitGrade[CardStat] = 3
