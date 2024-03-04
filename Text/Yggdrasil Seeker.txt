@@ -33,7 +33,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
 E.G.O Blooming - AUTO [VC]: When this unit is placed by riding on "Pheonix, match of hatred", look at the top five cards of your deck, choose up to one card with the "E.G.O" ability, reveal it and put it into hand, and shuffle the deck.
 
-E.G.O(This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent's rear-guards, it gets shield - 10000 until end of turn.'
+E.G.O(This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent’s rear-guards, it gets shield - 10000 until end of turn.'
 
 
 global.UnitGrade[CardStat] = 2
@@ -49,9 +49,9 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
 CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
 
-E.G.O Blooming - ACT [VC] 1/Turn: COST[Counter Blast 1, Soul Blast 2], all of your opponent'srear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Chage 1.
+E.G.O Blooming - ACT [VC] 1/Turn: COST[Counter Blast 1, Soul Blast 2], all of your opponent’s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Chage 1.
 
-E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent's rear-guards, and move it to GC.'
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent’s rear-guards, and move it to GC.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -71,7 +71,7 @@ Play this with COST[put a rear-guards into your soul]!
 
 AUTO [VC]: At the beginning of your battle phase, COST[put this card into soul], look at the top three cards of your deck, choose up to one card from among them, call it to RC, and shuffle the deck.
 
-E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent'svanguard is grade 3 or greater, COST[Put two card from hand into soul], stand a Armed with this card, and drive - 1 until end of turn.'
+E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent’s vanguard is grade 3 or greater, COST[Put two card from hand into soul], stand a Armed with this card, and drive - 1 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -86,7 +86,10 @@ CardStat = 20106
 global.CardName[CardStat] = 'Starcloud Stepper'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
 
-Texts WIP.'
+CONT [RC/GC]: If you have a vanguard with "Pheonix", this unit gets "Intercept" and shield + 10000.
+
+E.G.O - CONT [RC]: This unit gets power + 5000.'
+
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -99,7 +102,10 @@ CardStat = 20107
 global.CardName[CardStat] = 'Rading Whitefeather'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+AUTO [RC]: When this unit is placed, if you have a vanguard with "Pheonix" in its card name, all of your opponent’s rear-guards total shield is 0 or less, COST[Counter Blast 1], and draw a card.
+
+E.G.O - CONT [RC]: This unit gets "Boost".'
+
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -112,7 +118,10 @@ CardStat = 20108
 global.CardName[CardStat] = 'Blue flash of MIRAGE'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-Texts WIP.'
+AUTO [Soul/Bind Zone]: At the beginning of your battle phase, if you do not have a unit with "Blue flash of MIRAGE", COST[choose a rear-guards, and retire it], call this card to back row RC.
+
+E.G.O - CONT [Back Row RC]: When you may put into the soul from hand for the cost, Put this unit into your soul instead of put a card from hand into soul.' 
+
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
@@ -125,7 +134,10 @@ CardStat = 20109
 global.CardName[CardStat] = 'Northenclaw, Meteor Shackles'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+AUTO [RC]: When the attack this unit boosted hits, if you have a grade 3 or greater vanguard, choose a grade 1 or less card with the "E.G.O" ability from your drop, and put it into your hand.
+
+E.G.O - AUTO [RC]: When this unit is placed, if your vanguard armed a E.G.O Arms,look at the top card of your deck, and put it on the top or bottom of your deck, if you put it on the bottom of your deck, this unit gets power + 5000 until end of turn.'
+
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
@@ -138,7 +150,7 @@ CardStat = 20110
 global.CardName[CardStat] = 'Mentality care Porte'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+ACT [RC]: If you have a grade 3 or greater vanguard, all of your opponent’s rear-guards total shield is 0 or less, COST[put this unit into soul], look at the top three cards of your deck, choose up to one card with the "E.G.O" ability, reveal it, call to RC if it is a grade 2 or less card, and put it into your hand if it isnt. Shuffle your deck.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101

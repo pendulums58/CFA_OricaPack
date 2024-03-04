@@ -289,3 +289,34 @@ global.DCards[CardStat] = 102
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20139
+{
+global.CardName[CardStat] = 'Perfoming miracle "Unite Order"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+Choose up to two of your rear-guards, put them into damage zone, choose units with grade equal or less to your vanguard and different name as putted unit, equal to putted units, call them to RC. If your damage zone is four or more, they get power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20140
+{
+global.CardName[CardStat] = 'Perfoming miracle "Yggdrasil"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+
+COST [Discard a card] to play this card.
+
+Look at five cards from top of your deck, choose up to one card with grade equal or less as your damage zone, reveal it and put it into your hand. If your damage zone is four or more, Counter Charge 1 .'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
