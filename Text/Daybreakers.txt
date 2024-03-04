@@ -1265,3 +1265,152 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20141
+{
+global.CardName[CardStat] = 'Allegor Metaphor, underminer'
+global.CardText[CardStat] = 'Daybreakers/Demon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20142
+{
+global.CardName[CardStat] = 'Allegor Metaphor, wandering faith'
+global.CardText[CardStat] = 'Daybreakers/Demon
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20143
+{
+global.CardName[CardStat] = 'Allegor Metaphor, trickstar'
+global.CardText[CardStat] = 'Daybreakers/Demon
+
+texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20144
+{
+global.CardName[CardStat] = 'Allegor Metaphor, redeemed demon'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+text WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20145
+{
+global.CardName[CardStat] = 'Amethyst Spellslinger'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20146
+{
+global.CardName[CardStat] = 'Radiant Knight'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20147
+{
+global.CardName[CardStat] = 'Couleur Legion of Honesty'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20148
+{
+global.CardName[CardStat] = 'Stepping backwards'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20149
+{
+global.CardName[CardStat] = 'Covering Shadow'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20150
+{
+global.CardName[CardStat] = 'Infinite Illusion'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20151
+{
+global.CardName[CardStat] = 'Maple Butterfly'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: You may only use Origin Record order a total of one time in a fight.
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
