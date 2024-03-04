@@ -17,7 +17,9 @@ CardStat = 20102
 global.CardName[CardStat] = 'Phoenix, match of hatred'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+AUTO: When this unit is placed by riding on "Allan, ember of twilight", search your deck for a card with the "E.G.O" ability, put it into your soul,shuffle your deck.'
+
+
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -29,7 +31,11 @@ CardStat = 20103
 global.CardName[CardStat] = 'Phoenix, lamp of boundary'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+E.G.O Blooming - AUTO [VC]: When this unit is placed by riding on "Pheonix, match of hatred", look at the top five cards of your deck, choose up to one card with the "E.G.O" ability, reveal it and put it into hand, and shuffle the deck.
+
+E.G.O(This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent's rear-guards, it gets shield - 10000 until end of turn.'
+
+
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -41,7 +47,12 @@ CardStat = 20104
 global.CardName[CardStat] = 'Phoenix, signal of dawn'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
+
+E.G.O Blooming - ACT [VC] 1/Turn: COST[Counter Blast 1, Soul Blast 2], all of your opponent'srear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Chage 1.
+
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent's rear-guards, and move it to GC.'
+
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -54,7 +65,13 @@ CardStat = 20105
 global.CardName[CardStat] = 'Silent Blue Flame'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms
 
-Texts WIP.'
+E.G.O Arms - "Pheonix, signal of dawn"
+
+Play this with COST[put a rear-guards into your soul]!
+
+AUTO [VC]: At the beginning of your battle phase, COST[put this card into soul], look at the top three cards of your deck, choose up to one card from among them, call it to RC, and shuffle the deck.
+
+E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent'svanguard is grade 3 or greater, COST[Put two card from hand into soul], stand a Armed with this card, and drive - 1 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101

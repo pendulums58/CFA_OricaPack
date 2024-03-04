@@ -247,3 +247,45 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20136
+{
+global.CardName[CardStat] = 'Seven Stars of Guiding Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble/Over Trigger
+
+Additional Effect - Search your deck and drop for each card with different name, reveal it, and put them into your hand. Until end of this fight, the number of cards in your damage zone for you to lose becomes seven.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20137
+{
+global.CardName[CardStat] = 'Seven Stars of Starry Flower'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
+
+Additional Effect - Until end of this fight, you get "At the beginning of your turn, you may choose a card from your damage zone, heal it. If you do, choose one of your vanguard, and deal it one damage. If trigger unit was revealed, choose up to one trigger unit from your drop zone, and put it to bottom of your deck."'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20138
+{
+global.CardName[CardStat] = 'Seven Stars of Celestial Hall'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
+
+Additional Effect - Until end of this fight, you get "During your turn, the power increase of your trigger effects gets +5000.", Return all critical trigger from your drop to deck, and shuffle your deck.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
