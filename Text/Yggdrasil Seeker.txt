@@ -465,7 +465,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20034
+CardStat = 20134
 {
 global.CardName[CardStat] = 'Priestess of Memory'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
@@ -480,7 +480,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20035
+CardStat = 20135
 {
 global.CardName[CardStat] = 'Wizard of afar utopia'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
