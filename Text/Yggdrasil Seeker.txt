@@ -272,7 +272,7 @@ CardStat = 20121
 global.CardName[CardStat] = 'Ouroboros, blooming MIRAGE'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-Texts WIP.'
+CONT: When you would ride an unit with "Ouroboros" in its card name from your ride deck, you may ride without discarding a card from your hand. If you do, bind this card from your soul.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -284,7 +284,7 @@ CardStat = 20122
 global.CardName[CardStat] = 'Ouroboros, Revealed leyline'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-Texts WIP.'
+AUTO: When this unit is rode upon by an unit with "Ouroboros" in its card name, look at the top seven cards of your deck, choose up to two grade 3 or less cards, call them to RC. At the end of turn, retire them.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -296,7 +296,13 @@ CardStat = 20123
 global.CardName[CardStat] = '"Immortal Snake" Ouroboros'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-Texts WIP.'
+CONT [VC]: When your unit retires from RC, bind that instead of drop it.
+
+CONT [VC]: When you draw or refers deck, you may draw or refer from bind zone instead of deck.
+
+ACT [VC] 1/Turn : COST [Retire two rear-guards], call three cards from top of your deck to RC.
+
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1, retire up to five rear-guards], if you retired three or more, at the end of that battle, stand this unit. Then if you did not retired five, this unit gets drive -1 until end of turn. If your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 for each of retired unit until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -309,7 +315,9 @@ CardStat = 20124
 global.CardName[CardStat] = 'Buring wing of twilight'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+CONT [RC]: If a rear-guard moved except to drop this turn, this unit gets power +5000.
+
+AUTO [Soul/Bind Zone]: When your vanguard stand, you may call this unit to back row RC. This abillity may only be used by a card with the same card name once a turn.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -321,7 +329,9 @@ CardStat = 20125
 global.CardName[CardStat] = 'Teary Eldermaster'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+ACT [Bind Zone]: If you have a grade 3 or greater vanguard with "Ouroboros" in its card name, COST [Soul Blast 1], call this unit to RC.
+
+ACT [RC]: COST [rest this unit], choose one of your units, and it gets power +3000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -333,7 +343,11 @@ CardStat = 20126
 global.CardName[CardStat] = 'Mousse, light of MIRAGE'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+CONT: You may have up to one "Mousse, light of MIRAGE" on your RC.
+
+CONT [RC]: When this unit retires by an ability of your unit with "Ouroboros" in its card name, this unit does not retire and remain on RC. (Count as retired unit.)
+
+AUTO: When this unit is placed on GC, COST [Soul Blast 1], choose one of your opponent’s unit attacking your vanguard, it gets power -5000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -345,7 +359,9 @@ CardStat = 20127
 global.CardName[CardStat] = 'Glacia, Data Processor'
 global.CardText[CardStat] = 'Yggdrasil Seeker/High Beast
 
-Texts WIP.'
+ACT [Bind Zone]: COST [Counter Blast 1, put this unit into soul], draw a card.
+
+AUTO [Soul]: At the beginning of your main phase, if total of your hand and RC is four or less, you may call this card to RC.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -357,7 +373,9 @@ CardStat = 20128
 global.CardName[CardStat] = 'Rosemary of cistern experiment'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-Texts WIP.'
+AUTO: When this unit is placed on RC by a vanguard’s ability, this unit gets power +5000 until end of turn.
+
+AUTO: When this unit retires from RC, COST [Soul Blast 1], choose one of your opponent’s rear-guards, retire it.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -369,10 +387,110 @@ CardStat = 20129
 global.CardName[CardStat] = 'Pyrite Archiver'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
 
-Texts WIP.'
+AUTO: When this unit is placed on RC, you may drop up to three cards from top of your deck. And COST [Counter Blast 1], look at the top five cards of your deck, choose up to one unit card among them, call it to RC. Shuffle your deck.
+
+CONT [RC]: If your bind zone is three or more, this unit gets power +10000.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20130
+{
+global.CardName[CardStat] = 'Crescent Moon Divider'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
+
+AUTO [RC]: When this unit attacks a vanguard, COST [Soul Blast 1], and perform all of the following.
+¡ÜThis unit gets power + 5000 until end of that battle. If a rear-guard moved except to drop this turn, gets additional critial +1.
+¡ÜCOST [Remove a over trigger from drop], choose a grade 3 card with different name as your vanguard from your deck, reveal it and put it into your hand, shuffle your deck.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20131
+{
+global.CardName[CardStat] = 'Bertrand, Eternal Knight'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
+
+AUTO [RC]: When this unit is placed on RC or put on GC, choose up to one grade 4 card from your hand, and reveal it. If you revealed a card, or your vanguard is grade 4, perform one of the following according to the circle this unit is on
+¡ÜRC - If you did not Counter Charge this turn, Counter Charge 1. If you did not Soul Charge this turn, Soul Charge 1.
+¡ÜGC - This unit gets shield +15000 until end of that battle.
+
+AUTO: When this card is discarded from hand while riding a grade 3 from the ride deck or paying the cost for Stride, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20132
+{
+global.CardName[CardStat] = 'Stand Alone Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is put on GC from hand or discarded from hand while riding from the ride deck, COST [Counter Blast 1 or Energy Blast 3], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1 or Energy Blast 3], retire one of your opponent’s rear-guard, retire it, if its shield was 0 or less, draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20133
+{
+global.CardName[CardStat] = 'Decoherence Princess'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Dragon
+
+AUTO: When this card is discarded from hand during your ride phase, COST [Soul Blast 1 & put this card on the bottom of deck], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1], this unit gets power +5000 until end of turn, and perform one of the following.
+¡ÜRetire one of opponent’s rear-guard.
+¡ÜDraw a card, call a card from your hand to RC to same column as this unit.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20034
+{
+global.CardName[CardStat] = 'Priestess of Memory'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO: When this unit is placed on RC or put on GC, COST [put a total of two cards from soul or drop that were in the ride deck into ride deck face up], and perform either of the following according to the circle this unit is on.
+¡ÜRC - Choose up to one card from your hand, call it to RC. If you called, draw a card.
+¡ÜGC - This unit gets shield +15000 until end of that battle.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20035
+{
+global.CardName[CardStat] = 'Wizard of afar utopia'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
+
+AUTO: When this unit is placed on RC from hand, look at top five cards of your deck, choose up to one grade 3 card among them, reveal it and put into your hand. If you revealed, discard a card.
+
+CONT [RC]: During your turn, your grade 3 vanguard placed on VC this turn gets power +10000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
