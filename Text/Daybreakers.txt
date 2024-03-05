@@ -1317,8 +1317,6 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
-global.TokenSummoner[CardStat] = 20152
-global.TokenSummonerPosition[CardStat] = 'V'
 
 CardStat = 20145
 {
@@ -1331,8 +1329,6 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
-global.TokenSummoner[CardStat] = 20152
-global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20146
 {
@@ -1421,12 +1417,14 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20152
 {
-global.CardName[CardStat] = 'Hallucination Token'
-global.CardText[CardStat] = 'Daybreakers/Illusion
+global.CardName[CardStat] = 'White Canvas Recorder'
+global.CardText[CardStat] = 'Daybreakers/Elemental
 
-texts WIP.'
-global.UnitGrade[CardStat] = 2
+AUTO: When this unit is placed on RC, COST [Counter Blast 1], look at top seven cards from your deck, choose up to one unit with DressUp Ability, reveal it and put it into your hand. If you did not revealed, Counter Charge 1.
+
+CONT [RC]: If you have an unit with DressUp ability on your VC or soul, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
-global.PowerStat[CardStat] = 10000
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000

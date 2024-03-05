@@ -320,3 +320,45 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20153
+{
+global.CardName[CardStat] = 'Lamb of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed by riding on "Faded Balancer", look at top seven cards from top of your deck, choose up to one card with Limit Break 4 ability among them, reveal it and put into your hand.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20154
+{
+global.CardName[CardStat] = 'Acolyte of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed by riding on "Lamb of Yetzirah", look at top five cards from top of your deck, choose up to one normal order among them, reveal it and put into your hand. And COST [put a card from top of your deck to damage zone], draw two cards.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20155
+{
+global.CardName[CardStat] = 'Elohim Orderer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO [VC] Limit Break 4 : When this unit attacks, COST [Counter Blast 1], this unit gets power +5000 for each of your damage zone until end of that battle. Choose a normal order from your hand, play it.
+
+ACT [VC] 1/Turn : COST [Soul Blast 1], look at top seven cards from your deck, choose up to one normal order among them, reveal it and put into your hand, shuffle your deck. If your damage zone is four or more, COST [Remove an order from your drop], choose an order from your drop, put it into your hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
