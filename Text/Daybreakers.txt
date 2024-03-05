@@ -1436,3 +1436,20 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
+CardStat = 20161
+{
+global.CardName[CardStat] = 'Syuu, Confronting Twilight knight'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+CONT [VC]: If your opponent has grade 3 or greater vanguard, and all your rear-guards are different race, all your front row units gets power +10000.
+
+ACT [VC] 1/Turn : Choose a card from your hand, call it to RC, draw a card.
+
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1, retire a rear-guard], look at top five cards from your deck, choose up to one unit with different race as retired unit, call it to RC. If all your rear-guards are different race, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

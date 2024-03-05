@@ -362,3 +362,18 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20160
+{
+global.CardName[CardStat] = 'Perfoming miracle "Vital Pulse"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+
+Choose one of your units, it gets power +5000 for each of your damage zone until end of turn. If your damage zone is five or more, also gets critical +1.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
