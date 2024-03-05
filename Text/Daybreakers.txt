@@ -1365,8 +1365,8 @@ global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
-global.PowerStat[CardStat] = 0
-global.DefensePowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20149
 {
@@ -1379,19 +1379,26 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
-global.PowerStat[CardStat] = 0
-global.DefensePowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20150
 {
-global.CardName[CardStat] = 'Infinite Illusion'
-global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+global.CardName[CardStat] = 'Full-of-holes page'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order
 
-texts WIP.'
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
 
-global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 100
+CONT: You may only have one "Full-of-holes page" in a deck.
+
+If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
+
+Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
@@ -1428,3 +1435,4 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+

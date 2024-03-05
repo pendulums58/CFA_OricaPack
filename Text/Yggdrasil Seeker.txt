@@ -523,3 +523,50 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20156
+{
+global.CardName[CardStat] = 'Saint blade of Destruction'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+If you persona rode this turn, COST [Energy Blast 3] to play this card.
+
+Choose one of your vanguard, and it gets "AUTO [VC] 1/Turn : When this unit attacks, this unit gets critical +1 until end of battle."'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20157
+{
+global.CardName[CardStat] = 'Romantic Star collector'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO [RC] 1/Turn : When this unit attacks or boosts, if you persona rode this turn, this unit gets power +10000 until end of battle, and they must intercept if they can.
+
+CONT [RC]: This unit in back row gets power of persona ride and front trigger as it was on front row, but its power plus is 5000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20158
+{
+global.CardName[CardStat] = 'Ash that shifts the life'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Remove one of all unit with same name from your drop] to play this card.
+
+choose a unit with grade same or lesser than you removed for this cost, call it to RC. If you removed units with sentinel for this cost, called unit gets power +15000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
