@@ -660,6 +660,7 @@ global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20168
+{
 global.CardName[CardStat] = 'Palomides, Sacred knight of round'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
@@ -672,6 +673,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20169
+{
 global.CardName[CardStat] = 'Serisie, First sword of Heavenly Peak'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
@@ -684,6 +686,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20170
+{
 global.CardName[CardStat] = 'Ban, Enemy knight Buring sky'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
@@ -696,6 +699,7 @@ global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20171
+{
 global.CardName[CardStat] = 'Ganeina, Observing one'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
 
@@ -708,6 +712,7 @@ global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20172
+{
 global.CardName[CardStat] = 'Knight of Round Token'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
