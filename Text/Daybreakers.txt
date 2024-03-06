@@ -1441,7 +1441,7 @@ CardStat = 20161
 global.CardName[CardStat] = 'Syuu, Confronting Twilight knight'
 global.CardText[CardStat] = 'Daybreakers/Warbeast
 
-CONT [VC]: If your opponent has grade 3 or greater vanguard, and all your rear-guards are different race, all your front row units gets power +10000.
+CONT [VC]: During your turn, If your opponent has grade 3 or greater vanguard, and all your rear-guards are different race, all your front row units gets power +10000.
 
 ACT [VC] 1/Turn : Choose a card from your hand, call it to RC, draw a card.
 
