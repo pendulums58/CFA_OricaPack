@@ -646,6 +646,7 @@ global.TokenSummoner[CardStat] = 20172
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20167
+{
 global.CardName[CardStat] = 'Round of fallen Thorns'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
