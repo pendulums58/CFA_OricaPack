@@ -570,3 +570,151 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20162
+{
+global.CardName[CardStat] = 'Sinoa, Deriding Medium'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20163
+{
+global.CardName[CardStat] = 'Sinoa, Thorny Scythe'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+AUTO: When this unit is placed by riding from "Sinoa, Deriding Medium", draw a card, and you get a "Sinoa, Awaken king of Saint blade" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20164
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20164
+{
+global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
+global.CardText[CardStat] = 'Crest
+
+CONT: You can Stride, and cannot ride any grade 3 or greater card without "Sinoa" in its card name.
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20165
+{
+global.CardName[CardStat] = 'Sinoa, Round of false kingdom'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20166
+{
+global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20172
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20167
+global.CardName[CardStat] = 'Round of fallen Thorns'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20168
+global.CardName[CardStat] = 'Palomides, Sacred knight of round'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20169
+global.CardName[CardStat] = 'Serisie, First sword of Heavenly Peak'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20170
+global.CardName[CardStat] = 'Ban, Enemy knight Buring sky'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20171
+global.CardName[CardStat] = 'Ganeina, Observing one'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20172
+global.CardName[CardStat] = 'Knight of Round Token'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.RemoveFromDrop[CardStat] = 1
