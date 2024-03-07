@@ -607,8 +607,6 @@ CardStat = 20164
 global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
 global.CardText[CardStat] = 'Crest
 
-CONT: You can Stride, and cannot ride any grade 3 or greater card without "Sinoa" in its card name.
-
 Texts WIP.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 29
@@ -724,3 +722,178 @@ global.DCards[CardStat] = 29
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20173
+{
+global.CardName[CardStat] = 'Saya, Blowing wind on graveyard'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20174
+{
+global.CardName[CardStat] = 'Laplace, eye that carves terror'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Demon/Librarian
+
+AUTO: When this unit is placed by riding from "Saya, Blowing wind on graveyard", draw a card, and you get a "Saya, Bounded witch in past" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20175
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20175
+{
+global.CardName[CardStat] = 'Saya, Bounded witch in past'
+global.CardText[CardStat] = 'Crest
+
+CONT: You can Stride, and cannot ride any grade 3 or greater card without "Saya" in its card name.
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20176
+{
+global.CardName[CardStat] = 'Renegade, Explored future'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel/Librarian
+
+AUTO: When this unit is rode upon by "Saya, Bounded witch in past", look at top five cards from your deck, choose up to one <Librarian> among them, reveal it and put into your hand. Shuffle your deck.
+
+ACT [Drop] Unite (This ability is active if you have called two or more units to RC or GC during this turn): COST [Put two <Librarian> unit with different name from your drop to bottom of deck], call this unit to RC.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20177
+{
+global.CardName[CardStat] = 'Saya, Bounded witch in past'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [VC]: While you pay the cost of Stride, all <Librarian> unit and blitz order in your hand gets grade +2.
+
+AUTO [VC]: When your G unit Stride, COST [Soul Blast 1], choose up to one <Librarian> unit from your deck, call it to RC, and that unit gets power +5000 until end of turn. At the end of turn, bind that unit face up.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20178
+{
+global.CardName[CardStat] = 'Firefly, Passing nature'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Librarian
+
+AUTO: When this unit is placed on RC by an ability of your vanguard or hearts card, COST [Energy Blast 3], Choose up to one "Firefly, Passing nature" from your deck or drop, call it to back row RC, if you searched your deck, shuffle your deck.
+
+Bloom - AUTO [RC] Generation Break 1: [Retire this unit] When one of your other units with the same card name as this unit is placed on RC, Soul Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20179
+{
+global.CardName[CardStat] = 'Harvest, Unbreakable flow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
+
+CONT [RC] Generation Break 2 : During your turn, If your opponent has power 14000 or greater vanguard except guardian’s shield, this unit gets power +20000.
+
+AUTO [RC] Wave-4th time only (This ability is active by the specified amount of battles in a turn): When this unit attacks, if you have a vanguard with "Saya" in its card name, this unit gets power +10000 until end of battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20180
+{
+global.CardName[CardStat] = 'Flavor, deluge of literal spell'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Noble/Librarian
+
+Shadowstitch - AUTO [RC]: At the end of battle this unit attacked a vanguard, if you have a "Saya, Bounded witch in past" crest, and the attack did not hit, COST [Counter Blast 1], choose one of your opponent’s rear-guard, bind it, choose one of your vanguard, and it gets power +5000 until end of turn.
+
+AUTO [RC] Generation Break 1 : When this unit’s attack hits a vanguard, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20181
+{
+global.CardName[CardStat] = 'Landscape, Flow of Combat'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Librarian
+
+Burst - CONT [RC] Generation Break 1 : If you have a vanguard with power 25000 or greater, this unit gets power +10000.
+
+AUTO: When this card is discarded from hand while paying the cost for Stride, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20182
+{
+global.CardName[CardStat] = 'Saya Regret, Soulbreak Medium'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+AUTO [VC]: When this unit attacks, COST [Bind a rear-guard], choose a card from your drop, call it to RC, If you bound a unit with Keyword ability for this cost, that called unit gets critical +1 until end of turn.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20183
+{
+global.CardName[CardStat] = 'Saya Memento, Director of Illusion Library'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets +1000 until end of turn. If ability is three or more, this unit gets drive +1.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20184
+{
+global.CardName[CardStat] = 'Saya Licoris, Witch of coal'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Stride COST [Discard a grade 3 card with "Saya" in its card name from hand]
+
+AUTO [VC] Generation Break 2 : When it attacks, if kind of Keyword ability in your bind zone is five or more, COST [Counter Blast 1], stand all of your units, at the end of that battle, this unit gets drive -2. During that turn, your units cannot stand.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
