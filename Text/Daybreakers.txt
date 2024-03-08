@@ -1453,3 +1453,125 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20185
+{
+global.CardName[CardStat] = 'Jester Gallywix'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20186
+{
+global.CardName[CardStat] = 'Beginning of the travel, Jester'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20187
+{
+global.CardName[CardStat] = 'Heartbeat Melody, Jester'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20188
+{
+global.CardName[CardStat] = 'Jester, Fated one of Iteration'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20189
+{
+global.CardName[CardStat] = 'Sword of rewinding time'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Heroic tale
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20190
+{
+global.CardName[CardStat] = 'The one who transcend the time'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Heroic tale
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20191
+{
+global.CardName[CardStat] = 'Illusion that conceals the truth'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Heroic tale
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20192
+{
+global.CardName[CardStat] = 'Blooming memory of camellia'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Heroic tale
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20193
+{
+global.CardName[CardStat] = 'Miracle of the warm sunlight'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Heroic tale
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

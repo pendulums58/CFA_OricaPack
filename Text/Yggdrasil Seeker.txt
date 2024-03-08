@@ -761,7 +761,9 @@ global.CardText[CardStat] = 'Crest
 
 CONT: You can Stride, and cannot ride any grade 3 or greater card without "Saya" in its card name.
 
-Texts WIP.'
+CONT: During your turn, if you have a grade 3 or greater vanguard with "Saya" in its card name, all of your front row units get power +5000 for each face up card in your G Zone.
+
+AUTO : At the end of your turn, If unit with keyword ability in your bind zone is one or less, you may bind one of your rear-guard with keyword ability. If you do, draw a card.'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 29
 }
@@ -804,7 +806,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Librarian
 
 AUTO: When this unit is placed on RC by an ability of your vanguard or hearts card, COST [Energy Blast 3], Choose up to one "Firefly, Passing nature" from your deck or drop, call it to back row RC, if you searched your deck, shuffle your deck.
 
-Bloom - AUTO [RC] Generation Break 1: [Retire this unit] When one of your other units with the same card name as this unit is placed on RC, Soul Charge 1.'
+Bloom - AUTO [RC] Generation Break 1: When one of your other units with the same card name as this unit is placed on RC, Soul Charge 1.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
