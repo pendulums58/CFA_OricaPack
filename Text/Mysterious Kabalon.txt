@@ -440,3 +440,21 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20198
+{
+global.CardName[CardStat] = 'Seven Stars of Stardust'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
+
+AUTO [RC]: When this unit attacks a vanguard, perform all of the following.
+¡ÜCOST [Counter Blast 1], choose a critical trigger or draw trigger from your opponent’s damage zone, and activate its trigger effect.
+¡ÜCOST [Remove a over trigger from drop], choose one of your rear-guards, put it into damage zone face up, choose an unit from your damage zone, call it to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

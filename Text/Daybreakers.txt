@@ -1561,6 +1561,7 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
 
 CardStat = 20193
 {
@@ -1575,3 +1576,80 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20199
+{
+global.CardName[CardStat] = 'Ruel, Beginning of the travel'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20200
+{
+global.CardName[CardStat] = 'Ruel, Knight of dawn'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20201
+{
+global.CardName[CardStat] = 'Ruel, Knight of Sunrise time'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20202
+{
+global.CardName[CardStat] = 'Ruel, End of the travel'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] =3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20203
+{
+global.CardName[CardStat] = 'Initialize Bringer'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+Texts WIP.'
+global.UnitGrade[CardStat] =3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20204
+{
+global.CardName[CardStat] = 'Watcher of the snake time'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
