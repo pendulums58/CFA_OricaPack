@@ -377,3 +377,66 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20194
+{
+global.CardName[CardStat] = 'Bounded prisoner of offered happiness'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by a unit with "Bounded prisoner" in its card name, search your deck for a "Ripen fruit of knowledge", discard it, and shuffle your deck.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20195
+{
+global.CardName[CardStat] = 'Bounded prisoner of offered richness'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by a unit with "Endless void, Bella Gula" in its card name, Counter Charge 1, and COST [Soul Blast 1], choose one of your vanguard, and deal it one damage. If you dealt, at the end of turn, choose a card from your damage zone, and heal it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20196
+{
+global.CardName[CardStat] = 'Endless void, Bella Gula'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+Original Sin - CONT [VC]: If this unit’s power is 35000 or greater, this unit gets critical +1. if power is 50000 or greater, This unit gets drive +1.
+
+ACT [VC]: COST [Counter Blast 1], choose one of your units, and it gets power +2000 until end of turn. Until end of turn, twice power plus of this ability.
+
+AUTO [VC]: At the beginning of your turn, put all cards in your damage zone to soul, put cards equal to putted from top of your deck to damage zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20197
+{
+global.CardName[CardStat] = 'Ripen fruit of knowledge'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+
+COST [Discard a card] to play it.
+
+Your Original Sin ability of front row triggers twice. (pay cost once.)
+
+AUTO [Drop]: When an ACT ability of your "Energy Generator" activates, you may return this card to hand. This ability may only be used by a card with the same card name once a turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
