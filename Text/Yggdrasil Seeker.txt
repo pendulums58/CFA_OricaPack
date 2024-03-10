@@ -899,3 +899,45 @@ global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
 
+
+CardStat = 20205
+{
+global.CardName[CardStat] = 'One who wishes to return '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Over Trigger
+
+Additional Effect - choose five cards from your drop, and call them to RC. If you did not call five cards, draw a card, all your front row units get power +10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20206
+{
+global.CardName[CardStat] = 'One who wishes to success '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
+
+Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit’s drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20207
+{
+global.CardName[CardStat] = 'One who wishes to win out '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
+
+Additional Effect - Choose one of your opponent’s guardian, retire it, and that unit’s effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000

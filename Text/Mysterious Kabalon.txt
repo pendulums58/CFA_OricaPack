@@ -458,3 +458,50 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20208
+{
+global.CardName[CardStat] = 'Achievet drunk on peace'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+ACT [RC] Limit Break 4 1/Turn : COST [Put a card from your hand to soul], If you did not Counter Charge this turn, Counter Charge 1. Choose one of your opponent’s rear-guards, retire it, and this unit gets power +10000 until end of turn.
+
+AUTO [RC]: At the end of battle this unit attacked, if you have a vanguard with "Elohim" in its card name, COST [Soul Blast 1], look at three cards from top of your deck, choose up to one card among them, put it into damage zone. If you do, choose a face up card from your damage zone, and heal it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20209
+{
+global.CardName[CardStat] = 'Blood rose blooms in everyday life'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC, if you persona rode this turn, COST [Soul Blast 1], choose one of your vanguards, and it gets "AUTO [VC]: When trigger effect activates, choose one of your units, and it gets power +5000." until end of turn.
+
+CONT [RC]: This unit in back row gets power of persona ride and front trigger as it was on front row, but its power plus is 5000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20210
+{
+global.CardName[CardStat] = 'At the end of swelling, Wish in worst situation'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+
+Play this card if your damage zone is five or more.
+
+Look at seven cards from top of your deck, choose up to two units with Miracle ability among them, call them to GC, they gets shield +5000 until end of battle. At the end of battle, if attack did not hit, put called unit into your hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
