@@ -520,3 +520,64 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20220
+{
+global.CardName[CardStat] = 'Bounded prisoner of offered ego'
+global.CardText[CardStat] = 'Mysterious Kabalon/Workeroid
+
+AUTO [RC]: When this unit boosts a vanguard with Original Sin ability, Energy Charge 3.
+
+AUTO [Drop]: When you play "Ripen fruit of knowledge", COST [Soul Blast 1], call this unit to RC.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20221
+{
+global.CardName[CardStat] = 'Gluttony follower of false prophet'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC]: During your turn, if you have a grade 3 or greater vanguard with Original Sin ability, this unit gets power +5000.
+
+AUTO : When this unit is placed on RC, if a card was putted into your damage zone, COST [Soul Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20222
+{
+global.CardName[CardStat] = 'Gluttony follower of violent looting'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC]: If you have a vanguard with "Bella" in its card name, for each cards putted into soul from damage zone, this unit gets power +3000.
+
+AUTO [Drop]: At the beginning of your turn, you may put this card on top of your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20223
+{
+global.CardName[CardStat] = 'Gluttony follower of bloodhunt'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC/GC]: If your opponent have grade 3 or greater vanguard, and if you have a vanguard with "Bounded prisoner" in its card name or Original Sin ability, this unit gets power +10000 / shield +10000.
+
+AUTO [RC]: At the end of battle this unit attacked, if you have a vanguard with "Bella" in its card name, COST [Soul Blast 2 & put this card to bottom of your deck], draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

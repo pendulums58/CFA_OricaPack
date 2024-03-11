@@ -1772,9 +1772,9 @@ CardStat = 20218
 global.CardName[CardStat] = 'Waiting for early dawn'
 global.CardText[CardStat] = 'Daybreakers/Blitz Order
 
-COST [Soul Blast 2] to play this card if you have a vanguard with "Aura" in its card name.
+COST [Soul Blast 3] to play this card if you have a vanguard with "Aura" in its card name.
 
-Look at top five cards from your deck, choose up to each of one grade 0, 1, and 2 cards among them, put them to GC, shuffle your deck. At the end of that attack, choose one of them and call to RC. If you have one or less rear-guards, you may choose two of them.'
+Look at top five cards from your deck, choose up to each of one grade 0, 1, and 2 cards among them, put them to GC, shuffle your deck. At the end of that attack, choose one of your guardians without sentinel and call to RC. If you have one or less rear-guards, you may choose two of them.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
