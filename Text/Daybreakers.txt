@@ -351,7 +351,7 @@ CardStat = 20023
 global.CardName[CardStat] = 'Magenta, Genesis Admin'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-AUTO: When this unit is rode upon by a unit with "Magenta, Unquestioning will" in its card name, your opponent choose a card from their damage zone, heal it, choose one of your vanguard, and deal one damage.
+AUTO: When this unit is rode upon by "Magenta, Unquestioning will", your opponent choose a card from their damage zone, heal it, choose one of your vanguard, and deal one damage.
 
 AUTO [VC]: When this unit’s attack hits a vanguard, draw a card.'
 global.UnitGrade[CardStat] = 2
@@ -1653,3 +1653,132 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
+
+CardStat = 20211
+{
+global.CardName[CardStat] = 'Aura, waiting for early dawn'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20211
+{
+global.CardName[CardStat] = 'Aura, waiting for early dawn'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20212
+{
+global.CardName[CardStat] = 'Aura, meet the sunset'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by "Aura, waiting for early dawn", COST [Put a grade 2 or less card from your hand to soul], draw a card, choose up to one "Aura, waiting for early dawn" from your soul, and call it to RC.
+
+CONT [RC]: If you have a grade 3 or greater vanguard with "Aura" in its card name, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20213
+{
+global.CardName[CardStat] = 'Aura, pray of dark night'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by "Aura, meet the sunset", look at top five cards from your deck, choose up to one grade 2 or less card among them, call it to RC, and until the end of your opponent’s next turn, it cannot be chosen by your opponent’s card effects.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20214
+{
+global.CardName[CardStat] = 'Aura, reached daybreak'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [VC] 1/Turn : COST [Soul Blast 1], this unit gets power +5000 for each of your units on RC did not placed this turn until end of turn.
+
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1], stand all your rear-guards did not placed this turn, at the emd of turn, put all of them into soul.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20215
+{
+global.CardName[CardStat] = 'Blue sky postie'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO: When this unit is placed on GC from hand, if you have grade 2 or greater vanguard with "Aura" in its card name, this unit gets shield +5000 until end of battle. At the end of that battle, if attack did not hit, you may call this unit to RC.
+
+AUTO: When this unit is placed on RC from hand or GC, choose one of your other rear-guard, it cannot be chosen by your opponent’s card effects and power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20216
+{
+global.CardName[CardStat] = 'Temptation Timberwolf'
+global.CardText[CardStat] = 'Daybreakers/High Beast
+
+CONT [RC]: If you have a grade 3 or greater vanguard with "Aura" in its card name, and this unit did not placed this turn, this unit gets power +5000.
+
+AUTO [RC]: At the end of your turn, if you did not Counter Charge this turn, COST [Put this unit and one of your rear-guard that did not placed this turn into soul], Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20217
+{
+global.CardName[CardStat] = 'Clear Blue Skywalker'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed on RC during opponent’s turn, look at top five cards from your deck, choose up to one card not named "Clear Blue Skywalker" with grade equal or less to your vanguard, call it to RC, and shuffle your deck. If you have a vanguard with "Aura" in its card name, you may activate this ability when placed on GC from hand.
+
+AUTO [RC]: When this unit attacks, if you have a vanguard with "Aura" in its card name, COST [Put a rear-guard into soul], this unit gets power +10000 until end of battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20218
+{
+global.CardName[CardStat] = 'Waiting for early dawn'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order
+
+COST [Soul Blast 2] to play this card if you have a vanguard with "Aura" in its card name.
+
+Look at top five cards from your deck, choose up to each of one grade 0, 1, and 2 cards among them, put them to GC, shuffle your deck. At the end of that attack, choose one of them and call to RC. If you have one or less rear-guards, you may choose two of them.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

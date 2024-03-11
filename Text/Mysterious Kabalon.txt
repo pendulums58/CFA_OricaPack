@@ -505,3 +505,18 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20219
+{
+global.CardName[CardStat] = 'Vital Pulse Straydog'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this card is discarded from hand during your ride phase, COST [Soul Blast 1 & put this card on the bottom of deck], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1], choose your units less or equal to face down cards in your damage zone, and they gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
