@@ -558,7 +558,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20158
 {
 global.CardName[CardStat] = 'Ash that shifts the life'
-global.CardText[CardStat] = 'Daybreakers/Normal Order
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
 
 COST [Remove one of all unit with same name from your drop] to play this card.
 
