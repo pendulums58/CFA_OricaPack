@@ -296,14 +296,16 @@ CardStat = 20019
 global.CardName[CardStat] = 'Administrator of Blue Honesty'
 global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
 
-Additional Effect - Draw a card. Choose a card from your hand or soul, and call it to RC. It is regarded as it was on VC this turn, and cannot stand. At the end of that turn, return that unit to hand.'
+Additional Effect - Get an Imaninar Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
 
+(SHIFT + left click to create Accel gifts.)'
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 100
 }
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+global.AccelAdd[CardStat] = 1
 
 CardStat = 20020
 {
@@ -1782,3 +1784,47 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20224
+{
+global.CardName[CardStat] = 'Administrator of Red Violent '
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - choose one of your opponent’s vanguard, deal it one damage, and during that damage check, all trigger effects are nullified.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20225
+{
+global.CardName[CardStat] = 'Administrator of Blue Honesty '
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - Get an Imaninar Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
+
+(SHIFT + left click to create Accel gifts.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+global.AccelAdd[CardStat] = 1
+
+CardStat = 20226
+{
+global.CardName[CardStat] = 'Administrator of Yellow Warmth '
+global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
+
+Additional Effect - Search your deck and drop for each card with different name, reveal it, and put them into your hand. Until end of this fight, the number of cards in your damage zone for you to lose becomes seven.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000

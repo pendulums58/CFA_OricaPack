@@ -607,7 +607,14 @@ CardStat = 20164
 global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
 global.CardText[CardStat] = 'Crest
 
-Texts WIP.'
+CONT: You cannot ride grade 2 or greater cards without "Sinoa" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3.
+
+AUTO 1/Turn: When you Energy Blast for your card’s ability’scost, Choose up to one your unit for each Energy Blast 3 for thats cost. All of your chosen unit get power + 5000 until end of turn.'
+
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 29
 }
@@ -620,7 +627,8 @@ CardStat = 20165
 global.CardName[CardStat] = 'Sinoa, Round of false kingdom'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
 
-Texts WIP.'
+AUTO: When this unit is rode upon by a grade 3 or greater unit with "Sinoa" in its card name, COST [Soul Blast 1], choose up to one <Cyberoid> or <Cyber Fairy> unit card from your drop, call it to your RC.'
+
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -632,7 +640,13 @@ CardStat = 20166
 global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
 
-Texts WIP.'
+AUTO [VC]: At beginning of your main phase, COST [Counter Blast 1, Soul Blast 1], choose up to one card from your drop and your opponent’sdrop, you and your opponent call that to front row RC.
+
+ACT [VC] 1/Turn: COST [Energy Blast 3 or more], and perform one for each Energy Blast 3 for this cost of the flollwing. 
+?Call up one Knight of Raund token.
+?Choose up to one rear-guard with grade equal to or less than your opponent’svanguard, stand and dominate it, it attacks your opponent’sother unit, and retire that dominated unit at the end of that battle.
+?Choose up to one rear-guard, it gets "AUTO [RC] 1/Turn: When this unit attacks, COST [discard a card from your hand], and this unit performs drive checks until end of that battle." until end of turn.'
+
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -648,7 +662,9 @@ CardStat = 20167
 global.CardName[CardStat] = 'Round of fallen Thorns'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Texts WIP.'
+CONT [RC]: Put the cards revealed for the drive check of the battle this unit attacked on the bottom of the deck instead of the hand.
+
+AUTO [RC}: When this unit is placed or at beginning of your main phase, rest this unit. (This effect is mandatory) '
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -662,7 +678,10 @@ CardStat = 20168
 global.CardName[CardStat] = 'Palomides, Sacred knight of round'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Texts WIP.'
+AUTO [Soul/Drop/Bind Zone]: When you Energy Blast 9 or more for your vanguard’s ability’scost with "Sinoa" in their card name, if you do not have a unit with "Palomides" in its card name, call this card to RC.
+
+AUTO [RC]: When this unit attacks a unit with grade greater than this unit, COST [Counter Blast 1], this unit get power + 10000 until end of that battle, and you have a vanguard with "Sinoa" in their card name, this unit get critical + 1 until end of that battle.'
+
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -675,7 +694,10 @@ CardStat = 20169
 global.CardName[CardStat] = 'Serisie, First sword of Heavenly Peak'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Texts WIP.'
+AUTO [RC]: When same column as this unit attacks, this unit get power + 5000 until end of turn.
+
+CONT [Back Row RC]: If you have a unit with "Sinoa" or "knight of raund" in their card name same column as this unit, this unit gets "Boost".'
+
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -688,7 +710,10 @@ CardStat = 20170
 global.CardName[CardStat] = 'Ban, Enemy knight Buring sky'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Texts WIP.'
+AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Sinoa" in their card name, Energy Charge 3 , if you have energy is fifteen or more, search your deck for up to one card with "Round" in their card name and reveal it, and if your drop does not have a card with the same card name as that card, discard the revealed card. Shuffle your deck.
+
+CONT [RC]: During your turn, all of your opponent’srear-guards in the same column as this unit lose all of their CONT and AUTO abilities.'
+
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
@@ -701,7 +726,10 @@ CardStat = 20171
 global.CardName[CardStat] = 'Ganeina, Observing one'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
 
-Texts WIP.'
+AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Sinoa" in their card name, Energy Charge 3 , if you have energy is fifteen or more, and if you did not Counter Charge this turn, Counter Charge 1.
+
+ACT [Back Row Center RC]: COST [put this unit into soul], choose up to one your opponent’svanguard, all of your vanguard get it’sname until end of turn.'
+
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
@@ -712,9 +740,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20172
 {
 global.CardName[CardStat] = 'Knight of Round Token'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
-
-Texts WIP.'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 29

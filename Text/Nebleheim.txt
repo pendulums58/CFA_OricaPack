@@ -1,0 +1,232 @@
+CardStat = 20227
+{
+global.CardName[CardStat] = 'Kasumi, Lost in time'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20228
+{
+global.CardName[CardStat] = 'Kasumi, From the world that cherry blossom flatters'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20229
+{
+global.CardName[CardStat] = 'Kasumi, Drift in the foggy world'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20230
+{
+global.CardName[CardStat] = 'Kasumi, Time Singularpoint'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20231
+{
+global.CardName[CardStat] = 'Kiri, Obedient Mistraper'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20232
+{
+global.CardName[CardStat] = 'Vargr that serves the god'
+global.CardText[CardStat] = 'Nebleheim/Vargr
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20233
+{
+global.CardName[CardStat] = 'Travelpoint attendant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20234
+{
+global.CardName[CardStat] = 'Toman, Vigilance Mistraper'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20235
+{
+global.CardName[CardStat] = 'Arousal Cherryblossom'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20236
+{
+global.CardName[CardStat] = 'Timetable Traveler'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20237
+{
+global.CardName[CardStat] = 'Snake gleeks to the fog'
+global.CardText[CardStat] = 'Nebleheim/Noble/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20238
+{
+global.CardName[CardStat] = 'Woman guides to the nether'
+global.CardText[CardStat] = 'Nebleheim/Ghost/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20239
+{
+global.CardName[CardStat] = 'Monster wolf swallowed the god'
+global.CardText[CardStat] = 'Nebleheim/Vargr/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20240
+{
+global.CardName[CardStat] = 'Timetrouble Traveler'
+global.CardText[CardStat] = 'Nebleheim/Human/Draw Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20241
+{
+global.CardName[CardStat] = 'Emotion Check attendant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Front Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20242
+{
+global.CardName[CardStat] = 'Nevia, Sympathy Mistraper'
+global.CardText[CardStat] = 'Nebleheim/Human/Critical Trigger
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20243
+{
+global.CardName[CardStat] = 'Passed Memory remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20244
+{
+global.CardName[CardStat] = 'Flowed Memory remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
