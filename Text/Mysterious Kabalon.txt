@@ -543,7 +543,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
 CONT [RC]: During your turn, if you have a grade 3 or greater vanguard with Original Sin ability, this unit gets power +5000.
 
-AUTO : When this unit is placed on RC, if a card was putted into your damage zone, COST [Soul Blast 1], draw a card.'
+AUTO : When this unit is placed on RC, if a card was putted into your damage zone, COST [Soul Blast 3], draw a card.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
