@@ -300,7 +300,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20250
 {
-global.CardName[CardStat] = 'Fenrir, '
+global.CardName[CardStat] = 'Fenrir, Mythic Binded Beast'
 global.CardText[CardStat] = 'Nebleheim/Vargr
 
 Texts WIP.'
@@ -385,3 +385,54 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20270
+{
+global.CardName[CardStat] = 'Ito Yuu, Sword of the blaze'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20271
+{
+global.CardName[CardStat] = 'Misdirected Tourist'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20272
+{
+global.CardName[CardStat] = 'Midnight Mistwolf'
+global.CardText[CardStat] = 'Nebleheim/Vargr
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20273
+{
+global.CardName[CardStat] = 'Time Check Assistant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

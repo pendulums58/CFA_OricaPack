@@ -1036,3 +1036,125 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20162
+{
+global.CardName[CardStat] = 'Whale in the Cistern'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20163
+{
+global.CardName[CardStat] = 'Whiteout Guide, Hiyuki'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost
+
+AUTO: When this unit is rode upon by "Akane, red and blue rampage", COST [Soul Blast 1], look at top seven cards from your deck, choose one of them and put into hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20164
+{
+global.CardName[CardStat] = 'Akane, red and blue rampage'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon by "Sana, forgiveless Dopamine", Look at top seven cards from your deck, choose up to two grade 0 among them, reveal it and put into hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20165
+{
+global.CardName[CardStat] = 'Sana, forgiveless Dopamine'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+ACT [VC] 1/Turn : COST [Counter Blast 1], this unit gets power +2000 for each difference in the number of decks until end of turn.
+
+AUTO [VC]: At the end of your turn, discard top four cards from your deck.
+
+AUTO [VC]: When this unit attacks, COST [Discard a card], discard top two cards from your deck, perform all of followings by number of your deck.
+
+30 or less - stand all of your front row rear-guards.
+
+15 or less - Until end of turn, all of your front row units get power +10000 and this unit gets critical +1.
+
+5 or less - Your opponent cannot call sentinels from their hand to GC until end of battle.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20166
+{
+global.CardName[CardStat] = 'Rejoin Researcher'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC]: During your turn, if you have a vanguard with "Dopamine" in its card name, and your deck is 20 or less, this unit gets power +10000.
+
+AUTO : When this unit is placed on RC from hand, COST [Counter Blast 1, discard top card of your deck], Choose an order with "Erosion Inhibiter" in its card name, and put into your hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20167
+{
+global.CardName[CardStat] = 'Excellent Sky JOMANDA'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO [RC]: When this unit attacks, if you have a vanguard with "Dopamine" in its card name, COST [Put a grade 2 or greater card from your drop to bottom of deck], this unit gets power +5000 until end of battle. At the end of that battle, COST [Retire this unit], your opponent choose three card from your drop, you put that card to bottom of your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20168
+{
+global.CardName[CardStat] = 'Erosion Inhibiter "Tsukimori"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+COST [Soul Blast 1] to play this card.
+
+Draw a card. During this turn, you get "If you discard two or more cards from your deck by ability of your vanguard, you may discard one instead of two or more."'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20169
+{
+global.CardName[CardStat] = 'Erosion Inhibiter "Valerie"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+COST [Energy Blast 3] to play this card.
+
+Draw a card. During this turn, you get "When you discard cards from your deck by your vanguard’s ability, you may discard not. You cannot put card to deck from another location."'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
