@@ -1037,7 +1037,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20162
+CardStat = 20262
 {
 global.CardName[CardStat] = 'Whale in the Cistern'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
@@ -1051,7 +1051,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20163
+CardStat = 20263
 {
 global.CardName[CardStat] = 'Whiteout Guide, Hiyuki'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost
@@ -1063,7 +1063,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20164
+CardStat = 20264
 {
 global.CardName[CardStat] = 'Akane, red and blue rampage'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
@@ -1075,7 +1075,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20165
+CardStat = 20265
 {
 global.CardName[CardStat] = 'Sana, forgiveless Dopamine'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
@@ -1099,7 +1099,7 @@ global.PersonaRide[CardStat] = 1
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 20166
+CardStat = 20266
 {
 global.CardName[CardStat] = 'Rejoin Researcher'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
@@ -1115,7 +1115,7 @@ global.PersonaRide[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 20167
+CardStat = 20267
 {
 global.CardName[CardStat] = 'Excellent Sky JOMANDA'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
@@ -1127,7 +1127,7 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20168
+CardStat = 20268
 {
 global.CardName[CardStat] = 'Erosion Inhibiter "Tsukimori"'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
@@ -1143,7 +1143,7 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 20169
+CardStat = 20269
 {
 global.CardName[CardStat] = 'Erosion Inhibiter "Valerie"'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
