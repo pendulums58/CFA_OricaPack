@@ -462,3 +462,85 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20276
+{
+global.CardName[CardStat] = 'Yuki Fubuki, Dream snowflake'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20277
+{
+global.CardName[CardStat] = 'Fubuki Style - Rest the wings'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20278
+{
+global.CardName[CardStat] = 'Fubuki Style - Severs the blade'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20279
+{
+global.CardName[CardStat] = 'Fubuki Style - Cuts the Cherry'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20280
+{
+global.CardName[CardStat] = 'Messenger of Blue cloud sea'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20281
+{
+global.CardName[CardStat] = 'Twilight Ragebeast'
+global.CardText[CardStat] = 'Nebleheim/Vargr
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

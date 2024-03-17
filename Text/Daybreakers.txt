@@ -621,6 +621,10 @@ CardStat = 20039
 global.CardName[CardStat] = 'Light of the FLASHBACK'
 global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
 
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: You may only use Origin Record order a total of one time in a fight.
+
 Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
 
 Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
