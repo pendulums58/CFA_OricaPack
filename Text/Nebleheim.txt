@@ -436,3 +436,29 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20274
+{
+global.CardName[CardStat] = 'Sparkling Memory Attendant'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20275
+{
+global.CardName[CardStat] = 'Tyr, Comprehender of wolf swarm'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

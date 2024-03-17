@@ -19,4 +19,4 @@ global.CustomFactionName[103] = 'Nebleheim'
 global.CustomFactionFile[103] = 'Nebleheim.txt'
  
 global.MaxCustomFaction = 104
-global.AllCard = 20273
+global.AllCard = 20275
