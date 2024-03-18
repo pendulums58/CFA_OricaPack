@@ -1220,3 +1220,127 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 20285
+{
+global.CardName[CardStat] = 'Faithless One'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20286
+{
+global.CardName[CardStat] = 'Pure faith, Yoshua'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20287
+{
+global.CardName[CardStat] = 'Trustworthy faith, Yoshua'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20288
+{
+global.CardName[CardStat] = 'Fanatical faith, Yoshua'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.
+
+(SHIFT + left click to create Astral Plane.)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+global.Uranus[CardStat] = 1
+global.EnableAttackFromBackRow[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20289
+{
+global.CardName[CardStat] = 'The one besides the GOD, Yoshua'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.
+
+(SHIFT + left click to create Astral Plane.)'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.Uranus[CardStat] = 1
+global.EnableAttackFromBackRow[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20290
+{
+global.CardName[CardStat] = 'The GOD delusion'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Astral Deity
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20291
+{
+global.CardName[CardStat] = 'Creationism'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20292
+{
+global.CardName[CardStat] = 'Heretic of twisted faith'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20293
+{
+global.CardName[CardStat] = 'Heretic of reverent faith'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
