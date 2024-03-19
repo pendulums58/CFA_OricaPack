@@ -676,3 +676,49 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20307
+{
+global.CardName[CardStat] = 'Turningpoint Shock, Bjorn'
+global.CardText[CardStat] = 'Nebleheim/Noble
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20308
+{
+global.CardName[CardStat] = 'Play with fire, Bjorn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20309
+{
+global.CardName[CardStat] = 'Flashback Firevolt, Bjorn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20310
+{
+global.CardName[CardStat] = 'Time Riftvolt, Bjorn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
