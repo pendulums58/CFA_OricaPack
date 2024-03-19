@@ -544,3 +544,135 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20294
+{
+global.CardName[CardStat] = 'Warwolf girl of Casuation'
+global.CardText[CardStat] = 'Nebleheim/Warbeast
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20295
+{
+global.CardName[CardStat] = 'Fogsmith of collection, Cirrs'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is placed by riding on "Warwolf girl of Casuation", Search your deck or drop for a "Swirling Black Mist", reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20296
+{
+global.CardName[CardStat] = 'Fogsmith of refine, Culuma'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO [VC] : At the beginning of your main phase, call a black mist token to RC.
+
+AUTO: When this unit is rode apon by an unit with "Entra" in its card name, search your deck for a Mist atelier order, reveal it and put into your deck, shuffle your deck.
+
+(SHIFT + left click to create black mist token)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20298
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20297
+{
+global.CardName[CardStat] = 'Seeker of the black mist, Entra'
+global.CardText[CardStat] = 'Nebleheim/Warbeast
+
+AUTO [VC] : At the beginning of your main phase, call two black mist token to RC.
+
+AUTO [VC] : When this unit attacks, COST [Counter Blast 1], choose one of your <Mist Familiar>, stand it, and it gets power +10000 until end of turn.
+
+(SHIFT + left click to create black mist token)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20298
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20298
+{
+global.CardName[CardStat] = 'Black Mist Token'
+global.CardText[CardStat] = 'Nebleheim/Black Mist'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20299
+{
+global.CardName[CardStat] = 'Mist Arms "Dreadbore"'
+global.CardText[CardStat] = 'Nebleheim/Mist Familiar
+
+AUTO [RC] : When this unit attacks, this unit gets power +5000 until end of turn. If you have a vanguard with "Entra" in its card name, COST [Soul Blast 1], choose one of your opponent’s rear-guards, and retire it.
+
+AUTO [RC] : At the end of your turn, choose a face-up card from your damage zone, and turn it face down. (This effect is mandatory.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20300
+{
+global.CardName[CardStat] = 'Mist Arms "Expressive Iteration"'
+global.CardText[CardStat] = 'Nebleheim/Mist Familiar
+
+AUTO [RC] : When this unit attacks, this unit gets power +5000 until end of turn. If you have a vanguard with "Entra" in its card name, COST [Energy Blast 3], Draw a card.
+
+AUTO [RC] : At the end of your turn, discard two cards. (This effect is mandatory.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20301
+{
+global.CardName[CardStat] = 'Dark Night Mistborn'
+global.CardText[CardStat] = 'Nebleheim/Vargr
+
+AUTO [RC] : At the end of battle this unit attacked, COST [Bind a <Mist Familiar> from your RC], call a Black Mist token to your back row RC, If you have three or more <Mist Familiar> in your bind zone, COST [Retire this unit], draw a card.
+
+(SHIFT + left click to create black mist token)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20298
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20302
+{
+global.CardName[CardStat] = 'Swirling Black Mist'
+global.CardText[CardStat] = 'Nebleheim/Set Order
+
+CONT [Order Zone] : Original power of your Black Mist token becomes 5000.
+
+ACT [Order Zone] : COST [Rest this card, retire one or more Black Mist tokens], search your deck or drop for a "Mist Arms "Dreadbore"", call it to RC, if you searched your deck, shuffle your deck. If you retired two or more for this cost, you may look top seven cards from your deck, and choose one of <Mist Familiar> among them instead.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
