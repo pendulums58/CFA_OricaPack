@@ -1832,3 +1832,55 @@ global.DCards[CardStat] = 100
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20315
+{
+global.CardName[CardStat] = 'Heavenly mind order, Overwrite'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20316
+{
+global.CardName[CardStat] = 'Elasping blossom, Lavender'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20317
+{
+global.CardName[CardStat] = 'Wings of bond, Elderbreeze'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20318
+{
+global.CardName[CardStat] = 'Twin wing of celestial butterfly, Laneseeker'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

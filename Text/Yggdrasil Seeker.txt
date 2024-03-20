@@ -1417,3 +1417,20 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20319
+{
+global.CardName[CardStat] = 'Shattered mirage, Ouroboros'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO [VC] : When a rear-guard retires during your turn, you may bind a card with grade equal to binded units this turn from your drop.
+
+AUTO [VC] : At the end of battle your rear-guard attacked, you may retire that unit. If you do, Energy Charge 1, and this unit gets power +5000 until end of turn.
+
+AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent’s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
