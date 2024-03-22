@@ -902,7 +902,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
 Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets +1000 until end of turn. If ability is three or more, this unit gets drive +1.'
+ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets power +10000 until end of turn. If ability is three or more, this unit gets drive +1.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 101
 global.ExtraDeck[CardStat] = 1

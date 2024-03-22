@@ -666,7 +666,7 @@ global.TokenSummonerPosition[CardStat] = 'SHIFT'
 CardStat = 20302
 {
 global.CardName[CardStat] = 'Swirling Black Mist'
-global.CardText[CardStat] = 'Nebleheim/Set Order
+global.CardText[CardStat] = 'Nebleheim/Set Order/Mist Atelier
 
 CONT [Order Zone] : Original power of your Black Mist token becomes 5000.
 
@@ -763,3 +763,139 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20322
+{
+global.CardName[CardStat] = 'Neverends Mistrain'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Mist Atelier
+
+COST [Put a Mist Atelier order to drop from order zone] to play this card.
+
+CONT [Order Zone] : All your Black Mist token gets power +5000.
+
+ACT [Order Zone] : COST [rest this card & retire one or more Black Mist tokens], Choose up to one <Mist Familiar> from your deck or drop, call it to RC. It gets power +5000 for each retired unit for this cost until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20323
+{
+global.CardName[CardStat] = 'Whispering Mist'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Whispering Mist" in a deck.
+
+If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
+
+Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20324
+{
+global.CardName[CardStat] = 'Time Paradox'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20325
+{
+global.CardName[CardStat] = 'Eye of the Time'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20326
+{
+global.CardName[CardStat] = 'Visitor from Blue cloud sea'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20327
+{
+global.CardName[CardStat] = 'Envy Mistraper, Fog'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20328
+{
+global.CardName[CardStat] = 'Isolation Mistraper, Dusk'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20329
+{
+global.CardName[CardStat] = 'Dominator of Mist City, Stratos'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20330
+{
+global.CardName[CardStat] = 'Black Mist Token'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 0
