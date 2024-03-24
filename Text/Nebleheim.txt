@@ -926,6 +926,8 @@ global.CardName[CardStat] = 'Remorse Mistraper, Migra'
 global.CardText[CardStat] = 'Nebleheim/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 103
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
@@ -937,6 +939,8 @@ global.CardText[CardStat] = 'Nebleheim/Noble'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 103
 global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0

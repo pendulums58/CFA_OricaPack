@@ -581,3 +581,135 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20337
+{
+global.CardName[CardStat] = 'Wandering Acolyte'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20338
+{
+global.CardName[CardStat] = 'Daydreamer of Forward looking'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed by riding from "Wandering Acolyte", draw a card, and you get a "Fancy Light Ritrin" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20339
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20339
+{
+global.CardName[CardStat] = 'Fancy Light Ritrin'
+global.CardText[CardStat] = 'Crest
+
+CONT: You can Stride, and cannot ride any grade 3 or greater card without "Ritrin" in its card name.
+
+CONT: During your turn, if you have a grade 3 or greater vanguard with "Ritrin" in its card name, all of your front row units get power +5000 for each face up card in your G Zone.
+
+AUTO : At the end of each turn, If blitz order was played by an ability of your vanguard with "Ritrin" in its card name, you may put a card from your hand to damage zone. If you do, choose a face up card from your damage zone, and put it into your hand.'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20340
+{
+global.CardName[CardStat] = 'Achievet of found glory'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by a unit with "Ritrin" in its card name, choose up to one blitz order with grade 2 or greater without Miracle Relic, put it into damage zone. If you putted, choose a face up card from your damage zone, and put it into your hand.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20341
+{
+global.CardName[CardStat] = 'Fancy Light Ritrin'
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+
+AUTO [VC] Generation Break 2 1/Turn : When this unit is attacked, COST [Soul Blast 1], choose a face up blitz order from your damage zone, play it. If you played, put a card from your hand to damage zone face up.
+
+AUTO [VC] : When your G unit Stride, COST [Counter Blast 1], Look at top seven cards from your deck, choose up to one blitz order, reveal it and put into your hand. If you did not revealed, Counter Charge 1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20342
+{
+global.CardName[CardStat] = 'Succeeded light, transform to glory'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+Choose a rear-guard not being attacked, move it to GC, that unit gets shield +10000 during that battle. If you have a vanguard with "Ritrin" in its card name, COST [Counter Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20343
+{
+global.CardName[CardStat] = 'Perfoming Miracle "Stellarion"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+Play this card if your opponent have two or more stand units.
+
+Choose one of your units being attacked, that unit gets power +10000 until end of that battle, and that unit gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20344
+{
+global.CardName[CardStat] = 'Guiding Star, Stella Extra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+AUTO [VC]: When this unit attacks, COST [Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC, and that unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20345
+{
+global.CardName[CardStat] = 'Enlighten First Star, Stella Glow'
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+
+Stride COST [Discard a grade 3 card with "Ritrin" in its card name from hand]
+
+AUTO [VC] Generation Break 2 : When this unit attacks, COST [Counter Blast 1], Choose a blitz order from your hand or damage zone, and your opponent plays it. Its power and shield plus becomes minus. If you played from damage zone, look at top five cards from your deck, choose one among them and put into damage zone face up, and choose up to one among them and call it to RC.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
