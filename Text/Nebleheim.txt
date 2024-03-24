@@ -944,3 +944,66 @@ global.TokenSummonerPosition[CardStat] = 'SHIFT'
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20350
+{
+global.CardName[CardStat] = 'Monster in ruin'
+global.CardText[CardStat] = 'Nebleheim/Vargr/Heal Trigger
+
+AUTO: When this unit is placed on GC, if your opponent’s attacking unit has attacked two or more times this turn, this unit gets shield +15000 until end of that battle. (Active if this battle is its second attack this turn or more)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20351
+{
+global.CardName[CardStat] = 'Fogsmith of phantom, Nimbas'
+global.CardText[CardStat] = 'Nebleheim/Human/Heal Trigger
+
+AUTO: When this unit is put on GC, if the attacking unit’s critical is 2 or greater, and its critical is increased by an ability other than trigger effect or its original critical is 2 or greater, this unit gets shield +15000 until end of that battle.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20352
+{
+global.CardName[CardStat] = 'Diletant Datamaster'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Heal Trigger
+
+AUTO: When this unit is put on GC, if your vanguard’s grade is less than your opponent’s vanguard’s grade, this unit gets shield +10000 until end of that battle.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20353
+{
+global.CardName[CardStat] = 'Wandering one in blue mist sea'
+global.CardText[CardStat] = 'Nebleheim/Warbeast/Draw Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20354
+{
+global.CardName[CardStat] = 'Stigmatized one by red lightning'
+global.CardText[CardStat] = 'Nebleheim/Human/Front Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000

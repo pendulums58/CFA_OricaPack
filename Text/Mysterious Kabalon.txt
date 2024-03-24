@@ -713,3 +713,63 @@ global.DCards[CardStat] = 102
 global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
+
+CardStat = 20346
+{
+global.CardName[CardStat] = 'Daydreamer of wishing rescue'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC/GC]: If blitz order was played this turn, this unit gets power +5000/shield +5000.
+
+AUTO: When this unit is placed on RC from hand, if you have a vanguard with "Ritrin" in its card name, COST [Counter Blast 1], choose a blitz order from your drop, and put into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20347
+{
+global.CardName[CardStat] = 'Ark Inquisitor, Anis'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC]: If you have a blitz order in your damage zone, this unit gets "boost".
+
+AUTO [RC]: When this unit attacks, choose up to one face down blitz order from your damage zone, and turn it face up. If you do, put this unit into soul at the end of battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20348
+{
+global.CardName[CardStat] = 'Pathfinding Acolyte, Throne'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC]: When this unit attacks, if you have a blitz order in your drop, COST [Soul Blast 1], this unit gets power +10000 until end of battle.
+
+AUTO [RC]: At the end of battle this unit attacked a vanguard, COST [Counter Blast 1 & bind this card], choose a blitz order with grade 2 or greater withour Miracle Relic from your deck, reveal it and put into your hand, shuffle your deck. If you have a blitz order in your drop, you may choose a trigger order with grade 0 instead.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20349
+{
+global.CardName[CardStat] = 'Praying Acolyte, Sera'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO [RC]: When this unit is placed on RC or put on GC, choose up to one grade 4 card from your hand, and reveal it. If you revealed a card, or your vanguard is grade 4, perform one of the following according to the circle this unit is on
+¡ÜRC - During this turn, if a card is putted into your damage zone face down, put that card face up instead.
+¡ÜGC - This unit gets shield +15000 until end of that battle.
+
+AUTO: When this card is discarded from hand while riding a grade 3 from the ride deck or paying the cost for Stride, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
