@@ -1434,3 +1434,17 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20358
+{
+global.CardName[CardStat] = 'Eternal Life Fafnir'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO: When this unit is binded by your card’s ability, COST [Counter Blast 1], draw a card.
+
+AUTO: When this unit is placed on RC, COST [Soul Blast 1], choose a card from your bind zone, and put it into drop.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

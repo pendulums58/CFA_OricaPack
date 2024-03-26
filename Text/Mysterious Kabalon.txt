@@ -649,7 +649,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
 AUTO [VC] Generation Break 2 1/Turn : When this unit is attacked, COST [Soul Blast 1], choose a face up blitz order from your damage zone, play it. If you played, put a card from your hand to damage zone face up.
 
-AUTO [VC] : When your G unit Stride, COST [Counter Blast 1], Look at top seven cards from your deck, choose up to one blitz order, reveal it and put into your hand. If you did not revealed, Counter Charge 1.'
+AUTO [VC] : When your G unit Stride, COST [Counter Blast 1], Look at top five cards from your deck, choose up to one card with grade less or equal to your blitz order in damage zone, call it to RC, shuffle your deck.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
 }
@@ -675,9 +675,9 @@ CardStat = 20343
 global.CardName[CardStat] = 'Perfoming Miracle "Stellarion"'
 global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
 
-Play this card if your opponent have two or more stand units.
+COST [Counter Blast 1] to play this card.
 
-Choose one of your units being attacked, that unit gets power +10000 until end of that battle, and that unit gets power +5000 until end of turn.'
+Choose one of your units being attacked, that unit gets power +10000 until end of that battle. If this card was played from damage zone, that unit gets power +5000 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
@@ -703,7 +703,7 @@ global.PowerStat[CardStat] = 15000
 CardStat = 20345
 {
 global.CardName[CardStat] = 'Enlighten First Star, Stella Glow'
-global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
 
 Stride COST [Discard a grade 3 card with "Ritrin" in its card name from hand]
 
@@ -773,3 +773,63 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20355
+{
+global.CardName[CardStat] = 'Nihil Image'
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Front Trigger
+
+
+Choose a unit that unit with same name is in your damage zone face down from your drop, call it to RC, COST [Turn a card with same name as that unit from damage zone face down], that unit gets power +10000 until end of turn.'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20356
+{
+global.CardName[CardStat] = 'Constant Opportunity'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Constant Opportunity" in a deck.
+
+If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
+
+Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20357
+{
+global.CardName[CardStat] = 'Astrosign Memorypath'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
