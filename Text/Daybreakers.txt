@@ -1357,7 +1357,7 @@ texts WIP.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
-global.PowerStat[CardStat] = 10000
+global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20148
@@ -1426,7 +1426,7 @@ global.CardInClan[CardStat] = 30
 }
 global.RegalisPiece[CardStat] = 1
 global.PowerStat[CardStat] = 0
-global.DefensePowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 10000
 
 CardStat = 20152
 {
@@ -2046,4 +2046,28 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20367
+{
+global.CardName[CardStat] = 'Amethyst Spellslinger '
+global.CardText[CardStat] = 'Daybreakers/Human
+
+texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20368
+{
+global.CardName[CardStat] = 'Watcher of the snake time '
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
