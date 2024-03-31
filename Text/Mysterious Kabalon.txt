@@ -847,3 +847,17 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20375
+{
+global.CardName[CardStat] = 'Fancy Light Ritrin  '
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+
+AUTO [VC] Generation Break 2 1/Turn : When this unit is attacked, COST [Soul Blast 1], choose a face up blitz order from your damage zone, play it. If you played, put a card from your hand to damage zone face up.
+
+AUTO [VC] : When your G unit Stride, COST [Counter Blast 1], Look at top five cards from your deck, choose up to one card with grade less or equal to your blitz order in damage zone, call it to RC, shuffle your deck.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

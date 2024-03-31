@@ -1478,3 +1478,17 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20374
+{
+global.CardName[CardStat] = 'Saya, Bounded witch in past  '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [VC]: While you pay the cost of Stride, all <Librarian> unit and blitz order in your hand gets grade +2.
+
+AUTO [VC]: When your G unit Stride, COST [Soul Blast 1], choose up to one <Librarian> unit from your deck, call it to RC, and that unit gets power +5000 until end of turn. At the end of turn, bind that unit face up.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
