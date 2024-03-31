@@ -1007,3 +1007,13 @@ global.DCards[CardStat] = 103
 global.TriggerUnit[CardStat] = 5
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20370
+{
+global.CardName[CardStat] = 'Night hunt Riding hood'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

@@ -60,9 +60,9 @@ CardStat = 20004
 global.CardName[CardStat] = 'Goddess of pae-pae row'
 global.CardText[CardStat] = 'Daybreakers/Spirit
 
-AUTO: When this unit is placed on RC, COST [Counter Blast 1, rest a Mana Source card], choose up to one unit card with grade less than or equal to your vanguard from your drop, call it to front row RC in the same column as this unit.
+AUTO: When this unit is placed on RC, if you have a vanguard with "Tsubaki" in its card name, COST [Counter Blast 1, rest a Mana Source card], choose up to one unit card with grade less than or equal to your vanguard from your drop, call it to front row RC in the same column as this unit.
 
-AUTO [RC]: At the end of battle that this unit attacks or boosts, you may choose one of your Mana Source cards, and stand it. If you have no other units in the same column as this unit, COST [put this unit into soul], draw a card.'
+AUTO [RC]: At the end of battle that this unit boosted, you may choose one of your Mana Source cards, and stand it. If you have no other units in the same column as this unit, COST [put this unit into soul], draw a card.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -146,7 +146,7 @@ global.CardText[CardStat] = 'Daybreakers/Human
 
 ACT [VC] 1/Turn: COST [Counter Blast 1], search your deck or hand for up to one card of Mana source Set Order, and put it into the order zone. If you searched your deck, shuffle your deck.
 
-AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card], search your deck and drop for each up to one card total grade less than or equal to the number of rest for thsi cost, call them to RC. If your opponent’s svanguard is grade 3 or greater, called unis get power + 5000 untill end of turn for every two Mana source in your order zone.'
+AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card], search your deck and drop for each up to one card total grade less than or equal to the number of rest for thsi cost, call them to RC. If your opponent’s svanguard is grade 3 or greater, called unis get power + 5000 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100

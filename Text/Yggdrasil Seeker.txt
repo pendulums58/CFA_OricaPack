@@ -1448,3 +1448,33 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20371
+{
+global.CardName[CardStat] = 'Song of lostwing girl'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+AUTO [Order Zone]: When your unit attacks without boost, COST [Counter Blast 1], that unit gets power +10000 until end of that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20372
+{
+global.CardName[CardStat] = 'At the sky after rain'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+AUTO: When putted into order zone, Energy Charge 3.
+
+AUTO [Order Zone] 1/Turn : When your unit retires from RC, COST [Energy Blast 5], put that unit into hand.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
