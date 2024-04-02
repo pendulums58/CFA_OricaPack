@@ -2084,3 +2084,51 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20379
+{
+global.CardName[CardStat] = 'Clepious Descendant'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO [Hand] : At the end of your opponent’s turn, if you have grade 3 or greater vanguard with "Aura" in its card name, COST [Counter Blast 1], call this unit to RC.
+
+AUTO: When this unit is placed on RC, COST [Soul Blast 2], choose one of your opponent’s front row rear-guard, and retire it.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20380
+{
+global.CardName[CardStat] = 'Aura Apex, Dawn of hope'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT [VC] : During your turn, all your units did not placed this turn gets power +10000.
+
+AUTO [VC] : When this unit attacks, stand all your rear-guards did not placed this turn, COST [put a grade 3 or greater card with "Aura" in its card name from your soul or hand to drop], during that battle, your opponent cannot call cards with same name placed on GC this turn from hand. At the end of this turn, put all rear-guards stand with this ability to soul, for each two unit putted into soul, draw a card.
+
+AUTO [VC] : At the end of your opponent’s turn, choose a card from your drop, and call it to RC.'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20381
+{
+global.CardName[CardStat] = 'Floor union courier'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT [GC] : If your opponent has a unit with power 100 million or greater, this unit gets shield +25000.
+
+AUTO: When this unit is placed on RC from hand, if you have ten or more energy, COST [Energy Blast 5], draw a card, choose up to three rear-guards same race to your vanguard, they gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

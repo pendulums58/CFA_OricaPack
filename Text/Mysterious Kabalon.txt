@@ -861,3 +861,50 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20376
+{
+global.CardName[CardStat] = 'Flickering First star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Critical Trigger
+
+
+Counter Charge 1, and put this card into soul.'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20377
+{
+global.CardName[CardStat] = 'Achievet got in trouble'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is put on GC from hand or discarded from hand while riding from the ride deck, COST [Counter Blast 1 or Energy Blast 3], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1 or Energy Blast 3], choose a face up card from your damage zone, call it to RC. choose a card from your hand, and put in into damage zone.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20378
+{
+global.CardName[CardStat] = 'Unbreaking Prayer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [GC] : If your opponent has a unit with power 100 million or greater, this unit gets shield +25000.
+
+AUTO: When this unit is placed on RC from hand, if you have ten or more energy, COST [Energy Blast 5], draw a card, choose one of your units, and it gets power +2000 for each of your damage zone until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

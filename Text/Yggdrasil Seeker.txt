@@ -1492,3 +1492,34 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20382
+{
+global.CardName[CardStat] = 'I am the snake that buds'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+If you have a vanguard with "Ouroboros" in its card name, COST [retire a rear-guard] to play this card.
+
+Look at top five cards from your deck, choose up to one card and call to RC. During this turn, you get "AUTO: When your unit is placed during your battle phase, that unit gets power +5000 until end of turn."'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20383
+{
+global.CardName[CardStat] = 'Eldereyes Spellcaster'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+CONT [GC] : If your opponent has a unit with power 100 million or greater, this unit gets shield +25000.
+
+AUTO: When this unit is placed on RC from hand, if you have ten or more energy, COST [Energy Blast 5], draw a card, your opponent choose one of their rear-guard, and bind it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
