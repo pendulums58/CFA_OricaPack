@@ -2132,3 +2132,16 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20392
+{
+global.CardName[CardStat] = 'Innocent Informant'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+AUTO: When this unit is placed on RC from hand, if you did not play an order this turn, COST [discard a card from hand], search your deck for up to one order card without Origin Record, discard it, and it gets "CONT: This card can be played from the drop, and when it would be put into drop after being played, put it on the bottom of the deck instead." until end of turn. Shuffle the deck.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

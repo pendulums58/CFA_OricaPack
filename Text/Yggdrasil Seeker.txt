@@ -1523,3 +1523,98 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20393
+{
+global.CardName[CardStat] = 'Justice Capturer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed on RC from hand, if you did not play an order this turn, COST [discard a card from hand], search your deck for up to one order card without Ability Piece, discard it, and it gets "CONT: This card can be played from the drop, and when it would be put into drop after being played, put it on the bottom of the deck instead." until end of turn. Shuffle the deck.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20395
+{
+global.CardName[CardStat] = 'Seeded Pale Star'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20396
+{
+global.CardName[CardStat] = 'Error finding Pale Star'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+
+CONT [RC] : If you have a vanguard with "Pale Star" in its card name, this unit gets power +2000.
+
+AUTO: When this unit is placed by riding from "Seeded Pale Star", COST [call a card with "Boost" to back row center RC], draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20397
+{
+global.CardName[CardStat] = 'World Debugging Pale Star'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+
+AUTO: When this unit is placed by riding from "Error finding Pale Star", look at top five cards from your deck, choose up to one card with "Boost" without sentinel, reveal it and put into your hand.
+
+AUTO [VC] : When this unit’s attack hits a vanguard, draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20398
+{
+global.CardName[CardStat] = 'Rewriting Pale Star'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+
+CONT [VC] : Your units can boost other units regardless of location.
+
+ACT [VC] 1/Turn : COST [Energy Blast 3], choose a unit with "Boost" from your drop, call it to RC.
+
+AUTO [VC] 1/Turn : When this unit boosts a rear-guard with "Boost" COST [Counter Blast 1], that unit performs drive check during that battle. At the end of that battle, stand this unit.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20399
+{
+global.CardName[CardStat] = 'Pale shadow Trickstar'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+
+ACT [Hand] : If you have a grade 3 or greater vanguard with "Pale Star" in its card name, and your opponent has grade 3 or greater vanguard, COST [Soul Blast 1], choose one of your rear-guard with "Boost", call this unit to that RC, and rewrite it.
+
+AUTO [RC] : At the end of battle this unit boosted by vanguard, COST [Energy Blast 3], return this unit to hand, choose up to one grade 1 from your hand, call it to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

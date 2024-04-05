@@ -908,3 +908,118 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20384
+{
+global.CardName[CardStat] = 'Soft dance, Capel'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20385
+{
+global.CardName[CardStat] = 'Peno limiter of Theroy proof'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20386
+{
+global.CardName[CardStat] = 'Theo breaker of Observing phenomenon'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20387
+{
+global.CardName[CardStat] = 'Shining eyes, Protion'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20388
+{
+global.CardName[CardStat] = 'Radiant flame, Kirius'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20389
+{
+global.CardName[CardStat] = 'Skyward Acolyte'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20390
+{
+global.CardName[CardStat] = 'Miracle-sending hand, Bedel'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20391
+{
+global.CardName[CardStat] = 'Achievet of believing miracle'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20394
+{
+global.CardName[CardStat] = 'Daydreamer of guiding vision'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC from hand, if you did not play an order this turn, COST [discard a card from hand], search your deck for up to one order card without Miracle Relic, discard it, and it gets "CONT: This card can be played from the drop, and when it would be put into drop after being played, put it on the bottom of the deck instead." until end of turn. Shuffle the deck.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
