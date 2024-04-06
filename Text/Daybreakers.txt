@@ -2145,3 +2145,15 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20400
+{
+global.CardName[CardStat] = 'Dark Essence, Tsubaki & Metaphor'
+global.CardText[CardStat] = 'Daybreakers/Human/Omnia'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
