@@ -17,6 +17,11 @@ global.CustomFactionClanId[103] = 0
 global.CustomFactionNationId[103] = 103
 global.CustomFactionName[103] = 'Nebleheim'
 global.CustomFactionFile[103] = 'Nebleheim.txt'
+
+global.CustomFactionClanId[104] = 0
+global.CustomFactionNationId[104] = 104
+global.CustomFactionName[104] = 'Clocktower Chronicle'
+global.CustomFactionFile[104] = 'Clocktower Chronicle.txt'
  
-global.MaxCustomFaction = 104
-global.AllCard = 20400
+global.MaxCustomFaction = 105
+global.AllCard = 20408

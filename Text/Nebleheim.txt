@@ -1017,3 +1017,54 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20402
+{
+global.CardName[CardStat] = 'Vargr waiting for liberation'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20403
+{
+global.CardName[CardStat] = 'Time Shift Transceiver'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20404
+{
+global.CardName[CardStat] = 'Voyra, Gloomy Mistraper'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20405
+{
+global.CardName[CardStat] = 'Wind cutting flame blader'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20406
+{
+global.CardName[CardStat] = 'Day Liberation Riding Hood'
+global.CardText[CardStat] = 'Nebleheim/'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
