@@ -1,0 +1,94 @@
+CardStat = 20409
+{
+global.CardName[CardStat] = 'Eternity Connector'
+global.CardText[CardStat] = 'Clocktower Chronicle/Angel/Draw Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20410
+{
+global.CardName[CardStat] = 'Decayed Firstone'
+global.CardText[CardStat] = 'Clocktower Chronicle/Firstone/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20411
+{
+global.CardName[CardStat] = 'Sil, Fate Selling pedlar'
+global.CardText[CardStat] = 'Clocktower Chronicle/Firstone/Front Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20412
+{
+global.CardName[CardStat] = 'Clocktower Seal Executor'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human/Critical Trigger
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20413
+{
+global.CardName[CardStat] = 'Denial witch, Forstelia'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20414
+{
+global.CardName[CardStat] = 'Clocktower Chronicle'
+global.CardText[CardStat] = 'Clocktower Chronicle/Omnia/Over Trigger
+
+Additional Effect - You get an additional main phase and battle phase after this battle phase. At the start of that battle phase, stand all your vanguards, and increase or decrease its critical and drive to 1.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20415
+{
+global.CardName[CardStat] = 'Wish Ascender'
+global.CardText[CardStat] = 'Clocktower Chronicle/Angel
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
