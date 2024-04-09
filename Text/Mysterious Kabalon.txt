@@ -1035,3 +1035,17 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20419
+{
+global.CardName[CardStat] = 'Swansong Acolyte'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera
+
+CONT [RC] : If your damage zone has three or more cards that your opponent, this unit gets power +20000, and cannot be choose by opponent’s effect.
+
+AUTO [RC] : When this units attack hits a vanguard, retire this unit. If your damage zone is five or more, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

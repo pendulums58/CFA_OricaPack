@@ -1642,3 +1642,54 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20416
+{
+global.CardName[CardStat] = 'Rewriting Pale Star '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+
+CONT [VC] : Your units can boost other units regardless of location.
+
+ACT [VC] 1/Turn : COST [Energy Blast 3], choose a unit with "Boost" from your drop, call it to RC.
+
+AUTO [VC] 1/Turn : When this unit boosts a rear-guard with "Boost" COST [Counter Blast 1], that unit performs drive check during that battle. At the end of that battle, stand this unit.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20417
+{
+global.CardName[CardStat] = 'Pale shadow Trickstar '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+
+ACT [Hand] : If you have a grade 3 or greater vanguard with "Pale Star" in its card name, and your opponent has grade 3 or greater vanguard, COST [Soul Blast 1], choose one of your rear-guard with "Boost", call this unit to that RC, and rewrite it.
+
+AUTO [RC] : At the end of battle this unit boosted by vanguard, COST [Energy Blast 3], return this unit to hand, choose up to one grade 1 from your hand, call it to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20418
+{
+global.CardName[CardStat] = 'Sculpted record, Silverblossom'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
+
+Timeleap - AUTO [RC] Generation Break 1 : At the end of battle this unit attacked a vanguard, if this unit was placed this turn by a vanguard’s ability, COST [Counter Blast 1], time leap this unit.
+
+AUTO: When this unit is placed on RC from hand, if keyword ability in your bind zone is two or more, COST [Counter Blast 1], choose one of your opponent’s rear-guard, bind it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

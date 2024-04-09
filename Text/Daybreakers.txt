@@ -1249,7 +1249,7 @@ CardStat = 20099
 global.CardName[CardStat] = 'Iris, Second-class Blacksmith'
 global.CardText[CardStat] = 'Daybreakers/Noble
 
-AUTO [RC]: When this unit boosts a vanguard, if boosted unit is neither <admin> nor <omnia>, or you played an order this turn, this unit gets power +5000 until end of that battle, and at the end of that battle, COST [put this unit into soul], and draw a card. This abillity may only be used by a card with the same card name once a turn.'
+ACT [RC]: COST [Put this unit into soul], choose one of your unit neither <admin> nor <omnia>, it gets power +5000 and "AUTO [RC] 1/Turn : When this unit’s attack hits a vanguard, draw a card." until end of turn.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
@@ -2150,6 +2150,24 @@ CardStat = 20400
 {
 global.CardName[CardStat] = 'Dark Essence, Tsubaki & Metaphor'
 global.CardText[CardStat] = 'Daybreakers/Human/Omnia'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20420
+{
+global.CardName[CardStat] = 'Unchained force, Magenta Accetept'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT: This card can only be ridden from a grade 3 with "Magenta" in its card name.
+
+AUTO [VC] : During your turn, when your opponent’s trigger effect activates, all your unit gets that trigger effect, if it was not critical trigger, draw a card.
+
+ACT [VC] 1/Turn : COST [Remove two cards with "Magenta" in its different card name from this unit from hand, soul, or drop from the game], your opponent chooses two trigger unit from their drop, you choose one from them, your opponent triggers it. Remove that two cards.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100

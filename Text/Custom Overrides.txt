@@ -24,4 +24,4 @@ global.CustomFactionName[104] = 'Clocktower Chronicle'
 global.CustomFactionFile[104] = 'Clocktower Chronicle.txt'
  
 global.MaxCustomFaction = 105
-global.AllCard = 20415
+global.AllCard = 20420
