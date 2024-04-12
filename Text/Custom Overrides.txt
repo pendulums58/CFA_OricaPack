@@ -22,6 +22,11 @@ global.CustomFactionClanId[104] = 0
 global.CustomFactionNationId[104] = 104
 global.CustomFactionName[104] = 'Clocktower Chronicle'
 global.CustomFactionFile[104] = 'Clocktower Chronicle.txt'
+
+global.CustomFactionClanId[105] = 0
+global.CustomFactionNationId[105] = 104
+global.CustomFactionName[105] = 'Orica Etc'
+global.CustomFactionFile[105] = 'Orietc.txt'
  
-global.MaxCustomFaction = 105
-global.AllCard = 20420
+global.MaxCustomFaction = 106
+global.AllCard = 20424

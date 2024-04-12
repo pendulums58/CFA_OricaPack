@@ -1068,3 +1068,13 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20421
+{
+global.CardName[CardStat] = 'Freki, Wolf hiding in fog'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

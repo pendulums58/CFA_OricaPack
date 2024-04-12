@@ -1190,7 +1190,7 @@ CONT: Ability Piece (This card is source of the power that symbolized ability.)
 
 CONT: You may only use Ability Piece order a total of one time in a fight.
 
-Choose seven cards from your deck and reveal it. Your opponent chooses two cards among them, put them into your hand, and discard rest. Shuffle your deck.'
+Choose seven cards with different names from your deck and reveal it. Your opponent chooses two cards among them, put them into your hand, and discard rest. Shuffle your deck.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -1693,3 +1693,42 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20422
+{
+global.CardName[CardStat] = 'Checkmate Conductor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+
+CONT [VC] : During your turn, all your unit with Energy Blast or Energy Charge ability gets power +5000.
+
+E.G.O blooming - ACT [VC] : COST [Energy Blast 3], choose one of your rear-guard, and it gets power +5000 until end of turn.
+
+E.G.O - AUTO [VC] : When this unit attacks, Soul Charge 1, choose total grade less or equal to E.G.O bloomed this turn from your soul, call them to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 20423
+{
+global.CardName[CardStat] = 'E.G.O Bloom'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order/Ability Piece
+
+CONT: Ability Piece (This card is source of the power that symbolized ability.)
+
+CONT: You may only use Ability Piece order a total of one time in a fight.
+
+Choose a card without sentinel from your soul, call it to GC, and it gets shield +25000 during that battle. If you called a unit with same name to your vanguard, it gets shield +5000, and put it to hand at the end of battle.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
