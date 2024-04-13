@@ -1777,3 +1777,15 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20442
+{
+global.CardName[CardStat] = 'Firebird with burning revenge'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

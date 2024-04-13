@@ -1125,3 +1125,18 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20443
+{
+global.CardName[CardStat] = 'Access Code "Planeswalker"'
+global.CardText[CardStat] = 'Nebleheim/Elemental
+
+CONT [Hand] : If you have grade 3 or greater vanguard, this unit also regarded as same name to that unit.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Accetept" or "Accinial" in its card name, and your RC has a card putted this turn from drop, COST [Counter Blast 1], draw a card, and this unit gets power +5000 during that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
