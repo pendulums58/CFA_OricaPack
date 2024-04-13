@@ -1078,3 +1078,50 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20425
+{
+global.CardName[CardStat] = 'Lost time Changeling'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 25000
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20426
+{
+global.CardName[CardStat] = 'Foretelled lightning, Mjollnir'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20435
+{
+global.CardName[CardStat] = 'Aweing Mistraper, Khir'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO [RC] : When this unit attacks a vanguard, COST [Counter Blast 1, put other rear-guard to bottom of deck], this unit gets power +5000 for each of grade putted until end of battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

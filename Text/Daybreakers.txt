@@ -2175,3 +2175,18 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20439
+{
+global.CardName[CardStat] = 'Access Code "Selector"'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+CONT [Hand] : If you have grade 3 or greater vanguard, this unit also regarded as same name to that unit.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Accetept" or "Accinial" in its card name, and if you have a <admin> unit, COST [Counter Blast 1], draw a card, and this unit gets power +5000 during that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

@@ -1732,3 +1732,48 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 20436
+{
+global.CardName[CardStat] = 'Igraine, sword formation guardian'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [RC] : If you have ten or more energy, this unit gets power +5000.
+
+AUTO : When this unit is placed on RC, Energy Charge 1.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20437
+{
+global.CardName[CardStat] = 'Access Code "Pioneer"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Elemental
+
+CONT [Hand] : If you have grade 3 or greater vanguard, this unit also regarded as same name to that unit.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Accetept" or "Accinial" in its card name, and you have seven or more energy, COST [Energy Blast 3], draw a card, and this unit gets power +5000 during that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20441
+{
+global.CardName[CardStat] = 'Pure rain Crowwing'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+AUTO : When this unit is placed on RC, if you have a grade 3 or greater vanguard with "Checkmate" or "Pheonix" in its card name, Energy Charge 3.
+
+EGO - AUTO [RC] : At the end of battle this unit boosted, COST [Put this unit into soul], choose one of your rear-guard, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

@@ -92,3 +92,18 @@ global.DCards[CardStat] = 104
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20438
+{
+global.CardName[CardStat] = 'Access Code "Duelist"'
+global.CardText[CardStat] = 'Clocktower Chronicle/Elemental
+
+CONT [Hand] : If you have grade 3 or greater vanguard, this unit also regarded as same name to that unit.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Accetept" or "Accinial" in its card name, and if card in your circle flipped this turn, COST [Counter Blast 1], draw a card, and this unit gets power +5000 during that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
