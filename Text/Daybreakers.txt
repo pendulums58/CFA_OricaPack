@@ -2165,9 +2165,9 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 CONT: This card can only be ridden from a grade 3 with "Magenta" in its card name.
 
-AUTO [VC] : During your turn, when your opponent’s trigger effect activates, all your unit gets that trigger effect, if it was not critical trigger, draw a card.
+AUTO [VC] : During your turn, if your opponent has no front row rear-guard, this unit gets power +10000, and if your opponent has grade 3 or greater vanguard, this unit gets critical +1.
 
-ACT [VC] 1/Turn : COST [Remove two cards with "Magenta" in its different card name from this unit from hand, soul, or drop from the game], your opponent chooses two trigger unit from their drop, you choose one from them, your opponent triggers it. Remove that two cards.'
+ACT [VC] 1/Turn : COST [Remove two cards with "Magenta" in its different card name from this unit from hand, soul, or drop from the game], your opponent chooses two of their rear-guards, and remove it. If they did not removed two, during this turn, this unit gets "CONT [VC] : During the battle this unit attacked, your opponent cannot normal call from hand to GC."'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
@@ -2189,4 +2189,34 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20444
+{
+global.CardName[CardStat] = 'Sen, Intrigant in twilight'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT [RC] : If you have an other <Human> unit, this unit regards as <Chimera>, and gets power +2000.
+
+AUTO [RC] : When this unit boosts, if you have a vanguard with "Aura" or "Syuu" in its card name, COST [Energy Blast 3], choose a grade 2 or less neither <admin> or <omina>, and put it into hand.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20445
+{
+global.CardName[CardStat] = 'Tsugido Manager, Isakal'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [RC] 1/Turn : If you have a vanguard with "Tsugido" in its card name, COST [Counter Blast 1], look at top five cards from your deck, choose up to one unit with less or equal grade to your vanguard, call it to RC. If you called, that unit’s name becomes "Tsugido" until end of turn.
+
+AUTO [RC] : When this unit retired by your card’s ability, choose one of your unit, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
