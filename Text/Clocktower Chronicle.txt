@@ -107,3 +107,166 @@ global.DCards[CardStat] = 104
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20449
+{
+global.CardName[CardStat] = 'Black White Sculptor'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20450
+{
+global.CardName[CardStat] = 'White hand, Fornax'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20451
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20451
+{
+global.CardName[CardStat] = 'White Wave'
+global.CardText[CardStat] = 'Clocktower Chronicle/Token Set Order'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20452
+global.DontShowInDeckEditor[CardStat] = 1
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20452
+{
+global.CardName[CardStat] = 'Black Wave'
+global.CardText[CardStat] = 'Clocktower Chronicle/Token Set Order'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20451
+global.DontShowInDeckEditor[CardStat] = 1
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20453
+{
+global.CardName[CardStat] = 'Black hand, Lepus'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20454
+{
+global.CardName[CardStat] = 'Black White Observer, Cetus'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20455
+{
+global.CardName[CardStat] = 'White Guardian, Cygnus'
+global.CardText[CardStat] = 'Clocktower Chronicle/Angel'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20456
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20456
+{
+global.CardName[CardStat] = 'Black Guardian, Corvus'
+global.CardText[CardStat] = 'Clocktower Chronicle/Angel'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20455
+global.DontShowInDeckEditor[CardStat] = 1
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20457
+{
+global.CardName[CardStat] = 'White Seer, Pisces'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20458
+
+CardStat = 20458
+{
+global.CardName[CardStat] = 'Black Seer, Teles'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20457
+global.DontShowInDeckEditor[CardStat] = 1
+
+CardStat = 20459
+{
+global.CardName[CardStat] = 'Daytime Tuner, Libra'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20460
+
+CardStat = 20460
+{
+global.CardName[CardStat] = 'Night Tuner, Apus'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20459
+global.DontShowInDeckEditor[CardStat] = 1
+
+CardStat = 20461
+{
+global.CardName[CardStat] = 'Clocktower Observer'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20462
+{
+global.CardName[CardStat] = 'Clocktower Advance party'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

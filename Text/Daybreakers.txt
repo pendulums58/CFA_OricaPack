@@ -296,7 +296,7 @@ CardStat = 20019
 global.CardName[CardStat] = 'Administrator of Blue Honesty'
 global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
 
-Additional Effect - Get an Imaninar Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
+Additional Effect - Get an Imaginary Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
 
 (SHIFT + left click to create Accel gifts.)'
 global.UnitGrade[CardStat] = 0
@@ -1808,7 +1808,7 @@ CardStat = 20225
 global.CardName[CardStat] = 'Administrator of Blue Honesty '
 global.CardText[CardStat] = 'Daybreakers/Admin/Over Trigger
 
-Additional Effect - Get an Imaninar Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
+Additional Effect - Get an Imaginary Gift:Accel during this turn. Choose a card from your hand or soul, and call it to additional RC. That circle is regarded as VC this turn, and that cannot stand. At the end of that turn, return that unit to hand.
 
 (SHIFT + left click to create Accel gifts.)'
 global.UnitGrade[CardStat] = 0
@@ -2165,14 +2165,17 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 CONT: This card can only be ridden from a grade 3 with "Magenta" in its card name.
 
-AUTO [VC] : During your turn, if your opponent has no front row rear-guard, this unit gets power +10000, and if your opponent has grade 3 or greater vanguard, this unit gets critical +1.
+AUTO [VC] : During your turn, if this unit is power 45000 or greater, this unit gets drive +1. If power 70000 or greater, this unit gets critical +1.
 
-ACT [VC] 1/Turn : COST [Remove two cards with "Magenta" in its different card name from this unit from hand, soul, or drop from the game], your opponent chooses two of their rear-guards, and remove it. If they did not removed two, during this turn, this unit gets "CONT [VC] : During the battle this unit attacked, your opponent cannot normal call from hand to GC."'
+ACT [VC] 1/Turn : COST [Remove two cards with "Magenta" in its different card name from this unit from hand, soul, or drop from the game], get Imaginary Gift: Force equal to removed cards, and put it to VC, choose your opponent’s rear-guards grade equal or less to your force markers on VC, remove it.
+
+(SHIFT + left click to create Force gift.)'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
 }
+global.ForceAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
