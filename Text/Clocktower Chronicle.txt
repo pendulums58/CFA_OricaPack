@@ -270,3 +270,198 @@ global.DCards[CardStat] = 104
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20463
+{
+global.CardName[CardStat] = 'Vapor, skyward bubble'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20464
+{
+global.CardName[CardStat] = 'Vapor, collect the blizzard'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this unit is placed by riding from "Vapor, skyward bubble", look at top seven cards from your deck, search up to one dual-face normal order, reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20465
+{
+global.CardName[CardStat] = 'Vapor, raging snowstorm'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this unit is placed by riding from "Vapor, collect the blizzard", COST [Discard a dual-face card], look at top five cards from your deck, search up to one unit with grade less or equal to your vanguard, call it to RC. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20466
+{
+global.CardName[CardStat] = 'Vapor, at the first snow hill'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+CONT [VC] : During your turn, if your RC has "Forged frost, Frostwish", all your front row unit gets power +5000.
+
+ACT [VC] 1/Turn : COST [Retire a rear-guard], choose up to one "Stardust Shimmer" from your drop, and put into your hand.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20467
+{
+global.CardName[CardStat] = 'Stardust Shimmer'
+global.CardText[CardStat] = 'Clocktower Chronicle/Normal Order
+
+If you have a vanguard with "Vapor" in its card name, COST [Counter Blast 1] to play this card.
+
+Choose a unit with grade less or equal to your vanguard from your drop, remove other cards with grade equal to chosen card. If you removed, call it to RC. If you and your opponent뭩 vanguard is grade 3 or greater, flip this card, and call to RC.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20468
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20468
+{
+global.CardName[CardStat] = 'Forged frost, Frostwish'
+global.CardText[CardStat] = 'Clocktower Chronicle/Elemental
+
+AUTO [RC] 1/Turn : When this unit attacks, COST [Soul Blast 1], this unit gets power +10000 until end of battle. If this unit was placed this turn, COST [Energy Blast 3], stand this unit.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20467
+global.PersonaRide[CardStat] = 1
+global.DontShowInDeckEditor[CardStat] = 1
+
+CardStat = 20469
+{
+global.CardName[CardStat] = 'Starsnow priestess, Frost'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO : When this unit is placed on RC except from hand, if you have a vanguard with "Vapor" in its card name, during that turn, this unit gets "AUTO [RC] : At the end of battle this unit attacked, COST [Put this unit into soul], draw a card, choose one of your vanguard, and it gets power + 5000 until end of turn."'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20470
+{
+global.CardName[CardStat] = 'Snowflake lizard'
+global.CardText[CardStat] = 'Clocktower Chronicle/Ice Beast
+
+CONT [RC] : If you have a vanguard with "Vapor" in its card name, this unit gets power +2000.
+
+AUTO [RC] : At the end of battle this unit boosted a dual-face unit, if that unit was placed this turn, COST [Retire this unit], look at top five cards from your deck, choose up to one dual-face card among them, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20472
+{
+global.CardName[CardStat] = 'Stargear Maiden, Angelica'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO [RC] 1/Turn : When your card is flipped, COST [Counter Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20473
+{
+global.CardName[CardStat] = 'Crawling Xenophobian'
+global.CardText[CardStat] = 'Clocktower Chronicle/Firstone
+
+AUTO [RC] 1/Turn : When your card is flipped, COST [Counter Blast 1], choose one of your opponent뭩 rear-guards, and retire it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20474
+{
+global.CardName[CardStat] = 'Raiding Xenophobian'
+global.CardText[CardStat] = 'Clocktower Chronicle/Firstone
+
+ACT [RC] : If you persona rode this turn, COST [Counter Blast 1], flip this card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.AnotherSide[CardStat] = 20475
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20475
+{
+global.CardName[CardStat] = 'Hunting Xenophobian'
+global.CardText[CardStat] = 'Clocktower Chronicle/Firstone
+
+AUTO [RC] : When an attack this unit boost or attack hits, flip this card. (This effect is mandadtory.)'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20474
+global.DontShowInDeckEditor[CardStat] = 1
+
+CardStat = 20476
+{
+global.CardName[CardStat] = 'Clocktower Resistance'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this card is discarded from hand during your ride phase, COST [Soul Blast 1 & put this card on the bottom of deck], and draw a card.
+
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1], choose up to three of your dual-face units, and they get power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20477
+{
+global.CardName[CardStat] = 'Creation Admin "Finale Key"'
+global.CardText[CardStat] = 'Clocktower Chronicle/Admin/Over Trigger
+
+Additional Effect - Choose up to three cards from your hand, flip up to five cards from chosen cards in hand and your order zone and circle, put chosen cards in hand to order zone and RC, draw equal to chosen cards in hand.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
