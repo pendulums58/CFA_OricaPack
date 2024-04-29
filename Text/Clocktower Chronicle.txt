@@ -349,12 +349,13 @@ global.CardText[CardStat] = 'Clocktower Chronicle/Elemental
 AUTO [RC] 1/Turn : When this unit attacks, COST [Soul Blast 1], this unit gets power +10000 until end of battle. If this unit was placed this turn, COST [Energy Blast 3], stand this unit.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 104
-}
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
 global.AnotherSide[CardStat] = 20467
 global.PersonaRide[CardStat] = 1
 global.DontShowInDeckEditor[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
 
 CardStat = 20469
 {
@@ -431,11 +432,13 @@ AUTO [RC] : When an attack this unit boost or attack hits, flip this card. (This
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 104
+global.AnotherSide[CardStat] = 20474
+global.DontShowInDeckEditor[CardStat] = 1
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 5000
-global.AnotherSide[CardStat] = 20474
-global.DontShowInDeckEditor[CardStat] = 1
+
+
 
 CardStat = 20476
 {
