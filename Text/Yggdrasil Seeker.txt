@@ -1792,7 +1792,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20480
 {
-global.CardName[CardStat] = 'TRANCE BREAK'
+global.CardName[CardStat] = 'TRANCE BREAK '
 global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order
 
 CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)

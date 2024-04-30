@@ -2241,7 +2241,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20481
 {
-global.CardName[CardStat] = 'Full-of-holes page'
+global.CardName[CardStat] = 'Full-of-holes page '
 global.CardText[CardStat] = 'Daybreakers/Blitz Order
 
 CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
