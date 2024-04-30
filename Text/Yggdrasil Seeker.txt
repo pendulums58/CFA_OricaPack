@@ -1789,3 +1789,24 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20480
+{
+global.CardName[CardStat] = 'TRANCE BREAK'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "TRANCE BREAK" in a deck.
+
+Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
+
+If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

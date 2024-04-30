@@ -140,11 +140,10 @@ CardStat = 20451
 global.CardName[CardStat] = 'White Wave'
 global.CardText[CardStat] = 'Clocktower Chronicle/Token Set Order'
 global.UnitGrade[CardStat] = 0
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 0
 global.AnotherSide[CardStat] = 20452
-global.DontShowInDeckEditor[CardStat] = 1
 global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20452
@@ -152,11 +151,10 @@ CardStat = 20452
 global.CardName[CardStat] = 'Black Wave'
 global.CardText[CardStat] = 'Clocktower Chronicle/Token Set Order'
 global.UnitGrade[CardStat] = 0
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 0
 global.AnotherSide[CardStat] = 20451
-global.DontShowInDeckEditor[CardStat] = 1
 global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20453
@@ -197,12 +195,11 @@ CardStat = 20456
 global.CardName[CardStat] = 'Black Guardian, Corvus'
 global.CardText[CardStat] = 'Clocktower Chronicle/Angel'
 global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.AnotherSide[CardStat] = 20455
-global.DontShowInDeckEditor[CardStat] = 1
 global.PersonaRide[CardStat] = 1
 
 CardStat = 20457
@@ -221,12 +218,11 @@ CardStat = 20458
 global.CardName[CardStat] = 'Black Seer, Teles'
 global.CardText[CardStat] = 'Clocktower Chronicle/Human'
 global.UnitGrade[CardStat] = 2
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AnotherSide[CardStat] = 20457
-global.DontShowInDeckEditor[CardStat] = 1
 
 CardStat = 20459
 {
@@ -243,13 +239,11 @@ CardStat = 20460
 {
 global.CardName[CardStat] = 'Night Tuner, Apus'
 global.CardText[CardStat] = 'Clocktower Chronicle/Human'
-global.UnitGrade[CardStat] = 1
-global.DCards[CardStat] = 104
+global.UnitGrade[CardStat] = 1global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 global.AnotherSide[CardStat] = 20459
-global.DontShowInDeckEditor[CardStat] = 1
 
 CardStat = 20461
 {
@@ -348,10 +342,9 @@ global.CardText[CardStat] = 'Clocktower Chronicle/Elemental
 
 AUTO [RC] 1/Turn : When this unit attacks, COST [Soul Blast 1], this unit gets power +10000 until end of battle. If this unit was placed this turn, COST [Energy Blast 3], stand this unit.'
 global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 global.AnotherSide[CardStat] = 20467
 global.PersonaRide[CardStat] = 1
-global.DontShowInDeckEditor[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
@@ -431,9 +424,8 @@ global.CardText[CardStat] = 'Clocktower Chronicle/Firstone
 AUTO [RC] : When an attack this unit boost or attack hits, flip this card. (This effect is mandadtory.)'
 
 global.UnitGrade[CardStat] = 1
-global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 29
 global.AnotherSide[CardStat] = 20474
-global.DontShowInDeckEditor[CardStat] = 1
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 5000
@@ -461,6 +453,20 @@ global.CardName[CardStat] = 'Creation Admin "Finale Key"'
 global.CardText[CardStat] = 'Clocktower Chronicle/Admin/Over Trigger
 
 Additional Effect - Choose up to three cards from your hand, flip up to five cards from chosen cards in hand and your order zone and circle, put chosen cards in hand to order zone and RC, draw equal to chosen cards in hand.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20478
+{
+global.CardName[CardStat] = 'Admin of stolen clocktower'
+global.CardText[CardStat] = 'Clocktower Chronicle/Admin/Over Trigger
+
+Additional Effect - Choose a card from your damage zone, and put it bottom of your deck. Choose up to one card from your drop, call it to RC. Choose up to one card from your soul, put it into your hand.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 104

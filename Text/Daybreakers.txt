@@ -2238,3 +2238,24 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20481
+{
+global.CardName[CardStat] = 'Full-of-holes page'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Full-of-holes page" in a deck.
+
+Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
+
+If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
