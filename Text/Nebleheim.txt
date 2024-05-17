@@ -1171,3 +1171,14 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20493
+{
+global.CardName[CardStat] = 'Time Riftvolt, Bjorn '
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

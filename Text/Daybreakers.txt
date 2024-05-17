@@ -2259,3 +2259,75 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20489
+{
+global.CardName[CardStat] = 'Syuu, Confronting Twilight knight '
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+CONT [VC]: During your turn, If your opponent has grade 3 or greater vanguard, and all your rear-guards are different race, all your front row units gets power +10000.
+
+ACT [VC] 1/Turn : Choose a card from your hand, call it to RC, draw a card.
+
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1, retire a rear-guard], look at top five cards from your deck, choose up to one unit with different race as retired unit, call it to RC. If all your rear-guards are different race, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20490
+{
+global.CardName[CardStat] = 'Yellow, Enduring truth '
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on VC, choose a card from your drop, and call it to RC, choose one of your rear-guards in the same column of this unit, and stand it. If placed during ride phase, until end of turn, called unit gets "AUTO [RC]: At the end of battle it attacked, stand this unit, and it cannot activate abilities this turn".
+
+AUTO [VC] 1/Turn : When this unit attacks, or be attacked, choose one of your rear-guards, perform all of the following.
+¡ÜYour turn - until end of turn, that unit gets power +5000, and its ability with "when hits" activates even when they do not hit for the battles of this turn.
+¡ÜOpponent’s turn - that unit gets "Intercept", and can intercept from back row, and shield +10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Yellow'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20491
+{
+global.CardName[CardStat] = 'Cyan, Unfading purity '
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [VC]: During your turn, if your rear-guards ability activated thrice or more, this unit gets power +10000.
+
+AUTO [VC]: When placed or attacks, choose a card from your hand or drop, call it to RC, if a unit was already exists, rewrite it.
+
+AUTO [VC]: When your unit retires during your turn, COST [Soul Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Cyan'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20492
+{
+global.CardName[CardStat] = 'Administrator of pale route'
+global.CardText[CardStat] = 'Daybreakers/Yggdrasil Seeker/Admin
+
+CONT [RC] : If you have a rewroten unit, this unit gets power +5000.
+
+AUTO [RC] 1/Turn : If this unit’s other ability activated during your turn, COST [Counter Blast 1], choose one of your units, and it gets power +5000 until end of turn. If you choose a vanguard with "Cyan" or "Pale Star" in its card name, choose one of your units, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.DCards2[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

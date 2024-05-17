@@ -693,7 +693,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
 Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-AUTO [VC]: When this unit attacks, COST [Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC, and that unit gets power +10000 until end of turn.'
+AUTO [VC]: When this unit attacks, COST [Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 102
 global.ExtraDeck[CardStat] = 1
@@ -1173,6 +1173,47 @@ Play this with COST [discard a card from hand] if your crest zone does not have 
 If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
 
 Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20482
+{
+global.CardName[CardStat] = 'Fancy Light Ritrin   '
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
+
+AUTO [VC] Generation Break 2 1/Turn : When this unit is attacked, COST [Soul Blast 1], choose a face up blitz order from your damage zone, play it. If you played, put a card from your hand to damage zone face up.
+
+AUTO [VC] : When your G unit Stride, COST [Counter Blast 1], Look at top five cards from your deck, choose up to one card with grade less or equal to your blitz order in damage zone, call it to RC, shuffle your deck.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20483
+{
+global.CardName[CardStat] = 'Guiding Acolyte, Polari'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Ritrin" in its card name, COST [Counter Blast 1 & discard a card], look at top five cards from your deck, choose up to one unit not named "Guiding Acolyte, Polari", call it to RC. If this is your battle phase, rest that unit.
+
+AUTO [RC] : When this unit attacks grade 3 or greater, if your damage zone have a blitz order, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20484
+{
+global.CardName[CardStat] = 'Route Sphere'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+Look at top five cards from your deck, choose up to one card and put it into damage zone face up. If you do, choose a face up card from your damage zone, heal it. If your damage zone is five or more, COST [Counter Blast 1], and you get "All your units placed this turn from damage zone gets power +5000." until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 102

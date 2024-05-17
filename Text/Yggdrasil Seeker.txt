@@ -1810,3 +1810,66 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20485
+{
+global.CardName[CardStat] = 'Saya, Bounded witch in past   '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [VC]: While you pay the cost of Stride, all <Librarian> unit and blitz order in your hand gets grade +2.
+
+AUTO [VC]: When your G unit Stride, COST [Soul Blast 1], choose up to one <Librarian> unit from your deck, call it to RC, and that unit gets power +5000 until end of turn. At the end of turn, bind that unit face up.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20486
+{
+global.CardName[CardStat] = 'Satelite, blooming saga'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
+
+Thunderbolt 3 - AUTO [RC]: At the beginning of your battle phase, If your opponent’s bind zone is three or more, COST [Counter Blast 1], look at top five cards from your deck, choose up to one card with keyword ability among them, reveal it, and put into your hand.
+
+AUTO [RC]: When this unit boosts, if your keyword ability in bind zone is two or more, this unit gets power +5000 during that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20487
+{
+global.CardName[CardStat] = 'Phoenix, signal of dawn '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
+
+E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent’s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
+
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent’s rear-guards, and move it to GC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20488
+{
+global.CardName[CardStat] = 'Shattered mirage, Ouroboros '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO [VC] : When a rear-guard retires during your turn, you may bind a card with grade equal to binded units this turn from your drop.
+
+AUTO [VC] : At the end of battle your rear-guard attacked, you may retire that unit. If you do, Energy Charge 1, and this unit gets power +5000 until end of turn.
+
+AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent’s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
