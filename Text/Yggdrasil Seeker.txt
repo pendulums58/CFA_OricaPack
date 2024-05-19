@@ -1873,3 +1873,19 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20496
+{
+global.CardName[CardStat] = 'Aragonite Recital'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Ouroboros" in its card name, COST [Counter Blast 1], choose a normal unit without sentinel from your drop, and bind it. If you bound grade 3 unit, you cannot ride this turn.
+
+AUTO [Soul] : When your grade 3 vanguard is placed, COST [Soul Blast 1], put this unit in soul to hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

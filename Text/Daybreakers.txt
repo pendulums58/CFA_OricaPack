@@ -2331,3 +2331,36 @@ global.DCards2[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20494
+{
+global.CardName[CardStat] = 'Magenta, Unquestioning will '
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [VC]: During your turn, if a card was putted into your opponent’s damage zone this turn, all of your front row units get power +10000.
+
+ACT [VC] 1/Turn : COST [Counter Blast 1, put a card from your hand into soul], remove all of your opponent’s front row rear-guards. If your opponent’s damage zone is four or less, and you putted unit with "Magenta" in its card name for this cost, choose one of your opponent’s vanguard, and deal it one damage.
+
+AUTO [VC] 1/Turn : When your opponent’s damage check reveals a trigger unit, nullify that trigger effect, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRideCardName[CardStat] = 'Magenta'
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20495
+{
+global.CardName[CardStat] = 'Administrator of red apricot'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC] : If an opponent’s card was removed by your card effect, this unit gets power +5000.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Magenta" in its card name, and a card except your vanguard was putted on your VC this turn, COST [Energy Blast 2], choose a grade 2 or less card from your soul, and put into your hand. If you choose <admin>, this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
