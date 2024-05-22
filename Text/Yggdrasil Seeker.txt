@@ -543,7 +543,7 @@ CardStat = 20157
 global.CardName[CardStat] = 'Romantic Star collector'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human
 
-AUTO [RC] 1/Turn : When this unit attacks or boosts, if you persona rode this turn, this unit gets power +10000 until end of battle, and they must intercept if they can.
+AUTO [RC] 1/Turn : When this unit attacks or boosts, if you persona rode this turn, COST [Energy Blast 3], this unit gets power +10000 until end of battle, and they must intercept if they can.
 
 CONT [RC]: This unit in back row gets power of persona ride and front trigger as it was on front row, but its power plus is 5000.'
 
@@ -1889,3 +1889,106 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20504
+{
+global.CardName[CardStat] = 'Syou, Elite Mercenery'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20505
+{
+global.CardName[CardStat] = 'Syou, Resting night before'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed by riding from "Syou, Elite Mercenery", draw a card, and you get a "Syou, Silence Freischutz" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20506
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20506
+{
+global.CardName[CardStat] = 'Syou, Silence Freischutz '
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 2 or greater cards without "Syou" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3.'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20507
+{
+global.CardName[CardStat] = 'Syou, Carrying Determination'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20508
+{
+global.CardName[CardStat] = 'Syou, Silence Freischutz'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 20509
+{
+global.CardName[CardStat] = 'Knight of passion, Turquin'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is placed on RC, if your vanguard’s grade is less than or equal to your opponent’s vanguard’s grade, this unit gets power +2000 until end of turn. If you Energy Blast this turn by your card ability, this unit gets power +5000 until end of turn.
+
+AUTO [RC/Drop]: When your other card is discarded from hand during your turn, COST [Energy Blast 3 & remove this card], choose one of the discarded cards, and put it into hand.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20514
+{
+global.CardName[CardStat] = 'Romantic Star collector '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO [RC] 1/Turn : When this unit attacks or boosts, if you persona rode this turn, COST [Energy Blast 3], this unit gets power +10000 until end of battle, and they must intercept if they can.
+
+CONT [RC]: This unit in back row gets power of persona ride and front trigger as it was on front row, but its power plus is 5000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
