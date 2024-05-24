@@ -14,3 +14,267 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20515
+{
+global.CardName[CardStat] = 'Plana, Abandoned spark'
+global.CardText[CardStat] = 'Warbeast
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20516
+{
+global.CardName[CardStat] = 'Plana, Ignited flame'
+global.CardText[CardStat] = 'Warbeast
+
+AUTO: When this unit is placed by riding from "Plana, Abandoned spark", draw a card, and you get a "Plana, Wandering Inari" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20517
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20517
+{
+global.CardName[CardStat] = 'Plana, Wandering Inari '
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 3 or greater cards without "Plana" in their card name, and you cannot call units with same name your circles have.
+
+CONT: You may play an additional Sakura weapon order each turn.
+
+AUTO: When your Sakura weapon order is played, you may bind that card face down, if you do, choose one of your rear-guards, and it gets power +5000 until end of turn.
+
+AUTO : At the end of battle your vanguard attacked, COST [Put nine face-down Sakura weapon order with different names from your bind zone to drop], Add a "Sakura fury" to your hand.
+
+(Shift + click to add a sakura fury.)'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+global.TokenSummoner[CardStat] = 20518
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+
+CardStat = 20518
+{
+global.CardName[CardStat] = 'Sakura fury'
+global.CardText[CardStat] = 'Token Normal Order
+
+Choose one of your vanguard with "Plana" in its card name, and it gets "AUTO [VC] : At the end of battle this unit attacked, retire all of your opponent’s units, and your opponent choose a card from their hand, and ride it." until end of turn. If you persona rode this turn, it gets drive +2 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20519
+{
+global.CardName[CardStat] = 'Plana, Planeswalker'
+global.CardText[CardStat] = 'Warbeast
+
+AUTO: When this unit is rode upon by "Plana, Wandering Inari", look at top seven cards from your deck, choose up to one Sakura weapon order among them, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20520
+{
+global.CardName[CardStat] = 'Plana, Wandering Inari'
+global.CardText[CardStat] = 'Warbeast
+
+AUTO [VC] : When this unit attacks, COST [Energy Blast 3], reveal top seven cards frop top of your deck, and if name of revealed cards else than trigger is all different, choose up to two normal unit or Sakura weapon order among them, call that normal units to RC, and play Sakura weapons.
+
+AUTO [VC] : At the end of your turn, COST [Put a Sakura weapon order from your drop to bottom of deck], draw a card, or Counter Charge 1.
+
+(You may put up to three cards with different name from each other nation you choose, if you selected this card and "Plana, Abandoned spark", "Plana, Ignited flame" in your ride deck.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 13000
+global.PersonaRide[CardStat] = 1
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20521
+{
+global.CardName[CardStat] = 'Elementary'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Elementary" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+If you have a vanguard with "Plana" in its card name, COST [Counter Blast 1] to play this card.
+
+Choose up to one "Plana, Wandering Inari" from your deck or drop, reveal it, and put into your hand. Shuffle your deck, if you did not ride this turn, COST [Discard two grade 3 from your hand], activate persona ride.
+
+(Shift + click to activate persona ride.)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20522
+{
+global.CardName[CardStat] = 'Polymir Laboratory'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Polymir Laboratory" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+If you have a vanguard with "Plana" in its card name or <Daybreakers>, COST [Soul Blast one or more cards] to play this card.
+
+Choose a normal unit with grade less or equal to paid Soul Blast for this cost from your drop, call it to RC, and it gets power +5000 until end of turn. At the end of this turn, retire that unit.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20523
+{
+global.CardName[CardStat] = 'Chronovalue Artifact'
+global.CardText[CardStat] = 'Blitz Order
+
+CONT : You may have up to one "Chronovalue Artifact" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card if you have a vanguard with "Plana" in its card name or <Daybreakers>.
+
+Choose one of your unit, and it gets power +10000 until end of that battle. If you or your opponent got damage this turn, it gets power +15000 until end of that battle. And if it was third or more attack this turn, Counter Charge 1 / Soul Charge 1 / Energy Charge 3.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20524
+{
+global.CardName[CardStat] = 'Ouroboros Overdive'
+global.CardText[CardStat] = 'Blitz Order
+
+CONT : You may have up to one "Ouroboros Overdive" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card if you have a vanguard with "Plana" in its card name or <Yggdrasil Seeker>.
+
+Choose one of your vanguard being attacked, and it gets power +5000 for each of its grade during that battle. If you have no card except trigger with same name in your drop, choose one of your opponent’s rear-guard, and it gets power -10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20525
+{
+global.CardName[CardStat] = 'Tracing the MIRAGE'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Tracing the MIRAGE" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card if you have a vanguard with "Plana" in its card name or <Yggdrasil Seeker>.
+
+Choose one of your opponent’s rear-guard, bind it. If you played other order or activated your vanguard’s ability this turn, COST [Counter Blast 1], draw a card, and choose one of your opponent’s vanguard, and it gets power -5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20526
+{
+global.CardName[CardStat] = 'Shadday Industry'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Shadday Industry" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card with COST [Soul Blast 1] if you have a vanguard with "Plana" in its card name or <Mysterious Kabalon>.
+
+Choose a face up card from your damage zone, put it into your hand. Choose a card from your hand, and put it into your damage zone face up. If you putted trigger order or Sakura weapon order to hand, draw a card, and all your vanguards get power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20527
+{
+global.CardName[CardStat] = 'Fancylight Workshop'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Fancylight Workshop" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card if you have a vanguard with "Plana" in its card name or <Mysterious Kabalon>.
+
+Look at top five cards from top of your deck, choose up to one blitz order or Sakura weapon order, reveal it and put into your hand. Shuffle your deck. COST [Put three Sakura weapon order or blitz order from your drop or bind zone to bottom of deck], draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20528
+{
+global.CardName[CardStat] = 'Black Mist Workshop'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Black Mist Workshop" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card with COST [Counter Blast 1] if you have a vanguard with "Plana" in its card name or <Nebelheim>.
+
+Look at top five cards from top of your deck, choose up to one unit grade less or equal to your vanguard, call it to RC. If your bind zone has three or less cards, it gets "AUTO [RC] : At the end of your turn, retire this unit." until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20529
+{
+global.CardName[CardStat] = 'Senath Atelier'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Senath Atelier" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+Play this card with COST [Reveal another order from your hand] if you have a vanguard with "Plana" in its card name or <Nebelheim>.
+
+Choose one of your opponent’s rear-guard, retire it. Choose one of your unit, and it gets power equal to retired unit’s power. It cannot stand this turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

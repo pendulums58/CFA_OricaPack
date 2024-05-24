@@ -1311,7 +1311,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20511
 {
 global.CardName[CardStat] = 'Knight of Miracle, Tourmalinia'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
 AUTO: When this unit is placed on RC, if your vanguard’s grade is less than or equal to your opponent’s vanguard’s grade, this unit gets power +2000 until end of turn. If you did not Counter Charge this turn, Counter Charge 1.
 

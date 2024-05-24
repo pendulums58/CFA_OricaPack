@@ -478,7 +478,7 @@ global.DefensePowerStat[CardStat] = 50000
 CardStat = 20510
 {
 global.CardName[CardStat] = 'Knight of fusion, Paru'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+global.CardText[CardStat] = 'Clocktower Chronicle/Omnia
 
 AUTO: When this unit is placed on RC, if your vanguard뭩 grade is less than or equal to your opponent뭩 vanguard뭩 grade, this unit gets power +2000 until end of turn. If you have a dual-face rear-guard, this unit gets power +5000 until end of turn.
 
