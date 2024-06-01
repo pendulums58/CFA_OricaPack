@@ -2379,3 +2379,24 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20538
+{
+global.CardName[CardStat] = 'Revealed logic, Cyan Accetept'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT: This card can only be ridden from a grade 3 with "Cyan" in its card name.
+
+ACT [VC] 1/Turn : COST [Remove two cards with "Cyan" in its different card name from this unit from hand, soul, or drop from the game], perform all of following for your additional RC.
+one or less - get an Imaginary Gift: Accel, choose a card from your drop, and call it to additional RC.
+two or more - choose normal units with sum of grade is equal to your unit’s grade in your additional RC, and call it to RC with units, and rewrite it.
+
+(SHIFT + left click to create Accel gift.)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.AccelAdd[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

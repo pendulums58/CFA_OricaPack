@@ -514,7 +514,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
 
 AUTO: When this unit is placed on RC from hand, look at top five cards of your deck, choose up to one grade 3 card among them, reveal it and put into your hand. If you revealed, discard a card.
 
-CONT [RC]: During your turn, your grade 3 vanguard placed on VC this turn gets power +10000.'
+AUTO [RC]: When your grade 3 vanguard attacks, COST [Counter Blast 1], and it gets power +5000 during that battle.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101

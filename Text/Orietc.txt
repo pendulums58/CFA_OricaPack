@@ -76,7 +76,7 @@ CardStat = 20518
 global.CardName[CardStat] = 'Sakura fury'
 global.CardText[CardStat] = 'Token Normal Order
 
-Choose one of your vanguard with "Plana" in its card name, and it gets "AUTO [VC] : At the end of battle this unit attacked, retire all of your opponent’s units, and your opponent choose a card from their hand, and ride it." until end of turn. If you persona rode this turn, it gets drive +2 until end of turn.'
+Choose one of your vanguard with "Plana" in its card name, and it gets "AUTO [VC] : At the end of battle this unit attacked, retire all of your opponent’s units, and your opponent choose a card with same name as retired vanguard from their hand, and ride it. If they did not ride, you win the fight." until end of turn. If you persona rode this turn, it gets drive +2 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 29
@@ -123,7 +123,7 @@ CONT : You may have up to one "Elementary" in your deck, and if you have a "Plan
 
 If you have a vanguard with "Plana" in its card name, COST [Counter Blast 1] to play this card.
 
-Choose up to one "Plana, Wandering Inari" from your deck or drop, reveal it, and put into your hand. Shuffle your deck, if you did not ride this turn, COST [Discard two grade 3 from your hand], activate persona ride.
+Choose up to one "Plana, Wandering Inari" from your deck or drop, reveal it, and put into your hand. Shuffle your deck, if you did not ride this turn, activate persona ride.
 
 (Shift + click to activate persona ride.)'
 
@@ -234,7 +234,7 @@ CONT : You may have up to one "Fancylight Workshop" in your deck, and if you hav
 
 Play this card if you have a vanguard with "Plana" in its card name or <Mysterious Kabalon>.
 
-Look at top five cards from top of your deck, choose up to one blitz order or Sakura weapon order, reveal it and put into your hand. Shuffle your deck. COST [Put three Sakura weapon order or blitz order from your drop or bind zone to bottom of deck], draw a card.'
+Look at top five cards from top of your deck, choose up to one grade 2 or higher order without Miracle Relic, reveal it and put into your hand. Shuffle your deck. COST [Put three normal unit without sentinel from your drop to bottom of deck], draw a card.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
@@ -270,7 +270,7 @@ CONT : You may have up to one "Senath Atelier" in your deck, and if you have a "
 
 Play this card with COST [Reveal another order from your hand] if you have a vanguard with "Plana" in its card name or <Nebelheim>.
 
-Choose one of your opponent’s rear-guard, retire it. Choose one of your unit, and it gets power equal to retired unit’s power. It cannot stand this turn.'
+Choose one of your opponent’s rear-guard, retire all opponent’s rear-guard with same column as that unit. If your opponent’s rear-guard is one or less, COST [Counter Blast 1], draw a card.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
