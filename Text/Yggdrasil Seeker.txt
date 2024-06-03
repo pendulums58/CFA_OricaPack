@@ -2171,3 +2171,15 @@ global.PersonaRide[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRideCardName[CardStat] = 'GhostArthur'
+
+CardStat = 20552
+{
+global.CardName[CardStat] = 'Harmonic Round Knight, Mordred'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

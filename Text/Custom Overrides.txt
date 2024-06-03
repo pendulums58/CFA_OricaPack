@@ -29,4 +29,4 @@ global.CustomFactionName[105] = 'Orica Etc'
 global.CustomFactionFile[105] = 'Orietc.txt'
  
 global.MaxCustomFaction = 106
-global.AllCard = 20551
+global.AllCard = 20553
