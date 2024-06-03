@@ -1416,3 +1416,15 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20551
+{
+global.CardName[CardStat] = 'Pupil of glory, Protion Accetept'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

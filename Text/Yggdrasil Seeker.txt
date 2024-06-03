@@ -1992,3 +1992,182 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
+CardStat = 20541
+{
+global.CardName[CardStat] = 'Chance giving Gatekeeper'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20542
+{
+global.CardName[CardStat] = 'King of delusion-forged will'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+AUTO: When this unit is placed by riding from "Chance giving Gatekeeper", draw a card, and you get a "Lost king of despair-forged" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20543
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20543
+{
+global.CardName[CardStat] = 'Lost king of despair-forged '
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 3 or greater cards without "Lost king" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3.
+
+AUTO 1/Turn : When a rear-guard retire during your turn, draw a card, choose one of your units, andd it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20544
+{
+global.CardName[CardStat] = 'King of resolved plundering'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+AUTO: When this unit is placed by riding from "Chance giving Gatekeeper", draw a card, and you get a "Lost king of resolved pasttime" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20545
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20545
+{
+global.CardName[CardStat] = 'Lost king of resolved pasttime '
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 3 or greater cards without "Lost king" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3.
+
+AUTO 1/Turn : When your unit is placed from your drop, it gets power +5000 / shield +5000 until end of turn. If your opponent’s rear-guard was retired this turn, it gets power +5000 / shield +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20546
+{
+global.CardName[CardStat] = 'King of noticed sorrow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+AUTO: When this unit is placed by riding from "Chance giving Gatekeeper", draw a card, and you get a "Lost king of noticed spirit" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20547
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20547
+{
+global.CardName[CardStat] = 'Lost king of noticed spirit '
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 3 or greater cards without "Lost king" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3, and if each of vanguards are grade 3 or greater, choose a unit from each drop, and call them to RC.'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20548
+{
+global.CardName[CardStat] = 'Lost king of despair-forged'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+CONT: The normal ride from hand of a <Ghost> both <Arthur> unit in its different card name from this unit on this unit also becomes a Persona Ride.
+
+ACT [VC] 1/Turn : COST [Energy Blast 3], choose one of your rear-guard, and it gets "CONT [RC] : During the battle this unit attacks, it fights with all of your opponent’s front row units." and "AUTO [RC] : When this unit’s attack hits, draw a card." until end of turn. If this unit was placed riding from grade 3 with different card name from this unit, it gets power +15000 until end of turn.
+
+AUTO [VC] 1/Turn : When this unit is being attacked, choose a normal unit withour sentinel from your drop, and call it to GC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideCardName[CardStat] = 'GhostArthur'
+
+CardStat = 20549
+{
+global.CardName[CardStat] = 'Lost king of resolved pasttime'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+CONT: The normal ride from hand of a <Ghost> both <Arthur> unit in its different card name from this unit on this unit also becomes a Persona Ride.
+
+AUTO : When this unit is placed on VC, look at top five cards from your deck, choose up to one <Arthur> among them, reveal it, and put into your hand. Shuffle your deck.
+
+AUTO [VC]: When this unit attacks, COST [Energy Blast 3], choose one of your opponent’s rear-guard, retire it, choose up to one unit with same grade from this unit from your drop, call it to RC. If this unit was placed riding from grade 3 with different card name from this unit, this unit and called unit gets power +10000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideCardName[CardStat] = 'GhostArthur'
+
+CardStat = 20550
+{
+global.CardName[CardStat] = 'Lost king of noticed spirit'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
+
+CONT: The normal ride from hand of a <Ghost> both <Arthur> unit in its different card name from this unit on this unit also becomes a Persona Ride.
+
+ACT [VC] 1/Turn : COST [Energy Blast 3], choose one of your unit placed from drop this turn, and it gets power +10000 until end of turn. If you did not choose, choose one unit from your drop, and call it to RC.
+
+AUTO [VC]: At the end of battle your unit placed from drop this turn attacked, COST [retire that unit], choose one of your rear-guard, stand it. If this unit was placed riding from grade 3 with different card name from this unit, that unit gets critical +1 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideCardName[CardStat] = 'GhostArthur'

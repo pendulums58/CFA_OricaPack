@@ -453,7 +453,7 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 AUTO [RC] 1/Turn : When a card putted into opponent’s damage zone, COST [Counter Blast 1], draw a card. If putted card was a trigger unit, choose your vanguard with "Magenta" in its card name, and that unit gets power +5000 until end of turn.
 
-ACT [RC] 1/Turn : COST [Discard a trigger unit], until end of turn, this unit gets power +10000 and "AUTO [RC]: When this unit attacks a vanguard, If this unit or attacked unit got trigger effect this turn, this unit gets critical +1 until end of that battle."'
+ACT [RC] : When this unit attacks a vanguard, if you have a vanguard with "Magenta" in its card name, and this unit or attacked unit got trigger effect this turn, this unit gets power +5000 until end of that battle. If your opponent’s card was removed by your effect this turn, this unit gets critical +1 until end of that battle.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
@@ -562,7 +562,7 @@ CONT: Origin Record (This card represents nine primal symbols.)
 
 CONT: You may only use Origin Record order a total of one time in a fight.
 
-COST [Counter Blast 1, Soul Blast 2] to play this card.
+COST [Counter Blast 1] to play this card.
 
 Choose up to one unit each with a different grade from your deck, drop, soul, and hand, call them to RC.'
 
@@ -720,7 +720,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20062
 {
-global.CardName[CardStat] = 'Grow! Fullbloom smile¢Ü Yellow'
+global.CardName[CardStat] = 'Grow! Fullbloom smileo/^ Yellow'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
 DressUp - "Yellow, Enduring truth" (During this fight, this card is also regarded as the specified card)
@@ -2357,7 +2357,7 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 CONT [RC] : If an opponent’s card was removed by your card effect, this unit gets power +5000.
 
-AUTO [RC] : When this unit attacks, if you have a vanguard with "Magenta" in its card name, and a card except your vanguard was putted on your VC this turn, COST [Energy Blast 2], choose a grade 2 or less card from your soul, and put into your hand. If you choose <admin>, this unit gets power +5000 until end of that battle.'
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Magenta" in its card name, and a card except your vanguard was putted on your VC this turn, COST [Energy Blast 2], choose a card from your soul, and put into your hand. If you choose <admin>, this unit gets power +5000 until end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
@@ -2387,7 +2387,7 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 CONT: This card can only be ridden from a grade 3 with "Cyan" in its card name.
 
-ACT [VC] 1/Turn : COST [Remove two cards with "Cyan" in its different card name from this unit from hand, soul, or drop from the game], perform all of following for your additional RC.
+ACT [VC] 1/Turn : COST [Remove a cards with "Cyan" in its different card name from this unit from hand, soul, or drop from the game], perform all of following for your additional RC.
 one or less - get an Imaginary Gift: Accel, choose a card from your drop, and call it to additional RC.
 two or more - choose normal units with sum of grade is equal to your unit’s grade in your additional RC, and call it to RC with units, and rewrite it.
 
@@ -2399,4 +2399,34 @@ global.PersonaRide[CardStat] = 1
 }
 global.AccelAdd[CardStat] = 1
 global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20539
+{
+global.CardName[CardStat] = 'Red void that rises on the royalty'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+Play this card if you have a vanguard with "Magenta" in its card name.
+
+Choose each one card from your opponent’s RC and drop, remove it. Activate all trigger effect except over trigger removed by this effect. If you persona rode this turn, choose one of your vanguard, and it gets "CONT [VC] : During the battle this unit attacked, your opponent cannot call sentinel to GC from hand" until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20540
+{
+global.CardName[CardStat] = 'Blue monsoon that embraces the sorrow'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+Play this card if you have a vanguard with "Cyan" in its card name.
+
+Choose unit cards grade less or equal to your vanguard up to number of your rear-guards from your drop, call it to RC, rewrite it if it was RC with unit. If you persona rode this turn, all of your vanguards get "CONT [VC] : this unit and your units in rewrite gets power +5000." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
