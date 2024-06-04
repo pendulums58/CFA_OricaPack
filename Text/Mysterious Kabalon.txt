@@ -1428,3 +1428,14 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20554
+{
+global.CardName[CardStat] = 'Access Code "Prokion"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Elemental'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
