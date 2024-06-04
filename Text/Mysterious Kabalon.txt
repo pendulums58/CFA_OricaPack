@@ -43,7 +43,7 @@ CardStat = 20044
 global.CardName[CardStat] = 'Outstream Hacker, Lino'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human/Front Trigger
 
-CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponentâ€™s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 
 global.UnitGrade[CardStat] = 0
@@ -58,7 +58,7 @@ CardStat = 20045
 global.CardName[CardStat] = 'Mysteria in Calm and Delight'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human/Draw Trigger
 
-CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponentâ€™s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 
 global.UnitGrade[CardStat] = 0
@@ -132,8 +132,8 @@ global.CardName[CardStat] = 'Ordinary Daydreamer'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
 AUTO: When this unit is placed on RC or put on GC, COST [put a total of two cards from soul or drop that were in the ride deck into ride deck face up], and perform either of the following according to the circle this unit is on.
-?RC - Choose a card from your damage zone, put it into your hand, put the top of your deck into damage zone.
-?GC - This unit gets shield +15000 until end of that battle.'
+â€¢RC - Choose a card from your damage zone, put it into your hand, put the top of your deck into damage zone.
+â€¢GC - This unit gets shield +15000 until end of that battle.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
@@ -409,7 +409,7 @@ CardStat = 20196
 global.CardName[CardStat] = 'Endless void, Bella Gula'
 global.CardText[CardStat] = 'Mysterious Kabalon/Demon
 
-Original Sin - CONT [VC]: If this unit’s power is 35000 or greater, this unit gets critical +1. if power is 50000 or greater, This unit gets drive +1.
+Original Sin - CONT [VC]: If this unitâ€™s power is 35000 or greater, this unit gets critical +1. if power is 50000 or greater, This unit gets drive +1.
 
 ACT [VC]: COST [Counter Blast 1], choose one of your units, and it gets power +2000 until end of turn. Until end of turn, twice power plus of this ability.
 
@@ -446,11 +446,11 @@ CardStat = 20198
 global.CardName[CardStat] = 'Seven Stars of Stardust'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
-CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
+CONT [RC/GC]: If your opponentâ€™s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
 
 AUTO [RC]: When this unit attacks a vanguard, perform all of the following.
-¡ÜCOST [Counter Blast 1], choose a critical trigger or draw trigger from your opponent’s damage zone, and activate its trigger effect.
-¡ÜCOST [Remove a over trigger from drop], choose one of your rear-guards, put it into damage zone face up, choose an unit from your damage zone, call it to RC.'
+â€¢COST [Counter Blast 1], choose a critical trigger or draw trigger from your opponentâ€™s damage zone, and activate its trigger effect.
+â€¢COST [Remove a over trigger from drop], choose one of your rear-guards, put it into damage zone face up, choose an unit from your damage zone, call it to RC.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
@@ -464,7 +464,7 @@ CardStat = 20208
 global.CardName[CardStat] = 'Achievet drunk on peace'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
-ACT [RC] Limit Break 4 1/Turn : COST [Put a card from your hand to soul], If you did not Counter Charge this turn, Counter Charge 1. Choose one of your opponent’s rear-guards, retire it, and this unit gets power +10000 until end of turn.
+ACT [RC] Limit Break 4 1/Turn : COST [Put a card from your hand to soul], If you did not Counter Charge this turn, Counter Charge 1. Choose one of your opponentâ€™s rear-guards, retire it, and this unit gets power +10000 until end of turn.
 
 AUTO [RC]: At the end of battle this unit attacked, if you have a vanguard with "Elohim" in its card name, COST [Soul Blast 1], look at three cards from top of your deck, choose up to one card among them, put it into damage zone. If you do, choose a face up card from your damage zone, and heal it.'
 
@@ -691,7 +691,7 @@ CardStat = 20344
 global.CardName[CardStat] = 'Guiding Star, Stella Extra'
 global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
-Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that cardâ€™s power and card name. At the end of the turn, return this unit face up)
 
 AUTO [VC]: When this unit attacks, COST [Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC.'
 global.UnitGrade[CardStat] = 4
@@ -762,8 +762,8 @@ global.CardName[CardStat] = 'Praying Acolyte, Sera'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
 AUTO [RC]: When this unit is placed on RC or put on GC, choose up to one grade 4 card from your hand, and reveal it. If you revealed a card, or your vanguard is grade 4, perform one of the following according to the circle this unit is on
-¡ÜRC - During this turn, if a card is putted into your damage zone face down, put that card face up instead.
-¡ÜGC - This unit gets shield +15000 until end of that battle.
+â€¢RC - During this turn, if a card is putted into your damage zone face down, put that card face up instead.
+â€¢GC - This unit gets shield +15000 until end of that battle.
 
 AUTO: When this card is discarded from hand while riding a grade 3 from the ride deck or paying the cost for Stride, draw a card.'
 
@@ -800,7 +800,7 @@ CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a de
 
 CONT: You may only have one "Constant Opportunity" in a deck.
 
-If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
+If your opponentâ€™s vanguard has "Triple Drive", this ability can be played without paying the cost.
 
 Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
 
@@ -1041,7 +1041,7 @@ CardStat = 20419
 global.CardName[CardStat] = 'Swansong Acolyte'
 global.CardText[CardStat] = 'Mysterious Kabalon/Chimera
 
-CONT [RC] : If your damage zone has three or more cards that your opponent, this unit gets power +20000, and cannot be choose by opponent’s effect.
+CONT [RC] : If your damage zone has three or more cards that your opponent, this unit gets power +20000, and cannot be choose by opponentâ€™s effect.
 
 AUTO [RC] : When this units attack hits a vanguard, retire this unit. If your damage zone is five or more, draw a card.'
 global.UnitGrade[CardStat] = 2
@@ -1134,7 +1134,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order/Miracle Relic
 
 Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
 
-Choose one of your vanguard, during that turn, it gets drive +1 and "AUTO [VC] : When this unit stand, if this unit’s drive is one or less, COST [Counter Blast 2, discard a card], this unit gets drive +1 until end of turn."'
+Choose one of your vanguard, during that turn, it gets drive +1 and "AUTO [VC] : When this unit stand, if this unitâ€™s drive is one or less, COST [Counter Blast 2, discard a card], this unit gets drive +1 until end of turn."'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
@@ -1170,7 +1170,7 @@ CONT: You may only have one "Constant Opportunity" in a deck.
 
 Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
 
-If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+If your opponentâ€™s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
 
 Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
 global.UnitGrade[CardStat] = 1
@@ -1298,7 +1298,7 @@ CardStat = 20503
 global.CardName[CardStat] = 'Scar, Transparent knight'
 global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
-AUTO : When this unit is placed on RC else then battle phase, If you have a vanguard with "Cistus" in its card name, COST [Counter Blast 1], choose one of your opponent’s read-guard, retire it, and COST [Counter Blast 1], look at top five cards from your deck, choose up to one unit with grade 3 or less, call it to RC, shuffle your deck.
+AUTO : When this unit is placed on RC else then battle phase, If you have a vanguard with "Cistus" in its card name, COST [Counter Blast 1], choose one of your opponentâ€™s read-guard, retire it, and COST [Counter Blast 1], look at top five cards from your deck, choose up to one unit with grade 3 or less, call it to RC, shuffle your deck.
 
 AUTO [RC] : At the end of battle this unit boosted, if you have no face up card in your damage zone, COST [Retire this unit], choose a card from your damage zone, put it into your hand, and put a card from your hand to your damage zone face up or face down.'
 
@@ -1313,7 +1313,7 @@ CardStat = 20511
 global.CardName[CardStat] = 'Knight of Miracle, Tourmalinia'
 global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
-AUTO: When this unit is placed on RC, if your vanguard’s grade is less than or equal to your opponent’s vanguard’s grade, this unit gets power +2000 until end of turn. If you did not Counter Charge this turn, Counter Charge 1.
+AUTO: When this unit is placed on RC, if your vanguardâ€™s grade is less than or equal to your opponentâ€™s vanguardâ€™s grade, this unit gets power +2000 until end of turn. If you did not Counter Charge this turn, Counter Charge 1.
 
 AUTO [RC/Drop]: When your other card is discarded from hand during your turn, COST [Energy Blast 3 & remove this card], choose one of the discarded cards, and put it into hand.'
 
