@@ -2438,7 +2438,7 @@ global.CardText[CardStat] = 'Daybreakers/Elemental
 
 AUTO [RC] : When this unit’s attack hits, if you have a vanguard with "Accetept" or "Accinial" in its card name, draw a card.
 
-AUTO [RC] 1/Turn : When your other unit is placed on RC, if you have a vanguard with "Cyan" in its card name, COST [Counter Blast 1], choose one of your rear-guard without sentinel, return it to hand, choose a unit with same name from returned unit, call it to RC, and it gets power +5000 until end of turn.'
+AUTO [RC] 1/Turn : When your other unit is placed on RC, if you have a vanguard with "Cyan" in its card name, COST [Counter Blast 1], choose one of your rear-guard without sentinel, return it to hand, choose each one unit with same name from returned unit, call them to RC, and it gets power +5000 until end of turn.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
