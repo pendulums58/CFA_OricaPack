@@ -2244,6 +2244,8 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20564
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20560
 {
@@ -2289,3 +2291,17 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20564
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20564
+{
+global.CardName[CardStat] = 'Hound dog Token'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Demon'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.RemoveFromDrop[CardStat] = 1
