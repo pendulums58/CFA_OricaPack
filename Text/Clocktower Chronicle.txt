@@ -3,7 +3,7 @@ CardStat = 20409
 global.CardName[CardStat] = 'Eternity Connector'
 global.CardText[CardStat] = 'Clocktower Chronicle/Angel/Draw Trigger
 
-CONT [GC]: If your opponentë­© vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 104
@@ -29,7 +29,7 @@ CardStat = 20411
 global.CardName[CardStat] = 'Sil, Fate Selling pedlar'
 global.CardText[CardStat] = 'Clocktower Chronicle/Firstone/Front Trigger
 
-CONT [GC]: If your opponentë­© vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 104
@@ -325,7 +325,7 @@ global.CardText[CardStat] = 'Clocktower Chronicle/Normal Order
 
 If you have a vanguard with "Vapor" in its card name, COST [Counter Blast 1] to play this card.
 
-Choose a unit with grade less or equal to your vanguard from your drop, remove other cards with grade equal to chosen card. If you removed, call it to RC. If you and your opponentë­© vanguard is grade 3 or greater, flip this card, and call to RC.'
+Choose a unit with grade less or equal to your vanguard from your drop, remove other cards with grade equal to chosen card. If you removed, call it to RC. If you and your opponent’s vanguard is grade 3 or greater, flip this card, and call to RC.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 104
@@ -394,7 +394,7 @@ CardStat = 20473
 global.CardName[CardStat] = 'Crawling Xenophobian'
 global.CardText[CardStat] = 'Clocktower Chronicle/Firstone
 
-AUTO [RC] 1/Turn : When your card is flipped, COST [Counter Blast 1], choose one of your opponentë­© rear-guards, and retire it.'
+AUTO [RC] 1/Turn : When your card is flipped, COST [Counter Blast 1], choose one of your opponent’s rear-guards, and retire it.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 104
@@ -480,7 +480,7 @@ CardStat = 20510
 global.CardName[CardStat] = 'Knight of fusion, Paru'
 global.CardText[CardStat] = 'Clocktower Chronicle/Omnia
 
-AUTO: When this unit is placed on RC, if your vanguardë­© grade is less than or equal to your opponentë­© vanguardë­© grade, this unit gets power +2000 until end of turn. If you have a dual-face rear-guard, this unit gets power +5000 until end of turn.
+AUTO: When this unit is placed on RC, if your vanguard’s grade is less than or equal to your opponent’s vanguard’s grade, this unit gets power +2000 until end of turn. If you have a dual-face rear-guard, this unit gets power +5000 until end of turn.
 
 AUTO [RC/Drop]: When your other card is discarded from hand during your turn, COST [Energy Blast 3 & remove this card], choose one of the discarded cards, and put it into hand.'
 

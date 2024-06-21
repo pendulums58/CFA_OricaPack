@@ -33,7 +33,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
 E.G.O Blooming - AUTO [VC]: When this unit is placed by riding on "Pheonix, match of hatred", look at the top five cards of your deck, choose up to one card with the "E.G.O" ability, reveal it and put it into hand, and shuffle the deck.
 
-"E.G.O" (This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent¡¯s rear-guards, it gets shield - 10000 until end of turn.'
+"E.G.O" (This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent’s rear-guards, it gets shield - 10000 until end of turn.'
 
 
 global.UnitGrade[CardStat] = 2
@@ -49,9 +49,9 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
 CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
 
-E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent¡¯s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
+E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent’s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
 
-E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent¡¯s rear-guards, and move it to GC.'
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent’s rear-guards, and move it to GC.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -71,7 +71,7 @@ Play this with COST [put a rear-guards into your soul]!
 
 AUTO [VC]: At the beginning of your battle phase, COST [put this card into soul], look at the top three cards of your deck, choose up to one card from among them, call it to RC, and shuffle the deck.
 
-E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent¡¯s vanguard is grade 3 or greater, COST [Put two card from hand into soul], stand a Armed with this card, and drive - 2 until end of turn.'
+E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent’s vanguard is grade 3 or greater, COST [Put two card from hand into soul], stand a Armed with this card, and drive - 2 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -102,7 +102,7 @@ CardStat = 20107
 global.CardName[CardStat] = 'Rading Whitefeather'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-AUTO [RC]: When this unit is placed, if you have a vanguard with "Pheonix" in its card name, all of your opponent¡¯s rear-guards total shield is 0 or less, COST [Counter Blast 1], and draw a card.
+AUTO [RC]: When this unit is placed, if you have a vanguard with "Pheonix" in its card name, all of your opponent’s rear-guards total shield is 0 or less, COST [Counter Blast 1], and draw a card.
 
 E.G.O - CONT [RC]: This unit gets "Boost".'
 
@@ -150,7 +150,7 @@ CardStat = 20110
 global.CardName[CardStat] = 'Mentality care Porte'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-ACT [RC]: If you have a grade 3 or greater vanguard, all of your opponent¡¯s rear-guards total shield is 0 or less, COST [put this unit into soul], look at the top three cards of your deck, choose up to one card with the "E.G.O" ability, reveal it, call to RC if it is a grade 2 or less card, and put it into your hand if it isnt. Shuffle your deck.'
+ACT [RC]: If you have a grade 3 or greater vanguard, all of your opponent’s rear-guards total shield is 0 or less, COST [put this unit into soul], look at the top three cards of your deck, choose up to one card with the "E.G.O" ability, reveal it, call to RC if it is a grade 2 or less card, and put it into your hand if it isnt. Shuffle your deck.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
@@ -217,7 +217,7 @@ CardStat = 20115
 global.CardName[CardStat] = 'Naoto, leader of unity'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Front Trigger
 
-CONT [GC]: If your opponent¡¯s vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -231,7 +231,7 @@ CardStat = 20116
 global.CardName[CardStat] = 'Millionare of Britain'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Draw Trigger
 
-CONT [GC]: If your opponent¡¯s vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -259,7 +259,7 @@ CardStat = 20118
 global.CardName[CardStat] = 'One who wishes to success'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
 
-Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit¡¯s drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
+Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit’s drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -273,7 +273,7 @@ CardStat = 20119
 global.CardName[CardStat] = 'One who wishes to win out'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
 
-Additional Effect - Choose one of your opponent¡¯s guardian, retire it, and that unit¡¯s effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
+Additional Effect - Choose one of your opponent’s guardian, retire it, and that unit’s effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -329,7 +329,7 @@ CONT [VC]: When your unit retires from RC, bind that instead of drop it.
 
 CONT [VC]: When you draw or refers deck, you may draw or refer from bind zone instead of deck.
 
-AUTO [VC]: When this unit attacks, COST [Counter Blast 1, retire up to five rear-guards], if you retired three or more, at the end of that battle, stand this unit. Then if you did not retired five, this unit gets drive -1 until end of turn. If your opponent¡¯s vanguard is grade 3 or greater, this unit gets power +5000 for each of retired unit until end of turn.'
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1, retire up to five rear-guards], if you retired three or more, at the end of that battle, stand this unit. Then if you did not retired five, this unit gets drive -1 until end of turn. If your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 for each of retired unit until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -374,7 +374,7 @@ CONT: You may have up to one "Mousse, light of MIRAGE" on your RC.
 
 CONT [RC]: When this unit retires by an ability of your unit with "Ouroboros" in its card name, this unit does not retire and remain on RC. (Count as retired unit.)
 
-AUTO: When this unit is placed on GC, COST [Soul Blast 1], choose one of your opponent¡¯s unit attacking your vanguard, it gets power -5000 until end of turn.'
+AUTO: When this unit is placed on GC, COST [Soul Blast 1], choose one of your opponent’s unit attacking your vanguard, it gets power -5000 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -400,9 +400,9 @@ CardStat = 20128
 global.CardName[CardStat] = 'Rosemary of cistern experiment'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-AUTO: When this unit is placed on RC by a vanguard¡¯s ability, this unit gets power +5000 until end of turn.
+AUTO: When this unit is placed on RC by a vanguard’s ability, this unit gets power +5000 until end of turn.
 
-AUTO: When this unit retires from RC, COST [Soul Blast 1], choose one of your opponent¡¯s rear-guards, retire it.'
+AUTO: When this unit retires from RC, COST [Soul Blast 1], choose one of your opponent’s rear-guards, retire it.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -429,7 +429,7 @@ CardStat = 20130
 global.CardName[CardStat] = 'Crescent Moon Divider'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-CONT [RC/GC]: If your opponent¡¯s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
+CONT [RC/GC]: If your opponent’s drive check or damage check revealed a trigger unit this turn, this unit gets power +10000 / shield +10000.
 
 AUTO [RC]: When this unit attacks a vanguard, COST [Soul Blast 1], and perform all of the following.
 ?This unit gets power + 5000 until end of that battle. If a rear-guard moved except to drop this turn, gets additional critical +1.
@@ -467,7 +467,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Human
 
 AUTO: When this unit is put on GC from hand or discarded from hand while riding from the ride deck, COST [Counter Blast 1 or Energy Blast 3], and draw a card.
 
-AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1 or Energy Blast 3], retire one of your opponent¡¯s rear-guard, retire it, if its shield was 0 or less, draw a card.'
+AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1 or Energy Blast 3], retire one of your opponent’s rear-guard, retire it, if its shield was 0 or less, draw a card.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -483,7 +483,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Dragon
 AUTO: When this card is discarded from hand during your ride phase, COST [Soul Blast 1 & put this card on the bottom of deck], and draw a card.
 
 AUTO: When this unit is placed on RC, if you persona rode this turn, COST [Counter Blast 1], this unit gets power +5000 until end of turn, and perform one of the following.
-?Retire one of opponent¡¯s rear-guard.
+?Retire one of opponent’s rear-guard.
 ?Draw a card, call a card from your hand to RC to same column as this unit.'
 
 global.UnitGrade[CardStat] = 2
@@ -611,7 +611,7 @@ CONT: You may have up to fifteen energy.
 
 AUTO: At the beginning of your main phase, Energy Charge 3.
 
-AUTO 1/Turn: When you Energy Blast for your card¡¯s ability¡¯scost, Choose up to one your unit for each Energy Blast 3 for thats cost. All of your chosen unit get power + 5000 until end of turn.'
+AUTO 1/Turn: When you Energy Blast for your card’s ability’scost, Choose up to one your unit for each Energy Blast 3 for thats cost. All of your chosen unit get power + 5000 until end of turn.'
 
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 29
@@ -638,11 +638,11 @@ CardStat = 20166
 global.CardName[CardStat] = 'Sinoa, Awaken king of Saint blade'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
 
-AUTO [VC]: At beginning of your main phase, COST [Counter Blast 1, Soul Blast 1], choose up to one card from your drop and your opponent¡¯sdrop, you and your opponent call that to front row RC.
+AUTO [VC]: At beginning of your main phase, COST [Counter Blast 1, Soul Blast 1], choose up to one card from your drop and your opponent’sdrop, you and your opponent call that to front row RC.
 
 ACT [VC] 1/Turn: COST [Energy Blast 3 or more], and perform one for each Energy Blast 3 for this cost of the flollwing. 
 ?Call up one Knight of Raund token.
-?Choose up to one rear-guard with grade equal to or less than your opponent¡¯svanguard, stand and dominate it, it attacks your opponent¡¯sother unit, and retire that dominated unit at the end of that battle.
+?Choose up to one rear-guard with grade equal to or less than your opponent’svanguard, stand and dominate it, it attacks your opponent’sother unit, and retire that dominated unit at the end of that battle.
 ?Choose up to one rear-guard, it gets "AUTO [RC] 1/Turn: When this unit attacks, COST [discard a card from your hand], and this unit performs drive checks until end of that battle." until end of turn.'
 
 
@@ -676,7 +676,7 @@ CardStat = 20168
 global.CardName[CardStat] = 'Palomides, Sacred knight of round'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-AUTO [Soul/Drop/Bind Zone]: When you Energy Blast 9 or more for your vanguard¡¯s ability¡¯scost with "Sinoa" in their card name, if you do not have a unit with "Palomides" in its card name, call this card to RC.
+AUTO [Soul/Drop/Bind Zone]: When you Energy Blast 9 or more for your vanguard’s ability’scost with "Sinoa" in their card name, if you do not have a unit with "Palomides" in its card name, call this card to RC.
 
 AUTO [RC]: When this unit attacks a unit with grade greater than this unit, COST [Counter Blast 1], this unit get power + 10000 until end of that battle, and you have a vanguard with "Sinoa" in their card name, this unit get critical + 1 until end of that battle.'
 
@@ -710,7 +710,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
 AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Sinoa" in their card name, Energy Charge 3 , if you have energy is fifteen or more, search your deck for up to one card with "Round" in their card name and reveal it, and if your drop does not have a card with the same card name as that card, discard the revealed card. Shuffle your deck.
 
-CONT [RC]: During your turn, all of your opponent¡¯srear-guards in the same column as this unit lose all of their CONT and AUTO abilities.'
+CONT [RC]: During your turn, all of your opponent’srear-guards in the same column as this unit lose all of their CONT and AUTO abilities.'
 
 
 global.UnitGrade[CardStat] = 1
@@ -726,7 +726,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
 
 AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Sinoa" in their card name, Energy Charge 3 , if you have energy is fifteen or more, and if you did not Counter Charge this turn, Counter Charge 1.
 
-ACT [Back Row Center RC]: COST [put this unit into soul], choose up to one your opponent¡¯svanguard, all of your vanguard get it¡¯sname until end of turn.'
+ACT [Back Row Center RC]: COST [put this unit into soul], choose up to one your opponent’svanguard, all of your vanguard get it’sname until end of turn.'
 
 
 global.UnitGrade[CardStat] = 1
@@ -842,7 +842,7 @@ CardStat = 20179
 global.CardName[CardStat] = 'Harvest, Unbreakable flow'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
 
-CONT [RC] Generation Break 2 : During your turn, If your opponent has power 14000 or greater vanguard except guardian¡¯s shield, this unit gets power +20000.
+CONT [RC] Generation Break 2 : During your turn, If your opponent has power 14000 or greater vanguard except guardian’s shield, this unit gets power +20000.
 
 AUTO [RC] Wave-4th time only (This ability is active by the specified amount of battles in a turn): When this unit attacks, if you have a vanguard with "Saya" in its card name, this unit gets power +10000 until end of battle.'
 global.UnitGrade[CardStat] = 2
@@ -856,9 +856,9 @@ CardStat = 20180
 global.CardName[CardStat] = 'Flavor, deluge of literal spell'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Noble/Librarian
 
-Shadowstitch - AUTO [RC]: At the end of battle this unit attacked a vanguard, if you have a "Saya, Bounded witch in past" crest, and the attack did not hit, COST [Counter Blast 1], choose one of your opponent¡¯s rear-guard, bind it, choose one of your vanguard, and it gets power +5000 until end of turn.
+Shadowstitch - AUTO [RC]: At the end of battle this unit attacked a vanguard, if you have a "Saya, Bounded witch in past" crest, and the attack did not hit, COST [Counter Blast 1], choose one of your opponent’s rear-guard, bind it, choose one of your vanguard, and it gets power +5000 until end of turn.
 
-AUTO [RC] Generation Break 1 : When this unit¡¯s attack hits a vanguard, draw a card.'
+AUTO [RC] Generation Break 1 : When this unit’s attack hits a vanguard, draw a card.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -886,7 +886,7 @@ CardStat = 20182
 global.CardName[CardStat] = 'Saya Regret, Soulbreak Medium'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card¡¯s power and card name. At the end of the turn, return this unit face up)
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
 AUTO [VC]: When this unit attacks, COST [Bind a rear-guard], choose a card from your drop, call it to RC, If you bound a unit with Keyword ability for this cost, that called unit gets critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 4
@@ -900,9 +900,9 @@ CardStat = 20183
 global.CardName[CardStat] = 'Saya Memento, Director of Illusion Library'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card¡¯s power and card name. At the end of the turn, return this unit face up)
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent¡¯s rear-guard, all your front row gets power +10000 until end of turn. If ability is three or more, this unit gets drive +1.'
+ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets power +10000 until end of turn. If ability is three or more, this unit gets drive +1.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 101
 global.ExtraDeck[CardStat] = 1
@@ -943,7 +943,7 @@ CardStat = 20206
 global.CardName[CardStat] = 'One who wishes to success '
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
 
-Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit¡¯s drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
+Additional Effect - If you have an attacking vanguard, you perform additional drive check equal to that unit’s drive. If drive was one or less, choose up to one of your units, until end of turn, it gets power +50000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -957,7 +957,7 @@ CardStat = 20207
 global.CardName[CardStat] = 'One who wishes to win out '
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia/Over Trigger
 
-Additional Effect - Choose one of your opponent¡¯s guardian, retire it, and that unit¡¯s effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
+Additional Effect - Choose one of your opponent’s guardian, retire it, and that unit’s effects with "not be hit" in nullified. If you did not retired a card, all your front row units get critical +1 until end of turn.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -988,7 +988,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Human
 
 CONT [RC/GC] : This unit gets power +5000/shield +5000 for each of "Try & Try, Kurano" in your drop.
 
-ACT [RC]: COST [Counter Blast 1], choose one of your opponent¡¯s rear-guards, reveal top card of your deck. If you revealed grade 2, bind that unit, and you cannot activate this ability this turn. If else, retire that unit. Shuffle your deck.'
+ACT [RC]: COST [Counter Blast 1], choose one of your opponent’s rear-guards, reveal top card of your deck. If you revealed grade 2, bind that unit, and you cannot activate this ability this turn. If else, retire that unit. Shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
@@ -1000,7 +1000,7 @@ CardStat = 20259
 global.CardName[CardStat] = 'Animated Broom'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Workeroid
 
-AUTO: When this unit is placed on RC other than by a unit card¡¯s ability, if you played a normal order this turn, COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card with grade less than or equal to your vanguard from among them and reveal it, call it to RC if it is a unit card, and put it into hand if it is a normal order. Shuffle the deck.
+AUTO: When this unit is placed on RC other than by a unit card’s ability, if you played a normal order this turn, COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card with grade less than or equal to your vanguard from among them and reveal it, call it to RC if it is a unit card, and put it into hand if it is a normal order. Shuffle the deck.
 
 AUTO [RC]: When this unit attacks a grade 3 or greater unit, COST [Put one of other rear-guard into soul], Energy Charge 3, and this unit gets power +10000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
@@ -1016,7 +1016,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fiary
 
 AUTO : When this unit is placed on RC from hand, if a rear-guard moved except to drop this turn, COST [Soul Blast 1], choose a card from your drop, and call it to RC. If you activated this ability during battle phase, rest that unit.
 
-ACT [RC]: If you have a vanguard with grade 3 or greater, COST [Retire this unit], choose one of your opponent¡¯s rear-guard with grade 1 or less, and put it to bottom of deck.'
+ACT [RC]: If you have a vanguard with grade 3 or greater, COST [Retire this unit], choose one of your opponent’s rear-guard with grade 1 or less, and put it to bottom of deck.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -1148,7 +1148,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
 
 COST [Energy Blast 3] to play this card.
 
-Draw a card. During this turn, you get "When you discard cards from your deck by your vanguard¡¯s ability, you may discard not. You cannot put card to deck from another location."'
+Draw a card. During this turn, you get "When you discard cards from your deck by your vanguard’s ability, you may discard not. You cannot put card to deck from another location."'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -1403,7 +1403,7 @@ CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a de
 
 CONT: You may only have one "TRANCE BREAK" in a deck.
 
-If your opponent¡¯s vanguard has "Triple Drive", this ability can be played without paying the cost.
+If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
 
 Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
 
@@ -1424,7 +1424,7 @@ AUTO [VC] : When a rear-guard retires during your turn, you may bind a card with
 
 AUTO [VC] : At the end of battle your rear-guard attacked, you may retire that unit. If you do, Energy Charge 1, and this unit gets power +5000 until end of turn.
 
-AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent¡¯s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
+AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent’s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -1437,7 +1437,7 @@ CardStat = 20358
 global.CardName[CardStat] = 'Eternal Life Fafnir'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-AUTO: When this unit is binded by your card¡¯s ability, COST [Counter Blast 1], draw a card.
+AUTO: When this unit is binded by your card’s ability, COST [Counter Blast 1], draw a card.
 
 AUTO: When this unit is placed on RC, COST [Soul Blast 1], choose a card from your bind zone, and put it into drop.'
 global.UnitGrade[CardStat] = 1
@@ -1572,7 +1572,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
 
 AUTO: When this unit is placed by riding from "Error finding Pale Star", look at top five cards from your deck, choose up to one card with "Boost" without sentinel, reveal it and put into your hand.
 
-AUTO [VC] : When this unit¡¯s attack hits a vanguard, draw a card.'
+AUTO [VC] : When this unit’s attack hits a vanguard, draw a card.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -1684,9 +1684,9 @@ CardStat = 20418
 global.CardName[CardStat] = 'Sculpted record, Silverblossom'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
 
-Timeleap - AUTO [RC] Generation Break 1 : At the end of battle this unit attacked a vanguard, if this unit was placed this turn by a vanguard¡¯s ability, COST [Counter Blast 1], time leap this unit.
+Timeleap - AUTO [RC] Generation Break 1 : At the end of battle this unit attacked a vanguard, if this unit was placed this turn by a vanguard’s ability, COST [Counter Blast 1], time leap this unit.
 
-AUTO: When this unit is placed on RC from hand, if keyword ability in your bind zone is two or more, COST [Counter Blast 1], choose one of your opponent¡¯s rear-guard, bind it.'
+AUTO: When this unit is placed on RC from hand, if keyword ability in your bind zone is two or more, COST [Counter Blast 1], choose one of your opponent’s rear-guard, bind it.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -1801,7 +1801,7 @@ CONT: You may only have one "TRANCE BREAK" in a deck.
 
 Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
 
-If your opponent¡¯s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
 
 Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
 global.UnitGrade[CardStat] = 1
@@ -1830,7 +1830,7 @@ CardStat = 20486
 global.CardName[CardStat] = 'Satelite, blooming saga'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Librarian
 
-Thunderbolt 3 - AUTO [RC]: At the beginning of your battle phase, If your opponent¡¯s bind zone is three or more, COST [Counter Blast 1], look at top five cards from your deck, choose up to one card with keyword ability among them, reveal it, and put into your hand.
+Thunderbolt 3 - AUTO [RC]: At the beginning of your battle phase, If your opponent’s bind zone is three or more, COST [Counter Blast 1], look at top five cards from your deck, choose up to one card with keyword ability among them, reveal it, and put into your hand.
 
 AUTO [RC]: When this unit boosts, if your keyword ability in bind zone is two or more, this unit gets power +5000 during that battle.'
 global.UnitGrade[CardStat] = 1
@@ -1846,9 +1846,9 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
 CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
 
-E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent¡¯s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
+E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent’s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
 
-E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent¡¯s rear-guards, and move it to GC.'
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent’s rear-guards, and move it to GC.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -1866,7 +1866,7 @@ AUTO [VC] : When a rear-guard retires during your turn, you may bind a card with
 
 AUTO [VC] : At the end of battle your rear-guard attacked, you may retire that unit. If you do, Energy Charge 1, and this unit gets power +5000 until end of turn.
 
-AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent¡¯s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
+AUTO [VC] : At the end of battle this unit attacked, COST [Energy Blast 4 & put a card from your hand into soul], choose equal to grade of your opponent’s vanguard, and call them to RC. If you called "Shattered mirage, Ouroboros", ride that unit as stand, and it gets drive -1 until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 global.PersonaRide[CardStat] = 1
@@ -1967,7 +1967,7 @@ CardStat = 20509
 global.CardName[CardStat] = 'Knight of passion, Turquin'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
-AUTO: When this unit is placed on RC, if your vanguard¡¯s grade is less than or equal to your opponent¡¯s vanguard¡¯s grade, this unit gets power +2000 until end of turn. If you Energy Blast this turn by your card ability, this unit gets power +5000 until end of turn.
+AUTO: When this unit is placed on RC, if your vanguard’s grade is less than or equal to your opponent’s vanguard’s grade, this unit gets power +2000 until end of turn. If you Energy Blast this turn by your card ability, this unit gets power +5000 until end of turn.
 
 AUTO [RC/Drop]: When your other card is discarded from hand during your turn, COST [Energy Blast 3 & remove this card], choose one of the discarded cards, and put it into hand.'
 
@@ -2071,7 +2071,7 @@ CONT: You may have up to fifteen energy.
 
 AUTO: At the beginning of your main phase, Energy Charge 3.
 
-AUTO 1/Turn : When your unit is placed from your drop, it gets power +5000 / shield +5000 until end of turn. If your opponent¡¯s rear-guard was retired this turn, it gets power +5000 / shield +5000 until end of turn.'
+AUTO 1/Turn : When your unit is placed from your drop, it gets power +5000 / shield +5000 until end of turn. If your opponent’s rear-guard was retired this turn, it gets power +5000 / shield +5000 until end of turn.'
 
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 29
@@ -2122,7 +2122,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Ghost/Arthur
 
 CONT: The normal ride from hand of a <Ghost> both <Arthur> unit in its different card name from this unit on this unit also becomes a Persona Ride.
 
-ACT [VC] 1/Turn : COST [Energy Blast 3], choose one of your rear-guard, and it gets "CONT [RC] : During the battle this unit attacks, it fights with all of your opponent¡¯s front row units." and "AUTO [RC] : When this unit¡¯s attack hits, draw a card." until end of turn. If this unit was placed riding from grade 3 with different card name from this unit, it gets power +15000 until end of turn.
+ACT [VC] 1/Turn : COST [Energy Blast 3], choose one of your rear-guard, and it gets "CONT [RC] : During the battle this unit attacks, it fights with all of your opponent’s front row units." and "AUTO [RC] : When this unit’s attack hits, draw a card." until end of turn. If this unit was placed riding from grade 3 with different card name from this unit, it gets power +15000 until end of turn.
 
 AUTO [VC] 1/Turn : When this unit is being attacked, choose a normal unit withour sentinel from your drop, and call it to GC.'
 
@@ -2143,7 +2143,7 @@ CONT: The normal ride from hand of a <Ghost> both <Arthur> unit in its different
 
 AUTO : When this unit is placed on VC, look at top five cards from your deck, choose up to one <Arthur> among them, reveal it, and put into your hand. Shuffle your deck.
 
-AUTO [VC]: When this unit attacks, COST [Energy Blast 3], choose one of your opponent¡¯s rear-guard, retire it, choose up to one unit with same grade from this unit from your drop, call it to RC. If this unit was placed riding from grade 3 with different card name from this unit, this unit and called unit gets power +10000 until end of turn.'
+AUTO [VC]: When this unit attacks, COST [Energy Blast 3], choose one of your opponent’s rear-guard, retire it, choose up to one unit with same grade from this unit from your drop, call it to RC. If this unit was placed riding from grade 3 with different card name from this unit, this unit and called unit gets power +10000 until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
