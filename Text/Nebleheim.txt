@@ -1188,12 +1188,11 @@ CardStat = 20497
 {
 global.CardName[CardStat] = 'Lightning sprinter, Modi'
 global.CardText[CardStat] = 'Nebleheim/Warbeast'
-global.UnitGrade[CardStat] = 3
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 103
-global.PersonaRide[CardStat] = 1
 }
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20513
 {
@@ -1209,3 +1208,122 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20565
+{
+global.CardName[CardStat] = 'Whispering Mist '
+global.CardText[CardStat] = 'Nebleheim/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Whispering Mist" in a deck.
+
+Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
+
+If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20566
+{
+global.CardName[CardStat] = 'Ilona, ember in the mist'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20567
+{
+global.CardName[CardStat] = 'Ilona, Matchlight of hope'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20568
+{
+global.CardName[CardStat] = 'Ilona, lamp of ordeal'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20569
+{
+global.CardName[CardStat] = 'Ilona Zhar-Ptitsa, Signal of determination'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20570
+{
+global.CardName[CardStat] = 'Firebird that shifts the glory'
+global.CardText[CardStat] = 'Nebleheim/Set Order
+
+Texts WIP.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20571
+{
+global.CardName[CardStat] = 'Time trail traveler'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20572
+{
+global.CardName[CardStat] = 'Messenger of punishment, Cram'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20573
+{
+global.CardName[CardStat] = 'Knight of dark clouds, Vola'
+global.CardText[CardStat] = 'Nebleheim/Dragoroid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20574
+{
+global.CardName[CardStat] = 'Sherry Volk, Fang of the pack'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

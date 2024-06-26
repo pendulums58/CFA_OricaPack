@@ -2307,3 +2307,152 @@ global.DCards[CardStat] = 29
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 global.RemoveFromDrop[CardStat] = 1
+
+
+CardStat = 20575
+{
+global.CardName[CardStat] = 'Yukari, Sunken timestream'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20576
+{
+global.CardName[CardStat] = 'Yukari, Burning blue phantomthief'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed by riding from "Yukari, Sunken timestream", draw a card, and you get a "Yukari, Twilight king of Immortality" crest.
+
+(You will be prompted to get the crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20577
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20577
+{
+global.CardName[CardStat] = 'Yukari, Twilight king of Immortality'
+global.CardText[CardStat] = 'Crest
+
+CONT: You cannot ride grade 2 or greater cards without "Yukari" in their card name, and all of your energy generator lose all of ACT abilities.
+
+CONT: You may have up to fifteen energy.
+
+AUTO: At the beginning of your main phase, Energy Charge 3.
+
+AUTO 1/Turn: When your unit intercepts, that unit gets "AUTO : When this unit retires from GC, return this unit to hand."'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20578
+{
+global.CardName[CardStat] = 'Yukari, arthur of radicated bond'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+AUTO: When this unit is rode upon by a grade 3 or greater unit with "Yukari" in its card name, look at top five cards from your deck, choose up to one <Cyberoid> or <Cyber Fairy> among them, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20579
+{
+global.CardName[CardStat] = 'Yukari, Twilight king of Immortality'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur
+
+ACT [VC] : COST [Counter Blast 1], this unit gets power +10000 until end of turn.
+
+AUTO [VC] : When this unit attacks, COST [Energy Blast 3 any times], this unit gets power +5000 for each Energy Blast 3 paid for this cost. If this unit is power 38000 or greater, this unit attacks all opponent’s front row units this turn. If this unit is power 58000 or more, during the battle this unit attacks, your opponent should call three or more cards to GC. if this unit is power 100000 or more, this unit gets critical +10 / drive +10.
+
+AUTO [VC] : When your unit intercepts, Counter Charge 1.'
+
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+
+CardStat = 20580
+{
+global.CardName[CardStat] = 'Gareth, Unrivaled spear of round'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [RC/GC]: If you have a grade 3 or greater vanguard with "Yukari" in its card name, this unit gets power +5000 / shield +5000 and "Boost", and can intercept from back row.
+
+AUTO [Soul/Drop/Bind Zone]: At the beginning of your battle phase, if you have a power 58000 or greater vanguard with "Yukari" in its card name, and if you do not have a unit with "Palomides" in its card name, COST [Counter Blast 1 or Energy Blast 3], call this card to RC.'
+
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20581
+{
+global.CardName[CardStat] = 'Karastengu, Dancing sword'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
+
+AUTO: When this unit is placed on GC from RC, if you have a vanguard with "Yukari" in its card name, this unit gets shield +5000 during that battle. and [Soul Blast 1], at the end of that battle, return this unit to hand.
+
+AUTO [RC] : When your vanguard with "Yukari" in its card name attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +10000 for your vanguard’s power 30000.'
+
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20582
+{
+global.CardName[CardStat] = 'Sian, Enemy knight of Wind king'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Yukari" in their card name, Energy Charge 3 , if you have energy is fifteen or more, your opponent’s front row units cannot intercept this turn.
+
+CONT [RC]: During the battle your opponent’s unit attacked, if that battle is first battle of turn, this unit gets "Intercept", and can intercepts from back row.'
+
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20583
+{
+global.CardName[CardStat] = 'Kun, Comforting one'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
+
+AUTO: When this unit is placed on RC, If you have a grade 3 or greater vanguard with "Sinoa" in their card name, Energy Charge 3 , if you have energy is fifteen or more, choose one of your units, and it gets power +5000 until end of turn.
+
+CONT [RC]: If you have a vanguard with "Yukari" in its card name, this unit gets "Intercept", and can intercepts from back row.'
+
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
