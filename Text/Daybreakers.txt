@@ -2445,3 +2445,19 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20584
+{
+global.CardName[CardStat] = 'Jade Penetrator'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed on RC from hand, COST [Energy Blast 3], look at top five cards from your deck, choose up to one set order among them, reveal it and put into hand. Shuffle your deck.
+
+AUTO [RC] : When this unit attacks, if a card was placed in your order zone, this unit gets power +5000 until end of that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+

@@ -693,7 +693,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Noble
 
 Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-AUTO [VC]: When this unit attacks, COST [Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC.'
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1 & Turn a card from G zone face up], Choose a blitz order from your hand or drop, and put into damage zone. If you do, choose a card from your damage zone, and call it to RC.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 102
 global.ExtraDeck[CardStat] = 1
@@ -707,7 +707,7 @@ global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
 
 Stride COST [Discard a grade 3 card with "Ritrin" in its card name from hand]
 
-AUTO [VC] Generation Break 2 : When this unit attacks, COST [Counter Blast 1], Choose a blitz order from your hand or damage zone, and your opponent plays it. Its power and shield plus becomes minus. If you played from damage zone, look at top five cards from your deck, choose one among them and put into damage zone face up, and choose up to one among them and call it to RC.'
+AUTO [VC] Generation Break 2 : When this unit attacks, Choose a blitz order from your hand or damage zone, and your opponent plays it. Its power and shield plus becomes minus. If you played from damage zone, look at top seven cards from your deck, choose one among them and put into damage zone face up, and choose up to two among them and call it to RC.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 102
 global.ExtraDeck[CardStat] = 1
@@ -1439,3 +1439,22 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20586
+{
+global.CardName[CardStat] = 'Yehi Tipheret'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+Play this with COST [Counter Blast 1] if you have a "Fancy light Ritrin" crest.
+
+Choose a blitz order from your hand or drop, put it into your damage zone. If you do, choose a unit from your damage zone, call it to RC, and it gets power +5000 until end of turn.
+
+AUTO: When this card is discarded from hand while paying the cost for Stride, choose one of your vanguards or hearts, and until end of turn, reduce the next Counter Blast cost you pay for that card’s abilities by 1.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

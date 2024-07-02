@@ -1327,3 +1327,137 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20588
+{
+global.CardName[CardStat] = 'Awaken shard of mist flower'
+global.CardText[CardStat] = 'Nebleheim/Ghost
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20589
+{
+global.CardName[CardStat] = 'Servant of fubuki'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20592
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20590
+{
+global.CardName[CardStat] = 'Yuki, cadet of fubuki style'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20591
+{
+global.CardName[CardStat] = 'Fuyu, descendant of fubuki style'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20592
+{
+global.CardName[CardStat] = 'Fuyu, descendant of fubuki style'
+global.CardText[CardStat] = 'Crest'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20593
+{
+global.CardName[CardStat] = 'Sinpaxi, Day messenger'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20594
+{
+global.CardName[CardStat] = 'Rimpaxi, Night messenger'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20595
+{
+global.CardName[CardStat] = 'Priest serves the mist flower'
+global.CardText[CardStat] = 'Nebleheim/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20596
+{
+global.CardName[CardStat] = 'Wave cutting flame blader'
+global.CardText[CardStat] = 'Nebleheim/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20597
+{
+global.CardName[CardStat] = 'Spirit cutting flame blader'
+global.CardText[CardStat] = 'Nebleheim/Human'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20598
+{
+global.CardName[CardStat] = 'Fubuki Style - soul of camelia'
+global.CardText[CardStat] = 'Nebelheim/Ghost'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20599
+{
+global.CardName[CardStat] = 'Yomotsu, avatar of fubuki'
+global.CardText[CardStat] = 'Nebelheim/Ghost'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000

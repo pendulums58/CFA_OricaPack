@@ -902,7 +902,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
 Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-ACT [VC]: COST [Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets power +10000 until end of turn. If ability is three or more, this unit gets drive +1.'
+ACT [VC]: COST [Counter Blast 1, Turn a card from G zone face up], For each of Keyword ability in your bind zone, bind one of your opponent’s rear-guard, all your front row gets power +10000 until end of turn. If ability is three or more, this unit gets drive +1.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 101
 global.ExtraDeck[CardStat] = 1
@@ -2455,4 +2455,38 @@ global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20585
+{
+global.CardName[CardStat] = 'Will of Library'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+Play this with COST [Counter Blast 1] if you have a "Saya, Bounded witch in past" crest.
+
+Choose a unit card from your drop with Keyword ability, call it to RC. At the end of turn, bind that unit.
+
+AUTO: When this card is discarded from hand while paying the cost for Stride, choose one of your vanguards or hearts, and until end of turn, reduce the next Counter Blast cost you pay for that card’s abilities by 1.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20587
+{
+global.CardName[CardStat] = 'Knight of Cygnus'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberroid
+
+AUTO : When this unit is placed on RC, COST [Soul Blast 1], choose one of your units, and it gets "Boost" until end of turn. If you choose <arthur> unit, it gets power +5000 until end of turn.
+
+CONT [RC] : If you have ten or more energy, this unit gets power +5000.'
+
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
