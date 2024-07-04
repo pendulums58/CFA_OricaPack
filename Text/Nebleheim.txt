@@ -1461,3 +1461,57 @@ global.DCards[CardStat] = 103
 global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
+
+CardStat = 20609
+{
+global.CardName[CardStat] = 'Memory of bound blue flowerfield'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20610
+{
+global.CardName[CardStat] = 'Broken Memory remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20611
+{
+global.CardName[CardStat] = 'Kiri, Cherry Blossom of dividing mist'
+global.CardText[CardStat] = 'Nebleheim/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20612
+{
+global.CardName[CardStat] = 'Arousal Singularity'
+global.CardText[CardStat] = 'Nebleheim/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20613
+{
+global.CardName[CardStat] = 'Worldrunning Ratatoskr'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

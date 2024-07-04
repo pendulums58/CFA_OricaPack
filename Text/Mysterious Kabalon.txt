@@ -1458,3 +1458,61 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20601
+{
+global.CardName[CardStat] = 'Enduring Miracle, Ritrin Accetept'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+CONT : This card can only be ridden from a grade 3 with "Ritrin" in its card name.
+
+AUTO [VC] Generation Break 2 1/Turn : When this unit is attacked, COST [Remove a cards with "Ritrin" in its different card name from this unit from hand, soul, or drop from the game], choose a face up blitz order from your damage zone, play it. If you played, put that card to damage zone face down.
+
+AUTO [VC] : When your G unit Stride, COST [Energy Blast 2], Choose one of your vanguard, and it gets "CONT [VC] : All your front row units get power +3000 for each blitz order in your damage zone.".'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20602
+{
+global.CardName[CardStat] = 'Access Code "Stellarion"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Elemental
+
+CONT [GC] : If you have a vanguard with "Accetept" or "Accinial" in its card name, this unit gets shield +5000.
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Ritrin" in its card name, COST [Soul Blast 1], look at top seven cards from your deck, choose up to one blitz order among them, and put it into damage zone, if you do, choose a card from your damage zone, and heal it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20603
+{
+global.CardName[CardStat] = 'Brilliant of beyondness, Stella Bright'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+AUTO [VC] : When this unit attacks, COST [Counter Blast 1 & Choose a card from your G zone, and turn it face up], choose your rear-guard equal or less to your blitz orders in your damage zone, and stand it. If you stand one or less, choose a card from your drop, and put it into damage zone face down, choose a card from your damage zone, and heal it.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20604
+{
+global.CardName[CardStat] = 'Shining Name, Stella Ritrin'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+Stride COST [Choose a "Prime Code Access" from your hand, and discard it], and Stride this card on your VC from face down.
+
+AUTO [VC] Generation Break 2 1/Turn : At the end of battle this unit attacked, COST [Counter Blast 1], choose one of your units with less or equal grade to your blitz order in damage zone, stand it, and it gets power +10000 / drive - 2 until end of turn. If you have five or more blitz order in your damage zone, COST [Soul Blast 1 "Prime Code Access"], Until end of this fight, the number of cards in your damage zone for you to lose becomes seven.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000

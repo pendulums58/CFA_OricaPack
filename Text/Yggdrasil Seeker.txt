@@ -2490,3 +2490,63 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20605
+{
+global.CardName[CardStat] = 'Reed blooms in the otherworld, Saya Accinial'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT : This card can only be ridden from a grade 3 with "Saya" in its card name.
+
+AUTO [VC] Generation Break 2 1/Turn : When your rear-guard bound during your turn, COST [Remove a cards with "Saya" in its different card name from this unit from hand, soul, or drop from the game], draw a card, If your bind zone is two or less, choose up to one card from your hand, and bind it.
+
+AUTO [VC]: When your G unit Stride, COST [Counter Blast 1], reveal top five cards from your deck, and call all of <Librarian> among them to RC. If you called two or more, bind one of them. If you called no card, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20606
+{
+global.CardName[CardStat] = 'Access Code "Lycoris"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Elemental
+
+AUTO : When this unit is placed on RC from hand, if you have a vanguard with "Saya" in its card name, COST [Energy Blast 3], choose a unit with keyword ability from your drop, and call it to RC.
+
+ACT [Drop] : If you have a vanguard with "Accetept" or "Accinial" in its card name, COST [Counter Blast 1], call this unit to RC.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20607
+{
+global.CardName[CardStat] = 'Saya Construct, Despair Conductor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+AUTO [VC]: When this unit attacks, COST [Counter Blast 1, Turn a card from G zone face up], Choose one of your rear-guard, bind it, choose a unit with keyword ability and different name to that unit, call it to RC. If your bind zone is one or less, Energy Charge 3, and choose one of your opponent’s rear-guard, and bind it.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 20608
+{
+global.CardName[CardStat] = 'Saya Ash, Endless Remorse'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+Stride COST [Choose a "Prime Code Access" from your hand, and discard it], and Stride this card on your VC from face down.
+
+CONT [VC] : If your type of keyword ability in bind zone is five or more, all of your front row unit gets critical +1.
+
+ACT [VC] Generation Break 2 1/Turn : COST [Energy Blast 3], all of your units with keyword ability gets power +5000 until end of turn. If your rear-guard with keyword ability is five or more, COST [Soul Blast 1 "Prime Code Access"], this unit gets drive +2 until end of turn.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
