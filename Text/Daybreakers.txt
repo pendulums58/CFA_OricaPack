@@ -2461,3 +2461,22 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
+CardStat = 20623
+{
+global.CardName[CardStat] = 'Promised triumph to the end of world'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Retire any amount of rear-guard] to play this card.
+
+Choose equal to retired unit for this cost.
+?All your vanguards gets power +5000 until end of turn.
+?Counter Charge 1.
+?Choose an <admin> from your soul, and put into your hand.
+?Choose a normal unit without sentinel from your drop with different race to your vanguard, and put into your hand.
+?If you choose five mode, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

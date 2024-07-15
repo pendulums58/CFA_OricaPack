@@ -1453,7 +1453,7 @@ Choose a blitz order from your hand or drop, put it into your damage zone. If yo
 AUTO: When this card is discarded from hand while paying the cost for Stride, choose one of your vanguards or hearts, and until end of turn, reduce the next Counter Blast cost you pay for that card’s abilities by 1.'
 
 global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 101
+global.DCards[CardStat] = 102
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -1516,3 +1516,169 @@ global.DCards[CardStat] = 102
 global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
+
+CardStat = 20614
+{
+global.CardName[CardStat] = 'Hitateba Teru'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20615
+{
+global.CardName[CardStat] = 'Achievet of holding pleasant'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by "Forerunning Acolyte, Teru", look at top seven cards from your deck, choose up to one trigger order among them, reveal it, and put into your hand. If you revealed, choose up to one card from your drop, and put it into bottom of your deck, choose one of your vanguard, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20616
+{
+global.CardName[CardStat] = 'Forerunning Acolyte, Teru'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by a unit with "Pater" in its card name, COST [Reveal any amount of trigger order from your hand], look at top seven cards from your deck, choose unit cards up to same amount with revealed trigger order among them, call it to RC without unit, and shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20617
+{
+global.CardName[CardStat] = 'Illuminating seven star, Pater'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [VC] : During your turn, all of your units chosen by this unit’s ability gets power +5000.
+
+ACT [VC] 1/Turn : COST [Counter Blast 1], choose a unit from your drop with equal or less grade to amount of order played this turn, and call it to RC.
+
+AUTO [VC] : When you play a trigger order, choose one of your rear-guard, and it gets "AUTO [RC] 1/Turn : When your vanguard with "Pater" in its card name attacks, stand this unit." until end of turn. You can play an additional order this turn. If this ability is solved twice this turn, draw a card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20618
+{
+global.CardName[CardStat] = 'Pilgrim star, Rigel'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Pater" in its card name, COST [Soul Blast 1], choose a trigger order from your drop, and put it into your hand.
+
+AUTO [RC] : When your other unit with same column as this unit stand, COST [put this unit into soul], that unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20619
+{
+global.CardName[CardStat] = 'Exalted Prayer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC] : If a trigger order was played this turn, this unit gets power +5000.
+
+AUTO [RC] : When this unit stand by other than your vanguard’s ability during your battle phase, COST [Counter Blast 1], this unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20620
+{
+global.CardName[CardStat] = 'Seven star imprinted on the sky'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+Play this if you have a vanguard with "Pater" in its card name.
+
+Choose a trigger order from your damage zone or drop, and play it. If you played from damage zone, put a card from top of your deck to damage zone face down. Perform following for each removed over trigger you have.
+
+Seven Stars of Guiding Star - Counter Charge 1, and draw a card.
+
+Seven Stars of Starry Flower - Choose a trigger order from your drop, activate its trigger effect, and bind it.
+
+Seven Stars of Celestial Hall - All your front row units get power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20621
+{
+global.CardName[CardStat] = 'Seven star imprinted on the sky '
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+Play this if you have a vanguard with "Pater" in its card name.
+
+Choose a trigger order from your damage zone or drop, and play it. If you played from damage zone, put a card from top of your deck to damage zone face down. Perform following for each removed over trigger you have.
+
+Seven Stars of Guiding Star - Counter Charge 1, and draw a card.
+
+Seven Stars of Starry Flower - Choose a trigger order from your drop, activate its trigger effect, and bind it.
+
+Seven Stars of Celestial Hall - All your front row units get power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20622
+{
+global.CardName[CardStat] = 'Perfoming Miracle "Stellarion" '
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Critical Trigger
+
+COST [Energy Blast 3] to play this card.
+
+Choose one of your vanguard, and it gets "AUTO [VC] : When this unit attacks, choose your units equal to amount of this unit’s grade, and they gets power +5000 until end of turn." until end of turn. If you played a order this turn, draw a card.'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20625
+{
+global.CardName[CardStat] = 'Promised triumph to the end of world  '
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+COST [Counter Blast 1 any amount] to play this card.
+
+Choose equal to paid Counter Blast 1 for this cost.
+?Choose a trigger order from your drop, and put into your hand.
+?Choose one of your unit, and it gets power +2000 for each of your damage zone until end of turn.
+?Choose a card from your damage zone, put into your hand, choose a card from your hand, and put it into damage zone face down.
+?Choose a grade 3 from your drop, put it into damage zone, if you do, choose a card from your damage zone, and heal it.
+?If you choose five mode, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

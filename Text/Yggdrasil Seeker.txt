@@ -2550,3 +2550,23 @@ global.DCards[CardStat] = 101
 global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
+
+CardStat = 20624
+{
+global.CardName[CardStat] = 'Promised triumph to the end of world '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+COST [Energy Blast 3 any amount] to play this card.
+
+Choose equal to paid Energy Blast 3 for this cost.
+?Put up to one set order without ability piece from your hand to order zone.
+?At the end of this turn, Energy Charge 5.
+?Choose an opponent’s rear-guard with grade 1 or less, bind it.
+?Choose one of your <Cyberoid> rear-guard, return it to your hand.
+?If you choose five mode, draw a card.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
