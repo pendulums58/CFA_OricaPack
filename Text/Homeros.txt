@@ -1,0 +1,260 @@
+CardStat = 20627
+{
+global.CardName[CardStat] = 'Cheong Seola, Silvery Girl'
+global.CardText[CardStat] = 'Homeros/Human/Draw Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20628
+{
+global.CardName[CardStat] = 'Peace-wishing Goddess, Eiren'
+global.CardText[CardStat] = 'Homeros/Noble/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20629
+{
+global.CardName[CardStat] = 'Leisurely blade, Kendairo'
+global.CardText[CardStat] = 'Homeros/Warbeast/Front Trigger
+
+CONT [GC]: If your opponent뭩 vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20630
+{
+global.CardName[CardStat] = 'Curious Jiangshi'
+global.CardText[CardStat] = 'Homeros/Zombie/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20631
+{
+global.CardName[CardStat] = 'Disciple, ZangHak'
+global.CardText[CardStat] = 'Homeros/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20632
+{
+global.CardName[CardStat] = 'Goddess of victory and delight, Edirce'
+global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20633
+{
+global.CardName[CardStat] = 'Goddess of time and judgement, Tytiphon'
+global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20634
+{
+global.CardName[CardStat] = 'Goddess of luck and dream, Hynephiroa'
+global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20635
+{
+global.CardName[CardStat] = 'Shironeko #east_style'
+global.CardText[CardStat] = 'Homeros/Warbeast
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20636
+{
+global.CardName[CardStat] = 'Kratiste Aegis'
+global.CardText[CardStat] = 'Homeros/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Kratiste Aegis" in a deck.
+
+Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
+
+If your opponent뭩 crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20637
+{
+global.CardName[CardStat] = 'Allied Force Token'
+global.CardText[CardStat] = 'Homeros/Human
+
+(This unit has "Intercept" and "Boost".)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20638
+{
+global.CardName[CardStat] = 'Quiet pythia, Delphin'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20639
+{
+global.CardName[CardStat] = 'Hatamoto "26" - Muramasa'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20640
+{
+global.CardName[CardStat] = 'Geisha of loseless smile'
+global.CardText[CardStat] = 'Homeros/Warbeast
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20641
+{
+global.CardName[CardStat] = 'Wandering Aristocrat'
+global.CardText[CardStat] = 'Homeros/Human
+
+
+(Shift + click to create Allied Force token)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20637
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20642
+{
+global.CardName[CardStat] = 'Kohaku, hime of dobe'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20643
+{
+global.CardName[CardStat] = 'Mytikas dragon, Ismenion'
+global.CardText[CardStat] = 'Homeros/Thunder dragon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000	
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20644
+{
+global.CardName[CardStat] = 'Gaia, Bronze dragon of defending earth'
+global.CardText[CardStat] = 'Homeros/Earth dragon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000	
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20645
+{
+global.CardName[CardStat] = 'Disciple of burning peak'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20646
+{
+global.CardName[CardStat] = 'Lin, Girl looking afar blue sky'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20647
+{
+global.CardName[CardStat] = 'Wyvern levelshock fang'
+global.CardText[CardStat] = 'Homeros/Wing dragon'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
