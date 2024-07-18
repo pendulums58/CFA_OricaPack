@@ -2480,3 +2480,115 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20649
+{
+global.CardName[CardStat] = 'Mark of THE TIDAL  '
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: This card cannat be played.
+
+CONT [Order Zone]: You may have only one of "Mark of THE TIDAL" in your order zone.
+
+AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], choose one of your opponent’s rear-guards, and retire it.
+
+ACT [Order Zone]: COST [rest this card], choose up to one mana source card from your hand, and put it into your Order Zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20650
+{
+global.CardName[CardStat] = 'Tracing Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20651
+{
+global.CardName[CardStat] = 'Retrieving Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed by riding from "Tracing Lostvalue", Search your deck or drop for a Mana Source Card, reveal it, and put into your order zone. Shuffle your deck.
+
+CONT [RC] : During your turn, if you Counter Charge or Energy Charge this turn, this unit gets power +2000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20652
+{
+global.CardName[CardStat] = 'Encounting Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit rode upon by a grade 3 with "Lostvalue" in its card name, look at top five cards from your deck, choose up to one card neither <Omnia> nor <Admin>, reveal it, and call it to RC if it is unit, else put it into your hand. Shuffle the deck. '
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20653
+{
+global.CardName[CardStat] = 'Fint-tuning Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [VC] 1/Turn : COST [Choose a Mana Source card from your order zone, and rest it], and this unit gets power +10000 until end of turn.
+
+ACT [VC] 1/Turn : COST [Energy Blast 4], choose a grade 3 unit from your drop, and call it to RC.
+
+AUTO [VC] : When this unit attacks, COST [rest any amount of Mana Source card from your order zone], choose your rear-guards equal or less amount to rest by this cost, stand it. If your opponent’s vanguard is grade 3 or greater, turn all face up cards from your damage zone face down, and all of your front row unit gets power +3000 until end of turn for each of faced down cards.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20654
+{
+global.CardName[CardStat] = 'Lost Chapter Traveler'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed on RC from hand, if you have a vanguard with "Lostvalue" in its card name, COST [Counter Blast 1], look at top seven cards from your deck, choose up to one set order and one normal order among them, reveal it, choose one of them and put into your hand, and discard the rest. Shuffle your deck.
+
+AUTO [RC] : When this unit stand by an ability of your vanguard with "Lostvalue" in its card name, COST [Energy Blast 3], this unit gets "AUTO [RC] : When this unit attacks, this unit gets power +5000 until end of that battle. At the end of that battle, put this unit into soul." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20655
+{
+global.CardName[CardStat] = 'Timeless Lotus'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+CONT [Order Zone]: You may have only one of "Timeless Lotus" in your order zone.
+
+AUTO [Order Zone]: When this unit rest by an ability of your vanguard with "Lostvalue" in its card name, COST [Soul Blast 1], turn all cards in your damage zone face up, and Energy Charge 10.
+
+ACT [Order Zone] 1/Turn : If you have a grade 3 or greater vanguard with "Lostvalue" in its card name, COST [Energy Blast 3], choose a normal order or set order from your drop, and play it. When it would be put into drop after being played, bind it instead.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
