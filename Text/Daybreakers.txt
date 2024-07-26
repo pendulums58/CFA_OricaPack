@@ -2567,7 +2567,7 @@ global.CardText[CardStat] = 'Daybreakers/Human
 
 AUTO : When this unit is placed on RC from hand, if you have a vanguard with "Lostvalue" in its card name, COST [Counter Blast 1], look at top seven cards from your deck, choose up to one set order and one normal order among them, reveal it, choose one of them and put into your hand, and discard the rest. Shuffle your deck.
 
-AUTO [RC] : When this unit stand by an ability of your vanguard with "Lostvalue" in its card name, COST [Energy Blast 3], this unit gets "AUTO [RC] : When this unit attacks, this unit gets power +5000 until end of that battle. At the end of that battle, put this unit into soul." until end of turn.'
+AUTO [RC] : When this unit stand by an ability of your vanguard with "Lostvalue" in its card name, COST [Energy Blast 3], this unit gets "AUTO [RC] : When this unit attacks, this unit gets power +10000 until end of that battle. At the end of that battle, put this unit into soul." until end of turn.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
@@ -2592,3 +2592,104 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20657
+{
+global.CardName[CardStat] = 'Omen of Fellwrath'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20658
+{
+global.CardName[CardStat] = 'Inbound of Fellwrath'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed by riding from "Omen of Fellwrath", COST [Reveal an <admin> or <omnia> from your hand], look at top five cards from your deck, choose an <admin> or <omnia> with different race from revealed card, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20659
+{
+global.CardName[CardStat] = 'Firewall of Fellwrath'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed by riding from unit with "Fellwrath" in its card name, or rode upon by a unit with "Fellwrath" in its card name, COST [Reveal each up to one <admin> and <omnia> from your hand], choose one of your vanguard, and it gets power +5000 for each revealed card until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20660
+{
+global.CardName[CardStat] = 'Initialize of Fellwrath'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO [VC] : At the end of battle your rear-guard attacked, if the attack did not hit, increase this unit’s power equal to that unit’s power until end of turn.
+
+AUTO [VC] 1/Turn : At the end of battle this unit attacked grade 3 or greater unit, if this unit is power 45000 or greater, COST [Counter Blast 1 & discard two cards], stand this unit, and if you did not persona rode this turn, this unit gets drive -1 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20661
+{
+global.CardName[CardStat] = 'Wrath of sword master'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Fellwrath" in its card name, and if you did not activated trigger effect this turn, COST [Energy Blast 3], choose a critical trigger or draw trigger from your opponent’s drop, activate its trigger effect, and remove it.
+
+AUTO [RC] : When your vanguard stand during your battle phase, choose an opponent’s rear-guard, and retire it.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20662
+{
+global.CardName[CardStat] = 'Wrath of broken scar'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Fellwrath" in its card name, look at top five cards from your deck, choose up to one grade 3 card among them, reveal it, and put into your hand. Shuffle your deck. If you revealed, choose a card from your hand, and discard it.
+
+AUTO [RC] : When this unit’s attack hits, if you have a vanguard with "Fellwrath" in its card name, draw a card, COST [Counter Blast 1 or Energy Blast 3], choose up to two of your units, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20663
+{
+global.CardName[CardStat] = 'Administrator of thermal cloud'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC] : If you have a card with same name with your vanguard in your soul, this unit gets power +2000.
+
+AUTO [RC] : When this unit boosts a vanguard with "Magenta" or "Fellwrath" in its card name, if that unit is power 45000 or greater, COST [Soul Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
