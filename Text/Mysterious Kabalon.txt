@@ -1682,3 +1682,22 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20681
+{
+global.CardName[CardStat] = 'Pain Scaling Seasonscape'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+COST [Soul Blast 1 grade 3] to play this card.
+
+Look at top five cards from your deck, choose up to one normal unit among them, and call it to RC. choose up to one trigger unit among them, and put it on top of your deck. Discard else.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1

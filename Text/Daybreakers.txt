@@ -2693,3 +2693,115 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20671
+{
+global.CardName[CardStat] = 'Sleepyhead of fairy forest, Knil'
+global.CardText[CardStat] = 'Daybreakers/Elf
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20672
+{
+global.CardName[CardStat] = 'Train sword every day, Knil'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20673
+{
+global.CardName[CardStat] = 'Concerning magic study, Knil'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20674
+{
+global.CardName[CardStat] = 'Brave of dawn, Knil'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PersonaRide[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20675
+{
+global.CardName[CardStat] = 'Whirlwind slash'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword art'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20676
+{
+global.CardName[CardStat] = 'Phantom hourglass'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20677
+{
+global.CardName[CardStat] = 'Essence : Scratch hand'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20678
+{
+global.CardName[CardStat] = 'Wind rising in dawn, Adlez'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PersonaRide[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20679
+{
+global.CardName[CardStat] = 'Advisor of noon, Andim'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20680
+{
+global.CardName[CardStat] = 'Buddy running in the sunset, Anope'
+global.CardText[CardStat] = 'Daybreakers/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
