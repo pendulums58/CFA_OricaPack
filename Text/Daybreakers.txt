@@ -71,17 +71,19 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20005
 {
-global.CardName[CardStat] = 'Surprise Scatter, Crys'
-global.CardText[CardStat] = 'Daybreakers/Human
+global.CardName[CardStat] = 'Travel : Cordinate'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
 
-CONT [RC]: If you have a grade 3 or greater vanguard with "Tsubaki" in its card name, this unit gets "Intercept", and can intercept from the back row, and gets power +5000. 
+COST [Counter Blast 1] to play this card.
 
-AUTO:When this unit is placed on RC except from hand, COST [Choose a normal unit from drop, ant put it on bottom of deck, rest a Mana Source card], choose a unit with "Tsubaki" in its card name, and until end of turn, that unit and this unit get power +5000.'
+AUTO: When this card is put into the Order Zone, COST [Energy Blast 3], Draw a card.
+AUTO [Order Zone] : During your turn, if this card rest by your card’s ability, COST [Energy Blast 3], choose one of your unit, and it gets power +5000 until end of turn.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
 }
-global.PowerStat[CardStat] = 8000
-global.DefensePowerStat[CardStat] = 5000
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20006
 {
@@ -172,22 +174,6 @@ global.PersonaRide[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 20011
-{
-global.CardName[CardStat] = 'Glitter Flatter Encounter, Tsubaki'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is placed by riding from "Tsubaki Suzuna, pink camellia", search your deck for up to one Mana source card, put it into the order zone, shuffle deck, and activate persona ride.
-
-AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card, bind a "Tsubaki Suzuna, pink camellia" from soul], search your soul, deck and drop for each up to one card total grade less than or equal to the number of rest for this cost, call them to RC, shuffle the deck, choose up to Mana source card in your order zone to the number of called "Crys" in its card name, stand it. At the end of that turn, ride the card bouded for this cost as rest.'
-
-global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 100
-global.PersonaRideCardName[CardStat] = 'Tsubaki'
-global.PersonaRide[CardStat] = 1
-}
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20012
 {
