@@ -15,11 +15,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20001
 {
 global.CardName[CardStat] = 'Travel : Cordinate'
-global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
-
-COST [Counter Blast 1] to play this card.
-
-AUTO: When this card is put into the Order Zone, Draw a card.'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
@@ -30,11 +26,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20002
 {
 global.CardName[CardStat] = 'Tsurugi "Leader" Tsubaki'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is placed by riding on "Peridot Pridevalue", search your deck / drop for a Mana Source card, put it into your Order Zone as rest, shuffle your deck.
-
-CONT [RC]: During your turn, this unit gets power +2000 for your Mana Source cards in rest.'
+global.CardText[CardStat] = 'Daybreakers/Human'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -44,11 +36,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20003
 {
 global.CardName[CardStat] = 'Fullbloom Ember Fox'
-global.CardText[CardStat] = 'Daybreakers/Warbeast
-
-ACT [Drop]: COST [Rest a Mana Source card from your Order Zone], call this unit to RC as rest.
-
-AUTO [RC] 1/Turn: When this unit attacks or boosts, if your rear-guards and Mana Source cards in rest are total five or more, this unit gets power +6000 until end of battle.'
+global.CardText[CardStat] = 'Daybreakers/Warbeast'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -58,11 +46,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20004
 {
 global.CardName[CardStat] = 'Goddess of pae-pae row'
-global.CardText[CardStat] = 'Daybreakers/Spirit
-
-AUTO: When this unit is placed on RC, if you have a vanguard with "Tsubaki" in its card name, COST [Counter Blast 1, rest a Mana Source card], choose up to one unit card with grade less than or equal to your vanguard from your drop, call it to front row RC in the same column as this unit.
-
-AUTO [RC]: At the end of battle that this unit boosted, you may choose one of your Mana Source cards, and stand it. If you have no other units in the same column as this unit, COST [put this unit into soul], draw a card.'
+global.CardText[CardStat] = 'Daybreakers/Spirit'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -71,7 +55,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20005
 {
-global.CardName[CardStat] = 'Travel : Cordinate'
+global.CardName[CardStat] = 'Lostway : Travel'
 global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
 
 COST [Counter Blast 1] to play this card.
@@ -88,11 +72,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20006
 {
 global.CardName[CardStat] = 'Crys, value of pride'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is placed by riding on "Tsurugi "Leader" Tsubaki", COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card neither <Omnia> nor <Admin>, reveal it and put it into hand, and shuffle the deck.
-
-AUTO [RC]:When it attacks, if you have a vanguard with "Tsubaki" in its card name, COST [rest any number of Mana Source card], until end of that battle, this unit gets power +3000 for cards rest for this cost, at the end of that battle, stand all of your Mana Source cards. If you stand, put this card into soul.'
+global.CardText[CardStat] = 'Daybreakers/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
@@ -102,22 +82,14 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20007
 {
 global.CardName[CardStat] = 'Lindworm of flowerbloom scenery'
-global.CardText[CardStat] = 'Daybreakers/Cyber Dragon
-
-CONT [Hand/Deck/Order Zone]: This card is also regarded as Mana source Set Order.
-
-AUTO [RC]: When this is placed on [RC] from Order Zone, this unit gets "Boost", and power + 5000.
-
-AUTO [RC]: At end of the battle this unit attacked or boosted, If you have a vanguard with "Tsubaki" in its card name, put this unit into your Order Zone as rest.
-
-AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], call this card to an RC as stand. This abillity may only be used by a card with the same card name once a turn.'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 10000
-global.DefensePowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20008
 {
@@ -144,11 +116,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20009
 {
 global.CardName[CardStat] = 'Tsubaki Suzuna, pink camellia'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-ACT [VC] 1/Turn: COST [Counter Blast 1], search your deck or hand for up to one card of Mana source Set Order, and put it into the order zone. If you searched your deck, shuffle your deck.
-
-AUTO [VC]: When this unit attacks, COST [rest any number of Mana source card], search your deck and drop for each up to one card total grade less than or equal to the number of rest for thsi cost, call them to RC. If your opponent’s svanguard is grade 3 or greater, called unis get power + 5000 until end of turn.'
+global.CardText[CardStat] = 'Daybreakers/Human'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
@@ -161,11 +129,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20010
 {
 global.CardName[CardStat] = 'Manapath Re-constructor'
-global.CardText[CardStat] = 'Daybreakers/Warbeast
-
-AUTO [GC]: When this unit placed on GC, COST [rest one of Mana source card], this unit gets shield + 5000 until end of that battle.
-
-AUTO [R]: When this unit attacks, COST [Counter Blast 1, rest one or two of Mana source card], this unit gets power + 5000 until end of that battle, If you rest two for this cost, your opponent canot call grade 1 or greater units from hans to GC until end of that battle. At the end of that battle, COST [put this unit on the bottom of your deck], choose a Mana source card from your damage zone or drop, and put it into your hand. If you choose from your damage zone, put a card from your hand into your damage zone face down.'
+global.CardText[CardStat] = 'Daybreakers/Warbeast'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
@@ -1874,11 +1838,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20320
 {
 global.CardName[CardStat] = 'Crys, value of pride '
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is placed by riding on "Tsurugi "Leader" Tsubaki", COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card neither <Omnia> nor <Admin>, reveal it and put it into hand, and shuffle the deck.
-
-AUTO [RC]:When it attacks, if you have a vanguard with "Tsubaki" in its card name, COST [rest any number of Mana Source card], until end of that battle, this unit gets power +3000 for cards rest for this cost, at the end of that battle, stand all of your Mana Source cards. If you stand, put this card into soul.'
+global.CardText[CardStat] = 'Daybreakers/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }

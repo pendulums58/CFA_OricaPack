@@ -148,6 +148,7 @@ Choose a normal unit with grade less or equal to paid Soul Blast for this cost f
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -166,6 +167,7 @@ Choose one of your unit, and it gets power +10000 until end of that battle. If y
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -184,6 +186,7 @@ Choose one of your vanguard being attacked, and it gets power +5000 for each of 
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 101
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -202,6 +205,7 @@ Choose one of your opponent’s rear-guard, bind it. If you played other order or 
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 101
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -220,6 +224,7 @@ Choose a face up card from your damage zone, put it into your hand. Choose a car
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 102
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -238,6 +243,7 @@ Look at top five cards from top of your deck, choose up to one grade 2 or higher
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 102
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -256,6 +262,7 @@ Look at top five cards from top of your deck, choose up to one unit grade less o
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 103
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
@@ -274,6 +281,7 @@ Choose one of your opponent’s rear-guard, retire all opponent’s rear-guard with 
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 103
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
