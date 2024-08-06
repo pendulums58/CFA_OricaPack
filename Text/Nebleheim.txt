@@ -1585,7 +1585,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20686
 {
-global.CardName[CardStat] = 'Disdain Mistraper, Cis'
+global.CardName[CardStat] = 'Disdain Mistraper, Sis'
 global.CardText[CardStat] = 'Nebleheim/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 103
@@ -1604,3 +1604,134 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20689
+{
+global.CardName[CardStat] = 'Corrupted Memory Attendant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20690
+{
+global.CardName[CardStat] = 'Ecstasy mistraper, Omichli'
+global.CardText[CardStat] = 'Nebelheim/Human
+
+AUTO : When this unit is placed by riding from "Corrupted Memory Attendant", search your deck or drop for a "Sunbinding Celestus", and put it into your order zone. If you searched your deck, shuffle your deck.
+
+CONT [RC] : If this unit is placed from your moon this turn, this unit gets power +2000.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20691
+{
+global.CardName[CardStat] = 'Mold Fogsmith, Alto'
+global.CardText[CardStat] = 'Nebelheim/Human
+
+AUTO : When this unit rode upon by a grade 3 unit with "Frisia" in its card name, COST [Choose a card from your soul, and tie it to moon], look at top five cards from your deck, choose up to two cards among them, and tie them to moon.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20692
+{
+global.CardName[CardStat] = 'Eternal chaser, Frisia'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT [VC] : When a rear-guard retires during your turn, tie it to your moon instead.
+
+ACT [VC] 1/Turn : COST [Counter Blast 1], choose up to each one of rear-guard, retire it. If you choose your unit, draw a card, and Energy Charge 3.
+
+[Divine Skill] ACT [VC] Legion 26000 grade 4 unit with "Emrakul" in its card name (If your opponent’s vanguard is grade 3 or greater, this unit may return four cards from your drop zone into your deck once, search your deck for the specified card, and Legion)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20693
+{
+global.CardName[CardStat] = 'Emeria, Nightmaker'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT : If six or more card is tied in your moon, this card’s name becomes "Emrakul, the promised end".
+
+CONT [VC/RC] : If sixteen or more cards are tied in your moon, all of your units in same circle with this unit gets power +5000.
+
+AUTO [VC] 1/Turn : At the end of battle this unit attacked, if you have a vanguard with "Frisia" in its card name, COST [Soul Blast 1], stand this unit, and all of your vanguards get drive -1 until end of turn. If sixteen or more cards are tied in your moon, all of your vanguards get drive +1 until end of turn instead.'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20694
+{
+global.CardName[CardStat] = 'Shattering memory, Amano'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO : When this unit is placed on RC from hand, COST [Counter Blast 1], look at top five cards from your deck, choose up to one card, and tie it to your moon. Shuffle your deck.
+
+AUTO [RC] : When this unit boosts a unit that owner is your opponent, this unit gets power +5000 until end of battle.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20695
+{
+global.CardName[CardStat] = 'Sunbinding Celestus'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.
+
+CONT: This card cannot be played.
+
+AUTO [Order Zone] : When your grade 3 or greater vanguard attacks, COST [Retire a rear-guard], choose up to one grade 3 or less unit tied in your moon, call it to RC. At the end of turn, retire that unit.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20696
+{
+global.CardName[CardStat] = 'Apocalpyse calling flame sword'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure/Arms
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.Arms[CardStat] = 1

@@ -2491,7 +2491,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20653
 {
-global.CardName[CardStat] = 'Fint-tuning Lostvalue'
+global.CardName[CardStat] = 'Fine-tuning Lostvalue'
 global.CardText[CardStat] = 'Daybreakers/Human
 
 ACT [VC] 1/Turn : COST [Choose a Mana Source card from your order zone, and rest it], and this unit gets power +10000 until end of turn.
