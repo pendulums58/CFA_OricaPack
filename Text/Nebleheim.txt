@@ -1656,7 +1656,7 @@ CONT [VC] : When a rear-guard retires during your turn, tie it to your moon inst
 
 ACT [VC] 1/Turn : COST [Counter Blast 1], choose up to each one of rear-guard, retire it. If you choose your unit, draw a card, and Energy Charge 3.
 
-[Divine Skill] ACT [VC] Legion 26000 grade 4 unit with "Emrakul" in its card name (If your opponent’s vanguard is grade 3 or greater, this unit may return four cards from your drop zone into your deck once, search your deck for the specified card, and Legion)'
+[Divine Skill] ACT [VC] Legion 22000 grade 4 unit with "Emrakul" in its card name (If your opponent’s vanguard is grade 3 or greater, this unit may return four cards from your drop zone into your deck once, search your deck for the specified card, and Legion)'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 103
@@ -1735,3 +1735,25 @@ global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
 global.Arms[CardStat] = 1
+
+CardStat = 20701
+{
+global.CardName[CardStat] = 'Libreated mythic beast, Vanargandr'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20702
+{
+global.CardName[CardStat] = 'Purgatory mythic beast, Fenrir'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
