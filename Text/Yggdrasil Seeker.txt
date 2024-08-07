@@ -31,7 +31,7 @@ CardStat = 20103
 global.CardName[CardStat] = 'Phoenix, lamp of boundary'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-E.G.O Blooming - AUTO [VC]: When this unit is placed by riding on "Pheonix, match of hatred", look at the top five cards of your deck, choose up to one card with the "E.G.O" ability, reveal it and put it into hand, and shuffle the deck.
+E.G.O Blooming - AUTO [VC]: When this unit is placed by riding on "Phoenix, match of hatred", look at the top five cards of your deck, choose up to one card with the "E.G.O" ability, reveal it and put it into hand, and shuffle the deck.
 
 "E.G.O" (This ability is active if you used your vanguards "E.G.O Blooming" ability this turn.) - ACT [VC] 1/Turn: choose one of your opponent’s rear-guards, it gets shield - 10000 until end of turn.'
 
@@ -65,7 +65,7 @@ CardStat = 20105
 global.CardName[CardStat] = 'Silent Blue Flame'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms
 
-E.G.O Arms - "Pheonix, signal of dawn"
+E.G.O Arms - "Phoenix, signal of dawn"
 
 Play this with COST [put a rear-guards into your soul]!
 
@@ -86,7 +86,7 @@ CardStat = 20106
 global.CardName[CardStat] = 'Starcloud Stepper'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
 
-CONT [RC/GC]: If you have a vanguard with "Pheonix", this unit gets "Intercept" and shield + 10000.
+CONT [RC/GC]: If you have a vanguard with "Phoenix", this unit gets "Intercept" and shield + 10000.
 
 E.G.O - CONT [RC]: This unit gets power + 5000.'
 
@@ -102,7 +102,7 @@ CardStat = 20107
 global.CardName[CardStat] = 'Rading Whitefeather'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-AUTO [RC]: When this unit is placed, if you have a vanguard with "Pheonix" in its card name, all of your opponent’s rear-guards total shield is 0 or less, COST [Counter Blast 1], and draw a card.
+AUTO [RC]: When this unit is placed, if you have a vanguard with "Phoenix" in its card name, all of your opponent’s rear-guards total shield is 0 or less, COST [Counter Blast 1], and draw a card.
 
 E.G.O - CONT [RC]: This unit gets "Boost".'
 
@@ -1768,7 +1768,7 @@ CardStat = 20441
 global.CardName[CardStat] = 'Pure rain Crowwing'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
-AUTO : When this unit is placed on RC, if you have a grade 3 or greater vanguard with "Checkmate" or "Pheonix" in its card name, Energy Charge 3.
+AUTO : When this unit is placed on RC, if you have a grade 3 or greater vanguard with "Checkmate" or "Phoenix" in its card name, Energy Charge 3.
 
 EGO - AUTO [RC] : At the end of battle this unit boosted, COST [Put this unit into soul], choose one of your rear-guard, and it gets power +5000 until end of turn.'
 
@@ -2585,3 +2585,65 @@ global.DCards2[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20697
+{
+global.CardName[CardStat] = 'Silent Blue Flame '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms
+
+E.G.O Arms - "Phoenix, signal of dawn"
+
+Play this with COST [put a rear-guards into your soul]!
+
+AUTO [VC]: At the beginning of your battle phase, COST [put this card into soul], look at the top three cards of your deck, choose up to one card from among them, call it to RC, and shuffle the deck.
+
+E.G.O - AUTO [Soul]: At the end of the battle your vanguard, arm this card to your vanguard, if your opponent’s vanguard is grade 3 or greater, COST [Put two card from hand into soul], stand a Armed with this card, and drive - 2 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+global.Arms[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20698
+{
+global.CardName[CardStat] = 'Phoenix, signal of dawn  '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+CONT [VC]: If your opponent has two or less rear-guards, this unit gets drive + 1.
+
+E.G.O Blooming - ACT [VC] 1/Turn: COST [Counter Blast 1, Soul Blast 2], all of your opponent’s rear-guards, gets shield - 10000 until end of turn, if your opponent has no rear-guards,  Counter Charge 1.
+
+E.G.O - AUTO [VC]: When this unit attacks, choose one of your opponent’s rear-guards, and move it to GC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20699
+{
+global.CardName[CardStat] = 'Prominence will Liberty wing'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20700
+{
+global.CardName[CardStat] = 'Wing of red flame, Phoenix Ragnarok'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
