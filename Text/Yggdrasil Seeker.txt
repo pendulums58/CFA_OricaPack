@@ -2574,7 +2574,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20688
 {
 global.CardName[CardStat] = 'Sacred tree sweepers, Bertrand & Vedr'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Noble/High Beast
+global.CardText[CardStat] = 'Yggdrasil Seeker/Nebelheim/Noble/High Beast
 
 AUTO: When this unit is placed on RC from hand other than during the battle phase, Energy Charge 2, choose a normal unit from your bind zone, and drop it. Then, COST [Counter Blast 1], and perform one of the following.
 ?Choose a rear-guard from any fighter with different name for this card, and return it to hand.

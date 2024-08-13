@@ -2755,7 +2755,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20703
 {
 global.CardName[CardStat] = 'Rescuing reincarnation, Ren & Idea'
-global.CardText[CardStat] = 'Daybreakers/Human/Chimera
+global.CardText[CardStat] = 'Daybreakers/Mysterious Kabalon/Human/Chimera
 
 AUTO: When this unit is placed on RC from hand other than during the battle phase, choose a face up card with same race from your vanguard, and put it into your hand. If you choose, choose a card from your hand, and put into damage zone. Then, COST [Counter Blast 1], and perform one of the following.
 ?Choose a unit with less or equal grade to your vanguard and same race from card putted to damage zone, and call it to RC.
@@ -2831,7 +2831,7 @@ global.DefensePowerStat[CardStat] = 15000
 
 CardStat = 20709
 {
-global.CardName[CardStat] = 'Wish of Cyanite'
+global.CardName[CardStat] = 'Frost soul, Bluebolt'
 global.CardText[CardStat] = 'Daybreakers/Ego Sword
 
 CONT: Sentinel.

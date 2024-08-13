@@ -1757,3 +1757,18 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20712
+{
+global.CardName[CardStat] = 'Sunset and dawn, Dust & Claris'
+global.CardText[CardStat] = 'Nebelheim/Daybreakers/Human/Earth Dragon
+
+AUTO: When this unit is placed on RC from hand other than during the battle phase, Look cards equal to race of your circle from top of your deck, discard up to two cards among them, shuffle your deck. Then, COST [Counter Blast 1], and perform one of the following.
+?Choose up to two cards with grade less or equal to your vanguard from your drop, and put them to open RC as locked card.
+?Choose up to each one of your unit with same race as discarded card, and they gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.DCards2[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
