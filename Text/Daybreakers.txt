@@ -2751,3 +2751,121 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20703
+{
+global.CardName[CardStat] = 'Rescuing reincarnation, Ren & Idea'
+global.CardText[CardStat] = 'Daybreakers/Human/Chimera
+
+AUTO: When this unit is placed on RC from hand other than during the battle phase, choose a face up card with same race from your vanguard, and put it into your hand. If you choose, choose a card from your hand, and put into damage zone. Then, COST [Counter Blast 1], and perform one of the following.
+?Choose a unit with less or equal grade to your vanguard and same race from card putted to damage zone, and call it to RC.
+?Choose a critical trigger from your hand, and put it bottom of your deck. Draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.DCards2[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20704
+{
+global.CardName[CardStat] = 'Peacemaking clearwing'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed on RC, if your drop has three or more order, this unit gets power +2000 until end of turn.
+
+AUTO [RC] : When an attack this unit boost hits, choose up to one order from your drop, put it into your hand or top of deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20705
+{
+global.CardName[CardStat] = 'Marpoly Suppliment'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20706
+{
+global.CardName[CardStat] = 'Egoblade Timekeeper'
+global.CardText[CardStat] = 'Daybreakers/Workeroid/Front Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20707
+{
+global.CardName[CardStat] = 'Master of sacred sword'
+global.CardText[CardStat] = 'Daybreakers/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20708
+{
+global.CardName[CardStat] = 'Elderdrago of tearing dragon time'
+global.CardText[CardStat] = 'Daybreakers/Dragonoid/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20709
+{
+global.CardName[CardStat] = 'Wish of Cyanite'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20710
+{
+global.CardName[CardStat] = 'Petalflowing Peacemaker'
+global.CardText[CardStat] = 'Daybreakers/Human/Heal Trigger
+
+AUTO: When this unit is placed on GC, if your opponent’s attacking unit has attacked two or more times this turn, this unit gets shield +15000 until end of that battle. (Active if this battle is its second attack this turn or more)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20711
+{
+global.CardName[CardStat] = 'Echo of truth'
+global.CardText[CardStat] = 'Daybreakers/Human/Heal Trigger
+
+AUTO: When this unit is put on GC, if your vanguard’s grade is less than your opponent’s vanguard’s grade, this unit gets shield +10000 until end of that battle.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 10000

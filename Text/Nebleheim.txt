@@ -1755,5 +1755,5 @@ global.CardText[CardStat] = 'Nebleheim/Vargr'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 103
 }
-global.PowerStat[CardStat] = 18000
+global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
