@@ -789,7 +789,7 @@ CardStat = 20070
 global.CardName[CardStat] = 'Cyan, Genesis Admin'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-AUTO: When this unit is rode upon by "Cyan, Unfading purity", COST [Retire a rear-guard], look at seven cards from top of your deck, choose up to two grade 2 or less cards, call one of them to RC, and rewrite the rest to called unit.
+AUTO: When this unit is rode upon by grade 3 unit with "Cyan" in its card name, COST [Choose a card from your hand or RC, and put it into drop], look at seven cards from top of your deck, choose up to two grade 2 or less cards, call them to RC. Shuffle your deck.
 
 AUTO [VC]: When this unit’s attack hits a vanguard, draw a card.'
 global.UnitGrade[CardStat] = 2
@@ -803,9 +803,11 @@ CardStat = 20071
 global.CardName[CardStat] = 'Cyan, Unfading purity'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-CONT [VC]: During your turn, if your rear-guards ability activated thrice or more, this unit gets power +10000.
+CONT [VC]: When you call to a RC with unit except normal call, rewrite that unit. 
 
-AUTO [VC]: When placed or attacks, choose a card from your hand or drop, call it to RC, if a unit was already exists, rewrite it.
+CONT [VC]: All your rewroten unit gets power +5000.
+
+AUTO [VC]: When placed or attacks, choose a unit without sentinel from your hand or drop, call it to RC.
 
 AUTO [VC]: When your unit retires during your turn, COST [Soul Blast 1], draw a card.'
 
@@ -824,11 +826,13 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 DressUp - "Cyan, Unfading purity" (During this fight, this card is also regarded as the specified card)
 
-CONT [VC]: Whenever you call a unit to RC that already unit exists, rewrite it.
+CONT [VC]: When you call to a RC with unit, rewrite that unit. 
 
-ACT [VC] 1/Turn : If "Cyan, Unfading purity" exists in your soul, COST [Counter Blast 1, discard a card], choose one of your rear-guards with grade 3 or less, at the next time that unit attacks, it performs drive check.
+ACT [VC] 1/Turn : If you have a grade 3 unit with "Cyan" in its card name in your soul, perform all of following.
+?Choose a grade 1 unit without sentinel from your drop, call it to RC.
+?COST [Counter Blast 1 & discard a card], choose a normal unit without sentinel from your drop, call it to RC. That unit gets "AUTO [RC] 1/Turn : When this unit attacks, perfrom drive check this battle." until end of turn.
 
-AUTO [VC]: At the end of battle this unit attacked, choose a card named "Cyan, Unfading purity" from your soul, ride it as rest. You may Soul Charge 1.'
+AUTO [VC]: At the end of battle this unit attacked, choose a card named "Cyan, Unfading purity" from your soul, ride it as rest. (This effect is mandatory.) You may Soul Charge 1.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRideCardName[CardStat] = 'Cyan'
@@ -842,7 +846,9 @@ CardStat = 20073
 global.CardName[CardStat] = 'Magenta, under the burning heat'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-AUTO [RC]: When an attack hits this unit attacks or boosts, choose one of your opponent’s rear-guards, retire it. If you have a vanguard with "Cyan" in its card name, COST [put this unit into soul], choose one of your units, that unit gets power +10000 until end of turn.'
+CONT [VC/RC]: If this unit is power 45000 or greater, this unit gets critical +1 / drive +1.
+
+AUTO [RC]: When an attack hits this unit attacks or boosts, choose one of your opponent’s rear-guards, retire it. If you have a vanguard with "Cyan" in its card name, COST [put this unit into soul], choose one of your units, that unit gets power +5000 / critical +1 until end of turn.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
@@ -854,9 +860,9 @@ CardStat = 20074
 global.CardName[CardStat] = 'Yellow, on the sparkling sandy beach'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-CONT [RC]: If you have a grade 3 or greater vanguard with "Cyan" in its card name, this unit gets power +2000 for this units AUTO ACT CONT ability.
+CONT [RC]: During the battle this unit attacks or boosts, your ability with "when attack hits"  activate even if the attack did not hit.
 
-CONT [RC]: This unit’s "when attack hits" effects activate even if the attack did not hit.'
+CONT [RC]: If you have a grade 3 or greater vanguard with "Cyan" in its card name, this unit gets power +2000 for this units AUTO ACT CONT ability.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -868,9 +874,9 @@ CardStat = 20075
 global.CardName[CardStat] = 'Administrator of Purple sky'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-AUTO [RC]: When your vanguard with "Cyan" in its card name attacks, this unit gets power +5000 until end of turn.
+AUTO: When this unit is placed on RC from hand, choose a unit grade less or equal to your vanguard from your hand, call it to RC.
 
-AUTO [back row RC] 1/Turn : When your unit placed, you may stand this unit.'
+AUTO [RC]: At the end of your turn, you may return this unit to hand.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -882,9 +888,9 @@ CardStat = 20076
 global.CardName[CardStat] = 'Administrator of Thousand nightsky'
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-CONT [RC]: If this unit is rewrote, this unit gets power +5000.
+AUTO : When this unit is placed on RC from your hand by an ability, COST [Counter Blast 1], look at top two cards from your deck, choose up to one card, and put into your hand. Put rests bottom of your deck.
 
-ACT [RC] 1/Turn : COST [Rest this unit], choose a card from your hand, call it to RC that unit already exists, if you have no face-up cards in your damage zone, Counter Charge 1.'
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Cyan" in its card name, Energy Charge 2.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
@@ -898,7 +904,7 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 AUTO: When this unit is placed on RC from hand, if you have a vanguard with "Cyan" in its card name, COST [Counter Blast 1], look at five card from top of your deck, choose up to two unit cards among them, call them to RC in the same column as this unit, shuffle your deck.
 
-AUTO [RC] 1/Turn : When this unit attacks a vanguard, if five or more units placed on your RC this turn, COST [Soul Blast 1], until end of that battle, when your opponent would call cards from their hand to GC, they must call two or more at the same time.'
+AUTO [RC] 1/Turn : When this unit attacks a vanguard, if this unit is rewrote, when your opponent would call cards from their hand to GC, they must call two or more at the same time.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
@@ -2248,9 +2254,11 @@ CardStat = 20491
 global.CardName[CardStat] = 'Cyan, Unfading purity '
 global.CardText[CardStat] = 'Daybreakers/Admin
 
-CONT [VC]: During your turn, if your rear-guards ability activated thrice or more, this unit gets power +10000.
+CONT [VC]: When you call to a RC with unit except normal call, rewrite that unit. 
 
-AUTO [VC]: When placed or attacks, choose a card from your hand or drop, call it to RC, if a unit was already exists, rewrite it.
+CONT [VC]: All your rewroten unit gets power +5000.
+
+AUTO [VC]: When placed or attacks, choose a unit without sentinel from your hand or drop, call it to RC.
 
 AUTO [VC]: When your unit retires during your turn, COST [Soul Blast 1], draw a card.'
 
@@ -2267,9 +2275,9 @@ CardStat = 20492
 global.CardName[CardStat] = 'Administrator of pale route'
 global.CardText[CardStat] = 'Daybreakers/Yggdrasil Seeker/Admin
 
-CONT [RC] : If you have a rewroten unit, this unit gets power +5000.
+ACT [RC] 1/Turn : COST [rest this unit], choose one of your unit, and it gets power +5000 until end of turn.
 
-AUTO [RC] 1/Turn : If this unit’s other ability activated during your turn, COST [Counter Blast 1], choose one of your units, and it gets power +5000 until end of turn. If you choose a vanguard with "Cyan" or "Pale Star" in its card name, choose one of your units, and it gets power +5000 until end of turn.'
+AUTO [RC] : When your grade 3 or greater vanguard with "Cyan" or "Pale Star" in its card name attacks, COST [Energy Blast 4], stand this unit. If this unit is in back row RC, you may not pay this cost.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
