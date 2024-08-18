@@ -434,3 +434,111 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20728
+{
+global.CardName[CardStat] = 'Radiant talent, ristim'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20729
+{
+global.CardName[CardStat] = 'Impression in lifetime, ristim'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20730
+{
+global.CardName[CardStat] = 'Slow refresh, ristim'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20731
+{
+global.CardName[CardStat] = 'Ristim \#East style'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20732
+{
+global.CardName[CardStat] = 'Space traveling rabbit'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20733
+{
+global.CardName[CardStat] = 'Jiangshi, Shi zein'
+global.CardText[CardStat] = 'Homeros/Zombie'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20734
+{
+global.CardName[CardStat] = 'Jiangshi, Xiao Li Li'
+global.CardText[CardStat] = 'Homeros/Zombie'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20735
+{
+global.CardName[CardStat] = 'Peaceful pythia, plania'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20736
+{
+global.CardName[CardStat] = 'Knight of Cause, Emerl'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20737
+{
+global.CardName[CardStat] = 'Multiverse orbital observer "Tenryuu"'
+global.CardText[CardStat] = 'Homeros/Revelation order'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 0
