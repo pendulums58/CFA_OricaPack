@@ -2877,3 +2877,17 @@ global.DCards[CardStat] = 100
 global.TriggerUnit[CardStat] = 4
 global.PowerStat[CardStat] = 4000
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20726
+{
+global.CardName[CardStat] = 'Blue illumination praises the bird, Glory wing'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+AUTO [VC/RC]: When this unit attacks, COST [Put a card from your hand to soul], this unit gets power +5000 / drive +1 until end of that battle.
+
+AUTO [RC]: At the end of your turn, COST [Bind this unit], choose a grade 2 or greater <admin> from your drop, and put it to top or bottom of your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
