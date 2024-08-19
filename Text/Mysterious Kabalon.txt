@@ -1778,3 +1778,17 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20740
+{
+global.CardName[CardStat] = 'Pilgrim Star, Regulus'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera
+
+AUTO: When this card is discarded from hand during your turn, if your vanguard is grade 2 or greater, COST [Soul Blast 1], and call this card to RC. If it is your battle phase, this unit cannot attack until end of turn.
+
+CONT [RC]: If a card was putted into your damage zone this turn, this unit gets "Boost".'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

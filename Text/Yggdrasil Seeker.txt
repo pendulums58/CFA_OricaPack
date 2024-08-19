@@ -2647,3 +2647,17 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20739
+{
+global.CardName[CardStat] = 'Fairy of will, Kirin'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyber Fairy
+
+AUTO: When this card is discarded from hand during your turn, if your vanguard is grade 2 or greater, COST [Soul Blast 1], and call this card to RC. If it is your battle phase, this unit cannot attack until end of turn.
+
+CONT [RC]: If a rear-guard moved except to drop this turn, this unit gets "Boost".'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
