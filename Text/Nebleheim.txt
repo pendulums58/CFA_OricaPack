@@ -1786,3 +1786,78 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20742
+{
+global.CardName[CardStat] = 'Butterfly flapping, Breeze'
+global.CardText[CardStat] = 'Nebleheim/Spirit
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20743
+{
+global.CardName[CardStat] = 'Dancer of beach, Breeze'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20744
+{
+global.CardName[CardStat] = 'Signal of mist sea, Breeze'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20745
+{
+global.CardName[CardStat] = 'Permeating sea wind, Breeze'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20746
+{
+global.CardName[CardStat] = 'Sentinel of Sea wind, Raud'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20747
+{
+global.CardName[CardStat] = 'Sentinel of cloud sea, Vakur'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20748
+{
+global.CardName[CardStat] = 'Fulfill Mistraper, Dize'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
