@@ -510,8 +510,6 @@ global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
 
 CONT: Origin Record (This card represents nine primal symbols.)
 
-CONT: You may only use Origin Record order a total of one time in a fight.
-
 COST [Counter Blast 1] to play this card.
 
 Choose up to one unit each with a different grade from your deck, drop, soul, and hand, call them to RC.'
@@ -531,8 +529,6 @@ global.CardText[CardStat] = 'Daybreakers/Blitz Order/Origin Record
 
 CONT: Origin Record (This card represents nine primal symbols.)
 
-CONT: You may only use Origin Record order a total of one time in a fight.
-
 Choose a card from your damage zone, heal it, choose one of your vanguard, and deal it one damage. If a trigger unit did not revealed, you may Soul Charge 1. Choose one of your units being attacked, until end of that battle, it gets power +25000.'
 
 global.UnitGrade[CardStat] = 3
@@ -550,11 +546,9 @@ global.CardText[CardStat] = 'Daybreakers/Set Order/Origin Record
 
 CONT: Origin Record (This card represents nine primal symbols.)
 
-CONT: You may only use Origin Record order a total of one time in a fight.
+AUTO: When this card is put into the Order Zone, Draw a card, Choose up to one card from your drop, and put it bottom of your deck.
 
-AUTO: When this card is put into the Order Zone, Draw a card, shuffle your opponent’s soul into their deck. Your opponent Soul Charge equal to shuffled cards.
-
-AUTO [Order Zone]: When your vanguard attacks, look the top card of your deck.
+AUTO [Order Zone]: When your vanguard attacks, look the top card of your deck. You may put it into bottom of your deck.
 
 AUTO [Order Zone]: When your opponent’s vanguard attacks, your opponent reveals the top card of their deck.'
 
@@ -572,8 +566,6 @@ global.CardName[CardStat] = 'Light of the FLASHBACK'
 global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
 
 CONT: Origin Record (This card represents nine primal symbols.)
-
-CONT: You may only use Origin Record order a total of one time in a fight.
 
 Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
 
@@ -2905,3 +2897,153 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20749
+{
+global.CardName[CardStat] = 'ECHO Arrow'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+CONT: Treat this card as "VOLTEX Megaphone".
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+COST [Counter Blast 1] to play this card.
+
+Choose up to one unit each with a different grade from your deck, drop, soul, and hand, call them to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20750
+{
+global.CardName[CardStat] = 'ring of the POWER'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source/Origin Record
+
+CONT: Treat this card as "Mark of THE TIDAL".
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: This card cannat be played.
+
+CONT [Order Zone]: You may have only one of "Mark of THE TIDAL" in your order zone.
+
+AUTO [Order Zone]: When this card would be rest your vanguards cost, COST [Soul Blast 1], choose one of your opponent’s rear-guards, and retire it.
+
+ACT [Order Zone]: COST [rest this card], choose up to one mana source card from your hand, and put it into your Order Zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20751
+{
+global.CardName[CardStat] = 'Flower of TIME'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Origin Record
+
+CONT: Treat this card as "Maple Butterfly".
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 20752
+{
+global.CardName[CardStat] = 'Branch of SYMPATHY'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Origin Record
+
+CONT: Treat this card as "CONSTELLATION Sketchbook".
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+AUTO: When this card is put into the Order Zone, Draw a card, Choose up to one card from your drop, and put it bottom of your deck.
+
+AUTO [Order Zone]: When your vanguard attacks, look the top card of your deck. You may put it into bottom of your deck.
+
+AUTO [Order Zone]: When your opponent’s vanguard attacks, your opponent reveals the top card of their deck.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20753
+{
+global.CardName[CardStat] = 'Orb of the LIFE'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Origin Record
+
+CONT: Treat this card as "Reverse of the DEMISE"
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+Choose a card from your damage zone, heal it, choose one of your vanguard, and deal it one damage. If a trigger unit did not revealed, you may Soul Charge 1. Choose one of your units being attacked, until end of that battle, it gets power +25000.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.RegalisPiece[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 25000
+
+CardStat = 20754
+{
+global.CardName[CardStat] = 'Mirror of the REMINISCENCE'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+CONT: Treat this card as "Light of the FLASHBACK"
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20755
+{
+global.CardName[CardStat] = 'Book of THE DAY'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+Choose a grade 2 or greater unit with same race from your vanguard from your drop, and put it into your hand.
+
+AUTO: When this card is discarded from hand while riding from the ride deck, if you went second, COST [Discard a card], end that ride phase, and get an additional ride phase. Remove this card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
