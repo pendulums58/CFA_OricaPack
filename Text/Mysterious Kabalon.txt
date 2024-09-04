@@ -1792,3 +1792,118 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20758
+{
+global.CardName[CardStat] = 'Pilgrim Star, Arcturus'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20759
+{
+global.CardName[CardStat] = 'Pilgrim Star, Spica'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by "Bounded prisoner of offered wish", COST [Soul Blast 1], search your deck for a critical trigger, reveal it, and put into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20760
+{
+global.CardName[CardStat] = 'Bounded prisoner of offered wish'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+AUTO: When this unit is rode upon by a grade 3 unit with "Nimrod" in its card name, search your deck or hand for a critical trigger, drop it. If you searched your hand, draw two cards.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20761
+{
+global.CardName[CardStat] = 'Endless starfall, Nimrod'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+ACT [VC] 1/Turn : COST [Counter Blast 1], choose up to three critical trigger from your drop, and bind it. If you bound two or more, draw a card.
+
+AUTO [VC] : At the beginning of your battle phase, COST [Choose a critical trigger from your bind zone, and drop it], this unit gets power +10000 until end of turn. If your opponent’s vanguard is grade 3 or greater, this unit also gets critical +1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20762
+{
+global.CardName[CardStat] = 'Perfoming Miracle "Stellarion"  '
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+If you have a vanguard with "Nimrod" in its card name, COST [Counter Blast 1] to play this card.
+
+Look at top seven cards from your deck, choose up to each one normal unit without sentinel and critical trigger, reveal one of them and put into your hand, and bind else. Shuffle your deck.
+
+CONT [Drop / Bind Zone] : When you choose a critical trigger by your card ability, you may choose this card as critical trigger.'
+
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20763
+{
+global.CardName[CardStat] = 'Pilgrim Star, Antares'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC from hand, choose up to two critical trigger from your drop, and bind it.
+
+ACT [RC] 1/Turn : COST [Choose two critical trigger from your bind zone, and drop it], this unit gets power +5000 until end of turn. If you have a vanguard with "Nimrod" in its card name, draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20764
+{
+global.CardName[CardStat] = 'Achievet of stained hatred'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC from hand, choose up to one critical trigger from your drop, and bind it.
+
+AUTO [RC] 1/Turn : When this unit attacks, COST [Choose a critical trigger from your bind zone, and drop it], this unit gets power +5000 until end of that battle. If you have a vanguard with "Nimrod" in its card name, stand this unit at the end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20765
+{
+global.CardName[CardStat] = 'Confessing Acolyte, Elijah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera
+
+AUTO : When this unit is placed on RC from hand, choose up to one critical trigger from your drop, and bind it.
+
+ACT [RC] 1/Turn : COST [Counter Blast 1 & Choose a critical trigger from your bind zone, and drop it], choose a grade 1 unit without sentinel from your drop, and call it to RC. If you have a vanguard with "Nimrod" in its card name, you may choose normal unit without sentinel.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

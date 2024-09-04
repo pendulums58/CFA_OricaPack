@@ -542,3 +542,13 @@ global.ExtraDeck[CardStat] = 1
 }
 global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
+
+CardStat = 20757
+{
+global.CardName[CardStat] = 'Dressed slave girl, Rein'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

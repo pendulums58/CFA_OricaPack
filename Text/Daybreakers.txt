@@ -3047,3 +3047,25 @@ global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
 global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20756
+{
+global.CardName[CardStat] = 'Shard of the DAWN'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Origin Record
+
+CONT: Treat this card as "Book of THE DAY"
+
+CONT: Origin Record (This card represents nine primal symbols.)
+
+Choose a grade 2 or greater unit with same race from your vanguard from your drop, and put it into your hand.
+
+AUTO: When this card is discarded from hand while riding from the ride deck, if you went second, COST [Discard a card], end that ride phase, and get an additional ride phase. Remove this card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
