@@ -1913,9 +1913,9 @@ CardStat = 20771
 global.CardName[CardStat] = 'Wishing for miracle, Yuuwha & Farma'
 global.CardText[CardStat] = 'Mysterious Kabalon/Homeros/Human/Angel
 
-AUTO: When this unit is placed on RC from hand other than during the battle phase, Energy Charge 2, choose a normal unit from your bind zone, and drop it. Then, COST [Counter Blast 1], and perform one of the following.
-?Choose a rear-guard from any fighter with different name for this card, and return it to hand.
-?Choose a grade 1 unit without sentinel from your drop, and call it to RC.
+AUTO: When this unit is placed on RC from hand other than during the battle phase, choose a grade 0 card with shield 5000 or less, and put it bottom of your deck. Then, COST [Counter Blast 1], and perform one of the following.
+?Call a Allied force token to your RC.
+?Choose a face up card from your damage zone, and heal it. If you healed, choose one of your vanguard, and deal it one damage.
 
 (Shift + click to get Allied force token.)'
 global.UnitGrade[CardStat] = 2
@@ -1936,7 +1936,10 @@ COST [Counter Blast 1 & Remove a card with same name to your vanguard from your 
 
 Perform two of following.
 
-'
+1. During this fight, you get "During your turn, If you Soul Blast or discard hand for cost of your ability, you may Counter Blast as that amount instead.".
+2. Choose a critical trigger from your drop, and put into your hand.
+3. Choose a face up card from your damage zone, call it to RC. Put a card from top of your deck to damage zone.
+4. If your damage zone is more than three, draw equal to that difference.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102

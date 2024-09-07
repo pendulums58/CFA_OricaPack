@@ -2716,7 +2716,10 @@ COST [Counter Blast 1 & Remove a card with same name to your vanguard from your 
 
 Perform two of following.
 
-'
+1. During this fight, you get "If you have "Energy Generator" in your crest zone, you may have up to 15 energy.", Energy Charge 2.
+2. Choose one of your opponent’s rear-guard, and bind it face down.
+3. Look at top seven cards from top of your deck, search up to one <Cyberoid> or <Cyber Fairy> among them, reveal it and put into your hand. Shuffle your deck.
+4. Choose a set order from your order zone of drop, and return it to your hand.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101

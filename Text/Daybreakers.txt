@@ -3078,8 +3078,10 @@ global.CardText[CardStat] = 'Daybreakers/Normal Order
 COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
 
 Perform two of following.
-
-'
+1. During this fight, you get "You may play up to two orders with different name each turn."
+2. Choose a grade 2 or greater <Admin> from your drop, and call it to back row center RC.
+3. Choose your units up to race of your unit, and they get power +5000 until end of turn.
+4. Search your deck or drop for a <Human> or <Warbeast> with less or equal grade to your orders in your order zone and drop, reveal it, and put into hand or call to RC.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
