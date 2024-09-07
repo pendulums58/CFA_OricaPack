@@ -1823,14 +1823,18 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20745
 {
-global.CardName[CardStat] = 'Permeating sea wind, Breeze'
-global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.CardName[CardStat] = 'Permeating sea wind, BreezeBerg'
+global.CardText[CardStat] = 'Nebleheim/Spirit
+
+(Shift + click to get mist token.)'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20746
 {
@@ -1861,3 +1865,21 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20783
+{
+global.CardName[CardStat] = 'Amethyst’s Command'
+global.CardText[CardStat] = 'Nebelheim/Normal Order
+
+COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
+
+Perform two of following.
+
+'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

@@ -96,6 +96,7 @@ global.DCards[CardStat] = 106
 }
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
+global.BlueTokenAdd[CardStat] = 1
 global.DefensePowerStat[CardStat] = 50000
 
 CardStat = 20635
@@ -137,7 +138,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20637
 {
 global.CardName[CardStat] = 'Allied Force Token'
-global.CardText[CardStat] = 'Homeros/Human
+global.CardText[CardStat] = 'Homeros/Allied Force
 
 (This unit has "Intercept" and "Boost".)'
 global.UnitGrade[CardStat] = 1
@@ -451,13 +452,17 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20729
 {
-global.CardName[CardStat] = 'Impression in lifetime, ristim'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardName[CardStat] = 'Hananeko \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20766
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
 
 CardStat = 20730
 {
@@ -534,14 +539,18 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20737
 {
 global.CardName[CardStat] = 'Multiverse orbital observer "Tenryuu"'
-global.CardText[CardStat] = 'Homeros/Revelation order'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 106
 
 global.ExtraDeck[CardStat] = 1
 }
 global.CardInClan[CardStat] = 30
-global.PowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 15000
+global.UseCounters[CardStat] = 1
 
 CardStat = 20757
 {
@@ -552,3 +561,147 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20766
+{
+global.CardName[CardStat] = 'Commercial district "Akagane"'
+global.CardText[CardStat] = 'Homeros/Token Set Order'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20772
+{
+global.CardName[CardStat] = 'Ordeal of passion, Shirikitsu & Eerie'
+global.CardText[CardStat] = 'Homeros/Yggdrasil Seeker/Warbeast/High Beast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+global.DCards2[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20773
+{
+global.CardName[CardStat] = 'Allied Force Token '
+global.CardText[CardStat] = 'Homeros/Allied Force
+
+(This unit has "Intercept" and "Boost".)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20774
+{
+global.CardName[CardStat] = 'MaturiKitsu \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20775
+{
+global.CardName[CardStat] = 'Guiding Wisdom, Methis'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20776
+{
+global.CardName[CardStat] = 'Kratiste Aegis '
+global.CardText[CardStat] = 'Homeros/Blitz Order
+
+CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a deck.)
+
+CONT: You may only have one "Kratiste Aegis" in a deck.
+
+If your opponent뭩 vanguard has "Triple Drive", this ability can be played without paying the cost.
+
+Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
+
+Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20777
+{
+global.CardName[CardStat] = 'Jiangshi, Shu Eri'
+global.CardText[CardStat] = 'Homeros/Zombie'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20778
+{
+global.CardName[CardStat] = 'Overcome Ordeal to be a hero'
+global.CardText[CardStat] = 'Homeros/Normal Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20779
+{
+global.CardName[CardStat] = 'The ember of beginning rises'
+global.CardText[CardStat] = 'Homeros/Normal Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20784
+{
+global.CardName[CardStat] = 'Eustis뭩 Command'
+global.CardText[CardStat] = 'Homeros/Normal Order
+
+COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
+
+Perform two of following.
+
+'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

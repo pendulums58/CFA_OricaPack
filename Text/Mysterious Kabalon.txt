@@ -1907,3 +1907,40 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20771
+{
+global.CardName[CardStat] = 'Wishing for miracle, Yuuwha & Farma'
+global.CardText[CardStat] = 'Mysterious Kabalon/Homeros/Human/Angel
+
+AUTO: When this unit is placed on RC from hand other than during the battle phase, Energy Charge 2, choose a normal unit from your bind zone, and drop it. Then, COST [Counter Blast 1], and perform one of the following.
+?Choose a rear-guard from any fighter with different name for this card, and return it to hand.
+?Choose a grade 1 unit without sentinel from your drop, and call it to RC.
+
+(Shift + click to get Allied force token.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.DCards2[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20773
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20782
+{
+global.CardName[CardStat] = 'Hazak’s Command'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
+
+Perform two of following.
+
+'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

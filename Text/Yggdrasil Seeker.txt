@@ -2661,3 +2661,66 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20767
+{
+global.CardName[CardStat] = 'Delver of Uniana, Yurika'
+global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20768
+{
+global.CardName[CardStat] = 'Keep out during research, Yurika'
+global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20769
+{
+global.CardName[CardStat] = 'Stretching is important, Yurika'
+global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20770
+{
+global.CardName[CardStat] = 'Delver of truth, Yurika'
+global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20781
+{
+global.CardName[CardStat] = 'Kaltsit’s Command'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
+
+Perform two of following.
+
+'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

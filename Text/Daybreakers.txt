@@ -3069,3 +3069,21 @@ global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
 global.PersonaRideAct[CardStat] = 1
+
+CardStat = 20780
+{
+global.CardName[CardStat] = 'Lily’s Command'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
+
+Perform two of following.
+
+'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
