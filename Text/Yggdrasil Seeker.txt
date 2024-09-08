@@ -2727,3 +2727,55 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20785
+{
+global.CardName[CardStat] = 'Infected Checkpointer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20786
+{
+global.CardName[CardStat] = 'Venomous Fairy'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Fairy/Front Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20787
+{
+global.CardName[CardStat] = 'Liberated Eleysion'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Draw Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20788
+{
+global.CardName[CardStat] = 'Integrating Phantasmagoria'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
