@@ -1947,3 +1947,32 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20789
+{
+global.CardName[CardStat] = 'Daydreamer of out of playing'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC by ability of order, this unit gets power +5000 until end of turn.
+
+AUTO [RC] Limit Break 4 : At the end of your turn, if you have a vanguard with "Elohim" in its card name, and if you played an order this turn, COST [Put this unit into damage zone], choose a card with different name from this card from your damage zone, and put into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20790
+{
+global.CardName[CardStat] = 'Herder of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC / GC] Limit Break 4 : If you have a vanguard with "Elohim" in its card name, this unit gets power +10000 / shield +10000. 
+
+AUTO [RC] 1/Turn : When this unit attacks, if you played a normal order this turn, COST [Counter Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

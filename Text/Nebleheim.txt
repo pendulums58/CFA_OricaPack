@@ -1883,3 +1883,165 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20791
+{
+global.CardName[CardStat] = 'Rage Mistraper, Imra'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20792
+{
+global.CardName[CardStat] = 'Herald of spectrum, Svadilfari'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20793
+{
+global.CardName[CardStat] = 'Wolf girl of red shackle'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20794
+{
+global.CardName[CardStat] = 'Monster wolf that swallowed the lightning'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20795
+{
+global.CardName[CardStat] = 'Bokavac of the mist pond'
+global.CardText[CardStat] = 'Nebleheim/Dragonoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20796
+{
+global.CardName[CardStat] = 'Dawn calling Gulinkambi'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20797
+{
+global.CardName[CardStat] = 'Clipping Story Attendant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20798
+{
+global.CardName[CardStat] = 'Just Timing Scanner'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20799
+{
+global.CardName[CardStat] = 'Sentinel of blue flower field'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20800
+{
+global.CardName[CardStat] = 'Time Traffic Traveler'
+global.CardText[CardStat] = 'Nebleheim/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 20801
+{
+global.CardName[CardStat] = 'Explosion // Expansion'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20802
+{
+global.CardName[CardStat] = 'Tyrant’s Scorn'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20803
+{
+global.CardName[CardStat] = 'Titan of Death’s Hunger'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
