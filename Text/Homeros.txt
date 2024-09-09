@@ -438,7 +438,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20728
 {
 global.CardName[CardStat] = 'Radiant talent, ristim'
-global.CardText[CardStat] = 'Homeros/Human
+global.CardText[CardStat] = 'Homeros/Warbeast
 
 AUTO: When this unit is rode upon, if you went second, draw a card.
 
@@ -466,7 +466,7 @@ global.TokenSummonerQuantity[CardStat] = 1
 CardStat = 20730
 {
 global.CardName[CardStat] = 'Slow refresh, ristim'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardText[CardStat] = 'Homeros/Warbeast'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
 }
@@ -476,7 +476,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20731
 {
 global.CardName[CardStat] = 'Ristim \#East style'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardText[CardStat] = 'Homeros/Warbeast'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 106
 }
@@ -705,3 +705,23 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20804
+{
+global.CardName[CardStat] = 'Impression in daylife, Ristim'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20805
+{
+global.CardName[CardStat] = 'Hatamoto "Naraku" \#East style'
+global.CardText[CardStat] = 'Homeros/Battleroid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
