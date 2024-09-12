@@ -2743,7 +2743,7 @@ global.DefensePowerStat[CardStat] = 15000
 CardStat = 20786
 {
 global.CardName[CardStat] = 'Venomous Fairy'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Fairy/Front Trigger'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Fairy/Critical Trigger'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 101
@@ -2779,3 +2779,69 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20806
+{
+global.CardName[CardStat] = 'No one can reach the truth'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20807
+{
+global.CardName[CardStat] = 'Lintworm of the quantom sea'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20808
+{
+global.CardName[CardStat] = 'Decoherence of dragon and girl'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20809
+{
+global.CardName[CardStat] = 'Lilise and flame dragon levantin'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20810
+{
+global.CardName[CardStat] = 'Technology master, Lin'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20811
+{
+global.CardName[CardStat] = 'Topaz, Topazlite composer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
