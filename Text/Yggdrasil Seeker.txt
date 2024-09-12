@@ -2839,9 +2839,8 @@ CardStat = 20811
 {
 global.CardName[CardStat] = 'Topaz, Topazlite composer'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
-global.UnitGrade[CardStat] = 3
+global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
-global.PowerStat[CardStat] = 13000
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
-global.PersonaRide[CardStat] = 1
