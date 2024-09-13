@@ -1976,3 +1976,62 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+
+CardStat = 20837
+{
+global.CardName[CardStat] = 'Combusting world lab field researcher, Adel'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20838
+{
+global.CardName[CardStat] = 'Combusting world lab new researcher, Nina'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20839
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 20839
+{
+global.CardName[CardStat] = 'World Burning Laboratory'
+global.CardText[CardStat] = 'Crest'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 20840
+{
+global.CardName[CardStat] = 'Combusting world lab chief researcher, Emile'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20841
+{
+global.CardName[CardStat] = 'Combusting world lab master, Magna Phinis'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
