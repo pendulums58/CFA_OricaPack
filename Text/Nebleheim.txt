@@ -2045,3 +2045,122 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 20827
+{
+global.CardName[CardStat] = 'Mist Arms "Thought Erasure"'
+global.CardText[CardStat] = 'Nebleheim/Mist Familiar
+
+AUTO [RC] : When this unit attacks, this unit gets power +5000 until end of turn. If you have a vanguard with "Entra" in its card name, COST [Counter Blast 1], Your opponent choose a card from their hand, and bind it until end of turn.
+
+AUTO [RC] : At the end of your turn, Your opponent may draw a card. (This effect is mandatory.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20828
+{
+global.CardName[CardStat] = 'Wild light huntress'
+global.CardText[CardStat] = 'Nebleheim/Warbeast
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20829
+{
+global.CardName[CardStat] = 'Yellow eyed hellhound'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20830	
+{
+global.CardName[CardStat] = 'Grey hair riding hood'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20831	
+{
+global.CardName[CardStat] = 'Hrym, Captain of elapsed memory'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20832
+{
+global.CardName[CardStat] = 'Naglfar, Lost ship'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Vehicle/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 25000
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20833
+{
+global.CardName[CardStat] = 'Corpse carring boat'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Vehicle'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20834	
+{
+global.CardName[CardStat] = 'Bad weather scanner'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20835	
+{
+global.CardName[CardStat] = 'Degrady Graver'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20836	
+{
+global.CardName[CardStat] = 'Pale peak, Gullnev'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
