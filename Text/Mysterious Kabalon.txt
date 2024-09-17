@@ -1843,6 +1843,7 @@ global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 13000
+global.PersonaRideCardName[CardStat] = 'Nimrod'
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 
@@ -2035,3 +2036,57 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20842
+{
+global.CardName[CardStat] = 'Falldown Septentrion, Nimrod'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+AUTO: When this unit is placed by riding from "Endless starfall, Nimrod", choose up to two critical trigger from your hand or drop, bind them, and draw equal to bound. Activate persona ride.
+
+Original Sin - AUTO [VC]: When this unit attacks, COST [bind a "Endless starfall, Nimrod" from soul], choose your unit up to number of critical trigger in your bind zone, and they get power +5000 until end of turn. If you choose three or more, this unit gets power +5000 / critical +1 until end of turn, and your opponent would call cards from hand to GC that battle, they must call two or more at the same time. At the end of that turn, ride the card bound for this cost as rest.
+
+(SHIFT + left click to activate persona ride)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PersonaRideAct[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.PersonaRideCardName[CardStat] = 'Nimrod'
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20843
+{
+global.CardName[CardStat] = 'Never Ending Acolyte'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC from hand, COST [Choose two critical trigger from your bind zone, and drop it], this unit gets shield +10000 until end of that battle.
+
+ACT [RC]: If you have a grade 3 vanguard with "Nimrod" in its card name, COST [put this card into soul], search your deck for up to one "Falldown Septentrion, Nimrod", ride it as stand, and shuffle your deck. If your vanguard was placed during the ride phase this turn, or you persona rode this turn, you cannot persona ride until end of turn. ("If you persona rode" is active even for persona ride other than normal ride)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20844
+{
+global.CardName[CardStat] = 'Lucky hand, Midas'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20845
+{
+global.CardName[CardStat] = 'Jackpot Rabbit'
+global.CardText[CardStat] = 'Mysterious Kabalon/Workeroid'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000

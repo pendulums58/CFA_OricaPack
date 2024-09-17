@@ -2906,3 +2906,33 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20846
+{
+global.CardName[CardStat] = 'Egomaker of Imprinting Intellect'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Pale Star" in its card name, Energy Charge 3.
+
+AUTO [RC] : At the end of battle this unit boosted, If you Energy Charge this turn else than crest’s ability, COST [Energy Blast 3 & Put this unit into soul], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20847
+{
+global.CardName[CardStat] = 'Multiplied Protection'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order
+
+COST [Energy Blast 3 any time] to play this card.
+
+Choose one of your unit being attacked, and it gets power +5000 for each Energy Blast 3 paid for its cost. Then, if you have no energy, Energy Charge 3.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

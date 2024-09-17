@@ -1910,12 +1910,11 @@ CardStat = 20793
 {
 global.CardName[CardStat] = 'Wolf girl of red shackle'
 global.CardText[CardStat] = 'Nebleheim/Warbeast'
-global.UnitGrade[CardStat] = 3
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 103
 }
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
-global.PersonaRide[CardStat] = 1
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20794
 {
