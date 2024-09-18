@@ -2090,3 +2090,85 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20848
+{
+global.CardName[CardStat] = 'Broken memory, Astra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20849
+{
+global.CardName[CardStat] = 'Unusual experiment, Astra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20850
+{
+global.CardName[CardStat] = 'Over the critical point, Astra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20851
+{
+global.CardName[CardStat] = 'Frozen eclipse, Astra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20852
+{
+global.CardName[CardStat] = 'Hopeful frontier, Azure'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20853
+{
+global.CardName[CardStat] = 'Abnormal observer, Sygrun'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20854
+{
+global.CardName[CardStat] = 'Unfulfilled wish, to the beyond of limit'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+Choose one of your vanguard being attacked, and it gets power +5000 until end of that battle. You may discard a card. If you do, draw a card. If you have a card with same name to attacked unit, it gets power +5000 until end of that battle.
+
+AUTO [Damage Zone] Limit Break 4 : When your vanguard is attacked, COST [Soul Blast 1 & Remove this card], Look at top card of your deck, choose a card from top of your deck and hand, and put it into damage zone face down.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
