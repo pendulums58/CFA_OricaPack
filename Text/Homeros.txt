@@ -833,3 +833,79 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20855
+{
+global.CardName[CardStat] = 'Treason pythia, Midsia'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20856
+{
+global.CardName[CardStat] = 'Beginning of revolution, Midsia'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20857
+{
+global.CardName[CardStat] = 'Realized truth, Midsia'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20858
+{
+global.CardName[CardStat] = 'Halter of treason, Midsia'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20859
+{
+global.CardName[CardStat] = 'Scream between the clound, Harpy'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20860
+{
+global.CardName[CardStat] = 'End of the labyrinth, Minotauros'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20861
+{
+global.CardName[CardStat] = 'Despair of deep sea, Scylla'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

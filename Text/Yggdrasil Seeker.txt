@@ -2936,3 +2936,288 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20862
+{
+global.CardName[CardStat] = 'Reincarnation Diva'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20863
+{
+global.CardName[CardStat] = 'Echoing Blue, Michil'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed by riding from "Reincarnation Diva", Look at top seven cards from your deck, search up to one Set Order with AUTO ability, reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20864
+{
+global.CardName[CardStat] = 'Over the wing of song, Michil'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed by riding from "Echoing Blue, Michil", Search your deck or drop for a grade 2 Set Order with AUTO ability, reveal it and put into Order Zone. If you searched deck, shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20865
+{
+global.CardName[CardStat] = 'Diva of Blue Destiny, Michil'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO [VC] : At the beginning of your battle phase, Energy Charge for each of Set Order with AUTO ability in your Order Zone, If you Energy Charge 3 or more, Counter Charge 1.
+
+AUTO [VC] : At the end of your opponent’s turn, if you took no damage this turn, choose up to one Set Order without Ability Piece from your hand or drop, and put into Order Zone, if you putted from hand, draw a card.
+
+AUTO [VC] : When your damage check revealed a card else than heal trigger or over trigger, if your damage zone has five cards and your order zone has five or more Set Order with AUTO ability, COST [Put your soul to drop], put a SONG OF DIVA token into your order zone.
+
+(Shift + left click to create SONG OF DIVA token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20866
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20866
+{
+global.CardName[CardStat] = 'SONG OF DIVA'
+global.CardText[CardStat] = 'Token Set Order
+
+AUTO : When putted into Order Zone, Search your deck, hand or drop for a "Diva of cling soul, Michil", ride it as stand. If you searched deck, shuffle your deck. You get "You cannot ride." until end of fight.
+
+AUTO [Order Zone] : At the beginning of your ride phase, activate persona ride. If you do, you cannot persona ride this turn.
+
+AUTO [Order Zone] : At the beginning of your turn, COST [Choose a card from your order zone, and drop it], choose a heal trigger from your drop, put it into your deck, and shuffle your deck.
+
+(Shift + left click to activate persona ride.)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 29
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+
+CardStat = 20867
+{
+global.CardName[CardStat] = 'Diva of cling soul, Michil'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT : You can ride this card only by ability of "SONG OF DIVA", and cannot call to RC.
+
+AUTO [VC] : The number of cards in damage zone for you and your opponent to lose becomes seven.
+
+ACT [VC] : COST [Choose a heal trigger from your hand, and discard it], Energy Charge as possible you can, and Counter Charge 1.
+
+AUTO [VC] : When this unit’s drive check reveals a heal trigger, COST [Counter Blast 1], the power plus of that trigger choose all of your front row units. COST [Soul Blast 1], draw a card. COST [Energy Blast 4], choose one of your unit, and it gets critical +1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20868
+{
+global.CardName[CardStat] = 'Minarai tenshi to hosihuri no oka'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+AUTO [Order Zone] : When your grade 3 or greater vanguard with "Michil" in its card name attacks, COST [rest this card], choose one of your rear-guard, stand it.
+
+AUTO [Order Zone] : When your vanguard with "Michil" in its card name attacks, COST [Counter Blast 1 & rest this card], choose a grade 1 or greater unit without sentinel, and call it to RC.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20869
+{
+global.CardName[CardStat] = 'Towards the TOWER'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+AUTO : When this card is putted into Order Zone, COST [Soul Blast 1], look at top five cards from your deck, choose up to one Set Order among them, reveal it, and put into your hand. Shuffle your deck.
+
+ACT [Order Zone] : If your order zone has two or more other Set Order with AUTO ability, COST [rest this card], choose one of your vanguard, and it gets "AUTO [VC] : When this unit’s attack hits, COST [Choose a "Towards the TOWER" from your order zone, and drop it], search your deck for a Set Order without Ability Piece, reveal it and put into your hand, shuffle your deck."'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20870
+{
+global.CardName[CardStat] = 'SESSION With You!'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+COST [Counter Blast 1] to play this card.
+
+AUTO : When putted into Order Zone, draw a card.
+
+AUTO [Order Zone] : When your rear-guard stand, COST [Soul Blast 1 & rest this card], choose one of your rear-guard with same column as that unit, and stand it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20871
+{
+global.CardName[CardStat] = 'Shiawase ga naru yoru ni'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+COST [Energy Blast 3] to play this card.
+
+AUTO : When putted into Order Zone, choose a grade 2 or greater normal unit from each drop, and call them to open RC.
+
+AUTO [Order Zone] : When your opponent’s rear-guard retires during your turn, COST [Counter Blast 1], draw a card.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20872
+{
+global.CardName[CardStat] = 'Triggered Checkpoint'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+COST [Energy Blast 4] to play this card.
+
+Choose one of your unit, and it gets "AUTO [VC/RC] : When this unit attacks, COST [Energy Blast 3], draw a card." and power +5000.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20873
+{
+global.CardName[CardStat] = 'Stand abreast, my knights'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order
+
+If you have an <Arthur> vanguard, COST [Energy Blast 5] to play this card.
+
+Choose a <Cyberoid> normal unit from your drop, call it to GC, and it gets shield +10000 until end of that battle. At the end of that attack, COST [Counter Blast 1], put that unit to hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20874
+{
+global.CardName[CardStat] = 'Arch wizard of desire integration'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC, COST [Energy Blast 3], look at top three cards from your deck, drop two of them, and shuffle your deck.
+
+AUTO [Drop] : COST [Soul Blast 1], put this unit into deck, and shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20875
+{
+global.CardName[CardStat] = 'Tracing Prohibitor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC] : If a rear-guard was moved to else than drop by your vanguard’s ability this turn, this unit gets power +5000.
+
+AUTO [RC] : At the end of battle this unit boosted, COST [Energy Blast 2 & Retire this unit], choose a normal unit with same grade to unit being boosted, and bind it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20876
+{
+global.CardName[CardStat] = 'Greenesia forerunner, Ibuki'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO [RC] : When this unit boosts, if a Set Order was putted into your Order Zone by your ability, this unit gets power +5000 until end of that battle.
+
+AUTO [RC] : At the end of your turn, if all of your attack did not hit this turn, COST [Counter Blast 1 & retire this unit], choose a Set Order without Ability Piece and grade less or equal to your vanguard from your hand or drop, and put into order zone.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20877
+{
+global.CardName[CardStat] = 'Melody Accepter'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC] : If your Order Zone has a Set Order with AUTO ability, this unit gets "Boost".
+
+AUTO [RC] : At the end of battle this unit attack or boost, if an ability of Set Order activated from your Order Zone, COST [Retire this unit], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20878
+{
+global.CardName[CardStat] = 'Arch wizard of extracted happiness and sorrow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC, COST [Energy Blast 4], choose a card from your soul, and put it into your hand.
+
+AUTO [RC] : When this unit attacks, if you putted a card from your soul to hand, this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20879
+{
+global.CardName[CardStat] = 'Far East Nightbird'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC] : If a rear-guard is moved to else than drop this turn, this unit gets power +5000. If you played a Set Order this turn, this unit gets power +5000. If both, power +5000. 
+
+CONT [RC] : If you Energy Charge else than crest’s ability this turn, this unit gets "Boost".'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
