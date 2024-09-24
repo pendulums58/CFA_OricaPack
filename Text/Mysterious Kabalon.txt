@@ -2172,3 +2172,13 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20881
+{
+global.CardName[CardStat] = 'Combusting world lab resource searcher, Naeun'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

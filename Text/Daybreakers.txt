@@ -3089,3 +3089,15 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20880
+{
+global.CardName[CardStat] = 'Allstar Festival!!'
+global.CardText[CardStat] = 'Daybreakers/Set Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
