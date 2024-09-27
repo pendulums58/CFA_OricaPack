@@ -2163,3 +2163,46 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20902	
+{
+global.CardName[CardStat] = 'Mana, Momentary spark'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20903	
+{
+global.CardName[CardStat] = 'Frame beauty, Vanadis'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20904	
+{
+global.CardName[CardStat] = 'Guide of delvers, Bergelmir'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20905
+{
+global.CardName[CardStat] = 'Mist sailing Bladnir'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Vehicle'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 15000
+global.DefensePowerStat[CardStat] = 0
