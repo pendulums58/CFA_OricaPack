@@ -2435,3 +2435,131 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20906
+{
+global.CardName[CardStat] = 'Law Desolver of Explaining law'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC from hand, if you have a vanguard with Limit Break 4 ability, COST [Counter Blast 1], search your deck for a grade 3 with different name from your vanguard and Limit Break 4 ability, and put it into your damage zone. If you do, choose another face-up card from your damage zone, and heal it. If you played an order this turn, you may call it to RC rather than heal it.
+
+AUTO [RC] : When a unit placed on your VC, this unit gets power +5000 until end of turn. If this ability resolved second time this turn, COST [Soul Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20907
+{
+global.CardName[CardStat] = 'Vanishing Acolyte'
+global.CardText[CardStat] = 'Mysterious Kabalon/Warbeast
+
+AUTO : When this unit is placed on RC from your hand, choose one of your rear-guard, stand it. If your damage zone is all face-down, you may rather Counter Charge 1.
+
+CONT [RC] : During your turn, if your damage zone is three or more, and is all face-down, this unit gets power +10000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20908
+{
+global.CardName[CardStat] = 'Wear away Daydreamer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO [RC] 1/Turn : When this unit is selected by your vanguard’s ability, Energy Charge 1, COST [Counter Blast 1], draw a card.
+
+AUTO [RC] : When this unit’s attack hits, choose a critical trigger from your drop, and put into your hand.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20909
+{
+global.CardName[CardStat] = 'Wear away Daydreamer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO [RC] 1/Turn : When your other unit is placed on RC, if that unit was placed from damage zone, COST [Soul Blast 1], search a unit with same name as that card from deck or drop, and put into damage zone. If you do, choose a card from your damage zone, and heal it.
+
+AUTO [RC] : At the end of your turn, COST [put this unit into soul], Counter Charge 1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20910
+{
+global.CardName[CardStat] = 'Surging prurience, Mora Luxuria'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+Original Sin - AUTO [RC] : At the beginning of your battle phase, COST [Counter Blast 1], choose an opponent’s unit from same column as this unit, raise this unit’s power as that unit’s power this turn. If this unit is power 40000 or greater, draw a card.
+
+AUTO [RC] : When this unit’s attack hits a vanguard, that unit gets power -5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20911
+{
+global.CardName[CardStat] = 'Conducting First Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+COST [Counter Blast 1] to play this card.
+
+Choose one of your vanguard, and it gets power +10000 until end of that battle. It gets "AUTO [VC] 1/Turn : When this unit is attacked, COST [discard a order from your hand], it gets power +15000 until end of that battle. If trigger order was discarded, it gets power +20000 instead of +15000." until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20912
+{
+global.CardName[CardStat] = 'Heartbinding Hunt Whistle'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+COST [Counter Blast 1 & Soul Blast 1] to play this card.
+
+Choose normal units without sentinel grade equal or less to your damage zone from your drop, and call it to GC. Choose one of your vanguard, and it gets "AUTO [VC] : When your damage check reveals a trigger unit other than heal trigger, if your damage zone has five or more cards, choose a card from your damage zone, heal it, and lose this ability." until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 20913
+{
+global.CardName[CardStat] = 'Lingering Echoes'
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Heal Trigger/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+COST [Discard a card] to play this card.
+
+Reveal top five cards from your deck, and put all cards with same name exists in your damage zone among them. Shuffle your deck. If you putted one or less cards to hand, choose a card from your damage zone, and put into your hand, put a card from top of your deck to damage zone. Remove this card.'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
