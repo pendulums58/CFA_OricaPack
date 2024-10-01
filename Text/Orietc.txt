@@ -302,3 +302,36 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20926
+{
+global.CardName[CardStat] = 'Select Your'
+global.CardText[CardStat] = '
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20927
+{
+global.CardName[CardStat] = 'Victorious Visionary Vanguard'
+global.CardText[CardStat] = ''
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20928
+{
+global.CardName[CardStat] = 'World Selector'
+global.CardText[CardStat] = 'Human'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
