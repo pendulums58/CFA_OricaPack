@@ -3118,14 +3118,14 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20915
 {
-global.CardName[CardStat] = 'Daydreamer of Forward looking'
+global.CardName[CardStat] = 'Incinerate the dawn, Unselector'
 global.CardText[CardStat] = 'Daybreakers/Ego Sword
 
 AUTO: When this unit is placed by riding from "Starsoul reincarnation - Starcross", draw a card, and you get a "Eternal Iris - Tricolor" crest.
 
 (You will be prompted to get the crest upon ride.)'
 global.UnitGrade[CardStat] = 1
-global.DCards[CardStat] = 102
+global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000

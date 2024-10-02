@@ -909,3 +909,101 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20929
+{
+global.CardName[CardStat] = 'Crossing wing, Kainos'
+global.CardText[CardStat] = 'Homeros/Noble
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20930
+{
+global.CardName[CardStat] = 'Goddess of Origin, Hyd'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20931
+{
+global.CardName[CardStat] = 'God of Origin, Ros'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20932
+{
+global.CardName[CardStat] = 'Law of Chaos,Kainos'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20933
+{
+global.CardName[CardStat] = 'God of Death and Destiny, Moros'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20934
+{
+global.CardName[CardStat] = 'God of Discord and Competition, Cordia'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20935
+{
+global.CardName[CardStat] = 'Law brooding Eerbus'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1
+
+CardStat = 20936
+{
+global.CardName[CardStat] = 'Aether revealed from chaos'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1
