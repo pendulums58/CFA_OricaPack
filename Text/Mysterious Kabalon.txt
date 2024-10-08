@@ -2426,7 +2426,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20901
 {
-global.CardName[CardStat] = 'Conceal your face, Thou'
+global.CardName[CardStat] = 'Conceal thee face, Thou'
 global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order'
 
 global.UnitGrade[CardStat] = 3

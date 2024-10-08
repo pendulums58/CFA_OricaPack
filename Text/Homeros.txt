@@ -1007,3 +1007,140 @@ global.ExtraDeck[CardStat] = 1
 global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 18000
 global.UseCounters[CardStat] = 1
+
+CardStat = 20937
+{
+global.CardName[CardStat] = 'Hatamoto "29" - Heshikiri'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20938
+{
+global.CardName[CardStat] = 'Kunoichi : Tsumekusa'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20939
+{
+global.CardName[CardStat] = 'Ornio of Floating in dream'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20940
+{
+global.CardName[CardStat] = 'Ornithopter of Intented flying'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20941
+{
+global.CardName[CardStat] = 'Neglect Nebula'
+global.CardText[CardStat] = 'Homeros/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20942
+{
+global.CardName[CardStat] = 'Revel, Hatched Contractor'
+global.CardText[CardStat] = 'Homeros/Human
+
+
+(Shift + left click to get Geis of Relic)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20947
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20943
+{
+global.CardName[CardStat] = '"Wings"'
+global.CardText[CardStat] = 'Homeros/Revelation order/Vehicle
+
+CONT: Mythic Saga
+CONT: Nibelung’s Treasure
+
+
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1
+
+CardStat = 20944
+{
+global.CardName[CardStat] = 'Challenge to limit, Thou'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20945
+{
+global.CardName[CardStat] = 'Kunoichi : Nadeshiko'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20946
+{
+global.CardName[CardStat] = 'Hatamoto "28" - Monohoshizao'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20947
+{
+global.CardName[CardStat] = 'Geis of Muse'
+global.CardText[CardStat] = 'Token Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
