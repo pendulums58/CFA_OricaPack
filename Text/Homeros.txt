@@ -73,6 +73,7 @@ global.DCards[CardStat] = 106
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+global.GiftAdd[CardStat] = 1
 
 CardStat = 20633
 {

@@ -3185,7 +3185,7 @@ global.CardText[CardStat] = 'Daybreakers/Ego Sword/G Unit
 
 Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
 
-ACT [VC] 1/Turn : COST [Counter Blast 1 & Choose a card from your G zone, and turn it face up], Search your deck or drop for a <Ego Sword>, call it to RC, and it gets power +5000 until end of turn. If your <Ego Sword> unit with different name as that unit is three or more, choose a Sword Art order from your drop, and put into your hand.'
+ACT [VC] 1/Turn : COST [Counter Blast 1 & Choose a card from your G zone, and turn it face up], Search your deck or drop for a <Ego Sword>, call it to RC, and it gets power +10000 until end of turn. If your <Ego Sword> unit with different name as that unit is three or more, choose a Sword Art order from your drop, and put into your hand.'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 100
 global.ExtraDeck[CardStat] = 1
@@ -3254,7 +3254,7 @@ CardStat = 20924
 global.CardName[CardStat] = 'Aura Blade'
 global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword art
 
-Choose one of your vanguard, and it gets "AUTO [VC] : When this unit attacks, COST [Soul Blast 2], this unit gets power +10000 until end of that battle. If you persona rode this turn, choose one of your opponent’s rear-guard, and retire it.", If your <Ego Sword> unit is three or more, COST [Energy Blast 3], draw a card.'
+Choose one of your vanguard, and it gets "AUTO [VC] : When this unit attacks, COST [Soul Blast 2], this unit gets power +10000 until end of that battle. If you persona rode this turn, choose one of your opponent’s rear-guard, and retire it. If your G Zone has a face up card, this unit gets critical +1.", If your <Ego Sword> unit is three or more, COST [Energy Blast 2], draw a card.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
@@ -3270,11 +3270,80 @@ global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword art
 
 If you have a vanguard with "Tricolor" in its card name, COST [Energy Blast 3] to play this card.
 
-Choose a <Ego Sword> unit that no unit with name exists in your RC from drop, call it to RC, and it gets power +5000 and "AUTO [RC] : When this unit’s attack did not hit, COST [Soul Blast 1], choose a <Ego Sword> without sentinel from your drop, and put into your hand. If you do, retire this unit." until end of turn.'
+Choose a <Ego Sword> unit that no unit with name exists in your RC from deck or drop, call it to RC, and it gets power +5000 and "AUTO [RC] : When this unit’s attack did not hit, COST [Soul Blast 1], choose a <Ego Sword> without sentinel from your drop, and put into your hand. If you do, retire this unit." until end of turn.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20948
+{
+global.CardName[CardStat] = 'Return to Exist, Philosophium'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+CONT [RC] : If you played a Sword Art order this turn, this unit gets power +5000.
+
+AUTO [RC] Generation Break 1 : At the end of battle this unit boosted, COST [Put this unit into soul], Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20949
+{
+global.CardName[CardStat] = 'Dark universe, Sentinel Clayer'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+AUTO : When this unit is placed on RC from hand, if you have "Eternal Iris - Tricolor" Crest, COST [Bind a <Ego Sword> with different name from this unit from your drop], choose one of your opponent’s rear-guard, and retire it.
+
+AUTO [RC] Generation Break 1 : When this unit attacks, if you played a Sword Art order this turn, COST [Soul Blast 1], this unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20950
+{
+global.CardName[CardStat] = 'Fullbloom landscape - PrayScepter'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword
+
+AUTO : When this unit is placed on RC, if you played a Sword Art order this turn, COST [Counter Blast 1], search your deck for a <Ego Sword> with grade less or equal to your face up card in G Zone and different name from this card, call it to RC, and shuffle your deck.
+
+CONT [RC] : If your <Ego Sword> with different name in your bind zone is two or more, this unit gets "Boost" and power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20951
+{
+global.CardName[CardStat] = 'Dance, soul-beard sword'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword art
+
+COST [Bind an <Ego Sword> from your drop] to play this card.
+
+Look at top five cards from your deck, choose up to one <Ego Sword> among them and call to RC. Shuffle your deck. If you have "Eternal Iris - Tricolor" Crest, choose one of your vanguard, and it gets all ability of bound unit until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20952
+{
+global.CardName[CardStat] = 'Blue flame of unleashed soul, Ruel Laila'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
