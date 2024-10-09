@@ -3347,3 +3347,154 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20953
+{
+global.CardName[CardStat] = 'Citrin Wayfinder'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [RC] : COST [rest this unit], discard a card, and draw a card. If you discarded an order, Energy Charge 1, choose one of your unit, and it gets power +5000 until end of turn.
+
+AUTO [RC] 1/Turn : When you play an order, COST [Put two normal unit without sentinel from your drop to bottom of deck], this unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20954
+{
+global.CardName[CardStat] = 'Tsugido Inspector, Rokersera'
+global.CardText[CardStat] = 'Daybreakers/Angel
+
+AUTO : When this unit is searched or called to RC from deck by your ability, COST [Soul Blast 2], draw a card.  
+
+AUTO [RC] : When this unit boosts, if you have exactly five units, you may power +10000 this unit  until end of that battle. If you do, put this unit into bottom of your deck at the end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20955
+{
+global.CardName[CardStat] = 'Whitenight Sunseeker'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO [RC] : When your other <Human> or <Warbeast> is placed on RC, this unit gets power +3000 until end of turn.
+
+AUTO [RC] : At the end of battle this unit attacked, if this unit is power 40000 or greater, COST [Soul Blast 1 & Retire this unit], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20956
+{
+global.CardName[CardStat] = 'Floor Union Cashier'
+global.CardText[CardStat] = 'Daybreakers/Angel
+
+CONT [GC] : If you called unit four or more times this turn, this unit gets shield + 5000.
+
+AUTO [RC] : During your opponent’s turn, if your unit is placed on RC with same column as this unit, COST [Counter Blast 1 & Retire this unit], choose a blitz order with grade 2 or less without sentinel from your drop, and put into your hand.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20957
+{
+global.CardName[CardStat] = 'Administrator of Carving Star'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC] : If your grade 3 or greater <Admin> vanguard was placed this turn, this unit gets power +5000.
+
+AUTO [RC] : When your grade 3 or greater <Admin> vanguard is placed during your battle phase, COST [Counter Blast 1], choose a grade 2 unit from your hand, and call to RC that this unit exists.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20958
+{
+global.CardName[CardStat] = 'Extra Code Dragon'
+global.CardText[CardStat] = 'Daybreakers/Earth Dragon
+
+CONT [RC] : If you performed drive check during the battle your rear-guard attacked, this unit gets power +5000.
+
+AUTO [RC] : During your end phase, if your other rear-guard retires or returned to hand, if you did not Counter Charge this turn, Counter Charge 1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20959
+{
+global.CardName[CardStat] = 'Lostlight Manatide'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Choose one or more Mana Source from your order zone, and rest it] to play this card.
+
+Choose one of your vanguard, and it gets "CONT [VC] : All your front row unit gets power +3000." for each card you rest for this cost until end of turn. If you have a stand Mana Source in your order zone, choose up to one normal unit with grade less or equal to that stand card, and call it to RC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20960
+{
+global.CardName[CardStat] = 'United Knight Honor'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword Art
+
+Choose one of your unit, and it gets power +5000 for each of following in your drop until end of turn. If you have all five, that unit gets critical +1 until end of turn, and draw a card.
+
+Mana Source / Phantom / <Human> / <Warbeast> / <Ego Sword>'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20961
+{
+global.CardName[CardStat] = 'Collected Force'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+AUTO : When putted into order zone, COST [Counter Blast 1], draw a card.
+
+ACT [Order Zone] 1/Turn : COST [rest this unit], Choose one of your unit, and it gets power +3000 for each of following in your drop until end of turn.
+
+Sword Art / Phantom / <Human> / <Angel> / <Noble>'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20962
+{
+global.CardName[CardStat] = 'Tributed Aether'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+Choose one of your unit being attaked, and it gets power +5000 for each of following in your drop until end of battle.
+
+Sword Art / Mana Source / <Human> / <Omnia> / <Admin>'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

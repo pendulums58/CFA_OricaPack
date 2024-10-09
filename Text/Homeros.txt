@@ -65,7 +65,7 @@ global.DefensePowerStat[CardStat] = 15000
 CardStat = 20632
 {
 global.CardName[CardStat] = 'Goddess of victory and delight, Edirce'
-global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 106
@@ -78,7 +78,7 @@ global.GiftAdd[CardStat] = 1
 CardStat = 20633
 {
 global.CardName[CardStat] = 'Goddess of time and judgement, Tytiphon'
-global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 106
@@ -90,7 +90,7 @@ global.DefensePowerStat[CardStat] = 50000
 CardStat = 20634
 {
 global.CardName[CardStat] = 'Goddess of luck and dream, Hynephiroa'
-global.CardText[CardStat] = 'Homeros/Noble/Over Trigger'
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 106
@@ -1101,7 +1101,7 @@ global.DCards[CardStat] = 106
 global.ExtraDeck[CardStat] = 1
 }
 global.CardInClan[CardStat] = 30
-global.PowerStat[CardStat] = 18000
+global.PowerStat[CardStat] = 0
 global.UseCounters[CardStat] = 1
 
 CardStat = 20944
