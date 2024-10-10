@@ -3498,3 +3498,17 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20970
+{
+global.CardName[CardStat] = 'Guiding Fairies'
+global.CardText[CardStat] = 'Daybreakers/Fairy
+
+ACT [RC] : COST [rest this unit], you may play up to two orders this turn.
+
+AUTO [RC] : When this unit boosts, if you persona rode this turn, you may power +10000 this unit until end of that battle. If you do, this unit does not stand during your next Stand phase.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

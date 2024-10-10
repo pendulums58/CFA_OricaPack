@@ -2206,3 +2206,4 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 15000
 global.DefensePowerStat[CardStat] = 0
+

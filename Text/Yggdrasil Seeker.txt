@@ -3221,3 +3221,17 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20971
+{
+global.CardName[CardStat] = 'Constructed EGOist'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+ACT [RC] : COST [rest this unit], choose one of your rear-guard with grade 2 or greater, and return it to hand.
+
+AUTO [RC] : When this unit boosts, if you persona rode this turn, you may power +10000 this unit until end of that battle. If you do, this unit does not stand during your next Stand phase.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

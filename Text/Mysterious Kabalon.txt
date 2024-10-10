@@ -2563,3 +2563,17 @@ global.TriggerUnit[CardStat] = 4
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 20972
+{
+global.CardName[CardStat] = 'Contemplate Prayer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+ACT [RC] : COST [rest this unit], Put a card from top of your deck to damage zone, choose a trigger from your damage zone, and heal it.
+
+AUTO [RC] : When this unit boosts, if you persona rode this turn, you may power +10000 this unit until end of that battle. If you do, this unit does not stand during your next Stand phase.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

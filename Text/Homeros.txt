@@ -1145,3 +1145,79 @@ global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20963	
+{
+global.CardName[CardStat] = 'Training under the sky, Herensuge'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20964	
+{
+global.CardName[CardStat] = 'Forging skill, Herensuge'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20965	
+{
+global.CardName[CardStat] = 'Blade of blue flame, Herensuge'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20966	
+{
+global.CardName[CardStat] = 'Prince of blue dragon, Herensuge'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 20967	
+{
+global.CardName[CardStat] = 'Knight or thunder, Ochoa'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20968	
+{
+global.CardName[CardStat] = 'Knight or mucoid, Siar'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20969
+{
+global.CardName[CardStat] = 'Legend ascending sword of blue dragon'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
