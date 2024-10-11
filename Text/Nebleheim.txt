@@ -2207,3 +2207,12 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 15000
 global.DefensePowerStat[CardStat] = 0
 
+CardStat = 20976	
+{
+global.CardName[CardStat] = 'Timetread Tourist'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

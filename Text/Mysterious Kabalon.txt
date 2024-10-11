@@ -267,7 +267,7 @@ CardStat = 20137
 global.CardName[CardStat] = 'Seven Stars of Starry Flower'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
 
-Additional Effect - Until end of this fight, you get "At the beginning of your turn, you may choose a card from your damage zone, heal it. If you do, choose one of your vanguard, and deal it one damage. If trigger unit was revealed, choose up to one trigger unit from your drop zone, and put it to bottom of your deck."'
+Additional Effect - Until end of this fight, you get "At the beginning of your turn, you may deal one damage to your vanguard. If you do, and if trigger was revealed by that damage check, choose a card from your damage zone, heal it, and choose a trigger from your drop, and put it into bottom of your deck. If did not revealed, choose a card from your damage zone, and put into your hand."'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 102

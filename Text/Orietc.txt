@@ -335,3 +335,31 @@ global.DCards[CardStat] = 105
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20973
+{
+global.CardName[CardStat] = 'World Painter'
+global.CardText[CardStat] = 'Elemental/Over Trigger
+
+Additional Effect - choose up to three unit card with different grades from your drop, put one to bottom of your deck, call one to RC, and put one to your hand.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 20974
+{
+global.CardName[CardStat] = 'Abdicated Supremacy'
+global.CardText[CardStat] = 'Spirit/Over Trigger
+
+Additional Effect - For next four end of turn, You get "All your units get power +5000. At the start of your turn, draw a card.".'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
