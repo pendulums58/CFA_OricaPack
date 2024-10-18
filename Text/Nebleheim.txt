@@ -2262,16 +2262,20 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20991
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20991
 {
-global.CardName[CardStat] = 'Geis of Muse'
-global.CardText[CardStat] = 'Token Set Order'
+global.CardName[CardStat] = 'Geis of Demon'
+global.CardText[CardStat] = 'Token Set Order
+
+(SHIFT + left click to get a Treasures marker.)'
 global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 29
 }
+global.MimicNotEvil[CardStat] = 1
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 
