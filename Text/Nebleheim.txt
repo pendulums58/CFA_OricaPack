@@ -2305,3 +2305,18 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20998
+{
+global.CardName[CardStat] = 'Foldmoon Scriper'
+global.CardText[CardStat] = 'Nebelheim/Warbeast
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your opponent’s attacking unit, and it gets critical -1 until end of that battle.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0

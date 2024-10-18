@@ -1365,3 +1365,18 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 20999
+{
+global.CardName[CardStat] = 'Limika, Daydreaming Swordman'
+global.CardText[CardStat] = 'Homeros/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your opponent’s attacking unit, and it gets critical -1 until end of that battle.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
