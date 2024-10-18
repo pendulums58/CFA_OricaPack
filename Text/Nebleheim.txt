@@ -2216,3 +2216,92 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20987
+{
+global.CardName[CardStat] = 'Visitor from dark cave'
+global.CardText[CardStat] = 'Nebleheim/Wyrm dragon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20988
+{
+global.CardName[CardStat] = 'Executioner of cleaving clouds'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20989
+{
+global.CardName[CardStat] = 'Malefic Minister'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20990
+{
+global.CardName[CardStat] = 'Fafnir Greed, Miserliness Contractor'
+global.CardText[CardStat] = 'Nebleheim/Wyrm dragon
+
+(Shift + left click to get Geis of Demon)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20991
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 20991
+{
+global.CardName[CardStat] = 'Geis of Muse'
+global.CardText[CardStat] = 'Token Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20992
+{
+global.CardName[CardStat] = 'O thee, yearn endlessly'
+global.CardText[CardStat] = 'Nebelheim//Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20993
+{
+global.CardName[CardStat] = 'Lindrake of black woodlands'
+global.CardText[CardStat] = 'Nebleheim/Wyrm dragon'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20994
+{
+global.CardName[CardStat] = 'Carved Memory remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
