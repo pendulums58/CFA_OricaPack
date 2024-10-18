@@ -292,7 +292,7 @@ global.DefensePowerStat[CardStat] = 50000
 
 CardStat = 20139
 {
-global.CardName[CardStat] = 'Perfoming miracle "Unite Order"'
+global.CardName[CardStat] = 'performing miracle "Unite Order"'
 global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
 
 Choose up to two of your rear-guards, put them into damage zone, choose units with grade equal or less to your vanguard and different name as putted unit, equal to putted units, call them to RC. If your damage zone is four or more, they get power +5000 until end of turn.'
@@ -306,7 +306,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20140
 {
-global.CardName[CardStat] = 'Perfoming miracle "Yggdrasil"'
+global.CardName[CardStat] = 'Performing miracle "Yggdrasil"'
 global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
 
 
@@ -365,7 +365,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20160
 {
-global.CardName[CardStat] = 'Perfoming miracle "Vital Pulse"'
+global.CardName[CardStat] = 'performing miracle "Vital Pulse"'
 global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
 
 
@@ -672,7 +672,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20343
 {
-global.CardName[CardStat] = 'Perfoming Miracle "Stellarion"'
+global.CardName[CardStat] = 'performing Miracle "Stellarion"'
 global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
 
 COST [Counter Blast 1] to play this card.
@@ -1647,7 +1647,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20622
 {
-global.CardName[CardStat] = 'Perfoming Miracle "Stellarion" '
+global.CardName[CardStat] = 'performing Miracle "Stellarion" '
 global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Critical Trigger
 
 COST [Energy Blast 3] to play this card.
@@ -1849,7 +1849,7 @@ global.PersonaRide[CardStat] = 1
 
 CardStat = 20762
 {
-global.CardName[CardStat] = 'Perfoming Miracle "Stellarion"  '
+global.CardName[CardStat] = 'performing Miracle "Stellarion"  '
 global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
 
 If you have a vanguard with "Nimrod" in its card name, COST [Counter Blast 1] to play this card.

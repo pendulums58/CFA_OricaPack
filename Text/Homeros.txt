@@ -3,7 +3,7 @@ CardStat = 20627
 global.CardName[CardStat] = 'Cheong Seola, Silvery Girl'
 global.CardText[CardStat] = 'Homeros/Human/Draw Trigger
 
-CONT [GC]: If your opponentë­© vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 106
@@ -29,7 +29,7 @@ CardStat = 20629
 global.CardName[CardStat] = 'Leisurely blade, Kendairo'
 global.CardText[CardStat] = 'Homeros/Warbeast/Front Trigger
 
-CONT [GC]: If your opponentë­© vanguard is grade 3 or greater, this unit gets shield +5000.'
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 106
@@ -126,7 +126,7 @@ CONT: You may only have one "Kratiste Aegis" in a deck.
 
 Play this with COST [discard a card from hand] if your crest zone does not have cards other than "Energy Generator"!
 
-If your opponentë­© crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
+If your opponent’s crest zone has a card other than "Energy Generator", this ability can be played without paying the cost.
 
 Choose one of your units, and it cannot be hit until end of that battle. Remove this card.'
 global.UnitGrade[CardStat] = 1
@@ -428,12 +428,12 @@ global.PersonaRide[CardStat] = 1
 
 CardStat = 20727
 {
-global.CardName[CardStat] = 'Hatamoto "26" - Hesikiri'
+global.CardName[CardStat] = 'Disciple of chilling breath'
 global.CardText[CardStat] = 'Homeros/Human'
-global.UnitGrade[CardStat] = 1
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20728
@@ -626,7 +626,7 @@ CONT: Sentinel (You may only have up to four cards with "CONT: Sentinel" in a de
 
 CONT: You may only have one "Kratiste Aegis" in a deck.
 
-If your opponentë­© vanguard has "Triple Drive", this ability can be played without paying the cost.
+If your opponent’s vanguard has "Triple Drive", this ability can be played without paying the cost.
 
 Play this with COST [discard a card from hand] if your vanguard is grade 3 or less!
 
@@ -691,7 +691,7 @@ global.RegalisPiece[CardStat] = 1
 
 CardStat = 20784
 {
-global.CardName[CardStat] = 'Eustisë­© Command'
+global.CardName[CardStat] = 'Eustis’s Command'
 global.CardText[CardStat] = 'Homeros/Normal Order
 
 COST [Counter Blast 1 & Remove a card with same name to your vanguard from your drop] to play this card.
@@ -1234,3 +1234,134 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 20978
+{
+global.CardName[CardStat] = 'Independent pythia, Talent'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20979
+{
+global.CardName[CardStat] = 'Jiangshi, Li Xiaoru'
+global.CardText[CardStat] = 'Homeros/Zombie
+
+AUTO: When this unit is rode upon by "SparkStrider Denarion", COST [Put this card in soul to ride deck face up], look at top seven cards from your deck, put up to one card among them to hand, up to one card to soul. Shuffle your deck.
+
+AUTO [Ride Deck] : When you vow, you may call this card face up to RC.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20980
+{
+global.CardName[CardStat] = 'SparkStrider Denarion'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon by "Striding one of independent, Talent", you may call this unit to RC from soul. If you do, Soul Charge 1, choose one of your vanguard, and it gets "CONT [VC] : Your front-row rear-guards cannot be attacked, and retire by your opponent’s ability" until end of your opponent’s turn.
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Talent" in its card name, COST [Counter Blast 1], search your deck for a grade 3 without Mythic Saga, reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20981
+{
+global.CardName[CardStat] = 'Striding one of independent, Talent'
+global.CardText[CardStat] = 'Homeros/Human
+
+ACT [VC] 1/Turn : COST [Put a normal unit to ride deck face up from hand], draw a card, and this unit gets power +5000 for each of grade you putted.
+
+AUTO [VC] : When this unit attacks, COST [Discard a card], this unit gets power +5000 / drive +1 for each two card in your ride deck until end of battle. If you vowing, this unit gets critical +1 until end of battle, and all ability of sentinel’s your opponent gets additional COST [Discard a grade 3] until end of turn.
+
+Oath - AUTO [VC] : At the beginning of your ride phase, you get "You cannot ride, and cannot activate persona ride." and "You cannot normal call rear-guard" during this fight. (Oath ability triggers only one time, and you become vowed until end of this fight.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20982
+{
+global.CardName[CardStat] = 'Put not forth thy hand unto me'
+global.CardText[CardStat] = 'Homeros/Normal Order
+
+COST [Counter Blast 1] to play this card.
+
+Choose a grade 2 or less normal unit without sentinel from your drop, and put into your hand. You cannot normal call same name as that card this turn. If you are vowing, COST [Discard a "Striding one of independent, Talent" from your hand], choose one of your vanguard, and it gets "AUTO [VC] : When this unit attacks, COST [Retire all your rear-guards], choose your opponent’s rear-guard up to retired unit, retire them. And draw equal to you did not retired." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20983
+{
+global.CardName[CardStat] = 'Goddess of Ember and Serenity, Esthis'
+global.CardText[CardStat] = 'Homeros/Noble
+
+CONT [RC/GC] : If you are vowing, this unit gets power +5000 / shield +5000.
+
+ACT [Drop] : If you have a vanguard with "Talent" in its card name, COST [Counter Blast 1 & Put this unit into bottom of your deck], Choose up to two card from your hand, call them to RC. If you called one or more, draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20984
+{
+global.CardName[CardStat] = 'Akeboshi \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast
+
+ACT [RC] 1/Turn : Choose a card with less or equal grade to your vanguard, call it to RC with same column as this unit. If you are vowing, it gets power +5000 until end of turn.
+
+AUTO [Drop] : If a card was putted into your ride deck face up, If you have no rear-guard with same name to this unit, and you have a vanguard with "Talent" in its card name, you may call this unit to back row RC. If you do, retire this unit at the end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 20985
+{
+global.CardName[CardStat] = 'Disciple of Stubborn fidelity'
+global.CardText[CardStat] = 'Homeros/Human
+
+ACT [Ride Deck] : If this card is face up, and if you have a vanguard with grade 2 or greater, COST [Put a card from your hand to ride deck face up], call this unit to RC.
+
+AUTO [RC] : When your vanguard with "Talent" in its card name attacks, COST [Retire this unit], draw a card, choose one of your vanguard, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20986
+{
+global.CardName[CardStat] = 'Disciple of Peerless talent'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO [Hand] : At the beginning of your battle phase, if you are vowing, you may call this card to RC. If you do, COST [Counter Blast 1 or Energy Blsat 3], this unit gets power +10000 until end of turn.
+
+AUTO [RC] : At the end of battle this unit attacked, put this card into ride deck face up. If you did not, retire this unit. (This effect is mandatory)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
