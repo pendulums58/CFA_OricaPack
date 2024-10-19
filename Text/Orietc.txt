@@ -363,3 +363,20 @@ global.DCards[CardStat] = 105
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21000
+{
+global.CardName[CardStat] = 'Story of thousand page, Milenia'
+global.CardText[CardStat] = 'Narrator
+
+CONT : If you use this card in ride deck, you may put up to each one Origin Record, Ability Piece, Miracle Relic, Nibelung’s Treasure, Mythic Saga, Lost Gear into your deck regardless of your nation, and they are also regarded as Fate order. You cannot ride grade 3 or greater unit without "Milenia" in its card name.
+
+AUTO [VC] : When your drive check reveals non-trigger, COST [Remove a Fate order from your drop or bind zone], put that card into bottom of your deck, and this unit gets power +5000/drive +1 until end of that battle.
+
+AUTO [VC] : When this unit attacks, COST [Counter Blast 1], flip five coins, look at top ten cards from your deck, choose equal or less to fliped head among them, call to RC. Shuffle your deck. For each tail you flipped, all your units get power +1000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 13000
+global.PersonaRide[CardStat] = 1
+global.DefensePowerStat[CardStat] = 0
