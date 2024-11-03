@@ -2324,3 +2324,13 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21004
+{
+global.CardName[CardStat] = 'Sky light messenger, Gulpaxi '
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

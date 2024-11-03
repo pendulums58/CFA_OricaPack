@@ -1380,3 +1380,13 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21005
+{
+global.CardName[CardStat] = 'Quiet pythia, Delphin '
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

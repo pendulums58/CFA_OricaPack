@@ -3250,3 +3250,18 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21002
+{
+global.CardName[CardStat] = 'Eldereyes Spellcaster '
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+AUTO: When this unit is put on GC from hand or discarded from hand while riding from the ride deck, COST [Soul Blast 1], and Energy Charge 3.
+
+AUTO: When this unit is placed on RC from hand, if you have ten or more energy, COST [Energy Blast 5], draw a card, your opponent choose one of their rear-guard, and bind it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

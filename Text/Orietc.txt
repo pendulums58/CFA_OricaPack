@@ -305,11 +305,9 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20926
 {
-global.CardName[CardStat] = 'Select Your'
-global.CardText[CardStat] = '
-
-(You will be prompted to get the "Energy Generator" crest upon ride.)'
-global.UnitGrade[CardStat] = 0
+global.CardName[CardStat] = 'VVill'
+global.CardText[CardStat] = ''
+global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 105
 }
 global.PowerStat[CardStat] = 6000
@@ -320,21 +318,23 @@ CardStat = 20927
 {
 global.CardName[CardStat] = 'Victorious Visionary Vanguard'
 global.CardText[CardStat] = ''
-global.UnitGrade[CardStat] = 10
+global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
 
 CardStat = 20928
 {
-global.CardName[CardStat] = 'World Selector'
+global.CardName[CardStat] = 'The Selector'
 global.CardText[CardStat] = 'Human'
-global.UnitGrade[CardStat] = 10
+global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 105
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
 
 CardStat = 20973
 {
@@ -380,3 +380,41 @@ global.DCards[CardStat] = 105
 global.PowerStat[CardStat] = 13000
 global.PersonaRide[CardStat] = 1
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21006
+{
+global.CardName[CardStat] = 'Administrator of split second'
+global.CardText[CardStat] = 'Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21007
+{
+global.CardName[CardStat] = 'Administrator of Carving Green'
+global.CardText[CardStat] = 'Admin
+
+AUTO: When this unit is rode upon by <Admin> or <Omnia>, COST [Reveal an <Admin> or <Omnia> from your ride deck], look at top seven cards from your deck, choose up to one and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21008
+{
+global.CardName[CardStat] = 'Administrator of Blue Butterfly'
+global.CardText[CardStat] = 'Admin
+
+AUTO: When this unit is rode upon by <Admin> or <Omnia>, draw a card, and COST [Counter Blast 1], You get "All your front row units get power +5000." until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

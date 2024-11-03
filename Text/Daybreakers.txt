@@ -1197,7 +1197,7 @@ CardStat = 20099
 global.CardName[CardStat] = 'Iris, Second-class Blacksmith'
 global.CardText[CardStat] = 'Daybreakers/Noble
 
-ACT [RC]: COST [Put this unit into soul], choose one of your unit neither <admin> nor <omnia>, it gets power +5000 and "AUTO [RC] 1/Turn : When this unit’s attack hits a vanguard, draw a card." until end of turn.'
+AUTO [RC]: When this unit attacks or boosts, if you played an order this turn, or your drop has a Sword Art, Mana Source or Phantom card, this unit gets power +5000 until end of that battle. And if that attack hits, COST [put this unit into soul], draw a card.'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
@@ -3538,3 +3538,16 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21001
+{
+global.CardName[CardStat] = 'Iris, Second-class Blacksmith '
+global.CardText[CardStat] = 'Daybreakers/Noble
+
+AUTO [RC]: When this unit attacks or boosts, if you played an order this turn, or your drop has a Sword Art, Mana Source or Phantom card, this unit gets power +5000 until end of that battle. And if that attack hits, COST [put this unit into soul], draw a card.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
