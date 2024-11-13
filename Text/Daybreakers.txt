@@ -3551,3 +3551,30 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21018
+{
+global.CardName[CardStat] = 'Jester Wonder, Fated king of Iteration'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.PersonaRide[CardStat] = 1
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21019
+{
+global.CardName[CardStat] = 'Passion Crowd'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+Texts WIP.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

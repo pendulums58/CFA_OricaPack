@@ -2607,3 +2607,140 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21009
+{
+global.CardName[CardStat] = 'Batched Intruth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21010
+{
+global.CardName[CardStat] = 'Denied Intruth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+AUTO: When this unit is placed by riding from "Batched Intruth", COST [Reveal a card from your hand], search your deck for a card with same grade to revealed card, discard it. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21011
+{
+global.CardName[CardStat] = 'Requesting Intruth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+AUTO: When this unit rode upon by a grade 3 with "Intruth" in its card name, look at top five cards from your deck, choose up to two grade 3 or less card, call one to RC, and discard else. Shuffle your deck.
+
+AUTO [VC] : When this unit’s attack hits a vanguard, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21012
+{
+global.CardName[CardStat] = 'Restored Intruth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+CONT [VC] : "When hits" ability of your units with three or more CONT ACT AUTO ability activates even when they do not hit.
+
+ACT [VC] : COST [Counter Blast 1], choose one of your rear-guard, and it gets "AUTO [RC] : At the end of battle this unit attacks or boosts, choose a normal unit with same grade to this unit without sentinel from your drop, call it to RC with this unit." until end of turn.
+
+AUTO [VC] : When your unit is placed on RC, choose one of your unit, and it gets power +5000 until end of turn.
+
+AUTO [VC] : When this unit’s attack hits a vanguard, COST [Energy Blast 3], put a top card of your drop to your hand.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21013
+{
+global.CardName[CardStat] = 'Administrator of Jade Road'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+CONT [RC] : If this unit is chosen by a vanguard’s ability this turn, this unit gets power +5000.
+
+AUTO [RC] : When an attack this unit boosts hits, COST [Soul Blast 1], look at top two cards from your deck, choose up to one card, and put into damage zone, and put others to bottom of your deck. If you putted to damage zone, choose a card from your damage zone, and put into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21014
+{
+global.CardName[CardStat] = 'Administrator of Connected Moon'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+AUTO: When this unit is placed on back row center RC during your battle phase, COST [Counter Blast 1 & discard a card], choose a vanguard with "Intruth" in its card name that did not stand by ability this turn, stand it.
+
+ACT [Damage Zone] : If you have a grade 3 or greater vanguard with "Intruth" in its card name, COST [Put a card from your hand to damage zone], call this unit to RC.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21015
+{
+global.CardName[CardStat] = 'Administrator of Shadow Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+AUTO: When this unit is placed on RC during battle phase, if you have a vanguard with "Cistus" or "Intruth" in its card name, COST [Counter Blast 1 or Energy Blast 3], choose one of your opponent’s rear-guard, and retire it. If this unit is placed on RC with unit, put a top card of your drop to hand.
+
+AUTO [RC] : At the end of battle this unit attacked, If you paid Counter Blast 3 or more, COST [Retire this unit], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21016
+{
+global.CardName[CardStat] = 'Administrator of Beige Claw'
+global.CardText[CardStat] = 'Mysterious Kabalon/Admin
+
+CONT [RC] : If you have a vanguard with "Intruth" in its card name, this unit gets power +5000.
+
+AUTO : When this unit is placed on RC, this unit gets "AUTO [RC] : When this unit’s attack hits a vanguard, Counter Charge 1. If your damage zone is all face-up, COST [Counter Blast 1], draw a card." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonRide[CardStat] = 1
+
+CardStat = 21017
+{
+global.CardName[CardStat] = 'Descended Miracle Piece'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+COST [Counter Blast 1] to play this card.
+
+Draw two cards.
+
+AUTO : When this card is putted into drop from your damage zone, if you went second, You get "All of your vanguards get power +2000" during this fight. Remove this card.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1

@@ -3265,3 +3265,34 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21020
+{
+global.CardName[CardStat] = 'Faceless Believer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21021
+{
+global.CardName[CardStat] = 'Origin Halley Shard'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Ability Piece
+
+CONT: Ability Piece (This card is source of the power that symbolized ability.)
+
+Search your deck for a grade 2 or less card with Energy Charge or Energy Blast, reveal it and put into your hand. Shuffle your deck.
+
+AUTO : When this card is discarded from your hand or Counter Blast or Soul Blast by ability of your vanguard, if you went second, your "Energy Generator" get "AUTO : At the beginning of your main phase, Energy Charge 3." during this fight. Remove this card. If you removed from your damage zone, put the top card of your deck to damage zone face down.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
