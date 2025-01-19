@@ -3586,7 +3586,7 @@ global.CardText[CardStat] = 'Daybreakers/Human
 
 AUTO : When this unit is placed on RC, COST [Soul Blast 1], look at top five cards from your deck, choose up to one card and bind it, shuffle your deck.
 
-AUTO [RC] : When your unit is placed on VC during your battle phase, COST [Counter Blast 1], draw a card. Choose up to one card from your bind zone, and put into your soul.
+AUTO [RC] : When your unit is placed on VC during your battle phase, COST [Counter Blast 1], draw a card. Choose up to one card from your bind zone, and put into your soul.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
