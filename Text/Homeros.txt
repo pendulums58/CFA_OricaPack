@@ -1284,7 +1284,7 @@ global.CardText[CardStat] = 'Homeros/Human
 
 ACT [VC] 1/Turn : COST [Put a normal unit to ride deck face up from hand], draw a card, and this unit gets power +5000 for each of grade you putted.
 
-AUTO [VC] : When this unit attacks, COST [Discard a card], this unit gets power +5000 / drive +1 for each two card in your ride deck until end of battle. If you vowing, this unit gets critical +1 until end of battle, and all ability of sentinel’s your opponent gets additional COST [Discard a grade 3] until end of turn.
+AUTO [VC] : When this unit attacks, COST [Discard a card], this unit gets power +5000 / drive +1 for each two card in your ride deck until end of battle. If you are in vowing, this unit gets critical +1 until end of battle, and all ability of sentinel’s your opponent gets additional COST [Discard a grade 3] until end of turn.
 
 Oath - AUTO [VC] : At the beginning of your ride phase, you get "You cannot ride, and cannot activate persona ride." and "You cannot normal call rear-guard" during this fight. (Oath ability triggers only one time, and you become vowed until end of this fight.)'
 global.UnitGrade[CardStat] = 3

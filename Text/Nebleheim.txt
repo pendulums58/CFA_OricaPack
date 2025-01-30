@@ -2334,3 +2334,105 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21024
+{
+global.CardName[CardStat] = 'Expecting Mistraper, Desire'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21025
+{
+global.CardName[CardStat] = 'Timetreat Trickstar'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO : When this unit is rode upon by "Parallelstrider, Instinct", COST [Bind this unit], look at top seven cards from your deck, choose up to one card and bind it. Shuffle your deck.
+
+AUTO [RC] : When your unit is placed on RC same column with this unit from bind zone, stand this unit.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21026
+{
+global.CardName[CardStat] = 'Parallelstrider, Instinct'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO : When this unit is rode upon by "Striding one of Trailblaze, Desire", you may call this unit in your soul to RC. If you do, Soul Charge 1, and this unit gets power +5000 / drive +1 until end of turn.
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Desire" in its card name, COST [Counter Blast 1], search your deck for a grade 3 except Nibelung’s Treasure, reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21027
+{
+global.CardName[CardStat] = 'Striding one of Trailblaze, Desire'
+global.CardText[CardStat] = 'Nebleheim/Noble
+
+CONT [VC] : While the attack your rear-guard attacked, if it was the first attack in this turn, or you are in vowing, perform drive check.
+
+Oath - AUTO [VC] : At the beginning of your ride phase, you get "You cannot ride, and cannot activate persona ride." and "When your drive check reveals a card, bind it." during this fight. (Oath ability triggers only one time, and you become vowed until end of this fight.)
+
+AUTO [VC] 1/Turn : At the end of battle your rear-guard attacked, if trigger was not revealed during drive check of that attack, COST [Counter Blast 1], return that unit to hand, choose a unit with less grade as that unit from your bind zone, and call it to RC. If your opponent’s vanguard is grade 3 or greater, that unit gets power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21028
+{
+global.CardName[CardStat] = 'Fogsmith of DIffluence, Nacre'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT [RC/GC] : If you are vowing, this unit gets power +5000 / shield +5000.
+
+AUTO [RC] 1/Turn : When your drive check reveals a grade 3, COST [Soul Blast 1 & Bind that card], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21029
+{
+global.CardName[CardStat] = 'Promised Riding Hood'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO : When your drive check reveals this card, COST [Counter Blast 1], choose a card that bound this turn from your bind zone, and put into your hand.
+
+CONT [GC] : If your hand is four or less, and you have a vanguard with "Desire" in its card name, this unit gets shield +10000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21030
+{
+global.CardName[CardStat] = 'Let none bar mine way'
+global.CardText[CardStat] = 'Nebelheim/Normal Order
+
+COST [Energy Blast 2] to play this card.
+
+Choose a grade 3 from your bind zone, and call it to RC. If you are vowing, COST [Choose a "Striding one of Trailblaze, Desire" from your hand, and discard it], it gets "CONT [RC] : This unit can attack from back row." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
