@@ -3593,3 +3593,49 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
+CardStat = 21031
+{
+global.CardName[CardStat] = 'Cabal Shadowwatch'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+CONT: If your G zone has no cards, this card gets all of the following.
+?ACT [Hand]: If you have a grade 3 or greater vanguard, COST [discard this card & put a total of two cards from soul or drop that were in the ride deck into ride deck face up], look at the top seven cards of your deck, choose up to one grade 3 or greater card with a different card name from your vanguard from among them, reveal it and put it into hand, and shuffle the deck. If you did not reveal a card, put this card into hand.
+?AUTO: When this unit is put on GC, if race of your unit is three or more, this unit gets shield +5000 until end of that battle. If your opponent’s G zone has a card, COST [bind a grade 3 or greater card from soul or drop], and this unit gets shield +10000 until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21032
+{
+global.CardName[CardStat] = 'Harry Arnolseron'
+global.CardText[CardStat] = 'Daybreakers/Human/Front Trigger
+
+AUTO: When this unit is retired from GC, you may put this card into soul.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21033
+{
+global.CardName[CardStat] = 'Pilgrim of dividing rainbow, Ukonkuari'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this card is placed on RC from hand other than by a unit card’s ability or discarded from hand while riding from the ride deck, choose a card with persona ride from your ride deck, and you may reveal it. If you revealed a card or have a vanguard with persona ride, COST [Soul Blast 1], and put a Persona Shield ticket into hand.
+
+AUTO [RC]: When this unit attacks a grade 3 or greater unit, this unit gets power +5000 until end of that battle.
+
+(SHIFT + left click to get a Persona Shield ticket)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.TokenSummoner[CardStat] = 13708
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummonerQuantity[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.AttackFromRBuff[CardStat] = 5000
