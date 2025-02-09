@@ -1437,3 +1437,13 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+
+CardStat = 21053
+{
+global.CardName[CardStat] = 'Kind Miko, Reiha'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
