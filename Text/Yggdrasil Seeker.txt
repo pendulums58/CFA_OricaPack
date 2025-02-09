@@ -3343,3 +3343,47 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+
+CardStat = 21046
+{
+global.CardName[CardStat] = 'Knight of despair, Lamorak'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC from hand, this unit gets power +10000 until end of turn for each name of <arthur> unit in your soul.
+
+AUTO [RC]: When this unit attacks, if your vanguard was placed riding from grade 3 with different name, COST [Energy Blast 3], choose one of your opponent’s rear-guard, bind it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21047
+{
+global.CardName[CardStat] = 'Knight of spirit, Griflet'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO [Drop] : At the beginning of your battle phase, if you have a grade 3 or greater <Ghost> either <Arthur> vanguard, choose a unit card from your opponent’s drop, if you choose, COST [Counter Blast 1 & bind this card], your opponent call it to their RC, and you draw a card.
+
+AUTO [RC]: At the end of battle this unit boosted <Arthur>, COST [Retire this unit], Energy Charge 3.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21048
+{
+global.CardName[CardStat] = 'Knight of pasttime, Aglovale'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT : This card cannot ride.
+
+AUTO [Hand] : During your battle phase, if your rear-guard was placed on RC or stand by ability, if you have a <Arthur> either <Ghost> vanguard, COST [Retire that unit], call this card to RC.
+
+AUTO [RC] : When this unit attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +10000 until end of that battle. If your vanguard was placed riding from grade 3 with different name, this unit gets critical +1 until end of turn.'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0

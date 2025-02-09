@@ -2791,3 +2791,69 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+
+CardStat = 21049
+{
+global.CardName[CardStat] = 'Seven Star that shine again, Teneon Coach'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [VC] : All your front row unit gets power +5000 for each of your Miracle Bloomed this turn.
+
+ACT [VC] : 1/Turn : COST [put a grade 3 or greater card with "Teneon" in its card name from your soul or hand to drop], look the top cards of your deck equal to triggers in your damage zone, choose up to one card and put into hand, shuffle your deck. This unit gets critical +1 until end of turn.
+
+Miracle Blooming - ACT [VC] : COST [Put a trigger from your hand to damage zone], draw a card, choose a card from your damage zone, call it to RC.
+
+Miracle - AUTO [VC] : When this unit attacks, COST [Counter Blast 1], choose your rear-guards up to triggers in your damage zone, stand it, if your damage zone has three or more trigger, choose a trigger from your drop, and put into your hand.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21050
+{
+global.CardName[CardStat] = 'Breaching Acolyte, Sirian'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+ACT [RC]: If you have a vanguard with "Teneon" in its card name, and your opponent’s vanguard is grade 3 or greater, COST [Counter Blast 1], choose up to one grade 4 unit card with "Teneon" in its card name from your deck, drop or soul, ride it as stand, and put this unit into deck, and shuffle your deck.
+
+CONT [GC] : If you have a grade 4 vanguard with "Teneon" in its card name, this unit gets shield +5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21051
+{
+global.CardName[CardStat] = 'performing Miracle "Stellarion"   '
+global.CardText[CardStat] = 'Mysterious Kabalon/Set Order
+
+CONT [Order Zone] : If your damage zone has three or more trigger, all your vanguard’s original power with "Teneon" in its card name becomes 18000, and cannot be decrease by your opponent’s ability.
+
+AUTO [Order Zone] : When your vanguard with "Teneon" in its card name attacks, if your damage zone is more than your opponent, your opponent cannot place cards to GC except their hand, and cannot play blitz order.'
+
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21052
+{
+global.CardName[CardStat] = 'Yehi Gebura'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+Play this card if you have vanguard with "Teneon" in its card name.
+
+Choose up to two trigger unit from your damage zone, and call them to GC. If you do, put equal amount of card from top of your deck to damage zone.'
+
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
