@@ -2857,3 +2857,32 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 20817
+{
+global.CardName[CardStat] = 'Do not change'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+COST [Energy Blast 2] to play this card if you have a vanguard with "Elohim" in its card name.
+
+Look at top three cards from your deck, choose a card among them and put into damage zone face up, shuffle your deck. Choose a face up unit from your damage zone, call it to RC. If your damage zone is three or less, COST [Put the top card from your deck to damage zone], at the end of turn, choose a card from your damage zone, and put into your hand.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21054
+{
+global.CardName[CardStat] = 'Prophet of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on RC from hand, COST [Counter Blast 1], choose a order from your bind zone, and put into your hand.
+
+AUTO [Drop] : When you play an normal order, if you have no unit with same name to this card, you may call this unit to RC.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

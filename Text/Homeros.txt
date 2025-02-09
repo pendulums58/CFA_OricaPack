@@ -729,7 +729,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20812
 {
-global.CardName[CardStat] = 'Eris, Sword apprentice'
+global.CardName[CardStat] = 'Festival night, Yoshiyuki'
 global.CardText[CardStat] = 'Homeros/Human
 
 AUTO: When this unit is rode upon, if you went second, draw a card.
@@ -753,7 +753,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20814
 {
-global.CardName[CardStat] = 'Aura, Guiding blade'
+global.CardName[CardStat] = 'Clear talent, Yoshiyuki'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 106
@@ -763,7 +763,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20815
 {
-global.CardName[CardStat] = 'Hatamoto 18 - Monohoshizao'
+global.CardName[CardStat] = 'Guiding Blade, Aura'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
@@ -773,7 +773,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20816
 {
-global.CardName[CardStat] = 'Hatamoto 24 - Imanotsurugi'
+global.CardName[CardStat] = 'Sword of awaken, Yoshiyuki'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
@@ -781,15 +781,6 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20817
-{
-global.CardName[CardStat] = 'Hatamoto 20 - Hotarumaru'
-global.CardText[CardStat] = 'Homeros/Human'
-global.UnitGrade[CardStat] = 2
-global.DCards[CardStat] = 106
-}
-global.PowerStat[CardStat] = 10000
-global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20818
 {
@@ -1446,4 +1437,14 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21055
+{
+global.CardName[CardStat] = 'Deluding smile, Fraus'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
