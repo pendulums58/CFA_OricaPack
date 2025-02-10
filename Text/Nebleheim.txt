@@ -2483,3 +2483,69 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+
+CardStat = 21056
+{
+global.CardName[CardStat] = 'Sworded wave, Yarshark'
+global.CardText[CardStat] = 'Nebleheim/Spirit
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21057
+{
+global.CardName[CardStat] = 'Wolf wave, Wolfrun'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21058
+{
+global.CardName[CardStat] = 'Wolf wave, Imd'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21059
+{
+global.CardName[CardStat] = 'Skyshrouded Seacloud, Heimdallr'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21060
+{
+global.CardName[CardStat] = 'Foretelling Wave, Garv'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21061
+{
+global.CardName[CardStat] = 'Swirling Wave, Estilla'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
