@@ -2886,3 +2886,49 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21062
+{
+global.CardName[CardStat] = 'Seeker of wish, Linnea'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+
+CardStat = 21063
+{
+global.CardName[CardStat] = 'Pilgrim Star, Unukalhai'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21064
+{
+global.CardName[CardStat] = 'Pilgrim Star, Proxima'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21065
+{
+global.CardName[CardStat] = 'Mir, Kaleidoscope Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+(SHIFT + left click to activate persona ride)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
