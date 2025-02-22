@@ -2549,3 +2549,20 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21068
+{
+global.CardName[CardStat] = 'Time-piercing Spear'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 15000
+global.RegalisPiece[CardStat] = 1

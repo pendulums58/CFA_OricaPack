@@ -1140,7 +1140,7 @@ global.CardText[CardStat] = 'Daybreakers/Human
 
 AUTO: When this unit is placed on RC other than by a unit card’s ability, if you played a normal order this turn, COST [Soul Blast 1], look at the top five cards of your deck, choose up to one card with grade less than or equal to your vanguard from among them and reveal it, call it to RC if it is a unit card, and put it into hand if it is a normal order. Shuffle the deck.
 
-AUTO [RC]: When this unit attacks a grade 3 or greater unit, this unit gets power +3000 each for races on your circle until end of that battle.'
+AUTO [RC]: When this unit attacks a grade 3 or greater unit, this unit gets power +5000 for each two races on your circle until end of that battle.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100

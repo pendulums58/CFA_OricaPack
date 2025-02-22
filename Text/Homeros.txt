@@ -1448,3 +1448,37 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21069
+{
+global.CardName[CardStat] = 'Combust the life to make a world'
+global.CardText[CardStat] = 'Homeros/Normal Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+
+CardStat = 21070
+{
+global.CardName[CardStat] = 'Effort to ideal makes a miracle'
+global.CardText[CardStat] = 'Homeros/Set Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1

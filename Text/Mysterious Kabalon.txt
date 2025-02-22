@@ -1277,6 +1277,7 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRideCardName[CardStat] = 'Bastion'
 
 CardStat = 20502
 {
@@ -2902,7 +2903,13 @@ global.PersonaRide[CardStat] = 1
 CardStat = 21063
 {
 global.CardName[CardStat] = 'Pilgrim Star, Unukalhai'
-global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by grade 2, COST [Reveal a trigger from your hand], Look at top three cards from your deck, choose a card among them and put into damage zone, choose a card from your damage zone, and put into your hand. Perform following for trigger you revealed.
+
+Heal Trigger - Look five instead of three.
+
+Over Trigger - Look seven instead of three.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
 }
@@ -2912,7 +2919,11 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 21064
 {
 global.CardName[CardStat] = 'Pilgrim Star, Proxima'
-global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is rode upon by "Mir, Kaleidoscope Star", COST [Choose a trigger from your hand, and discard it. or Counter Blast 1], look at top seven cards from your deck, choose up to one grade 3 normal unit among them, reveal it and put into your hand. Shuffle your deck. If you did not revealed, put this card in your soul to your hand.
+
+AUTO [RC] : When this unit attacks, if your vanguard was placed rode from grade 3 with different name, this unit gets power +5000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 102
 }
@@ -2924,6 +2935,10 @@ CardStat = 21065
 global.CardName[CardStat] = 'Mir, Kaleidoscope Star'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
+CONT: The normal ride from hand on this unit by a unit with different card name is regarded as persona ride too.
+
+AUTO Limit Break 4 : When this unit is rode upon, choose one of your vanguard, it gets power +10000 until end of turn, search your deck or drop for a card with same name as that card, reveal it and put into your hand, and COST [Counter Blast 1], choose one of your vanguard, and it gets "AUTO [VC] Limit Break 4 1/Turn : At the end of battle this unit attacked, choose one of your rear-guard, and until end of turn, increase or decrease that unit’s power and critical to match this unit."
+
 (SHIFT + left click to activate persona ride)'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
@@ -2932,3 +2947,42 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21066
+{
+global.CardName[CardStat] = 'Achromatic Encore, Cistus'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+CONT: This card is regarded as "Dying color, Cistus".
+
+CONT [VC] : During your turn, if your damage zone has no face-up card, all your front row unit gets power +5000, and if your damage zone is four or more, this unit gets drive + 1.
+
+ACT [VC] : COST [Energy Blast 2], Counter Charge 1.
+
+AUTO [VC] : When this unit attacks a vanguard, COST [Counter Blast 1], choose a normal unit equal or less grade to Counter Blast you paid this turn, without sentinel from your drop, call it to RC. If your opponent has grade 3 or greater vanguard, search your deck or drop for a "Scar, Transparent knight", call it to RC.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Cistus'
+
+CardStat = 21067
+{
+global.CardName[CardStat] = 'Resonated Mind Symbol'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order/Miracle Relic
+
+Miracle Relic (You may only use Miracle Relic order a total of one time in a fight.)
+
+COST [Choose a card with same name to your vanguard from your hand or soul, drop it] to play this card.
+
+Increase or decrease all your opponent’s front row unit’ss power equal to your vanguard that turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
