@@ -489,3 +489,25 @@ global.DCards[CardStat] = 104
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21071
+{
+global.CardName[CardStat] = 'Song of broken time'
+global.CardText[CardStat] = 'Clocktower Chronicle/Normal Order/Lost Gear
+
+Lost Gear (You may only use Lost Gear order a total of one time in a fight.)
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1

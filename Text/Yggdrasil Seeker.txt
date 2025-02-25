@@ -3387,3 +3387,134 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21072
+{
+global.CardName[CardStat] = 'Sefir, knight of snowscape'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21073
+{
+global.CardName[CardStat] = 'Leadseal Transfer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21074
+{
+global.CardName[CardStat] = 'Destination Determinator'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21075
+{
+global.CardName[CardStat] = 'Ghagiel, Reverberation Contractor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+(Shift + left click to get Geis of Essence)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21076
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21076
+{
+global.CardName[CardStat] = 'Geis of Essence'
+global.CardText[CardStat] = 'Token Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21077
+{
+global.CardName[CardStat] = 'O thee, guard thyself well'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21078
+{
+global.CardName[CardStat] = 'Night City Upcycler'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21079
+{
+global.CardName[CardStat] = 'Serapel, Blackwinged Messenger'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21080
+{
+global.CardName[CardStat] = 'The first snow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order/Phantom'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21081
+{
+global.CardName[CardStat] = 'Heat of the summer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order/Phantom'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 15000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21083
+{
+global.CardName[CardStat] = 'Gift caller of arousing innerside'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+CONT [Front row RC] : If you did not rode this turn, this unit gets power +10000.
+
+AUTO [RC] : At the end of battle this unit attacks, if you did not rode this turn, and did Energy Charge except ability of "Energy Generator", COST [Bind this unit], look at top five cards from your deck, search up to one grade 3 without Ability Piece among them, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

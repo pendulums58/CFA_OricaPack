@@ -3639,3 +3639,18 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+
+CardStat = 21082
+{
+global.CardName[CardStat] = 'Cycle caller of arousing eternity'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+CONT [Front row RC] : If you did not rode this turn, this unit gets power +10000.
+
+AUTO [RC] : At the end of battle this unit attacks, if you did not rode this turn, and played an order this turn, COST [Bind this unit], look at top five cards from your deck, search up to one grade 3 without Origin Record among them, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

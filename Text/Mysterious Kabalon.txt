@@ -2986,3 +2986,18 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 21084
+{
+global.CardName[CardStat] = 'Life caller of arousing miracle'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+CONT [Front row RC] : If you did not rode this turn, this unit gets power +10000.
+
+AUTO [RC] : At the end of battle this unit attacks, if you did not rode this turn, and a card was putted into your damage zone, COST [Bind this unit], look at top five cards from your deck, search up to one grade 3 without Miracle Relic among them, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
