@@ -33,4 +33,5 @@ global.CustomFactionNationId[106] = 106
 global.CustomFactionName[106] = 'Homeros'
 global.CustomFactionFile[106] = 'Homeros.txt'
  
-global.MaxCustomFaction = 20793
+global.MaxCustomFaction = 107
+global.AllCard = 21093
