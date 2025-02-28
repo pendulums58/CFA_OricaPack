@@ -1482,3 +1482,57 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 21094
+{
+global.CardName[CardStat] = 'Oracle caller of arousing awake'
+global.CardText[CardStat] = 'Homeros/Omnia
+
+CONT [Front row RC] : If you did not rode this turn, this unit gets power +10000.
+
+AUTO [RC] : At the end of battle this unit attacks, if you did not rode this turn, and if you putted a card to bottom of your deck or ride deck, COST [Bind this unit], look at top five cards from your deck, search up to one grade 3 without Mythic Saga among them, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21095
+{
+global.CardName[CardStat] = 'Goddess of victory and delight, Edirce '
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+global.GiftAdd[CardStat] = 1
+
+CardStat = 21096
+{
+global.CardName[CardStat] = 'Goddess of time and judgement, Tytiphon '
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21097
+{
+global.CardName[CardStat] = 'Goddess of luck and dream, Hynephiroa '
+global.CardText[CardStat] = 'Homeros/Omnia/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.BlueTokenAdd[CardStat] = 1
+global.DefensePowerStat[CardStat] = 50000

@@ -267,7 +267,7 @@ CardStat = 20137
 global.CardName[CardStat] = 'Seven Stars of Starry Flower'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
 
-Additional Effect - Until end of this fight, you get "At the beginning of your turn, you may deal one damage to your vanguard. If you do, and if trigger was revealed by that damage check, choose a card from your damage zone, heal it, and choose a trigger from your drop, and put it into bottom of your deck. If did not revealed, choose a card from your damage zone, and put into your hand."'
+Additional Effect - Until end of this fight, you get "All of your vanguards gets power +10000.", choose one of your vanguard, and it gets drive +1 until end of turn.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 102
@@ -281,7 +281,7 @@ CardStat = 20138
 global.CardName[CardStat] = 'Seven Stars of Celestial Hall'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
 
-Additional Effect - Until end of this fight, you get "During your turn, the power increase of your trigger effects gets +5000.", Return all critical trigger from your drop to deck, and shuffle your deck.'
+Additional Effect - Until end of this fight, you get "Your Trigger effect triggers twice.", Return all critical trigger from your drop to deck, and shuffle your deck.'
 
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 102
@@ -3116,3 +3116,45 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21098
+{
+global.CardName[CardStat] = 'Seven Stars of Guiding Star '
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble/Over Trigger
+
+Additional Effect - Search your deck and drop for each card with different name, reveal it, and put them into your hand. Until end of this fight, the number of cards in your damage zone for you to lose becomes seven.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21099
+{
+global.CardName[CardStat] = 'Seven Stars of Starry Flower '
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
+
+Additional Effect - Until end of this fight, you get "All of your vanguards gets power +10000.", choose one of your vanguard, and it gets drive +1 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21100
+{
+global.CardName[CardStat] = 'Seven Stars of Celestial Hall '
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Over Trigger
+
+Additional Effect - Until end of this fight, you get "Your Trigger effect triggers twice.", Return all critical trigger from your drop to deck, and shuffle your deck.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
