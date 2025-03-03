@@ -3654,3 +3654,18 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21109
+{
+global.CardName[CardStat] = 'Extra Life Dragon'
+global.CardText[CardStat] = 'Daybreakers/Wyrm Dragon
+
+CONT [RC] : If your opponent has grade 3 or greater vanguard, all other your rear-guards with same column as this unit can use its ability as like you persona rode this turn.
+
+ACT [RC] : COST [Remove an order from your drop], this unit gets "Boost" until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

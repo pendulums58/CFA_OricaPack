@@ -3518,3 +3518,133 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21101
+{
+global.CardName[CardStat] = 'Resurging guilt, Tinywish'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21102
+{
+global.CardName[CardStat] = 'Knight of evening bell, Bercilak'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon by "Melodystrider, Aspira", look at top five cards from your deck, choose up to one unit with Energy Charge or Energy Blast ability, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21103
+{
+global.CardName[CardStat] = 'Melodystrider, Aspira'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon by "Striding one of Encourage, Tinywish", you may call this unit in soul to RC. If you do, Energy Charge 3.
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Tinywish" in its card name, COST [Energy Blast 4], search your deck for a grade 3 card without Ability Piece, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21104
+{
+global.CardName[CardStat] = 'Striding one of Encourage, Tinywish'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Noble/Arthur
+
+CONT [VC] : You may have up to 15 Energy. If you have ten or more energy, this unit gets power +5000.
+
+AUTO [VC] : At the beginning of your main phase, Energy Charge 3. If you are vowing, You may choose up to one card from your soul, and put into your hand.
+
+AUTO [VC] : When this unit attacks, COST [Enegy Blast any time], all your front row units get power +3000 for each Energy paid for this cost. If you paid Energy Blast 5 or more, draw a card.
+
+Oath - AUTO [VC] : At the beginning of your ride phase, you get "You cannot ride, and cannot activate persona ride." and "You cannot pay Counter Blast or Soul Blast for cost of abilities." during this fight. (Oath ability triggers only one time, and you become vowed until end of this fight.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21105
+{
+global.CardName[CardStat] = 'Rise, as I do bid thee'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order
+
+Energy Charge 3. Choose up to one <Cyberoid> normal unit from your drop, and put into your soul. If you are vowing, COST [Choose a "Striding one of Encourage, Tinywish" from your hand, and discard it], choose a card from your soul, put into your hand, choose one of your unit, and it gets critical +1 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21106
+{
+global.CardName[CardStat] = 'Faithful protection, Calogrenant'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+CONT [GC] : If you have a grade 3 or greater vanguard with "Tinywish" in its card name, this unit gets shield +5000. If you are vowing, +15000 instead of +5000.
+
+AUTO [RC] : When your vanguard with "Tinywish" in its card name attacks, If you have no energy, COST [Put a rear-guard into your soul], draw a card, and Energy Charge 3. If you are vowing, return this unit in RC at the end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21107
+{
+global.CardName[CardStat] = 'Trace-tracer of melt in lifetime'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Tinywish" in its card name, Energy Charge 3.
+
+AUTO [RC] : At the end of battle this unit attacked, if this unit’s power is 40000 or greater, and if you did Energy Charge else than crest’s ability, COST [Put this unit into soul], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21108
+{
+global.CardName[CardStat] = 'Awakening Depth claw'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC, if you have an <arthur> vanguard, this unit gets power +5000 until end of turn.
+
+AUTO [RC] : At the end of battle this unit attacked or boosted, if you have a vanguard with "Tinywish" in its card name, and if you paid Energy Blast 10 or more for cost of ability this turn, COST [Put this unit into soul], draw a card, and Energy Charge 3.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21110
+{
+global.CardName[CardStat] = 'Reminisce EGOist'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC] : If your opponent has grade 3 or greater vanguard, all other your rear-guards with same column as this unit can use its ability as like you persona rode this turn.
+
+ACT [RC] : COST [Energy Blast 3], this unit gets "Boost" until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
