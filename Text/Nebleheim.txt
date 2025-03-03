@@ -2581,3 +2581,71 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21112
+{
+global.CardName[CardStat] = 'Loudbell, guardian of Bright sea'
+global.CardText[CardStat] = 'Nebelheim/Spirit'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21113
+{
+global.CardName[CardStat] = 'Tritide Timewalker'
+global.CardText[CardStat] = 'Nebelheim/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21114
+{
+global.CardName[CardStat] = 'Pink hair riding hood'
+global.CardText[CardStat] = 'Nebelheim/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21115
+{
+global.CardName[CardStat] = 'Mistserve Monster wolf'
+global.CardText[CardStat] = 'Nebelheim/Vargr'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21116
+{
+global.CardName[CardStat] = 'Midnight Mist Crow'
+global.CardText[CardStat] = 'Nebelheim/High Beast'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21117
+{
+global.CardName[CardStat] = 'Sage of forbidden, Gravak'
+global.CardText[CardStat] = 'Nebelheim/Warbeast'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
