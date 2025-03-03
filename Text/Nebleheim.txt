@@ -2649,3 +2649,18 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21118
+{
+global.CardName[CardStat] = 'Trauma Memory Attendant'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid
+
+CONT [RC] : If your opponent has grade 3 or greater vanguard, all other your rear-guards with same column as this unit can use its ability as like you persona rode this turn.
+
+ACT [RC] : COST [Soul Blast 1], this unit gets "Boost" until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
