@@ -3648,3 +3648,34 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21122
+{
+global.CardName[CardStat] = 'MIRAGE despair recoder'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [Hand / GC / Trigger Zone] : During your turn, if you have a vanguard with "Michil" in its card name, this unit gets shield +5000. If "SONG OF DIVA" is in your order zone, this unit also regarded as heal trigger.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Michil" in its card name, COST [Energy Blast 3], draw a card, choose up to one "MIRAGE despair recoder" from your drop, and put it bottom of your deck.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21123
+{
+global.CardName[CardStat] = 'Garakuta Doll Play'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+AUTO : When this card is putted into order zone, Energy Charge 3, if you have a vanguard with "Michil" in its card name, COST [Counter Blast 1], draw a card.
+
+AUTO [Order Zone] : If attack of your vanguard with "Michil" in its card name did not hits, COST [Counter Blast 1 & put this card into drop], search your deck or drop for a grade 3 set order without Ability Piece, put it into order zone, and shuffle your deck. If you persona rode this turn, choose a "Minarai tenshi to hosihuri no oka" from your drop, and put into order zone.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

@@ -2664,3 +2664,38 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21124
+{
+global.CardName[CardStat] = 'Faithless Prospector'
+global.CardText[CardStat] = 'Nebelheim/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21125
+{
+global.CardName[CardStat] = 'Losttime Digthrougher'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21126
+{
+global.CardName[CardStat] = 'Fogbridge Belowwalker'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

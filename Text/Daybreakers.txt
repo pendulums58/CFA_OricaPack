@@ -1622,26 +1622,12 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20211
-{
-global.CardName[CardStat] = 'Aura, waiting for early dawn'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is rode upon, if you went second, draw a card.
-
-(You will be prompted to get the "Energy Generator" crest upon ride.)'
-global.UnitGrade[CardStat] = 0
-global.DCards[CardStat] = 100
-}
-global.PowerStat[CardStat] = 6000
-global.DefensePowerStat[CardStat] = 5000
-
 CardStat = 20212
 {
 global.CardName[CardStat] = 'Aura, meet the sunset'
 global.CardText[CardStat] = 'Daybreakers/Human
 
-AUTO: When this unit is rode upon by "Aura, waiting for early dawn", COST [Put a grade 2 or less card from your hand to soul], draw a card, choose up to one "Aura, waiting for early dawn" from your soul, and call it to RC.
+AUTO: When this unit is rode upon by "Aura, waiting for early dawn", COST [Put a card from your hand to soul], search your deck for a "Waiting for early dawn", reveal it and put into your hand. Shuffle your deck.
 
 CONT [RC]: If you have a grade 3 or greater vanguard with "Aura" in its card name, this unit gets power +2000.'
 global.UnitGrade[CardStat] = 1
@@ -2050,11 +2036,11 @@ CardStat = 20380
 global.CardName[CardStat] = 'Aura Apex, Dawn of hope'
 global.CardText[CardStat] = 'Daybreakers/Human
 
-CONT [VC] : During your turn, all your units did not placed this turn gets power +10000.
+CONT [VC] : During your turn, all your rear-guards did not placed this turn gets "boost", and power +5000.
 
-AUTO [VC] : When this unit attacks, stand all your rear-guards did not placed this turn, COST [put a grade 3 or greater card with "Aura" in its card name from your soul or hand to drop], during that battle, your opponent cannot call cards with same name placed on GC this turn from hand. At the end of this turn, put all rear-guards stand with this ability to soul, for each two unit putted into soul, draw a card.
+AUTO [VC] : When this unit attacks, stand all your rear-guards did not placed this turn, if you have grade 3 or greater "Aura" in your soul, stand all your rear-guards did not placed this turn. At the end of this turn, put all your rear-guards you have stand by this ability into your soul. If you putted four or more, draw a card. 
 
-AUTO [VC] : At the end of your opponent’s turn, choose a card from your drop, and call it to RC.'
+AUTO [VC] : At the end of your opponent’s turn, COST [Counter Blast 1], choose a card from your drop, and call it to RC.'
 
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 100
@@ -3663,6 +3649,57 @@ global.CardText[CardStat] = 'Daybreakers/Wyrm Dragon
 CONT [RC] : If your opponent has grade 3 or greater vanguard, all other your rear-guards with same column as this unit can use its ability as like you persona rode this turn.
 
 ACT [RC] : COST [Remove an order from your drop], this unit gets "Boost" until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21119
+{
+global.CardName[CardStat] = 'Aura Accetept, Dawn that light abides'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT: This card can only be ridden from a grade 3 with "Aura" in its card name.
+
+ACT [VC] 1/Turn : COST [Remove a cards with "Aura" in its different card name from this unit from hand, soul, or drop from the game], choose a unit and blitz order with same grade from your drop, call that unit to RC, and put blitz order into your hand.
+
+AUTO [VC] : When your rear-guard is putted into your soul, COST [Energy Blast 2], draw a card.
+
+AUTO [VC] : When this unit attacks, COST [Reveal up to two blitz orders from your hand], choose two of your rear-guards for each blitz order your revealed, stand it. All your chosen rear-guards did not placed this turn gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21120
+{
+global.CardName[CardStat] = 'Breaking sword, plant into the shadow'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order
+
+COST [Put a card from your hand or RC into soul] to play this card.
+
+Choose a normal unit grade less or equal to your vanguard without sentinel from your drop, call it to GC, and it gets shield +10000 until end of that battle. If you have grade 3 or greater vanguard with "Aura" in its card name, you may play up to two orders this turn, and at the end of that battle, COST [Counter Blast 1], put that unit into soul, or call to RC.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 21121
+{
+global.CardName[CardStat] = 'Access code "Prayer"'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+CONT [GC] : If have a vanguard with "Accetept" or "Accinial" in its card name, this unit placed by ability gets shield +10000.
+
+AUTO : When this unit is placed on RC, if you have a vanguard with "Aura" in its card name, COST [Soul Blast 2], look at top five cards from your deck, choose up to one blitz order among them, and put into your hand. If this unit is placed during opponent’s turn, look all of your deck.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
