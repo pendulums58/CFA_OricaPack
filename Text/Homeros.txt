@@ -1547,6 +1547,7 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 8000
 global.TokenSummoner[CardStat] = 21128
 global.DefensePowerStat[CardStat] = 5000
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 21128
 {
