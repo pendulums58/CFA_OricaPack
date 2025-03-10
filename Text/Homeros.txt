@@ -361,7 +361,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20720
 {
-global.CardName[CardStat] = 'Hidden madness, Calamie'
+global.CardName[CardStat] = 'Model of shrine, Calamie'
 global.CardText[CardStat] = 'Homeros/Human
 
 AUTO: When this unit is rode upon, if you went second, draw a card.
@@ -375,7 +375,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20721
 {
-global.CardName[CardStat] = 'Model of shrine, Calamie'
+global.CardName[CardStat] = 'Hidden madness, Calamie'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 106
@@ -1536,3 +1536,27 @@ global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.BlueTokenAdd[CardStat] = 1
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21127
+{
+global.CardName[CardStat] = 'Kunoichi : Suzuran'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.TokenSummoner[CardStat] = 21128
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21128
+{
+global.CardName[CardStat] = 'Allied Force Token'
+global.CardText[CardStat] = 'Homeros/Allied Force
+
+(This unit has "Intercept" and "Boost".)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
