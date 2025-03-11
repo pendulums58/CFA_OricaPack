@@ -3173,3 +3173,49 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21138
+{
+global.CardName[CardStat] = 'Interduo - Black White'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21139
+{
+global.CardName[CardStat] = 'Interduo - Wine Temptation'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21140
+{
+global.CardName[CardStat] = 'Interduo party - Cynthia & Hertz'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21141
+{
+global.CardName[CardStat] = 'Interduo’s relationship'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

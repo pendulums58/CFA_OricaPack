@@ -1664,3 +1664,25 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21136
+{
+global.CardName[CardStat] = 'Guardian Advent'
+global.CardText[CardStat] = 'Homeros/Blitz Order'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21137
+{
+global.CardName[CardStat] = 'Masamune style tactics - double slash'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
