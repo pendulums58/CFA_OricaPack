@@ -1024,10 +1024,10 @@ global.CardName[CardStat] = 'Sensitive fourleaf clover'
 global.CardText[CardStat] = 'Daybreakers/Warbeast
 
 texts WIP.'
-global.UnitGrade[CardStat] = 1
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20087
@@ -1048,18 +1048,20 @@ global.CardName[CardStat] = 'Prey, disappearing life'
 global.CardText[CardStat] = 'Daybreakers/Omnia
 
 texts WIP.'
-global.UnitGrade[CardStat] = 2
+global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
-global.PowerStat[CardStat] = 10000
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20089
 {
-global.CardName[CardStat] = 'Elder eyes Administrator'
-global.CardText[CardStat] = 'Daybreakers/Admin
+global.CardName[CardStat] = 'Combustioning Judgement'
+global.CardText[CardStat] = 'Daybreakers/Noble
 
-texts WIP.'
+CONT [RC] : If a sword art order is in your drop, this unit gets power +5000.
+
+ACT [RC] 1/Turn : COST [Reveal a sword art order from your hand], this unit gets power +5000 until end of turn. COST [Reveal an order from your hand, and put it bottom of your deck], draw a card.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
@@ -1069,16 +1071,17 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20090
 {
-global.CardName[CardStat] = 'Ivory Administrator'
-global.CardText[CardStat] = 'Daybreakers/Admin
+global.CardName[CardStat] = 'Separating Logic'
+global.CardText[CardStat] = 'Daybreakers/Noble
 
-texts WIP.'
-global.UnitGrade[CardStat] = 3
+CONT [GC] : If a phantom order is in your drop, this unit gets shield +5000.
+
+AUTO [RC] : When this unit attacks, COST [Reveal a phantom order from your hand], this unit gets power +5000 until end of turn. At the end of that battle, COST [Soul Blast 1], return this unit to hand.'
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
-global.PersonaRide[CardStat] = 1
 }
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20091
 {
@@ -1099,15 +1102,17 @@ global.PersonaRideAct[CardStat] = 1
 
 CardStat = 20092
 {
-global.CardName[CardStat] = 'Origin Guardian of Space'
-global.CardText[CardStat] = 'Daybreakers/Omnia/G Unit
+global.CardName[CardStat] = 'Testing Praise'
+global.CardText[CardStat] = 'Daybreakers/Noble
 
-texts WIP.'
-global.UnitGrade[CardStat] = 4
+CONT [RC] : If a mana source is in your order zone or drop, this unit gets power +5000.
+
+AUTO [RC] : When this unit is selected by an ability of your mana source, this unit gets power +5000 until end of turn. If you did not Counter Charge this turn, COST [Choose a mana source from your order zone, rest it], Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
-global.ExtraDeck[CardStat] = 1
 }
-global.PowerStat[CardStat] = 15000
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20093
 {
@@ -3705,4 +3710,101 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21142
+{
+global.CardName[CardStat] = 'One defeat for one fall, Styxforge'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21143
+{
+global.CardName[CardStat] = 'Selected Broken sword'
+global.CardText[CardStat] = 'Daybreakers/Noble/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21144
+{
+global.CardName[CardStat] = 'Rika Einbelk'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21145
+{
+global.CardName[CardStat] = 'Milky Ice Bear'
+global.CardText[CardStat] = 'Daybreakers/High Beast/Heal Trigger'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21146
+{
+global.CardName[CardStat] = 'Daybreakers, to the next chapter'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword Art
+
+COST [Soul Blast 1] to play this card.
+
+Choose one of your unit, and it gets power +5000 and "AUTO [VC / RC] : When this unit’s attack did not hit, draw a card." until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0s
+
+CardStat = 21147
+{
+global.CardName[CardStat] = 'Eternal Cycling'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+AUTO [Order Zone] : When your unit is placed on VC, choose one of your unit, it gets power +5000 and "AUTO [VC / RC] : When this unit’s attack hits, COST [Energy Blast 3], choose a card with same name to your vanguard from your soul, and put it into your hand." until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21148
+{
+global.CardName[CardStat] = 'Symphony of three colors'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+COST [Counter Blast 1] to play this card.
+
+Choose one of your vanguard being attacked, it gets power +5000 until end of that battle. And it gets "CONT [VC] : All your guardians without same grade exists on GC gets shield +5000." until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 5000

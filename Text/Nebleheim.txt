@@ -2699,3 +2699,79 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21153
+{
+global.CardName[CardStat] = 'Last Elf, Utgarda'
+global.CardText[CardStat] = 'Nebleheim/Elf
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21154
+{
+global.CardName[CardStat] = 'Hidden dagger, Utgarda'
+global.CardText[CardStat] = 'Nebleheim/Elf'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21155
+{
+global.CardName[CardStat] = 'Shadeswitch, Utgarda'
+global.CardText[CardStat] = 'Nebleheim/Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21156
+{
+global.CardName[CardStat] = 'Frost-forged dagger, Utgarda'
+global.CardText[CardStat] = 'Nebleheim/Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21157
+{
+global.CardName[CardStat] = 'Amethyst Mistwanderer'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21158
+{
+global.CardName[CardStat] = 'Crown of blue gula'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21159
+{
+global.CardName[CardStat] = 'Sentinel of midtime, Rizel'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
