@@ -2481,7 +2481,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20909
 {
-global.CardName[CardStat] = 'Wear away Daydreamer'
+global.CardName[CardStat] = 'Pilgrim Star, Sadalmelik'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
 
 AUTO [RC] 1/Turn : When your other unit is placed on RC, if that unit was placed from damage zone, COST [Soul Blast 1], search a unit with same name as that card from deck or drop, and put into damage zone. If you do, choose a card from your damage zone, and heal it.

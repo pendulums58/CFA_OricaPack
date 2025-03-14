@@ -3679,3 +3679,56 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21160
+{
+global.CardName[CardStat] = 'Refactoring Pale Star'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+CONT [VC] : Your units can boost other units regardless of location.
+
+ACT [VC] : Legion 21000 "Decompiled Pale shadow" (If both of vanguards are grade 3 or greater, choose four grade 1 from your drop, return them into your deck, search your deck for a specified card, and legion.)
+
+Power checking'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21161
+{
+global.CardName[CardStat] = 'Decompiled Pale shadow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+Power checking'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21162
+{
+global.CardName[CardStat] = 'Back-end Organizer'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
+
+Power checking'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21163
+{
+global.CardName[CardStat] = 'Front-end Contributor'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
+
+Power checking'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
