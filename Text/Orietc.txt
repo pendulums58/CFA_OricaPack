@@ -428,3 +428,17 @@ global.DCards[CardStat] = 105
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20159
+{
+global.CardName[CardStat] = 'Red Colored Spirit, Carmine'
+global.CardText[CardStat] = 'Elemental/Over Trigger
+
+Additional Effect - Choose one of your opponent’s rear-guard, remove it. Your opponent removes each one card from their hand, soul, drop, and bind zone, and you draw cards for each cards did not removed.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000

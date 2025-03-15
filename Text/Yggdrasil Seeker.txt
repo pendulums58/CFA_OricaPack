@@ -3689,7 +3689,9 @@ CONT [VC] : Your units can boost other units regardless of location.
 
 ACT [VC] : Legion 21000 "Decompiled Pale shadow" (If both of vanguards are grade 3 or greater, choose four grade 1 from your drop, return them into your deck, search your deck for a specified card, and legion.)
 
-Power checking'
+AUTO [VC] : When your unit attacks, if that unit is boosted, that unit gets power +5000 until end of turn. If this unit is boosting, COST [Counter Blast 1], stand this unit at the end of battle.
+
+AUTO [VC] : When this unit stand during battle phase, this unit gets drive +1 until end of battle.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 }
@@ -3702,7 +3704,9 @@ CardStat = 21161
 global.CardName[CardStat] = 'Decompiled Pale shadow'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
 
-Power checking'
+AUTO [RC] : When this unit attacks with boost, Energy Charge 1. If it is boosted by your vanguard, COST [Soul Blast 1], when your opponent would call cards from their hand to GC, they must call two or more at the same time.
+
+AUTO [RC] : At the end of your turn, if you have a grade 3 or greater vanguard with "Pale Star" in its card name, COST [retire this unit], choose one of your rear-guard, return it to hand.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -3714,7 +3718,9 @@ CardStat = 21162
 global.CardName[CardStat] = 'Back-end Organizer'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
 
-Power checking'
+AUTO : When this unit is placed on RC from hand, if you have a vanguard with "Pale Star" in its card name, COST [Discard a card], look at top seven cards from your deck, choose up to one unit with "Boost", reveal it and put into your hand. Shuffle your deck.
+
+CONT [GC] : If you have a vanguard with "Pale Star" in its card name, this unit gets shield +5000.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
@@ -3726,9 +3732,104 @@ CardStat = 21163
 global.CardName[CardStat] = 'Front-end Contributor'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Noble
 
-Power checking'
+AUTO : When this unit is placed on RC from hand, if you have a grade 3 or greater vanguard with "Pale Star" in its card name, COST [Counter Blast 1], look at top five cards from your deck, choose up to one unit with "Boost" among them, call it to RC, shuffle your deck.
+
+CONT [RC] : If sum of your vanguard’s grade is four or greater, this unit gets "Boost".'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21164
+{
+global.CardName[CardStat] = 'Not My Tempo!!! Sazanka'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21165
+{
+global.CardName[CardStat] = 'ROMANI Sound Team "SAZANKA"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed riding from "Not My Tempo!!! Sazanka", search your deck for a "Sayonara Heaven", reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21166
+{
+global.CardName[CardStat] = 'Sickness Feeling "Ericales"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon by a unit with "Sazanka" in its card name, COST [discard a card from your hand], search your deck for a set order with AUTO abilty, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21167
+{
+global.CardName[CardStat] = 'Excellent Rhythm Sazanka'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon by a unit with "Sazanka" in its card name, COST [discard a card from your hand], search your deck for a set order with AUTO abilty, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21168
+{
+global.CardName[CardStat] = 'Sayonara Heaven'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order
+
+COST [Soul Blast 1] to play this card.
+
+AUTO : When putted into order zone, look at top three cards from your deck, choose up to one card and discard it. Shuffle your deck.
+
+AUTO [Order Zone] : When a normal unit is putted into your deck from drop, if you have a vanguard with "Sazanka" in its card name, COST [rest this card], Energy Charge 2'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21169
+{
+global.CardName[CardStat] = 'Redbelt Forerunner, Rouge'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Testing...'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21170
+{
+global.CardName[CardStat] = 'Honored Beatmaster, Quasi'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Testing...'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
