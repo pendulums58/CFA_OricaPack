@@ -1742,3 +1742,205 @@ global.DCards[CardStat] = 106
 global.TriggerUnit[CardStat] = 2
 global.PowerStat[CardStat] = 4000
 global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21173
+{
+global.CardName[CardStat] = 'Unsolving Problem, Dysseus'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21174
+{
+global.CardName[CardStat] = 'Unsolving Problem, Parteris'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21175
+{
+global.CardName[CardStat] = 'Learning day and night, Dysseus'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21177
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 21176
+{
+global.CardName[CardStat] = 'Wrong resolution, Parteris'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21178
+global.TokenSummonerPosition[CardStat] = 'V'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 21177
+{
+global.CardName[CardStat] = 'Written Myth, Dysseus '
+global.CardText[CardStat] = 'Crest'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 21178
+{
+global.CardName[CardStat] = 'Written Myth, Parteris '
+global.CardText[CardStat] = 'Crest'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 21179
+{
+global.CardName[CardStat] = 'Star feast of blessing hero'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21180
+{
+global.CardName[CardStat] = 'Written Myth, Dysseus'
+global.CardText[CardStat] = 'Homeros/Human
+
+
+(Shift + left click to create Allied Force token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20637
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21181
+{
+global.CardName[CardStat] = 'Written Myth, Parteris'
+global.CardText[CardStat] = 'Homeros/Human
+
+
+(Shift + left click to create Allied Force token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 21188
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21182
+{
+global.CardName[CardStat] = 'Awakening Moment'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21183
+{
+global.CardName[CardStat] = 'Fulfilling resolution, Dysseus'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21184
+{
+global.CardName[CardStat] = 'Lunatic Dictator, Parteris'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21185
+{
+global.CardName[CardStat] = 'Raid from hell, Cerberus'
+global.CardText[CardStat] = 'Homeros/Chimera
+
+(Shift + left click to create Allied Force token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20773
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21186
+{
+global.CardName[CardStat] = 'Jiangshi, Yue Ran hu'
+global.CardText[CardStat] = 'Homeros/Zombie
+
+(Shift + left click to create Allied Force token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21187
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21187
+{
+global.CardName[CardStat] = 'Allied Force Token'
+global.CardText[CardStat] = 'Homeros/Allied Force
+
+(This unit has "Intercept" and "Boost".)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21188
+{
+global.CardName[CardStat] = 'Allied Force Token'
+global.CardText[CardStat] = 'Homeros/Allied Force
+
+(This unit has "Intercept" and "Boost".)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
