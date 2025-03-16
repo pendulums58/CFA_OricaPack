@@ -1116,15 +1116,18 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20093
 {
-global.CardName[CardStat] = 'Eternity Joker'
-global.CardText[CardStat] = 'Daybreakers/Omnia/G Unit
+global.CardName[CardStat] = 'Glitter Flatter Encounter, Tsubaki'
+global.CardText[CardStat] = 'Daybreakers/Human
 
-texts WIP.'
-global.UnitGrade[CardStat] = 4
+
+(SHIFT + left click to activate persona ride)'
+global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
-global.ExtraDeck[CardStat] = 1
 }
-global.PowerStat[CardStat] = 15000
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
 
 CardStat = 20094
 {
@@ -3808,3 +3811,26 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21171
+{
+global.CardName[CardStat] = 'Surprise Scatter, Crys'
+global.CardText[CardStat] = 'Daybreakers/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21172
+{
+global.CardName[CardStat] = 'Imprinted Spell "Heart Reactor"'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
