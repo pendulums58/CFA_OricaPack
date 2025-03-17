@@ -3834,3 +3834,26 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21190
+{
+global.CardName[CardStat] = 'Early dawn fickle, Artet'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21191
+{
+global.CardName[CardStat] = 'Protecting Wave spear, Ahpim'
+global.CardText[CardStat] = 'Daybreakers/Mermaid'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

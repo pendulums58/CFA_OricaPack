@@ -3219,3 +3219,17 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21189
+{
+global.CardName[CardStat] = 'Fulfilled Phantom Waltz'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO [VC] : When this unit attacks, COST [Counter Blast 1], choose a face-up unit with grade equal or less to your opponent’s vanguard, call it to RC. If you called, put a top card from your deck into damage zone. If you called a unit with "Phantom Waltz" in its card name, this unit gets power +10000 / critical +1 until end of turn.
+
+AUTO [VC] Limit Break 4 1/Turn : When your unit with "Phantom Waltz" in its card name is placed on RC from damage zone, COST [Soul Blast 1, discard a card], that unit performs drive check during its next attack this turn. At the end of that turn, put that unit into damage zone, and choose other card from your damage zone, put into your hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.PersonaRide[CardStat] = 1
+}
