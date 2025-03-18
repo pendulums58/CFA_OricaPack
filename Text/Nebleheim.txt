@@ -2911,3 +2911,27 @@ global.TokenSummoner2[CardStat] = 13256
 global.TokenSummoner2Text[CardStat] = "(Alter is used for mirror match distinction) Which Inf. Eyes Marker ?"
 global.TokenSummoner2Button1[CardStat] = "Primary"
 global.TokenSummoner2Button2[CardStat] = "Alter"
+
+CardStat = 21203
+{
+global.CardName[CardStat] = 'Avoid Time Seeker'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21204
+{
+global.CardName[CardStat] = 'Timeless Crawler'
+global.CardText[CardStat] = 'Nebleheim/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
