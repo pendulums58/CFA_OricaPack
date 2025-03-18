@@ -2775,3 +2775,139 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21192
+{
+global.CardName[CardStat] = 'Time Next Point, Kasumi'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+
+(Shift + left click to create mist token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21193
+{
+global.CardName[CardStat] = 'Challenger Time Diver'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+(Shift + left click to create mist token.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21194
+{
+global.CardName[CardStat] = 'Severed Time Losts'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21195
+{
+global.CardName[CardStat] = 'Past Image '
+global.CardText[CardStat] = 'Nebleheim/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21196
+{
+global.CardName[CardStat] = 'Streamside Sea Wind, BreezeBerg Accinial'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21197
+{
+global.CardName[CardStat] = 'Access Code "Hresvelgr"'
+global.CardText[CardStat] = 'Nebleheim/Elemental'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21198
+{
+global.CardName[CardStat] = 'Visitor from blue flower garden'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21199
+{
+global.CardName[CardStat] = 'Mist'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21200
+{
+global.CardName[CardStat] = 'Mist '
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21201
+{
+global.CardName[CardStat] = 'Queen of Mist world, Stratos Alto'
+global.CardText[CardStat] = 'Nebleheim/Omnia'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21202
+{
+global.CardName[CardStat] = 'Deepmist City'
+global.CardText[CardStat] = 'Nebleheim/Set Order
+
+(Shift + left click to create mist token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 13255
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner2[CardStat] = 13256
+global.TokenSummoner2Text[CardStat] = "(Alter is used for mirror match distinction) Which Inf. Eyes Marker ?"
+global.TokenSummoner2Button1[CardStat] = "Primary"
+global.TokenSummoner2Button2[CardStat] = "Alter"
