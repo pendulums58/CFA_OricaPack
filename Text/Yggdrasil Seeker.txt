@@ -3833,3 +3833,39 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21211
+{
+global.CardName[CardStat] = 'Combustion boy'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21212
+{
+global.CardName[CardStat] = 'Eyes of true omniscience'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21213
+{
+global.CardName[CardStat] = 'Fluffy Operator'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000

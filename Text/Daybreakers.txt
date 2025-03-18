@@ -1294,8 +1294,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20146
 {
-global.CardName[CardStat] = 'Radiant Knight'
-global.CardText[CardStat] = 'Daybreakers/Human
+global.CardName[CardStat] = 'Venus Knight, Rigel'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human
 
 texts WIP.'
 global.UnitGrade[CardStat] = 1
@@ -3857,3 +3857,74 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21205
+{
+global.CardName[CardStat] = 'Rest in short noon, Merem'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21206
+{
+global.CardName[CardStat] = 'Drowsy noon, Merem'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21207
+{
+global.CardName[CardStat] = 'Smile of fresh day, Merem'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21208
+{
+global.CardName[CardStat] = 'Assassin of short noon, Merem'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21209
+{
+global.CardName[CardStat] = 'Tichel Mirvana'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Elf'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21210
+{
+global.CardName[CardStat] = 'Venus Knight, Rizel'
+global.CardText[CardStat] = 'Daybreakers/Cabal of noon/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
