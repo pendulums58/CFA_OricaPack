@@ -2801,6 +2801,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 101
+global.CardCopies[CardStat] = 16
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
@@ -2812,6 +2813,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 101
+global.CardCopies[CardStat] = 16
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
@@ -2823,6 +2825,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
 global.UnitGrade[CardStat] = 0
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 101
+global.CardCopies[CardStat] = 16
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
