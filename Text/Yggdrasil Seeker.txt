@@ -2678,17 +2678,21 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20768
 {
-global.CardName[CardStat] = 'Keep out during research, Yurika'
-global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
+global.CardName[CardStat] = 'Lightening Creator, Yurika'
+global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human
+
+(Shift + left click to create No One Can Reach the truth.)'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20806
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 20769
 {
-global.CardName[CardStat] = 'Stretching is important, Yurika'
+global.CardName[CardStat] = 'Fire Creator, Yurika'
 global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
@@ -2698,7 +2702,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20770
 {
-global.CardName[CardStat] = 'Delver of truth, Yurika'
+global.CardName[CardStat] = 'Elemental Creator, Yurika'
 global.CardText[CardStat] = 'Yggdrasil Seeker/EarlGrey/Human'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -2783,10 +2787,9 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 20806
 {
 global.CardName[CardStat] = 'No one can reach the truth'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
+global.CardText[CardStat] = 'Set Order/Research'
 global.UnitGrade[CardStat] = 1
-global.CardInClan[CardStat] = 30
-global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
@@ -2826,7 +2829,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20810
 {
-global.CardName[CardStat] = 'Technology master, Lin'
+global.CardName[CardStat] = 'Cyantle liquidator, Lin'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -3869,3 +3872,16 @@ global.DCards[CardStat] = 101
 global.TriggerUnit[CardStat] = 4
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 21214
+{
+global.CardName[CardStat] = 'Professor Couleur'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+Testing...'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

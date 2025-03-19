@@ -2778,7 +2778,7 @@ global.PersonaRide[CardStat] = 1
 
 CardStat = 21192
 {
-global.CardName[CardStat] = 'Time Next Point, Kasumi'
+global.CardName[CardStat] = 'Kasumi, Time Next Point'
 global.CardText[CardStat] = 'Nebleheim/Human
 
 
