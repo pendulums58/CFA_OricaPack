@@ -2914,7 +2914,7 @@ global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
-global.DefensePowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21064
 {
@@ -2927,8 +2927,8 @@ AUTO [RC] : When this unit attacks, if your vanguard was placed rode from grade 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 102
 }
-global.PowerStat[CardStat] = 8000
-global.DefensePowerStat[CardStat] = 0
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21065
 {
@@ -3233,3 +3233,5 @@ global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
 global.PersonaRide[CardStat] = 1
 }
+global.PowerStat[CardStat] = 13000
+global.PowerStat[CardStat] = 0
