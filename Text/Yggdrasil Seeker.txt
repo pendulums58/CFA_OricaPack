@@ -2810,7 +2810,7 @@ CardStat = 20808
 {
 global.CardName[CardStat] = 'Decoherence of dragon and girl'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Set Order/Research'
-global.UnitGrade[CardStat] = 0
+global.UnitGrade[CardStat] = 3
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 101
 global.CardCopies[CardStat] = 16

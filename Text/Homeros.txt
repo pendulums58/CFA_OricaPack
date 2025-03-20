@@ -1944,3 +1944,40 @@ global.RemoveFromDrop[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21215
+{
+global.CardName[CardStat] = 'Access Code "Investigator"'
+global.CardText[CardStat] = 'Homeros/Elemental
+
+CONT [Hand] : If you have grade 3 or greater vanguard, this unit also regarded as same name to that unit.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Accetept" or "Accinial" in its card name, and you have if you have two or more grade 3 in your drop, COST [Counter Blast 1], draw a card, and this unit gets power +5000 during that battle.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21216
+{
+global.CardName[CardStat] = 'Abandoned gaze, Midsia Accinial'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+
+CardStat = 21217
+{
+global.CardName[CardStat] = 'Access Code "Magnum Opus"'
+global.CardText[CardStat] = 'Homeros/Elemental'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

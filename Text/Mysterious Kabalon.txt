@@ -3234,4 +3234,4 @@ global.DCards[CardStat] = 102
 global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
-global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
