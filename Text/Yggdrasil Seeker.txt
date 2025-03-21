@@ -3888,3 +3888,48 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21223
+{
+global.CardName[CardStat] = 'Worn Ember found Warm Aeon, Phoenix Accetept'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21224
+{
+global.CardName[CardStat] = 'Flame sword marks the beginning'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+global.Arms[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21225
+{
+global.CardName[CardStat] = 'Access Code "Blanc"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Elemental'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21226
+{
+global.CardName[CardStat] = 'MIRAGE control agent'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

@@ -442,3 +442,86 @@ global.DCards[CardStat] = 105
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21218
+{
+global.CardName[CardStat] = 'Prime Code Access  '
+global.CardText[CardStat] = 'Normal Order
+
+Look at top five cards from your deck, choose up to one unit card with "Access Code" in its card name, reveal it and put into your hand. Shuffle your deck. COST [Put a card with "Accetept" or "Accinial" in its card name to bottom of deck], draw a card.
+
+ACT [Drop] : If you have a grade 3 vanguard without "Accetept" or "Accinial" in its card name, COST [Remove a card with same name to your vanguard from your hand], Search your deck for a unit with "Accetept" or "Accinial" in its card name, ride it as stand. If you rode, put this card into the soul, if your opponent’s vanguard is grade 3 or greater, and you did not persona ride this turn, you activate persona ride.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21219
+{
+global.CardName[CardStat] = 'Prime Code Access   '
+global.CardText[CardStat] = 'Normal Order
+
+Look at top five cards from your deck, choose up to one unit card with "Access Code" in its card name, reveal it and put into your hand. Shuffle your deck. COST [Put a card with "Accetept" or "Accinial" in its card name to bottom of deck], draw a card.
+
+ACT [Drop] : If you have a grade 3 vanguard without "Accetept" or "Accinial" in its card name, COST [Remove a card with same name to your vanguard from your hand], Search your deck for a unit with "Accetept" or "Accinial" in its card name, ride it as stand. If you rode, put this card into the soul, if your opponent’s vanguard is grade 3 or greater, and you did not persona ride this turn, you activate persona ride.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21220
+{
+global.CardName[CardStat] = 'Prime Code Access    '
+global.CardText[CardStat] = 'Normal Order
+
+Look at top five cards from your deck, choose up to one unit card with "Access Code" in its card name, reveal it and put into your hand. Shuffle your deck. COST [Put a card with "Accetept" or "Accinial" in its card name to bottom of deck], draw a card.
+
+ACT [Drop] : If you have a grade 3 vanguard without "Accetept" or "Accinial" in its card name, COST [Remove a card with same name to your vanguard from your hand], Search your deck for a unit with "Accetept" or "Accinial" in its card name, ride it as stand. If you rode, put this card into the soul, if your opponent’s vanguard is grade 3 or greater, and you did not stride this turn, choose a face down card with power from your G zone, and stride it to VC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21221
+{
+global.CardName[CardStat] = 'Prime Code Access     '
+global.CardText[CardStat] = 'Normal Order
+
+Look at top five cards from your deck, choose up to one unit card with "Access Code" in its card name, reveal it and put into your hand. Shuffle your deck. COST [Put a card with "Accetept" or "Accinial" in its card name to bottom of deck], draw a card.
+
+ACT [Drop] : If you have a grade 3 vanguard without "Accetept" or "Accinial" in its card name, COST [Remove a card with same name to your vanguard from your hand], Search your deck for a unit with "Accetept" or "Accinial" in its card name, ride it as stand. If you rode, put this card into the soul, if your opponent’s vanguard is grade 3 or greater, and you did not persona ride this turn, you activate persona ride.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21222
+{
+global.CardName[CardStat] = 'Prime Code Access      '
+global.CardText[CardStat] = 'Normal Order
+
+Look at top five cards from your deck, choose up to one unit card with "Access Code" in its card name, reveal it and put into your hand. Shuffle your deck. COST [Put a card with "Accetept" or "Accinial" in its card name to bottom of deck], draw a card.
+
+ACT [Drop] : If you have a grade 3 vanguard without "Accetept" or "Accinial" in its card name, COST [Remove a card with same name to your vanguard from your hand], Search your deck for a unit with "Accetept" or "Accinial" in its card name, ride it as stand. If you rode, put this card into the soul, if your opponent’s vanguard is grade 3 or greater, and you did not stride this turn, choose a face down card with power from your G zone, and stride it to VC.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
