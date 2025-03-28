@@ -2893,6 +2893,8 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 21202
 {
@@ -2955,6 +2957,8 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 21229
 {
@@ -2970,6 +2974,24 @@ CardStat = 21230
 {
 global.CardName[CardStat] = 'Misty Night Howling Beast'
 global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21234
+{
+global.CardName[CardStat] = 'Rallying one of Space and time, Tardyon'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid
+
+CONT [Hand/Drop] : If you have grade 3 or greater vanguard, this card is also regarded as same name to that unit. If you remove a card for cost of your vanguard’s orignial ability with "Accetept" or "Accinial" in its card name, you may remove this card for one of them.
+
+AUTO : When this unit is placed on RC, COST [Reveal a card with same name to your vanguard from your hand], choose up to one grade 3 order without Nibelung’s Treasure from your deck, discard it, and shuffle your deck. If this unit is placed from hand, COST [Counter Blast 1 & retire this unit], you may add that card into hand.'
+
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 103
 }

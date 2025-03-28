@@ -3933,3 +3933,53 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21232
+{
+global.CardName[CardStat] = 'Rallying one of Word and mind, Fractal'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+CONT [Hand/Drop] : If you have grade 3 or greater vanguard, this card is also regarded as same name to that unit. If you remove a card for cost of your vanguard’s orignial ability with "Accetept" or "Accinial" in its card name, you may remove this card for one of them.
+
+AUTO : When this unit is placed on RC, COST [Reveal a card with same name to your vanguard from your hand], choose up to one grade 3 order without Ability Piece from your deck, discard it, and shuffle your deck. If this unit is placed from hand, COST [Counter Blast 1 & retire this unit], you may add that card into hand.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21236
+{
+global.CardName[CardStat] = 'Windborned Windchime, Ouroboros Accinial'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+CONT: This card can only be ridden from a grade 3 with "Ouroboros" in its card name.
+
+CONT [VC] : When your unit retires from RC, bind that unit instead of drop. If you draw or look your deck, you may refer your bind zone instead of deck.
+
+ACT [VC] 1/Turn : COST [Remove a grade 3 with "Ouroboros" in its card name from your hand, soul or drop], choose a card from your bind zone, call it to RC, and this unit gets power +10000 until end of turn.
+
+AUTO [VC] : When this unit attacks, COST [Counter Blast 1 & retire any number of rear-guard], this unit gets power +5000 for each of rear-guard retired as this cost, if you retired five or more, stand this unit at the end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21237
+{
+global.CardName[CardStat] = 'Access Code "Incarnation"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Elemental
+
+AUTO : When this unit is retired from RC by ability of your vanguard with "Ouroboros" in its card name, COST [put this unit into bottom of your deck], draw a card.
+
+CONT [RC] : During your turn, if you have a vanguard with "Accetept" or "Accinial" in its card name, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
