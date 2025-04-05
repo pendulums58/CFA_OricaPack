@@ -3944,3 +3944,26 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21240
+{
+global.CardName[CardStat] = 'Hand to hand with blue star, Allegor Metaphor'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
+
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21241
+{
+global.CardName[CardStat] = 'Honesty buried in waves'
+global.CardText[CardStat] = 'Daybreakers/Admin'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

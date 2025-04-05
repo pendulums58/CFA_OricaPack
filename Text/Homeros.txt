@@ -1997,3 +1997,24 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21238
+{
+global.CardName[CardStat] = 'Tedeth Priest, Jenik'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21239
+{
+global.CardName[CardStat] = 'Tempting Voice, Seiren'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
