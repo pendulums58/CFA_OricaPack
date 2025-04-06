@@ -4010,7 +4010,7 @@ global.DCards[CardStat] = 100
 global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
-global.DefensePowerStat[CardStat] = 0\
+global.DefensePowerStat[CardStat] = 0
 
 CardStat = 21245
 {
