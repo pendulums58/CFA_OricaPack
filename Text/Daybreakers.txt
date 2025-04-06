@@ -3967,3 +3967,61 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21242
+{
+global.CardName[CardStat] = 'Star calling Fairies'
+global.CardText[CardStat] = 'Daybreakers/Fairy
+
+AUTO [RC] 1/Turn : When a grade 2 or greater is putted into your back row center RC by your vanguard’s ability, COST [Counter Blast 1], draw a card, and this unit gets power +5000. If you played an order this turn, you may pay this cost with COST [Energy Blast 3].'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21243
+{
+global.CardName[CardStat] = 'Alley district Blacksmith'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO : When this unit is placed on RC from hand, COST [Energy Blast 3], search your deck for an <Ego Sword>, discard it, and shuffle your deck.
+
+ACT [RC] 1/Turn : COST [rest this unit], choose one of your unit, and it gets "CONT [VC / RC] : This unit gets power +5000 for each two CONT ACT AUTO ability this unit has." until end of turn.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21244
+{
+global.CardName[CardStat] = 'Time rewinding record'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+AUTO : When putted into order zone, if your order zone has other Mana Source, you may play an extra order this turn.
+
+AUTO [Order Zone] : At the end of battle your vanguard attacked, if you performed three or more drive check this turn, and your order zone has other rest set order, COST [Counter Blast 1], choose a grade 2 or greater card from your drop, and if it is same name with your vanguard, put that card into soul, if else, put into hand.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0\
+
+CardStat = 21245
+{
+global.CardName[CardStat] = 'Curious Adventurer'
+global.CardText[CardStat] = 'Daybreakers/Angel
+
+AUTO : When this unit is placed on RC from hand, if you have three or more units, and all your unit except this unit is same race, choose a card from your drop, and put into your soul, and this unit gets power +10000 until end of turn. If all your units are different race, COST [Soul Blast 1], draw a card, choose one of your unit, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

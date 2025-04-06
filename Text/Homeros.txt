@@ -2018,3 +2018,26 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
+CardStat = 21246
+{
+global.CardName[CardStat] = 'Spartic Hoplites'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.CardCopies[CardStat] = 16
+global.EnableAttackFromBackRow[CardStat] = 1
+
+CardStat = 21247
+{
+global.CardName[CardStat] = 'Lacedains of Phalanx'
+global.CardText[CardStat] = 'Homeros/Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
