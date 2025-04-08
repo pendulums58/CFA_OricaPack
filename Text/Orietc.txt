@@ -525,3 +525,41 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21249
+{
+global.CardName[CardStat] = 'Corinth Forge'
+global.CardText[CardStat] = 'Normal Order
+
+CONT : You may have up to one "Corinth Forge" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+If you have a vanguard with "Plana" in its card name or <Homeros>, COST [Put a card from your hand to soul] to play this card.
+
+Reveal cards equal to grade of card putted into soul for this cost + 2 from bottom of your deck. Choose a card among them and put into your hand, choose one of them and discard it or put into ride deck face up.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21250
+{
+global.CardName[CardStat] = 'Acropolis punishment'
+global.CardText[CardStat] = 'Blitz Order
+
+CONT : You may have up to one "Acropolis punishment" in your deck, and if you have a "Plana, Wandering Inari" crest, it is regarded as Sakura weapon order.
+
+If you have a vanguard with "Plana" in its card name or <Homeros>, COST [Energy Blast 3] to play this card.
+
+Choose a unit attacking, and it gets power -10000 until end of that battle. If that unit is critical 2 or greater, or attacked two or more times this turn, choose one of your vanguard, and it gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 105
+global.DCards2[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

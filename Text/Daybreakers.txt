@@ -2327,9 +2327,11 @@ global.CardText[CardStat] = 'Daybreakers/Admin
 
 CONT: This card can only be ridden from a grade 3 with "Cyan" in its card name.
 
-ACT [VC] 1/Turn : COST [Remove a cards with "Cyan" in its different card name from this unit from hand, soul, or drop from the game], perform all of following for your additional RC.
-?one or less - get an Imaginary Gift: Accel, choose a card from your drop, and call it to additional RC.
-?two or more - choose normal units with sum of grade is equal to your unit’s grade in your additional RC, and call it to RC with units, and rewrite it.
+CONT [VC] : When you call a unit to additional RC with unit, rewrite that unit.
+
+ACT [VC] 1/Turn : COST [Remove a grade 3 or greater card with "Cyan" in its different card name from this unit from hand, soul, or drop from the game], get an Imaginary Gift: Accel, if you persona rode this turn, get two instead of one.
+
+AUTO [VC] : At the beginning of your battle phase, COST [Counter Blast 1], choose each grade of normal units without sentinel from your drop, call them to RC. And all of your front-row unit gets power +5000 until end of turn.
 
 (SHIFT + left click to create Accel gift.)'
 
@@ -2376,9 +2378,9 @@ CardStat = 20553
 global.CardName[CardStat] = 'Access Code "Cyan"'
 global.CardText[CardStat] = 'Daybreakers/Elemental
 
-AUTO [RC] : When this unit’s attack hits, if you have a vanguard with "Accetept" or "Accinial" in its card name, draw a card.
+AUTO : When this unit is placed on RC during battle phase, if you have a vanguard with "Cyan" in its card name, COST [Soul Blast 1], choose a normal unit without sentinel from your drop, call it to RC without unit.
 
-AUTO [RC] 1/Turn : When your other unit is placed on RC, if you have a vanguard with "Cyan" in its card name, COST [Counter Blast 1], choose one of your rear-guard without sentinel, return it to hand, choose each one unit with same name from returned unit, call them to RC, and it gets power +5000 until end of turn.'
+CONT [RC] : If you have a vanguard with "Accetept" or "Accinial" in its card name, this unit gets power +5000 for each other your grade 2 rear-guard.'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
@@ -4025,3 +4027,18 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21248
+{
+global.CardName[CardStat] = 'Administrator of jade love'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+CONT [RC] : If you and your opponent’s vanguard is grade 3 or greater, and no card is in same column with this unit, this unit gets power +5000 for each of your additional RC.
+
+AUTO [RC] : At the end of battle this unit attacked, if you have a vanguard with "Cyan" in its card name, COST [Put this unit into soul], choose one of your rear-guard, and return it to hand.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
