@@ -2041,3 +2041,99 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21251
+{
+global.CardName[CardStat] = 'Everyday is sweets! Kotaiga'
+global.CardText[CardStat] = 'Homeros/Warbeast/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21260
+{
+global.CardName[CardStat] = 'Curiosity Walker'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21261
+{
+global.CardName[CardStat] = 'Hatamoto 24 - Imanotsurugi'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21262
+{
+global.CardName[CardStat] = 'Strict Priest'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21263
+{
+global.CardName[CardStat] = 'Changing upstream, Eridanos'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21265
+{
+global.CardName[CardStat] = 'Revel, Hatched Contractor '
+global.CardText[CardStat] = 'Homeros/Human
+
+CONT: Treat this card as "Ornio of Floating in dream"
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21266
+{
+global.CardName[CardStat] = 'Abandoned gaze, Midsia Accinial '
+global.CardText[CardStat] = 'Homeros/Human
+
+CONT: Treat this card as "Treason pythia, Midsia"
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21267
+{
+global.CardName[CardStat] = 'Hatching Moment'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

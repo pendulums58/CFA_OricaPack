@@ -3983,3 +3983,92 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21252
+{
+global.CardName[CardStat] = 'In the blurry memory, Nasca'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21253
+{
+global.CardName[CardStat] = 'In the snowland of despair, Nasca'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21254
+{
+global.CardName[CardStat] = 'In the new encounter, Nasca'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21255
+{
+global.CardName[CardStat] = 'In the approaching reunion, Nasca'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21256
+{
+global.CardName[CardStat] = 'The knight of despair'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Abnomality'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21257
+{
+global.CardName[CardStat] = 'Tear-forged sword'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21258
+{
+global.CardName[CardStat] = 'Whitenight'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Abnomality'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21259
+{
+global.CardName[CardStat] = 'Paraside Lost'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
