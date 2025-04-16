@@ -2998,3 +2998,61 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21272
+{
+global.CardName[CardStat] = 'Snake gleeks to the fog '
+global.CardText[CardStat] = 'Nebleheim/Noble/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21273
+{
+global.CardName[CardStat] = 'Woman guides to the nether '
+global.CardText[CardStat] = 'Nebleheim/Ghost/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21274
+{
+global.CardName[CardStat] = 'Monster wolf swallowed the god '
+global.CardText[CardStat] = 'Nebleheim/Vargr/Over Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21275
+{
+global.CardName[CardStat] = 'Oppresive Wave, Atla'
+global.CardText[CardStat] = 'Nebleheim/Spirit'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21276
+{
+global.CardName[CardStat] = 'Impulse of Miserliness'
+global.CardText[CardStat] = 'Nebleheim/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

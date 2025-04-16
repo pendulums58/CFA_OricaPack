@@ -4063,7 +4063,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 21259
 {
-global.CardName[CardStat] = 'Paraside Lost'
+global.CardName[CardStat] = 'Paradise Lost'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order'
 
 global.UnitGrade[CardStat] = 3
@@ -4072,3 +4072,42 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21278
+{
+global.CardName[CardStat] = 'E.G.O Weapon'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Arms/Ability Piece
+
+Ability Piece (This card is source of the power that symbolized ability.)
+
+E.G.O Arms - Grade 3 or greater <Yggdrasil Seeker> 
+
+COST [Counter Blast 1] to play this card.
+
+AUTO [VC] : When this card is equipped, draw a card.
+
+AUTO [VC] : During your turn, when ability of your vanguard activate, all your vanguards get power +3000 until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+global.Arms[CardStat] = 1
+
+CardStat = 21279
+{
+global.CardName[CardStat] = 'Twilight Guardian cub wizard'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+AUTO : When this unit is placed on RC, if you have <Omnia> vanguard, you may bind a grade 2 or less card from your drop. If you do, this unit gets power +5000 until end of turn. If you persona rode this turn, you may choose grade 3 in your soul.
+
+CONT [RC] : If a card was bound by your ability this turn, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

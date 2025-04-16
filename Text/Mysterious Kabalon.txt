@@ -3251,3 +3251,15 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21277
+{
+global.CardName[CardStat] = 'Party of Shameface'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
