@@ -3056,3 +3056,14 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21292
+{
+global.CardName[CardStat] = 'Blade of Sorcery flame, Dainslaif'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardCopies[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0

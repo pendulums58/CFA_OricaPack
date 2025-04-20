@@ -3263,3 +3263,20 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21291
+{
+global.CardName[CardStat] = 'Miracle Contributer, Stella'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+[Ace Unit] (You may only have one Ace Unit in your deck)
+
+Unique Skill - AUTO: When this unit is placed on RC other than during the battle phase, this unit gets power +5000. COST [Energy Blast 3], choose a card from your damage zone, put it into your hand, choose one of your vanguard, and deal it one damage. (You may only use Unique Skills a total of once per fight among all of your cards)
+
+AUTO [RC]: When this unit attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 until end of that battle, if your damage zone is four or more, it also gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.CardCopies[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0

@@ -4058,3 +4058,94 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21284
+{
+global.CardName[CardStat] = 'Knight of dazzling sunset, Zuo xui'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, COST [Put a unit card from your hand into soul], look at top seven cards from your deck, choose up to one unit with different race from card putted into soul, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21285
+{
+global.CardName[CardStat] = 'Knight of rough sunset, Zuo xui'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by unit with "Syuu" in its card name, COST [Reveal three normal unit with different race], choose a card from your drop, and call it to RC.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21286
+{
+global.CardName[CardStat] = 'Girl of oblivion, Yuki'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by "Knight of regret, Samerju", COST [Discard a card], look at top seven cards from your deck, choose up to one normal unit or normal order with grade 2 or less, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21287
+{
+global.CardName[CardStat] = 'Knight of regret, Samerju'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by unit with "Brightalgion" in its card name, choose up to three normal units from your drop, put them bottom of your deck, if you choose two or more, look at top two cards from your deck, discard one among them, and put else into hand or top of deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21288
+{
+global.CardName[CardStat] = 'Memorial Dragon, Brightalgion'
+global.CardText[CardStat] = 'Daybreakers/Cosmo Dragon
+
+CONT [VC] : During your turn, all your units with same name is in your drop gets power +5000.
+
+AUTO [VC] 1/Turn : When this unit attacks, COST [Counter Blast 1], choose a unit card from your deck, and call it to RC with same name to that card, shuffle your deck. If you persona rode this turn, choose up to one order from your drop, put into your hand, and called unit gets power +10000 / critical +1 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21289
+{
+global.CardName[CardStat] = 'Administrator of blue shadow'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+[Ace Unit] (You may only have one Ace Unit in your deck)
+
+Unique Skill - AUTO: When this unit is placed on RC other than during the battle phase, this unit gets power +5000. COST [Energy Blast 3], choose an order from your drop, put into your hand. You may play up to two order this turn. (You may only use Unique Skills a total of once per fight among all of your cards)
+
+AUTO [RC]: When this unit attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 until end of that battle, and if your units are all different race, or all same without this unit, it also gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardCopies[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21294
+{
+global.CardName[CardStat] = 'Undependable Alchemist'
+global.CardText[CardStat] = 'Daybreakers/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

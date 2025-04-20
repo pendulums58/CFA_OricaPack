@@ -4111,3 +4111,65 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21280
+{
+global.CardName[CardStat] = 'Administrator of lingering imagery'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21281
+{
+global.CardName[CardStat] = 'Shy smile, Lumiel'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21282
+{
+global.CardName[CardStat] = 'Pastel-color wish, Lumiel'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21283
+{
+global.CardName[CardStat] = 'Melody filled with Memory, Lumiel'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Admin'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21290
+{
+global.CardName[CardStat] = 'Decoherence Creator'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+[Ace Unit] (You may only have one Ace Unit in your deck)
+
+Unique Skill - AUTO: When this unit is placed on RC other than during the battle phase, this unit gets power +5000. COST [Energy Blast 3], choose any one rear-guard, return it to hand. Draw a card. (You may only use Unique Skills a total of once per fight among all of your cards)
+
+AUTO [RC]: When this unit attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 until end of that battle, if you Energy Charge else than ability of crest this turn, it also gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+global.CardCopies[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
