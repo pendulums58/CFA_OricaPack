@@ -3280,3 +3280,53 @@ global.CardCopies[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21295
+{
+global.CardName[CardStat] = 'Star chasing dragon, Fafnir'
+global.CardText[CardStat] = 'Mysterious Kabalon/Wyrm Dragon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21296
+{
+global.CardName[CardStat] = 'Bounded prisoner of offered wealth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21297
+{
+global.CardName[CardStat] = 'Void Greed, Fafnir Avaritia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21298
+{
+global.CardName[CardStat] = 'Polymorphing Miracle'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
