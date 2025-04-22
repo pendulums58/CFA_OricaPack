@@ -3330,3 +3330,37 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21299
+{
+global.CardName[CardStat] = 'Pilgrim Star, Eltanin'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21300
+{
+global.CardName[CardStat] = 'Goldrushing Sicilian'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21301
+{
+global.CardName[CardStat] = 'Greed follower of Pan Gold'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
