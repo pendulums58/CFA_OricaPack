@@ -2195,3 +2195,65 @@ global.CardCopies[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21324
+{
+global.CardName[CardStat] = 'Looking on little blade'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21325
+{
+global.CardName[CardStat] = 'Soul-harvesting Scythe'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21326
+{
+global.CardName[CardStat] = 'Fated One of Eternal Lift, Alopex'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21327
+{
+global.CardName[CardStat] = 'Sitakore \#East Style'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21328
+{
+global.CardName[CardStat] = 'Envy calling Ground, Semele'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21329
+{
+global.CardName[CardStat] = 'Managed Relaxer'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

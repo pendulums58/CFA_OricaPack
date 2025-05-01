@@ -3067,3 +3067,78 @@ global.CardCopies[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21317
+{
+global.CardName[CardStat] = 'Banishing Logfinder'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21318
+{
+global.CardName[CardStat] = 'Listed Time Attendant'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21319
+{
+global.CardName[CardStat] = 'Goddess of time, Urd Norn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21320
+{
+global.CardName[CardStat] = 'Fated One of Time, Verdandi Norn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21321
+{
+global.CardName[CardStat] = 'Drift Dive Director'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21322
+{
+global.CardName[CardStat] = 'Timeout Shouter'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21323
+{
+global.CardName[CardStat] = 'Goddess of Time, Skuld Norn'
+global.CardText[CardStat] = 'Nebleheim/Noble'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 18000
+global.DefensePowerStat[CardStat] = 0

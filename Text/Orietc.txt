@@ -563,3 +563,17 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21330
+{
+global.CardName[CardStat] = 'Blue Colored Spirit, Tir'
+global.CardText[CardStat] = 'Elemental/Over Trigger
+
+Additional Effect - Draw three cards, and Counter Charge 1.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000

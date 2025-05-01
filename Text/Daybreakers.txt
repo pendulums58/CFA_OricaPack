@@ -4149,3 +4149,194 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21302
+{
+global.CardName[CardStat] = 'Tsugido Quartet, Heart'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by "Tsugido Quartet, Spade", search your deck for a grade 2 card with "Tsugido" in its card name, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21303
+{
+global.CardName[CardStat] = 'Tsugido Quartet, Spade'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO: When this unit is rode upon by grade 3 unit with "Formein" in its card name, search your deck for a grade 3 card with "Tsugido" in its card name, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21304
+{
+global.CardName[CardStat] = 'Fated One of Penetration, Formein "Tsugido Quartet"'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO [VC] : At the beginning of your battle phase, if you have exactly four units, all your units get power +5000 until end of turn. And if all of your units have "Tsugido" in its card name, all your units attack an selected column.
+
+[Divine Skill] AUTO [VC] : When this unit attacks grade 3 or greater vanguard, if you have exactly four units rest with "Tsugido" in its card name, COST [Counter Blast 1], this unit gets power +5000 for each of your opponent’s open RC until end of turn, and gets drive +1 for each of your opponent’s open column.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21305
+{
+global.CardName[CardStat] = 'Tsugido Knight, Polyseron'
+global.CardText[CardStat] = 'Daybreakers/Fairy
+
+CONT [RC] : During the battle this unit boosted, if you have grade 3 or greater vanguard with "Formein" in its card name, this unit gets power +5000.
+
+AUTO [RC] : When this unit boosts grade 3 or greater vanguard with "Formein" in its card name, this unit gets power +2000 until end of that battle. If you have no other back row rear-guard, COST [Soul Blast 1], Counter Charge 1.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21306
+{
+global.CardName[CardStat] = 'Tsugido Servant, Clasir'
+global.CardText[CardStat] = 'Daybreakers/Warbeast
+
+AUTO [RC] : When your other unit’s attack hits, this unit gets power +3000 until end of turn.
+
+AUTO [RC] 1/Turn : At the end of battle this unit attacked a rear-guard, if you have a vanguard with "Tsugido" in its card name, COST [Energy Blast 3], stand this unit.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21307
+{
+global.CardName[CardStat] = 'Tsugido Executor, Kipaki'
+global.CardText[CardStat] = 'Daybreakers/Elf
+
+CONT [RC] : During your turn, if all your units have "Tsugido" in its card name, this unit gets power +5000.
+
+AUTO [RC] : At the end of battle your vanguard with "Formein" in its card name, if your opponent has no unit in back row, and you have no unit with same name to this unit, COST [Counter Blast 1], stand this unit, and it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21308
+{
+global.CardName[CardStat] = 'Nameless Alchemist'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21309
+{
+global.CardName[CardStat] = 'Flame of Fate, Retsu'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21310
+{
+global.CardName[CardStat] = 'Declarer of Three color, Rhythium'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21311
+{
+global.CardName[CardStat] = 'Unidentified black boy'
+global.CardText[CardStat] = 'Daybreakers
+
+
+
+(Shift + left click to get black aura)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21312
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+
+CardStat = 21312
+{
+global.CardName[CardStat] = 'Black Aura'
+global.CardText[CardStat] = 'Daybreakers/Token Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21313
+{
+global.CardName[CardStat] = 'Blue Aura of Purity'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21314
+{
+global.CardName[CardStat] = 'Red Aura of Will'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21315
+{
+global.CardName[CardStat] = 'Yellow Aura of Truth'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21316
+{
+global.CardName[CardStat] = 'Crossing Executor'
+global.CardText[CardStat] = 'Daybreakers/Workeroid
+
+AUTO : When this unit is placed on RC from hand, if all your units are different race, COST [Counter Blast 1], draw a card.
+
+AUTO [RC] : When this unit boosts, COST [Reveal a Sword Art, Mana Source of Phantom order from your hand], this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
