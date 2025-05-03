@@ -3385,10 +3385,10 @@ CardStat = 21332
 global.CardName[CardStat] = 'Bounded prisoner of offered love'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human'
 
-global.UnitGrade[CardStat] = 1
+global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 102
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21333
