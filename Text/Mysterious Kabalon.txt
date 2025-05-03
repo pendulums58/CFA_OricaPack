@@ -3437,3 +3437,91 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 21337
+{
+global.CardName[CardStat] = 'Apprentice Achievet, Hyeok'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is rode upon by a unit with "Hopemaker" in its card name, look at top five cards from your deck, choose up to one card with Miracle ability, reveal it and put into your hand. Shuffle your deck.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21338
+{
+global.CardName[CardStat] = 'Bellowing Hopemaker'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is rode upon by a unit with "Elior" in its card name, choose a trigger from your drop or hand, and put into damage zone. If you do, at the end of that turn, choose a card from your damage zone, heal it.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21339
+{
+global.CardName[CardStat] = 'Fated One of Miracle, Elior'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Miracle Bloom - ACT [VC] 1/Turn : COST [Counter Blast any times], draw equal to paid Counter Blast for this cost, reveal them. Choose each one trigger with same type revealed from your drop, put them bottom of your deck, call all normal unit revealed to RC. If your opponent’s vanguard is grade 3 or greater, they get power +5000 until end of turn.
+
+[Divine Skill] - ACT [VC] : Choose any amount from each damage zone, put them into bottom of owner’s deck, and put same amount from their deck into damage zone. if you putted seven or more cards into deck, choose each one different type of trigger except over trigger from each damage zone, activate their trigger effect twice.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21340
+{
+global.CardName[CardStat] = 'Blood Lily blooms on battlefield'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC] : During the battle this unit boosts, if your vanguard is grade 3 or greater with "Elior" in its card name, this unit gets power +5000.
+
+AUTO [RC] : When this unit boosts grade 3 or greater vanguard with "Elior" in its card name, this unit gets power +2000 until end of that battle. COST [Energy Blast 3], choose a card from your face down damage zone, put it into your hand. If you do, put a card from your hand into damage zone.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21341
+{
+global.CardName[CardStat] = 'performing Miracle "Stellarion"    '
+global.CardText[CardStat] = 'Mysterious Kabalon/Elemental
+
+Miracle - AUTO : When this unit is placed on RC, if you have a vanguard with "Elior" in its card name, Counter Charge 1.
+
+CONT [RC] : If you have a vanguard with "Elior" in its card name, and if you drawn three or more cards this turn, this unit gets power +10000.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21342
+{
+global.CardName[CardStat] = 'Tempting Acolyte, Azusa'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+Miracle - AUTO [RC] : When this unit’s attack hits, Counter Charge 1.
+
+AUTO [RC] : 1/Turn : At the end of battle this unit attacked, if you have a vanguard with "Elior" in its card name, and if you have no other unit with same name to this card on your RC, COST [Discard a card], stand this unit.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

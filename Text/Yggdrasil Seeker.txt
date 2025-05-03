@@ -4173,3 +4173,99 @@ global.CardCopies[CardStat] = 1
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21343
+{
+global.CardName[CardStat] = 'Dedicated Follower'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21344
+{
+global.CardName[CardStat] = 'Arc Wizard of Decoding Void'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon by "Rhythm Therapy Beat Masta", you may call this unit to RC. If you do, Soul Charge 1.
+
+ACT [RC] : If you have a vanguard with "Ophilia" in its card name, COST [Energy Blast 3 & put this unit into soul], look a bottom card of your deck, you may discard it or call to RC. if you discarded, all your vanguards get power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21345
+{
+global.CardName[CardStat] = 'Rhythm Therapy Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon by a grade 3 with "Ophilia" in its card name, look at top three cards from your deck, choose one and call it to RC, choose one and discard it, and put else into bottom of your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21346
+{
+global.CardName[CardStat] = 'Fated One of Reverse, Ophilia'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+ACT [VC] 1/Turn : COST [Put a rear-guard into bottom of your deck], choose a unit with grade +1 to putted unit, call it to RC. If your opponent’s vanguard is grade 3 or greater, called unit gets power +10000 until end of turn.
+
+[Divine Skill] - COST [Counter Blast 1], look at one card from bottom of your deck, put it top or bottom of your deck. this unit gets drive +1 until end of turn. And during this turn, change power plus of your trigger effect to "choose one of your opponent’s unit, and it gets power -10000 until end of turn.", change power plus of your opponent’s trigger effect to "choose one of your vanguard, and it gets power -10000 until end of turn.".'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21347
+{
+global.CardName[CardStat] = 'Plumpark Forerunner, Ruke'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT [RC] : During the battle this unit boosts, if your vanguard is grade 3 or greater with "Ophilia" in its card name, this unit gets power +5000.
+
+AUTO [RC] : When this unit boosts grade 3 or greater vanguard with "Ophilia" in its card name, this unit gets power +2000 until end of that battle. If you did not Energy Charge except ability of crest, Energy Charge 3.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21348
+{
+global.CardName[CardStat] = 'Trace-tracer of fallen eternity'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO : When this unit is moved from your RC to except of drop, if you have a vanguard with "Ophilia" in its card name, COST [Counter Blast 1], draw a card, choose one of your unit, and it gets power +5000 until end of turn.
+
+CONT [RC/GC] : If you have a vanguard with "Ophilia" in its card name, this unit gets power +5000 / shield +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21349
+{
+global.CardName[CardStat] = 'Noble Fairy, Rosemelta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC by ability of your vanguard with "Ophilia" in its card name, this unit gets power +5000 until end of turn. COST [Soul Blast 1], this unit gets "AUTO [RC] 1/Turn : At the end of battle this unit attacked, stand this unit." until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

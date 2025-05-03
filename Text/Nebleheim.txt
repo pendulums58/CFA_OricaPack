@@ -2691,7 +2691,9 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 21126
 {
 global.CardName[CardStat] = 'Fogbridge Belowwalker'
-global.CardText[CardStat] = 'Nebelheim/Cyberoid'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid
+
+(Shift + left click to create Mist Token.)'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 103
@@ -2699,6 +2701,8 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
 
 CardStat = 21153
 {

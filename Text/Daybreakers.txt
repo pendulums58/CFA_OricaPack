@@ -4340,3 +4340,31 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21350
+{
+global.CardName[CardStat] = 'Tsugido Artist, Mina'
+global.CardText[CardStat] = 'Daybreakers/Wind Dragon
+
+AUTO [RC] : At the beginning of your battle phase, if you have a grade 3 or greater vanguard with "Tsugido" in its card name, COST [Retire a rear-guard], choose one of your unit, it gets "CONT [RC] : This unit gets power +5000 for each open RC of your opponent." until end of turn. If you have exactly four units with "Tsugido" in its card name, COST [Counter Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21351
+{
+global.CardName[CardStat] = 'In the name of Tsugido, piercing the evil'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+Play this card if you have a vanguard with "Tsugido" in its card name.
+
+Choose one of your vanguard, and it gets "AUTO [VC] : During your battle phase, if a rear-guard was retired, COST [Soul Blast 1], draw a card. If you did not use this ability for that fighter’s unit, you may not pay this cost." until end of turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
