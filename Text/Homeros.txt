@@ -1135,7 +1135,7 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20963	
 {
-global.CardName[CardStat] = 'Training under the sky, Herensuge'
+global.CardName[CardStat] = 'Conquest and Revival'
 global.CardText[CardStat] = 'Homeros/Human
 
 AUTO: When this unit is rode upon, if you went second, draw a card.
@@ -1149,7 +1149,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20964	
 {
-global.CardName[CardStat] = 'Forging skill, Herensuge'
+global.CardName[CardStat] = 'War and Division'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 106
@@ -1159,7 +1159,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20965	
 {
-global.CardName[CardStat] = 'Blade of blue flame, Herensuge'
+global.CardName[CardStat] = 'Famine and Exploit'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
@@ -1169,8 +1169,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20966	
 {
-global.CardName[CardStat] = 'Prince of blue dragon, Herensuge'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardName[CardStat] = 'Pale Rider of Death'
+global.CardText[CardStat] = 'Homeros/Four Horseman'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 106
 }
@@ -1180,34 +1180,33 @@ global.PersonaRide[CardStat] = 1
 
 CardStat = 20967	
 {
-global.CardName[CardStat] = 'Knight or thunder, Ochoa'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardName[CardStat] = 'White Rider of Conquest'
+global.CardText[CardStat] = 'Homeros/Four Horseman'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20968	
+{
+global.CardName[CardStat] = 'Red Rider of War'
+global.CardText[CardStat] = 'Homeros/Four Horseman'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20968	
+CardStat = 20969
 {
-global.CardName[CardStat] = 'Knight or mucoid, Siar'
-global.CardText[CardStat] = 'Homeros/Human'
+global.CardName[CardStat] = 'Black Rider of Famine'
+global.CardText[CardStat] = 'Homeros/Four Horseman'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
-
-CardStat = 20969
-{
-global.CardName[CardStat] = 'Legend ascending sword of blue dragon'
-global.CardText[CardStat] = 'Homeros/Normal Order'
-global.UnitGrade[CardStat] = 2
-global.CardInClan[CardStat] = 30
-global.DCards[CardStat] = 106
-}
-global.PowerStat[CardStat] = 0
-global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20977
 {
@@ -2324,3 +2323,61 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21358
+{
+global.CardName[CardStat] = 'What heads to the death'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21359
+{
+global.CardName[CardStat] = 'Revealation of Demise'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1
+
+CardStat = 21360
+{
+global.CardName[CardStat] = 'Stardust Conductor'
+global.CardText[CardStat] = 'Homeros/Noble
+
+AUTO : When this unit is placed on RC, COST [Counter Blast 1], look at top five cards from your deck, choose up to one normal order without Mythic Saga, reveal it and put into your hand. Shuffle your deck. If you did not revealed, Counter Charge 1.
+
+AUTO [RC] : At the end of battle this unit attacked with boost, COST [Retire this unit], choose up to one normal order with same grade as boosted unit from your drop, put it face up into your ride deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21361
+{
+global.CardName[CardStat] = 'Pray of Star'
+global.CardText[CardStat] = 'Homeros/Normal Order
+
+Play this card if have a vanguard with "Stardust" in its card name.
+
+Look at top seven cards from your deck, choose up to one unit with same grade is in your ride deck face up and without sentinel, reveal it and put into your hand. Shuffle your deck. Put this card into ride deck face up.
+
+AUTO : When this card if putted into drop from your ride deck by your card’s ability, if you have a vanguard with "Stardust" in its card name, choose one of your unit, and it gets power +5000 until end of turn. If your ride deck has face-up "Birth of Star" and "Array of Star", COST [Counter Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
