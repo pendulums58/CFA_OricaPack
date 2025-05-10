@@ -2257,3 +2257,70 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21352
+{
+global.CardName[CardStat] = 'Apex of ascetic, Lu Mei'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21353
+{
+global.CardName[CardStat] = 'Vacation in midsummer, Lu Mei'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21354
+{
+global.CardName[CardStat] = 'Under the leisurely moon, Lu Mei'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21355
+{
+global.CardName[CardStat] = 'Wandering Cultivator, Lu Mei'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.EnableAttackFromBackRow[CardStat] = 1
+
+CardStat = 21356
+{
+global.CardName[CardStat] = 'Oriental Arts - Twilight of life'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21357
+{
+global.CardName[CardStat] = 'Passion to Martial Arts, Wi Ten'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
