@@ -1197,6 +1197,8 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+global.CanAttackFromBackRow[CardStat] = 1
+global.AttackFromRBuff[CardStat] = 15000
 
 CardStat = 20969
 {
@@ -1629,6 +1631,7 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+global.AttackFromRBuff[CardStat] = 15000
 
 CardStat = 21134
 {
@@ -2362,7 +2365,7 @@ AUTO [RC] : At the end of battle this unit attacked with boost, COST [Retire thi
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21361
@@ -2381,3 +2384,20 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21362
+{
+global.CardName[CardStat] = 'Recite a poem under the blue sky'
+global.CardText[CardStat] = 'Homeros/Blitz Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
