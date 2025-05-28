@@ -2401,3 +2401,71 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 21367
+{
+global.CardName[CardStat] = 'Sky Dancing Dragon, Argiroth'
+global.CardText[CardStat] = 'Homeros/Wind Dragon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21372
+{
+global.CardName[CardStat] = 'Fuwaneko \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast/Avatar'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21373
+{
+global.CardName[CardStat] = 'Seong Weol, Silvery Girl'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21374
+{
+global.CardName[CardStat] = 'Hatamoto 11 - Mitsutada'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21375
+{
+global.CardName[CardStat] = 'Oriental Arts - Regulating Breath'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21376
+{
+global.CardName[CardStat] = 'The day blessed by Fate'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1

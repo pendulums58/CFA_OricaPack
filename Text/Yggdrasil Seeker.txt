@@ -4269,3 +4269,32 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21364
+{
+global.CardName[CardStat] = 'Collected Wish Dragon, Conclave'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Flame Dragon
+
+CONT [RC/GC] : This unit gets "Intercept", and shield +5000.
+
+AUTO : When this unit is placed on RC from hand, if your vanguard is grade 3 or greater, COST [Energy Blast 3], this unit gets power +5000 until end of turn, you may choose one of your other rear-guard, and put it into soul. If you do, draw a card. If your damage zone is four or more, or you persona rode this turn, this unit gets power +5000 until end of turn, and you may choose grade +2 to putted unit into soul from your drop, and call it to RC instead draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21369
+{
+global.CardName[CardStat] = 'Ark Wizard of Unforgetable Bond'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Avatar
+
+CONT [RC/GC] : If you have a grade 3 or greater vanguard with "Ouroboros" or "Milenia" in its card name, this unit gets power +5000 / shield +5000.
+
+AUTO : When this unit is placed on RC by your vanguard’s ability, this unit gets power +5000 until end of turn. If your opponent’s vanguard is grade 3 or greater, this unit gets "AUTO [RC] : At the end of battle this unit attacked or boosted, Energy Charge 1, and bind this unit." until end of turn.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000

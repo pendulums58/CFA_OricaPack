@@ -3525,3 +3525,50 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21365
+{
+global.CardName[CardStat] = 'Human forming dragon, CoExist'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera
+
+CONT [RC/GC] : This unit gets "Intercept", and shield +5000.
+
+AUTO [RC] 1/Turn : When this unit attacks a vanguard, if your vanguard is grade 3 or greater, COST [Energy Blast 3], Choose one of your vanguard, and it gets "AUTO [VC] : When this unit attacks, choose one of your unit, and it gets power +5000 until end of turn." until end of turn. If your damage zone is four or more, or you persona rode this turn, this unit gets power +5000 until end of turn, look the top card of your deck, and put it top or bottom of your deck.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+
+CardStat = 21370
+{
+global.CardName[CardStat] = 'Daydreamer of Forging Miracle'
+global.CardText[CardStat] = 'Mysterious Kabalon/Avatar
+
+CONT [RC/GC] : If you have a vanguard with "Teneon" or "Milenia" in its card name, this unit gets power +5000 / shield +5000.
+
+AUTO [RC] 1/Turn : When this unit attacks, if you have a vanguard with "Teneon" or "Milenia" in its card name, COST [Soul Blast 1], choose a card from your damage zone, and put into your hand. If you do, at the end of that turn, put a card from top of your deck or drop to damage zone.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21377
+{
+global.CardName[CardStat] = 'Reach out to where starlight cannot touch'
+global.CardText[CardStat] = 'Mysterious Kabalon/Blitz Order
+
+
+COST [Energy Blast 3] to Play this card.
+
+Choose a normal unit without sentinel from your drop, and call it to RC. That unit gets shield +5000 for each face-up card in your G Zone until end of that battle. If you have a vanguard with "Ritrin" in its card name, COST [Put a card from your hand into soul], choose one of your guardian without sentinel, and it gets "AUTO : When this unit retires from GC, put this unit into hand."'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

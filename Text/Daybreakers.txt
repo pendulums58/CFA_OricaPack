@@ -4368,3 +4368,32 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21363
+{
+global.CardName[CardStat] = 'Origin Recursion Dragon, Samsazakra'
+global.CardText[CardStat] = 'Daybreakers/Cosmo Dragon
+
+CONT [RC/GC] : This unit gets "Intercept", and shield +5000.
+
+AUTO [RC] 1/Turn : When this unit attacks a vanguard, if your vanguard is grade 3 or greater, COST [Energy Blast 3], this unit gets power +5000 until end of turn, choose one of your other rear-guard, it gets power +5000 until end of turn. If your damage zone is four or more, or you persona rode this turn, choose two instead of one, and you may choose a Sword art, Mana Source or Phantom card from your drop and put into hand.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21368
+{
+global.CardName[CardStat] = 'Knight of lunar eclipse, Luminary'
+global.CardText[CardStat] = 'Daybreakers/Avatar
+
+CONT [RC/GC] : If you have a grade 3 or greater vanguard with "Aura" or "Milenia" in its card name, this unit gets power +5000 / shield +5000.
+
+AUTO [RC] : At the end of your turn, if you have a vanguard with "Aura" or "Milenia" in its card name, COST [Energy Blast 3, put this unit into soul], look at top seven cards from your deck, choose up to one Blitz Order or Fate Order among them, reveal it and put into hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000

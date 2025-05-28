@@ -3146,3 +3146,24 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21366
+{
+global.CardName[CardStat] = 'Moon Mist Dragon, Eldvard'
+global.CardText[CardStat] = 'Nebleheim/Wyrm Dragon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21371
+{
+global.CardName[CardStat] = 'Time Link Librarian'
+global.CardText[CardStat] = 'Nebleheim/Avatar'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
