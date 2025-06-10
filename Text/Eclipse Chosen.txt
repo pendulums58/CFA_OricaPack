@@ -1,0 +1,195 @@
+CardStat = 21378
+{
+global.CardName[CardStat] = 'Descendant of chosen kingdom'
+global.CardText[CardStat] = 'Eclipse Chosen/Royal Blood
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21379
+{
+global.CardName[CardStat] = 'Admiral of the Fleet, Momotaro'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho/Draw Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21380
+{
+global.CardName[CardStat] = 'Royal doctor, Dolse'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21381
+{
+global.CardName[CardStat] = 'Mecha Wandering Trader, Kongji'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho/Front Trigger
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21382
+{
+global.CardName[CardStat] = 'Left hand of King, Las Vegas'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho/Critical Trigger
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21383
+{
+global.CardName[CardStat] = 'Honored General, Old Napole'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21384
+{
+global.CardName[CardStat] = 'Administrator of Blue Honesty'
+global.CardText[CardStat] = 'Eclipse Chosen/Noble/Over Trigger'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.TriggerUnit[CardStat] = 6
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21385
+{
+global.CardName[CardStat] = 'Wish of Cyanite'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21386
+{
+global.CardName[CardStat] = 'Yutori Executor - Chakho Gapsa'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21387
+{
+global.CardName[CardStat] = 'Rescue Inoshishi - Unbi Kabi'
+global.CardText[CardStat] = 'Eclipse Chosen/Sacred Beast'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21388
+{
+global.CardName[CardStat] = 'Taiman Postman - Cho seong Tak'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21389
+{
+global.CardName[CardStat] = 'Bridge Guardian - Izanami'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21390
+{
+global.CardName[CardStat] = 'Kawaii Baekbeom - Shegorjab'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21391
+{
+global.CardName[CardStat] = 'Matsugu Shaman of Tarihi Hongan'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21392
+{
+global.CardName[CardStat] = 'Starlight Geongongamri Samurai'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21393
+{
+global.CardName[CardStat] = 'National Assembly Inspector, Shadow Jaelee'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

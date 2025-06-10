@@ -32,6 +32,11 @@ global.CustomFactionClanId[106] = 0
 global.CustomFactionNationId[106] = 106
 global.CustomFactionName[106] = 'Homeros'
 global.CustomFactionFile[106] = 'Homeros.txt'
+
+global.CustomFactionClanId[107] = 0
+global.CustomFactionNationId[107] = 107
+global.CustomFactionName[107] = 'Eclipse Chosen'
+global.CustomFactionFile[107] = 'Eclipse Chosen.txt'
  
-global.MaxCustomFaction = 107
-global.AllCard = 21377
+global.MaxCustomFaction = 108
+global.AllCard = 21393
