@@ -2469,3 +2469,57 @@ global.ExtraDeck[CardStat] = 1
 global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 18000
 global.UseCounters[CardStat] = 1
+
+CardStat = 21395
+{
+global.CardName[CardStat] = 'Aineko \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21396
+{
+global.CardName[CardStat] = 'Kurokitsu \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21397
+{
+global.CardName[CardStat] = 'Fukuro \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21398
+{
+global.CardName[CardStat] = 'Komakuro \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21399
+{
+global.CardName[CardStat] = 'Curious Jiangshi '
+global.CardText[CardStat] = 'Homeros/Zombie/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000

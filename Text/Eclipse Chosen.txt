@@ -193,3 +193,15 @@ global.DCards[CardStat] = 107
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21394
+{
+global.CardName[CardStat] = 'Spin handle Ippai!!'
+global.CardText[CardStat] = 'Eclipse Chosen/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
