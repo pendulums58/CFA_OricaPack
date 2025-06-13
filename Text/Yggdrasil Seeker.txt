@@ -4313,3 +4313,18 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21400
+{
+global.CardName[CardStat] = 'Unchanging Light, Mousse'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+AUTO [VC] : At the end of battle your grade 1 or greater rear-guard without sentinel attacks or boosts, COST [Energy Blast 3], return that unit to your hand.
+
+AUTO [VC] : When this unit attacks a vanguard, if your rear-guard is two or less, COST [Counter Blast 1], choose up to two normal units from your bind zone and soul, sum of grade less or equal to your opponent’s vanguard, call them to RC. If your rear-guard putted else than drop this turn is two or more, choose up to one card from your hand, call it to RC, and all units called gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
