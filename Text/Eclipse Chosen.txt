@@ -80,7 +80,7 @@ global.DefensePowerStat[CardStat] = 15000
 
 CardStat = 21384
 {
-global.CardName[CardStat] = 'Administrator of Blue Honesty'
+global.CardName[CardStat] = 'King of Chosen, Mizuyama Ido Jackson'
 global.CardText[CardStat] = 'Eclipse Chosen/Noble/Over Trigger'
 global.UnitGrade[CardStat] = 0
 global.DCards[CardStat] = 107
@@ -91,7 +91,7 @@ global.DefensePowerStat[CardStat] = 50000
 
 CardStat = 21385
 {
-global.CardName[CardStat] = 'Wish of Cyanite'
+global.CardName[CardStat] = 'Royal Doctor, Shimcheong'
 global.CardText[CardStat] = 'Eclipse Chosen/Mincho
 
 CONT: Sentinel.

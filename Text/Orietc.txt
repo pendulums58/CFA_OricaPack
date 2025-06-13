@@ -45,6 +45,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20517
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20517
 
 CardStat = 20517
 {
@@ -69,6 +70,7 @@ global.DefensePowerStat[CardStat] = 0
 global.RemoveFromDrop[CardStat] = 1
 global.TokenSummoner[CardStat] = 20518
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20518
 
 
 CardStat = 20518

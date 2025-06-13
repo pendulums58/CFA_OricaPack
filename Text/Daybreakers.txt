@@ -3128,6 +3128,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20916
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20916
 
 CardStat = 20916
 {
@@ -3635,6 +3636,7 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+global.AnotherSide[CardStat] = 13708
 
 CardStat = 21082
 {
@@ -4279,6 +4281,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 21312
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21312
 
 CardStat = 21312
 {

@@ -602,6 +602,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20298
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20298
 
 CardStat = 20297
 {
@@ -621,6 +622,7 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.TokenSummoner[CardStat] = 20298
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20298
 
 CardStat = 20298
 {
@@ -676,6 +678,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20298
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20298
 
 CardStat = 20302
 {
@@ -888,6 +891,7 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 103
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
@@ -945,6 +949,7 @@ global.TokenSummonerPosition[CardStat] = 'SHIFT'
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 20334
 {
@@ -958,6 +963,7 @@ global.TokenSummonerPosition[CardStat] = 'SHIFT'
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 20350
 {
@@ -1368,6 +1374,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20592
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20592
 
 CardStat = 20590
 {
@@ -1835,6 +1842,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 20746
 {
@@ -2265,6 +2273,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20991
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20991
 
 CardStat = 20991
 {
@@ -2483,6 +2492,7 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+global.AnotherSide[CardStat] = 13708
 
 CardStat = 21056
 {
@@ -2703,6 +2713,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21153
 {
@@ -2795,6 +2806,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21193
 {
@@ -2809,6 +2821,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21194
 {
@@ -2899,6 +2912,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21202
 {
@@ -2917,6 +2931,7 @@ global.TokenSummoner2[CardStat] = 13256
 global.TokenSummoner2Text[CardStat] = "(Alter is used for mirror match distinction) Which Inf. Eyes Marker ?"
 global.TokenSummoner2Button1[CardStat] = "Primary"
 global.TokenSummoner2Button2[CardStat] = "Alter"
+global.AnotherSide[CardStat] = 13255
 
 CardStat = 21203
 {
@@ -2963,6 +2978,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21229
 {
@@ -2986,6 +3002,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21234
 {

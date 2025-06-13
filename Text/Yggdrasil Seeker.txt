@@ -599,6 +599,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20164
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20164
 
 CardStat = 20164
 {
@@ -654,6 +655,7 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.TokenSummoner[CardStat] = 20172
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20172
 
 CardStat = 20167
 {
@@ -777,6 +779,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20175
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20175
 
 CardStat = 20175
 {
@@ -1920,6 +1923,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20506
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20506
 
 CardStat = 20506
 {
@@ -2022,6 +2026,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20543
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20543
 
 CardStat = 20543
 {
@@ -2059,6 +2064,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20545
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20545
 
 CardStat = 20545
 {
@@ -2096,6 +2102,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20547
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20547
 
 CardStat = 20547
 {
@@ -2246,6 +2253,7 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.TokenSummoner[CardStat] = 20564
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20564
 
 CardStat = 20560
 {
@@ -2270,6 +2278,7 @@ global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20564
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20564
 
 CardStat = 20562
 {
@@ -2295,6 +2304,7 @@ global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.TokenSummoner[CardStat] = 20564
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20564
 
 CardStat = 20564
 {
@@ -2339,6 +2349,7 @@ global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20577
 global.TokenSummonerPosition[CardStat] = 'V'
 global.TokenSummonerQuantity[CardStat] = 1
+global.AnotherSide[CardStat] = 20577
 
 CardStat = 20577
 {
@@ -2689,6 +2700,7 @@ global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 global.TokenSummoner[CardStat] = 20806
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20806
 
 CardStat = 20769
 {
@@ -3001,6 +3013,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20866
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20866
 
 CardStat = 20866
 {
@@ -3349,6 +3362,7 @@ global.TokenSummonerQuantity[CardStat] = 1
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 global.AttackFromRBuff[CardStat] = 5000
+global.AnotherSide[CardStat] = 13708
 
 CardStat = 21046
 {
@@ -3442,6 +3456,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 21076
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21076
 
 CardStat = 21076
 {
