@@ -4319,9 +4319,140 @@ CardStat = 21400
 global.CardName[CardStat] = 'Unchanging Light, Mousse'
 global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
 
+CONT: When this card would be rode upon, it is also regarded as "Blowout Mirage, Mousse".
+
 AUTO [VC] : At the end of battle your grade 1 or greater rear-guard without sentinel attacks or boosts, COST [Energy Blast 3], return that unit to your hand.
 
 AUTO [VC] : When this unit attacks a vanguard, if your rear-guard is two or less, COST [Counter Blast 1], choose up to two normal units from your bind zone and soul, sum of grade less or equal to your opponent’s vanguard, call them to RC. If your rear-guard putted else than drop this turn is two or more, choose up to one card from your hand, call it to RC, and all units called gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21401
+{
+global.CardName[CardStat] = 'Note Snipe Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Abnomality/Trace
+
+AUTO : When this unit is placed on RC by ability of your vanguard with "Ophilia" in its card name, COST [Soul Blast 1], this unit gets power +5000 until end of turn. Choose one of your vanguard’s original ACT ability, you may activate it once more this turn. This ability may activate only once each turn.
+
+AUTO [RC] : At the end of battle this unit attacked, if this unit is placed this turn with ability, COST [Put this unit into soul], Energy Charge 2.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21402
+{
+global.CardName[CardStat] = 'Ark Wizard of Restoring Glory'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is placed on RC or GC, if you have a vanguard with "Sazanka" in its card name, COST [Soul Blast 1], this unit gets power +5000 / shield +5000 for each two "Sayonara Heaven" in your order zone.
+
+AUTO [RC] : At the end of battle this unit attacked, COST [rest an Set Order with AUTO ability from your order zone], return this unit into hand.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21403
+{
+global.CardName[CardStat] = 'Ark Wizard of Blocking Error'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21404
+{
+global.CardName[CardStat] = 'Data Crawling Spellcaster'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+AUTO: When this unit is rode upon, look at top five cards from your deck, choose up to one card, and put into soul or bind it. If you bound, choose one of your vanguard, it gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21405
+{
+global.CardName[CardStat] = 'MIRAGE exchange supporter'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+AUTO: When this unit is rode upon by unit with "Mousse" in its card name, you may call this unit from soul to RC. If you do, look at top five cards from your deck, choose up to one normal unit among them, put it into soul. Shuffle your deck.
+
+AUTO : When this unit is putted into your hand by ability of your vanguard with "Mousse" in its card name, COST [Bint this unit], all your vanguards get power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21406
+{
+global.CardName[CardStat] = 'Blowout Mirage, Mousse'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast
+
+ACT [VC] 1/Turn : COST [Bind two different grade from your drop], this unit gets power +10000 until end of turn.
+
+AUTO [VC] : At the end of battle your grade 1 or greater rear-guard without sentinel attacks or boosts, COST [Energy Blast 3], return that unit to your hand.
+
+AUTO [VC] : When this unit attacks a vanguard, if your rear-guard is two or less, COST [Counter Blast 1], choose up to two normal units from your bind zone and soul, sum of grade less or equal to your opponent’s vanguard, call them to RC. If your rear-guard putted else than drop this turn is two or more, choose up to one card from your hand, call it to RC, and all units called gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21407
+{
+global.CardName[CardStat] = 'Chart Dragon, Musestar'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Abnomality
+
+AUTO : When this card is discarded from hand, you may reveal a grade 3 with "Mousse" in its card name from ride deck. If you do, or you have a vanguard with "Mousse" in its card name, bind this card, and draw a card.
+
+AUTO [RC] : During your battle phase, if your rear-guard was placed on same column with this card from hand, COST [Put this card into soul], that unit gets power +5000 until end of turn. If you have a vanguard with "Mousse" in its card name, draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21408
+{
+global.CardName[CardStat] = 'Dawnseeker of broken sky'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO : When this card is placed on RC from bind zone or soul, COST [Put a card from your hand into soul], draw a card, and this unit gets power +5000 until end of turn. If you persona rode this turn, choose a card from your soul with different name putted into soul, put it into your hand.
+
+CONT [Soul/Bind zone] : If you have a vanguard with "Mousse" in its card name, this unit gets grade -1.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21409
+{
+global.CardName[CardStat] = 'Mirage Mythic guardian'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Angel
+
+ACT : When this unit is placed on RC from hand, if you have a vanguard with "Mousse" in its card name, Energy Charge 3. If it was placed by ability of your vanguard, this unit gets power +5000 until end of turn.
+
+AUTO [RC] : When this unit attacks grade 3 or greater unit, if your rear-guard was putted else than drop this turn, you may choose grade 2 or greater from your drop, and put into your soul. If you do, bind this unit at the end of that battle.'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
 }

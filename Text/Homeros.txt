@@ -2534,3 +2534,50 @@ global.DCards[CardStat] = 106
 global.TriggerUnit[CardStat] = 2
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21411
+{
+global.CardName[CardStat] = 'Court Composer, Freesian'
+global.CardText[CardStat] = 'Homeros/Human
+
+(Shift + left click to create Allied Force token.)'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21188
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21188
+
+CardStat = 21412
+{
+global.CardName[CardStat] = 'Eternal Silence, Yuki Anetha'
+global.CardText[CardStat] = 'Homeros/Ghost'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21413
+{
+global.CardName[CardStat] = 'Worring Silvery Girl, Chae Yeonhwa'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21414
+{
+global.CardName[CardStat] = 'During the warm festival night'
+global.CardText[CardStat] = 'Homeros/Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

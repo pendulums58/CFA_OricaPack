@@ -3577,3 +3577,20 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21410
+{
+global.CardName[CardStat] = 'Daydreamer of Behind Victory'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO : When this unit is placed on VC, look at top seven cards from your deck, choose up to one card with "Daydreamer" in its card name that different name to it, put it into damage zone, shuffle your deck. If you do, choose a card else than that from your damage zone, put into your hand.
+
+CONT [VC] : All your unit with "Daydreamer" in its card name gets shield +5000. If it is your turn, they gets power +5000.
+
+AUTO [VC] 1/Turn : At the end of battle this unit attacked vanguard, COST [Soul Blast 1], choose a card from your damage zone, call it to RC. And put the top card of your deck into damage zone face down. If you called unit with "Daydreamer" in its card name, choose one of your rear-guard, and increase its power equal to sum of power of your opponent’s vanguards.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
