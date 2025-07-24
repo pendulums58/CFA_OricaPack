@@ -579,3 +579,47 @@ global.DCards[CardStat] = 105
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21415
+{
+global.CardName[CardStat] = 'Book of the Origin "Cyan"'
+global.CardText[CardStat] = 'Admin/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21416
+{
+global.CardName[CardStat] = 'Book of the Origin "Metaphor"'
+global.CardText[CardStat] = 'Omnia/Critical Trigger
+
+(You may not use other critical trigger with ability.)
+
+AUTO [RC]: At the end of the battle this unit boosted, COST [put this unit into your soul], choose one of your units, and it gets power +2000 until end of turn.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21417
+{
+global.CardName[CardStat] = 'Book of the Origin "Tsubaki & Crys"'
+global.CardText[CardStat] = 'Human/Omnia/Front Trigger
+
+(You may not use other front trigger with shield ability.)
+
+CONT [GC]: If your opponent’s vanguard is grade 3 or greater, this unit gets shield +5000.'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
