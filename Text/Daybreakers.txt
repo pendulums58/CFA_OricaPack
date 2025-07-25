@@ -4090,7 +4090,7 @@ CardStat = 21286
 global.CardName[CardStat] = 'Girl of oblivion, Yuki'
 global.CardText[CardStat] = 'Daybreakers/Human
 
-AUTO: When this unit is rode upon by "Knight of regret, Samerju", COST [Discard a card], look at top seven cards from your deck, choose up to one normal unit or normal order with grade 2 or less, reveal it and put into your hand. Shuffle your deck.'
+AUTO: When this unit is rode upon by "Knight of regret, Samerju", look at top seven cards from your deck, choose up to one normal order, reveal it, and put into your hand. If you revealed "Blooming Moonstear", draw a card. Shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -4102,7 +4102,7 @@ CardStat = 21287
 global.CardName[CardStat] = 'Knight of regret, Samerju'
 global.CardText[CardStat] = 'Daybreakers/Human
 
-AUTO: When this unit is rode upon by unit with "Brightalgion" in its card name, choose up to three normal units from your drop, put them bottom of your deck, if you choose two or more, look at top two cards from your deck, discard one among them, and put else into hand or top of deck.'
+AUTO: When this unit is rode upon by unit with "Brightalgion" in its card name, choose a normal unit from your hand or deck, discard it. If you discarded from hand, choose up to one card with same name to that card from your deck, reveal it and put into your hand. Shuffle your deck.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
@@ -4400,3 +4400,47 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21427
+{
+global.CardName[CardStat] = 'Tsugido Finder, Erik'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+CONT [RC/GC] : If your drop has same name with this card, this unit gets shield +5000. If you have a vanguard with "Brightalgion" in its card name, this unit gets "Intercept", and can intercept from back row.
+
+AUTO [Drop] : If "Tsugido Finder, Erik" was returned to deck by ability of "Blooming Moonstear" you played, If your RC has no unit named "Tsugido Finder, Erik", you may call this unit to RC.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21428
+{
+global.CardName[CardStat] = 'Extra Chance Dragon'
+global.CardText[CardStat] = 'Daybreakers/Flare Dragon
+
+CONT [RC] : If your drop has same name with this card, this unit gets power +5000. If you have a vanguard with "Brightalgion" in its card name, this unit gets additional power +5000.
+
+AUTO [RC] : When this unit attacks a vanguard, COST [Reveal an order from your hand], Energe Charge 1. If you revealed "Blooming Moonstear", you may choose a card from your hand, and discard it. If you do, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21429
+{
+global.CardName[CardStat] = 'Break through the nostalgia'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+Play this card with COST [Counter Blast 1] if you have a vanguard with "Brightalgion" in its card name.
+
+Choose a normal unit from your drop, call it to RC. If you have a unit with same name to that unit in your drop, that unit gets power +10000 until end of turn. You may play an additional "Blooming Moonstear" this turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

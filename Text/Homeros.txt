@@ -2601,3 +2601,91 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21420
+{
+global.CardName[CardStat] = 'Warrior of Divinity, Achileos'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21421
+{
+global.CardName[CardStat] = 'Light-footed Achileos'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21422
+{
+global.CardName[CardStat] = 'Xanthos of Golden Track'
+global.CardText[CardStat] = 'Homeros/High Beast
+
+(Shift + left click to create Allied Force Token.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21188
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21188
+
+CardStat = 21423
+{
+global.CardName[CardStat] = 'Relentless spark, Achileos'
+global.CardText[CardStat] = 'Homeros/Human
+
+(Shift + left click to create Allied Force Token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21188
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21188
+global.EnableAttackFromBackRow[CardStat] = 1
+
+CardStat = 21424
+{
+global.CardName[CardStat] = 'Balius of Black Track'
+global.CardText[CardStat] = 'Homeros/High Beast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21425
+{
+global.CardName[CardStat] = 'Pedasos, Excellent Horse'
+global.CardText[CardStat] = 'Homeros/High Beast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21426
+{
+global.CardName[CardStat] = 'Lined Track, Petros'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
