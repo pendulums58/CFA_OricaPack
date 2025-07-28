@@ -2704,19 +2704,121 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 21431
 {
 global.CardName[CardStat] = 'Oriental Arts - Necromancing Illusion'
-global.CardText[CardStat] = 'Homeros/Normal Order'
+global.CardText[CardStat] = 'Homeros/Normal Order
+
+(Shift + left click to create Allied Force Token.)'
 global.UnitGrade[CardStat] = 2
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 21187
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21187
 
 CardStat = 21432
 {
 global.CardName[CardStat] = 'Pray of Earnest wish'
 global.CardText[CardStat] = 'Homeros/Normal Order'
 global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21433
+{
+global.CardName[CardStat] = 'A lost Menreiki'
+global.CardText[CardStat] = 'Homeros/Ghost
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21434
+{
+global.CardName[CardStat] = 'Ju Yuwha, Silvery Girl'
+global.CardText[CardStat] = 'Homeros/Human
+
+CONT: When you rides "The fox guides to the boundary" from ride deck, you may ride by "Choose a normal unit from your drop, and put it bottom of your deck" instead of "Discard a card".'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21435
+{
+global.CardName[CardStat] = 'The fox guides to the boundary'
+global.CardText[CardStat] = 'Homeros/Ghost
+
+AUTO: When this unit is rode upon by a unit with "Tatari" in its card name, COST [Energy Blast 3], draw a card from top or bottom of deck.
+
+AUTO [VC]: At the end of battle this unit attacked, if your opponent’s vanguard is grade 2 or greater, COST [Discard a card], choose a grade 3 unit with "Tatari" in its card name from your soul or ride deck, ride it as rest.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21436
+{
+global.CardName[CardStat] = 'Tatarigami of Eternal Farewell'
+global.CardText[CardStat] = 'Homeros/Noble
+
+CONT [VC]: During your turn, all your opponent’s front row unit gets power -3000 for each card putted bottom of your deck this turn. Put the rear-guards bottom of deck became power 0 or less by this ability.
+
+ACT [VC] 1/Turn : COST [Put a rear-guard to bottom of your deck], draw two cards, and put a card from your hand to bottom of your deck.
+
+AUTO [VC]: At the end of battle this unit attacked, COST [Counter Blast 1], choose a "The fox guides to the boundary" from your soul, ride it as stand, and if your opponent’s vanguard is grade 3 or greater, that unit gets power +15000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21437
+{
+global.CardName[CardStat] = 'Yomibito \#East Style'
+global.CardText[CardStat] = 'Homeros/Warbeast
+
+AUTO: When this unit is putted to bottom of your deck by ability of your vanguard with "Tatari" in its card name, COST [Soul Blast 1], call this unit to RC.
+
+AUTO [RC]: At the end of battle this unit boosts, COST [Retire this unit], perform one of following.
+-If you have a vanguard with "Tatari" in its card name, choose a normal unit from your drop, put it into soul or bottom of your deck.
+
+-If your vanguard is "The fox guides to the boundary", Energy Charge 3.
+'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21438
+{
+global.CardName[CardStat] = 'Kunoichi: Sumire'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21439
+{
+global.CardName[CardStat] = 'Ninjutsu: step on the cloud!'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+global.UnitGrade[CardStat] = 1
 global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 106
 }
