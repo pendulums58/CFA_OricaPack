@@ -2824,3 +2824,29 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21440
+{
+global.CardName[CardStat] = 'The Primal Sword'
+global.CardText[CardStat] = 'Homeros/Noble
+
+(Shift + left click to get crest.)'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21441
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21441
+
+CardStat = 21441
+{
+global.CardName[CardStat] = 'The Primal Sword '
+global.CardText[CardStat] = 'Crest'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
