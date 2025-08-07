@@ -2740,7 +2740,7 @@ COST [Counter Blast 1] to play this card.
 
 Draw two cards.
 
-AUTO : When this card is putted into drop from your damage zone, if you went second, You get "All of your vanguards get power +2000" during this fight. Remove this card.'
+AUTO : When this card is putted into drop from your damage zone, if you went second, You get "All of your vanguards get power +5000" during this fight. Remove this card.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
