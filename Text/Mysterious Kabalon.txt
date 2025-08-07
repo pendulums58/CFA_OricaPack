@@ -3594,3 +3594,35 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 5000
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21442
+{
+global.CardName[CardStat] = 'Wishes of the Youth'
+global.CardText[CardStat] = 'Mysterious Kabalon/Normal Order
+
+
+This card only can be played from drop, and bind it after play.
+
+Choose a normal unit from your face-up damage zone, call it to RC, and put a card from top of your deck to damage zone. If your damage zone is three or more, instead look at top five cards from your deck, choose a card and put into damage zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21443
+{
+global.CardName[CardStat] = 'Conjuring Acolyte, Helena'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+CONT [RC/GC] : If your damage zone has blitz order, or three or more trigger, this unit gets power +5000 / shield +5000.
+
+AUTO [Drop] : When you play an order, if your VC or G zone has face-up grade 4 unit, you may call this unit to RC. If it is your opponent’s turn, you may call this unit to GC instead. This ability can be played only once per turn for same card name.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 5000
+global.PersonaRide[CardStat] = 1
