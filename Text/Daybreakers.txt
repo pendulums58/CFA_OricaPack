@@ -4444,3 +4444,19 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21446
+{
+global.CardName[CardStat] = 'Administrator of Grape Roar'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Magenta" in its card name, COST [Put a card with "Magenta" in its card name from your hand or RC into soul], perform one of following.
+
+-Choose a unit with "Magenta" in its card name or normal order from your drop, and put it into your hand or soul. If you putted into soul, this unit gets power +10000 until end of turn.
+
+-Draw a card, and Energy Charge 3.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

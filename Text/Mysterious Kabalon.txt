@@ -3626,3 +3626,31 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 5000
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21444
+{
+global.CardName[CardStat] = 'Staring Star, Stella Quasar'
+global.CardText[CardStat] = 'Mysterious Kabalon/Omnia
+
+Stride COST [Choose one or more cards with the sum of their grades being 3 or greater from your hand, and discard them], and Stride this card on your VC from face down. (When you Stride, your original vanguard becomes a heart card, and this unit gets that card’s power and card name. At the end of the turn, return this unit face up)
+
+ACT [VC] Generation Break 3 1/Turn : COST [Counter Blast 1], choose your rear-guard up to amount of face-up "Staring Star, Stellar Quasar" in your G zone, until end of turn, they get "AUTO [RC] 1/Turn : At the end of battle this unit attacked or boosted, if your opponent did not played blitz order during this battle, stand this unit, and choose one of your opponent’s vanguard, it gets power -5000 until end of turn."'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 102
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21445
+{
+global.CardName[CardStat] = 'Gluttony follower of marauding defiler'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC from hand, if you have a grade 3 or greater vanguard with "Bella" in its card name, COST [Soul Blast 3], Counter Charge 1.
+
+AUTO [RC] : At the end of battle this unit boosted, if you played an order this turn, and your damage zone is all face-down, COST [Put this unit bottom of your deck], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

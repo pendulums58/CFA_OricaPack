@@ -3305,7 +3305,7 @@ CONT: Ability Piece (This card is source of the power that symbolized ability.)
 
 Search your deck for a grade 2 or less card with Energy Charge or Energy Blast, reveal it and put into your hand. Shuffle your deck.
 
-AUTO : When this card is discarded from your hand or Counter Blast or Soul Blast by ability of your vanguard, if you went second, your "Energy Generator" get "AUTO : At the beginning of your main phase, Energy Charge 3." during this fight. Remove this card. If you removed from your damage zone, put the top card of your deck to damage zone face down.'
+AUTO : When this card is discarded from your hand during your turn, if you went second, your "Energy Generator" get "AUTO : At the beginning of your main phase, Energy Charge 3." during this fight. Remove this card. If you removed from your damage zone, put the top card of your deck to damage zone face down.'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 101
@@ -4459,3 +4459,27 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21447
+{
+global.CardName[CardStat] = 'Permeating calamity, Kakure'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO : You may pay this cost with "Energy Blast 3" if you went second. When this unit is rode upon by grade 2, COST [Discard a card], look at top five cards from your deck, choose up to one unit with Energy Charge or Energy Blast ability, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21448
+{
+global.CardName[CardStat] = 'Mental Misstep Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO : When this unit is rode upon by grade 3 unit with "Checkmate" in its card name, choose a grade 2 or greater normal unit from your drop, call it to RC. And it gets "AUTO [RC]: At the end of battle this unit attacked, COST [Put this unit into soul], Energy Charge 3." until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
