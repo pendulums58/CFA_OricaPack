@@ -205,3 +205,48 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21467
+{
+global.CardName[CardStat] = 'Ambitionist that will take the universe'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21468
+{
+global.CardName[CardStat] = 'Professional Heitai, Chung Seon'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21469
+{
+global.CardName[CardStat] = 'Promised successor, Kanjuro'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21470
+{
+global.CardName[CardStat] = 'Papayas "Leviathan" Maou'
+global.CardText[CardStat] = 'Eclipse Chosen/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

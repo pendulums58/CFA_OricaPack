@@ -3246,3 +3246,148 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21455
+{
+global.CardName[CardStat] = 'Demon Finder, Nachsehrer'
+global.CardText[CardStat] = 'Nebleheim/Demon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21456
+{
+global.CardName[CardStat] = 'Go to work with mask, Nachsehrer'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21457
+{
+global.CardName[CardStat] = 'Story on the top of tongue, Nachsehrer'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21458
+{
+global.CardName[CardStat] = 'Trigger swallowed the night, Nachsehrer'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21459
+{
+global.CardName[CardStat] = 'Demon Finder, Lilja'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21460
+{
+global.CardName[CardStat] = 'Demon Finder, Sofie'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21461
+{
+global.CardName[CardStat] = 'Demon Finder, Anders'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21462
+{
+global.CardName[CardStat] = 'Pupil aiming weaks, Vawelski'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21463
+{
+global.CardName[CardStat] = 'Song of blood, Alkonost'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21464
+{
+global.CardName[CardStat] = 'World Embracing Black Mist'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Mist Atelier
+
+COST [Bind a <Mist Familiar> from your hand or drop] to play this cards.
+
+AUTO: When putted into order zone, draw a card.
+
+CONT [Order Zone] : All your Black Mist tokens get power +5000.
+
+ACT [Order Zone] : COST [Rest this card], Retire a black mist token. If you do, search your deck or drop for a <Mist Familiar>, call it to RC, and shuffle your deck. If your opponent’s vanguard is grade 3 or greater, that unit gets power +10000 until end of turn. If you persona rode this turn, repeat this ability once.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21465
+{
+global.CardName[CardStat] = 'Mist Arms "Cruel Ultimatum"'
+global.CardText[CardStat] = 'Nebleheim/Mist Familiar
+
+AUTO [RC]: When this unit attacks, this unit gets power +5000 until end of turn, and if you have a vanguard with "Entra" in its card name, perform all of followings for each card name in your bind zone. If all following is performed, this unit gets critical +1 until end of that battle.
+
+-"Mist Arms "Dreadbore"" - Choose one of your opponent’s rear-guard, and retire it.
+-"Mist Arms "Expressive Iteration"" - Draw a card.
+-"Mist Arms "Thought Erasure"" - Your opponent choose a card from their hand, and discard it.
+
+AUTO [RC]: At the end of your turn, bind this card face down.'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21466
+{
+global.CardName[CardStat] = 'Fangs on the Snowfield, Hvit'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
