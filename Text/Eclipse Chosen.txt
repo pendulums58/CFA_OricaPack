@@ -271,3 +271,94 @@ global.DCards[CardStat] = 107
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21481
+{
+global.CardName[CardStat] = 'Melody Dorobo - Gulwak'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21482
+{
+global.CardName[CardStat] = 'The Truth Room Machine - Mecha Gang gam chan'
+global.CardText[CardStat] = 'Eclipse Chosen/Relic'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21483
+{
+global.CardName[CardStat] = 'Kome Merchant - Ssal SungE'
+global.CardText[CardStat] = 'Eclipse Chosen/Sacred Beast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21484
+{
+global.CardName[CardStat] = 'Prodigy of future, Sherlock Yeongsil'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21485
+{
+global.CardName[CardStat] = 'Make the mincho bright and good, Sherlock Yeongsil'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21486
+{
+global.CardName[CardStat] = 'The eye beholds star and mincho, Sherlock Yeongsil'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21487
+{
+global.CardName[CardStat] = 'Amhaeng Eosa CIA - Sherlock Yeongsil'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho
+
+(Shift + click to get The token that prove the right to borrow horses from the roadstation token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21488
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21488
+
+CardStat = 21488
+{
+global.CardName[CardStat] = 'The token that prove the right to borrow horses from the roadstation'
+global.CardText[CardStat] = 'Token Normal Order'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
