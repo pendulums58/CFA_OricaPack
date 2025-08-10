@@ -3654,3 +3654,71 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21477
+{
+global.CardName[CardStat] = 'Far Ideal Star, Nimrod Eve'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+ACT [VC] 1/Turn : COST [Discard a card], choose up to each one normal order and trigger order with same name from your deck or drop, bind one of them, and play the else. 
+
+AUTO [VC] : When your unit attacks, COST [Drop a critical trigger from your bind zone], choose one of your unit, and it gets power + 10000 until end of turn.
+
+AUTO [VC] : When your unit is being attacked, COST [Discard any number of critical trigger order from your hand], perform the following equal to amount of discarded card.
+-Energy Charge 1, choose one of your unit being attacked, and it gets power +20000 until end of that battle.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21478
+{
+global.CardName[CardStat] = 'Apprentice Achievet, Reisia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC from hand, choose up to two critical trigger from your drop, bind it.
+
+AUTO [RC] : When this unit is chosen by ability of your vanguard or critical trigger, COST [Drop two critical trigger from your bind zone], choose one of your opponent’s rear-guard, retire it, and if you have a vanguard with "Nimrod" in its card name, that unit gets power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21479
+{
+global.CardName[CardStat] = 'Pilgrim Star, Gienah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Nimrod" in its card name, perform one of following.
+-Choose two critical trigger from your drop, bind it.
+-COST [Counter Blast 1], choose a critical trigger order from bind zone, and put into your hand.
+
+AUTO [RC] 1/Turn : When this unit is chosen by your vanguard’s ability, COST [Drop a critical trigger from your bind zone], Counter Charge 1, or this unit gets "Boost" until end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21480
+{
+global.CardName[CardStat] = 'Regressing First Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Critical Trigger
+
+
+Play this card if your vanguard is grade 3 or greater.
+
+Choose a card other than heal trigger from your soul, and put it bottom of your deck. Draw a card. If you putted a card with same name to your vanguard, you may choose one of your vanguard and give power +10000 until end of turn instead of draw. If you do, Counter Charge 1.'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

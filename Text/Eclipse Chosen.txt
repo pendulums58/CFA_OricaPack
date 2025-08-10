@@ -250,3 +250,24 @@ global.DCards[CardStat] = 107
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21471
+{
+global.CardName[CardStat] = 'Godwind Abare-bomber'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21472
+{
+global.CardName[CardStat] = 'Fanatic Zealot - Yoshida'
+global.CardText[CardStat] = 'Eclipse Chosen/Mincho'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
