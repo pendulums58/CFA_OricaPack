@@ -3434,3 +3434,123 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21491
+{
+global.CardName[CardStat] = 'To the Virgins, to Make Much of Time'
+global.CardText[CardStat] = 'Nebleheim/Normal Order/Nibelung’s Treasure
+
+CONT: Nibelung’s Treasure
+
+CONT: You may only use Nibelung’s Treasure order a total of one time in a fight.
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21492
+{
+global.CardName[CardStat] = 'Lost Signal Pathfind'
+global.CardText[CardStat] = 'Nebleheim/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21493
+{
+global.CardName[CardStat] = 'Surprise Crisis'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21494
+{
+global.CardName[CardStat] = 'Headless Knight, Corvus'
+global.CardText[CardStat] = 'Nebleheim/Demon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21495
+{
+global.CardName[CardStat] = 'Strigoi of Roaring Castle'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21496
+{
+global.CardName[CardStat] = 'Striga of Sleeping Castle'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21497
+{
+global.CardName[CardStat] = 'Immortal Dominator, Eiorhm'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21498
+{
+global.CardName[CardStat] = 'Riding hood, Tanna'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21499
+{
+global.CardName[CardStat] = 'Demon Finder, Wulfrik'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21500
+{
+global.CardName[CardStat] = 'Grudge abides in the Steel, Dolgbrin'
+global.CardText[CardStat] = 'Nebleheim/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
