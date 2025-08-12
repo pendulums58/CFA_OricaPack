@@ -3554,3 +3554,25 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21501
+{
+global.CardName[CardStat] = 'Storm of Endless Exploit'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21502
+{
+global.CardName[CardStat] = 'Poet of Blue Castle'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
