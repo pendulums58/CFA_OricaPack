@@ -3741,7 +3741,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21490
 {
-global.CardName[CardStat] = 'Regressing First Star'
+global.CardName[CardStat] = 'Advancing First Star'
 global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Draw Trigger
 
 
@@ -3757,3 +3757,31 @@ global.CardInClan[CardStat] = 30
 global.TriggerUnit[CardStat] = 1
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21503
+{
+global.CardName[CardStat] = 'Annihilation Worshipper, Tarvs'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on GC, if your opponent’s vanguard is power 50000 or greater, this unit gets shield +20000 until end of turn.
+
+AUTO [Drop]: During your turn, if your rear-guard was chosen by your vanguard’s ability, COST [Soul Blast 1, retire a rear-guard], call this unit to back row RC same column with that unit.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21504
+{
+global.CardName[CardStat] = 'Daydreamer of Affirming Life'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC from hand, if you have a vanguard with grade 3 or greater, you may put a card from top of your deck into damage zone face down.
+
+AUTO [RC] Limit Break 4 : At the end of battle this unit boosted, COST [Retire this unit], choose a card from your damage zone, and put into your hand. If you do, put the top card from your deck into damage zone face down.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

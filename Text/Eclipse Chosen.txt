@@ -362,3 +362,25 @@ global.CardInClan[CardStat] = 29
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 21506
+{
+global.CardName[CardStat] = 'Astrosign Memorypath'
+global.CardText[CardStat] = 'Eclipse Chosen/Normal Order/UNESCO Culture Heritage
+
+UNESCO Culture Heritage (You may only use Miracle Relic order a total of one time in a fight.)
+
+Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
+
+Activate persona ride. (Draw a card, all of your front row units get power +10000 this turn, and you are regarded to have persona rode)
+
+(SHIFT + left click to activate persona ride)'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 107
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
