@@ -4460,3 +4460,14 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21507
+{
+global.CardName[CardStat] = 'Heroic Brave of Sprouting Dawn, Knil'
+global.CardText[CardStat] = 'Daybreakers/Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PersonaRide[CardStat] = 1
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0

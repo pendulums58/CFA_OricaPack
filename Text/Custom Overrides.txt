@@ -39,4 +39,4 @@ global.CustomFactionName[107] = 'Eclipse Chosen'
 global.CustomFactionFile[107] = 'Eclipse Chosen.txt'
  
 global.MaxCustomFaction = 108
-global.AllCard = 21506
+global.AllCard = 21512

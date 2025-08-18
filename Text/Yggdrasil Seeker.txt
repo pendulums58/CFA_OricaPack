@@ -4483,3 +4483,55 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21510
+{
+global.CardName[CardStat] = 'Celestial Harmony, Mousse Accetept'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+CONT: This card can only be ridden from a grade 3 with "Mousse" in its card name.
+
+ACT [VC] 1/Turn : COST [Remove a card with "Mousse" in its card name from your hand, soul or drop], this unit gets "AUTO [VC] : At the end of battle this unit attacked, COST [Bind a card from your drop], choose a unit with same grade as that card from your hand, and call it to RC." until end of turn.
+
+AUTO [VC]: At the end of battle your rear-guard without sentinel attacked or boosted, COST [Drop a card with same grade as that unit from your bind zone], return that unit to hand, and this unit gets power +5000 until end of turn.
+
+AUTO [VC] 1/Turn : At the end of battle this unit attacked a vanguard, if you have no rear-guard, COST [Energy Blast 4, bind a card from your hand], stand this unit.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21511
+{
+global.CardName[CardStat] = 'Sweet blooming Will, Mousse Accinial'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia
+
+CONT: This card can only be ridden from a grade 3 with "Mousse" in its card name.
+
+ACT [VC] 1/Turn : COST [Remove a card with "Mousse" in its card name from your hand, soul or drop], look at top seven cards from your deck, choose a card among them, and bind it or put into your hand. Shuffle your deck. If you bound, Energy Charge 3. 
+
+AUTO [VC] : At the end of battle your grade 1 or greater rear-guard without sentinel attacks or boosts, COST [Energy Blast 2], return that unit to your hand.
+
+AUTO [VC] : When this unit attacks a vanguard, COST [Counter Blast 1], choose up to two normal units from your bind zone and soul, sum of grade less or equal to your opponent’s vanguard, call them to RC. If your rear-guard is two or less, choose up to one card from your hand or soul, call it to RC, and all your front row units get power +10000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21512
+{
+global.CardName[CardStat] = 'Access Code "Duality"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Elemental
+
+AUTO : When this unit is putted other than drop from RC, if you have a vanguard with "Accetept" or "Accinial" in its card name, Energy Charge 2.
+
+AUTO [RC]: At the end of battle this unit attacked or boosted, if you have a vanguard with "Mousse" in its card name, COST [Soul Blast 2 & Bind this unit], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000

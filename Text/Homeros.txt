@@ -2850,3 +2850,24 @@ global.CardInClan[CardStat] = 29
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RemoveFromDrop[CardStat] = 1
+
+CardStat = 21508
+{
+global.CardName[CardStat] = 'Mirage realm dragon "Ascend Pillar"'
+global.CardText[CardStat] = 'Homeros/Wyrm Dragon'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000	
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21509
+{
+global.CardName[CardStat] = 'Inheritor of Old land, Kotodama'
+global.CardText[CardStat] = 'Homeros/Dragonoid'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000	
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
