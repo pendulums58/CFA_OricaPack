@@ -4471,3 +4471,96 @@ global.DCards[CardStat] = 100
 global.PersonaRide[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21513
+{
+global.CardName[CardStat] = 'Taillight Fraulein'
+global.CardText[CardStat] = 'Daybreakers/Elf
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21514
+{
+global.CardName[CardStat] = 'Knight of Star Shadow, Sheil'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21515
+{
+global.CardName[CardStat] = 'Haphazard Halo'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21516
+{
+global.CardName[CardStat] = 'Ixir, Primal Contractor'
+global.CardText[CardStat] = 'Daybreakers/Demon
+
+(Shift + left click to get Geis of Oneiros)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21517
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21517
+
+CardStat = 21517
+{
+global.CardName[CardStat] = 'Geis of Oneiros'
+global.CardText[CardStat] = 'Token Set Order'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21518
+{
+global.CardName[CardStat] = 'O thou, usurp her might'
+global.CardText[CardStat] = 'Daybreakers/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21519
+{
+global.CardName[CardStat] = 'Labyrinthos Roadfinder'
+global.CardText[CardStat] = 'Daybreakers/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21520
+{
+global.CardName[CardStat] = 'Labyrinth Desolver'
+global.CardText[CardStat] = 'Daybreakers/Angel'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
