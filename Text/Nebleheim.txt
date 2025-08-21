@@ -3665,7 +3665,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21527
 {
-global.CardName[CardStat] = 'Timeline Consultant, Maxwell'
+global.CardName[CardStat] = 'Horizon Equation Attendant'
 global.CardText[CardStat] = 'Nebleheim/Cyberoid
 
 AUTO Unite: When this unit is placed on RC, if you have a vanguard with "Maxwell" in its card name, this unit gets "AUTO [RC]: At the end of battle this unit attacked, COST [Bind this unit], draw a card." until end of turn.
