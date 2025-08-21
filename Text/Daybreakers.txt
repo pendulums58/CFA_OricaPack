@@ -4564,3 +4564,15 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21529
+{
+global.CardName[CardStat] = 'The world filled in madness'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
