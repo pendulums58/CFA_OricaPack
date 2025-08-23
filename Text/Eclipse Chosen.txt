@@ -365,10 +365,10 @@ global.RemoveFromDrop[CardStat] = 1
 
 CardStat = 21506
 {
-global.CardName[CardStat] = 'Astrosign Memorypath'
+global.CardName[CardStat] = 'UNESCO Culture Heritage - Herble Cheomseongdae'
 global.CardText[CardStat] = 'Eclipse Chosen/Normal Order/UNESCO Culture Heritage
 
-UNESCO Culture Heritage (You may only use Miracle Relic order a total of one time in a fight.)
+UNESCO Culture Heritage (You may only use UNESCO Culture Heritage order a total of one time in a fight.)
 
 Play this if you have a grade 3 vanguard with persona ride and you did not ride this turn!
 

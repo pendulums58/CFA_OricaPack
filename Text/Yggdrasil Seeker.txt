@@ -653,9 +653,6 @@ global.PersonaRide[CardStat] = 1
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
-global.TokenSummoner[CardStat] = 20172
-global.TokenSummonerPosition[CardStat] = 'SHIFT'
-global.AnotherSide[CardStat] = 20172
 
 CardStat = 20167
 {
@@ -736,18 +733,6 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
-
-CardStat = 20172
-{
-global.CardName[CardStat] = 'Knight of Round Token'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid'
-
-global.UnitGrade[CardStat] = 1
-global.DCards[CardStat] = 29
-}
-global.PowerStat[CardStat] = 10000
-global.DefensePowerStat[CardStat] = 5000
-global.RemoveFromDrop[CardStat] = 1
 
 CardStat = 20173
 {

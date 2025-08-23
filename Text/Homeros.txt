@@ -1,3 +1,16 @@
+
+CardStat = 20172
+{
+global.CardName[CardStat] = 'Tsubamekaesi'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
 CardStat = 20627
 {
 global.CardName[CardStat] = 'Cheong Seola, Silvery Girl'

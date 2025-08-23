@@ -3685,7 +3685,7 @@ global.CardText[CardStat] = 'Nebleheim/Blitz Order
 
 If you have a vanguard with "Maxwell" in its card name, COST [Energy Blast 3] to play this card.
 
-Choose two normal unit without sentinel and is different grade from your bind zone, call them to GC. They get "AUTO: When this unit retires from GC, you may put this unit into soul.".
+Choose two unit without sentinel and is different grade from your bind zone, call them to GC. They get "AUTO: When this unit retires from GC, you may put this unit into soul.".
 
 ACT [Hand]: If your rear-guard did not placed this turn, COST [Discard this card], choose a card from your bind zone, call it to RC.'
 
