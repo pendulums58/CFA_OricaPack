@@ -1876,8 +1876,8 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20359
 {
-global.CardName[CardStat] = 'Tsugido Quintet Joker'
-global.CardText[CardStat] = 'Daybreakers/Human
+global.CardName[CardStat] = 'Tremolo Eilshooter'
+global.CardText[CardStat] = 'Daybreakers/Omnia
 
 AUTO: When this unit is rode upon, if you went second, draw a card.
 
@@ -1890,10 +1890,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20360
 {
-global.CardName[CardStat] = 'Tsugido Quintet Heart'
-global.CardText[CardStat] = 'Daybreakers/Angel
-
-AUTO: When this is placed by riding on "Tsugido Quintet Joker", look at top five cards from your deck, choose up to one unit with "Tsugido" in its card name, reveal it and put into your hand. Shuffle your deck.'
+global.CardName[CardStat] = 'Reconning ear, Tremolo'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
@@ -1902,10 +1900,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20361
 {
-global.CardName[CardStat] = 'Tsugido Quintet Clover'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is placed by riding on "Tsugido Quintet Heart", search your deck for a card with "Tsugido" in its card name, reveal it and put into your hand. Shuffle your deck.'
+global.CardName[CardStat] = 'Origin Guardian, Tremolo'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
@@ -1914,12 +1910,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20362
 {
-global.CardName[CardStat] = 'Tsugido Quintet Spade'
-global.CardText[CardStat] = 'Daybreakers/Warbeast
-
-CONT [VC] : During your turn, If your have exactly five units, this unit gets power +10000. If your opponent’s vanguard is grade 3 or greater, this unit gets critical +1.
-
-AUTO [VC] : When this unit attacks, COST [retire two rear-guards with "Tsugido" in its card name], choose two cards from your hand, call it to same column RC, and they get power +5000 until end of turn. If you have five units with "Tsugido" in its card name, if your opponent would call to GC, they should call two or more cards during that battle.'
+global.CardName[CardStat] = 'Archer of Ressonance, Tremolo'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 100
@@ -1930,61 +1922,45 @@ global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20363
 {
-global.CardName[CardStat] = 'Tsugido Quintet Diamond'
-global.CardText[CardStat] = 'Daybreakers/Admin
+global.CardName[CardStat] = 'Apprentice archer with huge motivation'
+global.CardText[CardStat] = 'Daybreakers/Human'
 
-CONT [RC] : If you have exactly five unit with "Tsugido" in its card name, this unit gets power +5000.
-
-AUTO: When this unit is placed on RC, COST [Counter Blast 1], choose one grade 2 or less unit with "Tsugido" in its card name, put it into your hand.'
-
-global.UnitGrade[CardStat] = 3
-global.DCards[CardStat] = 100
-global.PersonaRide[CardStat] = 1
-}
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
-
-CardStat = 20364
-{
-global.CardName[CardStat] = 'Tsugido Servant Cattie'
-global.CardText[CardStat] = 'Daybreakers/Warbeast
-
-AUTO: When this unit is placed on RC from hand during battle phase, COST [Counter Blast 1], draw a card.
-
-AUTO [RC] : When this unit boosts a unit with "Tsugido" in its card name, this unit gets power +5000 during that battle.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
-CardStat = 20365
+CardStat = 20364
 {
-global.CardName[CardStat] = 'Tsugido Guardian, Bakiseron'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-AUTO: When this unit is retired from RC by an ability of your vanguard with "Tsugido" in its card name, COST [Soul Blast 1], put this unit into hand.
-
-AUTO [RC] : At the beginning of your battle phase, if your unit is exactly five unit with "Tsugido" in its card name, this unit gets "AUTO [RC] : When this unit’s attack hits, choose one of your other units, ant it gets power +10000 until end of turn." until end of turn, if your opponent’s vanguard is grade 3 or greater, this unit gets power +10000 until end of turn.'
+global.CardName[CardStat] = 'Frosting Arrow, Hertz'
+global.CardText[CardStat] = 'Daybreakers/Omnia'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 20365
+{
+global.CardName[CardStat] = 'Appoint Patrol, Pinette'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20366
 {
-global.CardName[CardStat] = 'Tsugido Guide, Eerie'
-global.CardText[CardStat] = 'Daybreakers/Elemental
-
-CONT [RC]: If you have a grade 3 or greater vanguard with "Tsugido" in its card name, this unit gets "boost".
-
-AUTO: When this unit is retired from RC by an ability of your vanguard, COST [discard a card], search your deck for a grade 1 or less card with "Tsugido" in its card name, reveal it and put into your hand. Shuffle your deck.'
-global.UnitGrade[CardStat] = 2
+global.CardName[CardStat] = 'Frequency Fine Sight'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Arrow'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 30
 global.DCards[CardStat] = 100
 }
-global.PowerStat[CardStat] = 10000
-global.DefensePowerStat[CardStat] = 5000
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
 
 CardStat = 20367
 {
@@ -2149,12 +2125,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 20445
 {
-global.CardName[CardStat] = 'Tsugido Manager, Isakal'
-global.CardText[CardStat] = 'Daybreakers/Human
-
-ACT [RC] 1/Turn : If you have a vanguard with "Tsugido" in its card name, COST [Counter Blast 1], look at top five cards from your deck, choose up to one unit with less or equal grade to your vanguard, call it to RC. If you called, that unit’s name becomes "Tsugido" until end of turn.
-
-AUTO [RC] : When this unit retired by your card’s ability, choose one of your unit, and it gets power +5000 until end of turn.'
+global.CardName[CardStat] = 'LUMINA from today! Rezatu'
+global.CardText[CardStat] = 'Daybreakers/Elf'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 100

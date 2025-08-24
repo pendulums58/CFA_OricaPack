@@ -2884,3 +2884,14 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000	
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21530
+{
+global.CardName[CardStat] = 'Critical kindness, Ekidna'
+global.CardText[CardStat] = 'Homeros/Dark Elf'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000	
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
