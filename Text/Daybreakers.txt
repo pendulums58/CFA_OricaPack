@@ -4548,3 +4548,129 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21531
+{
+global.CardName[CardStat] = 'Pilgrim of Truth, Aethermir'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21532
+{
+global.CardName[CardStat] = 'Will of Keylum'
+global.CardText[CardStat] = 'Daybreakers/Admin
+
+AUTO: When this unit is rode upon by "Palettestrider, Kirseron", search your deck for a Sword Art, Mana Source or Phantom order, discard it, and shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21533
+{
+global.CardName[CardStat] = 'Palettestrider, Kirseron'
+global.CardText[CardStat] = 'Daybreakers/Omnia
+
+AUTO: When this unit is rode upon by a unit with "Aethermir" in its card name, you may call this unit to RC. If you do, Soul Charge 1, choose one of your opponent’s rear-guard, retire it.
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Aethermir" in its card name, COST [Counter Blast 1], search your deck for a grade 3 without Origin Record, reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21534
+{
+global.CardName[CardStat] = 'Striding One of Origin, Aethermir'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+ACT [VC] 1/Turn : If you are vowing, you may pay this cost with COST [Choose a Draw trigger from your drop, and put it top of your deck]. COST [Discard a card], choose one of your unit, and it gets power +10000 until end of turn. You may play up to two orders this turn.
+
+AUTO [VC]: When your drive check reveals a trigger, choose one of your rear-guard, stand it.
+
+Oath - AUTO [VC]: At the beginning of your ride phase, you get "You cannot ride, and cannot activate persona ride." and "Your power increase of trigger effect becomes 5000, and original shield of your trigger units become 10000." during this fight. (Oath ability triggers only one time, and you become vowed until end of this fight.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21535
+{
+global.CardName[CardStat] = 'The day transcended all things'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword Art
+
+Play this card if you have a vanguard with "Aethermir" in its card name.
+
+Choose one of your vanguard, it gets power +5000 and "AUTO [VC] 1/Turn : When this unit’s attack hits, stand this unit, and this unit loses "twin drive!!" until end of turn." until end of turn. If you are vowing, it gets additional "CONT [VC]: During the attack this unit attacked rear-guard, your opponent cannot call sentinel to GC from hand.".
+
+ACT [Drop]: If your vanguard is "Palettestrider, Kirseron", COST [Counter Blast 1 & put a draw trigger from your RC into soul], choose a unit with "Aethermir" in its card name from your ride deck, ride it as stand, and it gets drive -1 until end of turn. If you do, you cannot play order this turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21536
+{
+global.CardName[CardStat] = 'Death is not a salvation'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
+
+CONT: This card cannot be played.
+
+AUTO [Order Zone]: At the beginning of your main phase, Soul Charge 1. If you have a vanguard with "Aethermir" in its card name, Energy Charge 1 and Counter Charge 1.
+
+AUTO [Order Zone]: At the end of battle your vanguard attacked, If you are vowing, COST [Put this card into drop], choose a draw trigger from your drop, and put it bottom of your deck, draw a card. If that attack hitted, COST [Counter Blast 5 & Soul Blast 8], stand all your units.
+
+ACT [Drop]: If your order zone has no card with same name to this card, and if you are vowing, COST [Energy Blst 3], put this card into order zone.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21537
+{
+global.CardName[CardStat] = 'Breakthrough the Dimension'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom
+
+COST [Soul Blast 1] to play this card if you have a vanguard with "Aethermir" in its card name.
+
+Choose one of your vanguard, and it gets power +5000 until end of that battle. You may put each one Sword Art, Mana Source and Phantom card into soul from your drop. If you do, that unit gets power +2000 for each card putted into soul until end of next turn.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21538
+{
+global.CardName[CardStat] = 'Bear forth mine hue'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+COST [Counter Blast 2] to play this card.
+
+Choose a card from your drop. If it is grade 2 or less, call it to RC. Put it into hand if else. If you are vowing, COST [Discard a "Striding One of Origin, Aethermir"], Counter Charge 3, choose one of your vanguard, it gets power +10000 / critical +1.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0

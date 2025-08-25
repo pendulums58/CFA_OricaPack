@@ -2895,3 +2895,98 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 13000	
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21539
+{
+global.CardName[CardStat] = 'Kunoichi: Setsuka'
+global.CardText[CardStat] = 'Homeros/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21540
+{
+global.CardName[CardStat] = 'Lost petal, Setsuka'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21541
+{
+global.CardName[CardStat] = 'Saved petal, Setsuka'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21542
+{
+global.CardName[CardStat] = 'Saved petal, Setsuka'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21543
+{
+global.CardName[CardStat] = 'Protecting Fang, Komainu'
+global.CardText[CardStat] = 'Homeros/Ghost'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21544
+{
+global.CardName[CardStat] = 'Wandering Storyteller, Chisame'
+global.CardText[CardStat] = 'Homeros/Ghost'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21545
+{
+global.CardName[CardStat] = 'Gazing attention, Sisa'
+global.CardText[CardStat] = 'Homeros/Ghost'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21546
+{
+global.CardName[CardStat] = 'Story of forgotten god: Snow flower Ninjutsu Book'
+global.CardText[CardStat] = 'Homeros/Revelation order
+
+(SHIFT + left click to count up.)
+(SHIFT + right click to count down.)'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 106
+
+global.ExtraDeck[CardStat] = 1
+}
+global.CardInClan[CardStat] = 30
+global.PowerStat[CardStat] = 18000
+global.UseCounters[CardStat] = 1
