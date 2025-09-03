@@ -2933,7 +2933,7 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21542
 {
-global.CardName[CardStat] = 'Saved petal, Setsuka'
+global.CardName[CardStat] = 'Reborned six flower, Setsuka'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 106
