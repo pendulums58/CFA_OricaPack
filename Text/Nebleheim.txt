@@ -3695,3 +3695,67 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21547
+{
+global.CardName[CardStat] = 'Liberator of Black Restraint'
+global.CardText[CardStat] = 'Nebelheim/Warbeast'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21548
+{
+global.CardName[CardStat] = 'Visitor of Blue Flower Garden'
+global.CardText[CardStat] = 'Nebelheim/Cyberoid'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21549
+{
+global.CardName[CardStat] = 'Truth Seeker of Black Tomb'
+global.CardText[CardStat] = 'Nebelheim/Human'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+
+CardStat = 21550
+{
+global.CardName[CardStat] = 'Eradicator of Red Lightning'
+global.CardText[CardStat] = 'Nebelheim/Warbeast'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000
+
+CardStat = 21551
+{
+global.CardName[CardStat] = 'Timetaking Tracer'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21552
+{
+global.CardName[CardStat] = 'Trial Call'
+global.CardText[CardStat] = 'Nebleheim/Blitz Order'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
