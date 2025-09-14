@@ -637,3 +637,36 @@ global.DCards[CardStat] = 105
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
+
+CardStat = 21553
+{
+global.CardName[CardStat] = 'Brawl FV'
+global.CardText[CardStat] = '
+
+(Treat as all FV name.)
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 105
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21554
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 21554
+{
+global.CardName[CardStat] = 'Persona'
+global.CardText[CardStat] = '
+
+(Shift + left click to activate Persona Ride.)'
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
