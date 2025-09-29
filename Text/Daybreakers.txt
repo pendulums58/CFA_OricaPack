@@ -4674,3 +4674,120 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21555
+{
+global.CardName[CardStat] = 'SinkLost, Pathfinder'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21556
+{
+global.CardName[CardStat] = 'Melody Shooter, Calmato'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+AUTO: When this unit is rode upon by "Skywalker, Pioneer", Search your deck for a "To the clear waters", reveal it, and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21557
+{
+global.CardName[CardStat] = 'Skywalker, Pioneer'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+AUTO: When this unit is rode upon by grade 3, draw two cards, reveal three normal unit with same race from your hand. If you not revealed, discard two card from your hand.
+
+AUTO [VC]: When this unit attacks, COST [Bind a card from your drop face down], this unit gets power +5000 until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21558
+{
+global.CardName[CardStat] = 'Dashed dream, Canali'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+CONT [VC]: During your turn, all your front row units get power +5000 for each three face down card in your bind zone. If you have six or more face down cards in your bind zone, this unit gets drive +1.
+
+ACT [VC]: At the beginning of your main phase, if you did not rode this turn, COST [Put three card from your bind zone into drop], activate persona ride.
+
+ACT [VC]: When this unit attacks, COST [Counter Blast 1], choose one of your rear-guard, bind all your rear-guard with same race as that unit. For each two units bound, choose one of your opponent’s rear-guard, bind it face down, choose one of you face down bind zone, call it to RC.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21559
+{
+global.CardName[CardStat] = 'To the clear waters'
+global.CardText[CardStat] = 'Daybreakers/Normal Order
+
+Play this card if you have a vanguard with "Canali" in its card name. You may play this card from drop for COST [Energy Blast 3].
+
+Bind this card face down, Loot at five cards from top of your deck, choose up to one card with grade less or equal to your vanguard, call it to RC. Shuffle your deck. You may bind up to two card with same race as that card from your drop.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21560
+{
+global.CardName[CardStat] = 'Synchronize Rewinder'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+CONT [RC]: If your face down bind zone is four or more, this unit gets power +5000.
+
+AUTO [RC]: At the end of battle this unit boosted, if your bind zone is three or more, and if you bound a card this turn, COST [Soul Blast 1], choose a card with grade less or equal to your vanguard from drop, call it to RC as rest.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21561
+{
+global.CardName[CardStat] = 'Deepsea girl of endless fall'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+AUTO: When this unit is placed on RC, you may reveal a grade 3 with "Canali" in its card name from your ride deck. If you revealed, or have a grade 3 vanguard with "Canali" in its card name, look at top five cards from your deck, choose up to one card, and bind it, shuffle your deck. And COST [Counter Blast 1], draw a card.
+
+CONT [RC]: If your face down bind zone is four or more, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21562
+{
+global.CardName[CardStat] = 'Windchime Apprentice'
+global.CardText[CardStat] = 'Daybreakers/Elemental
+
+AUTO [Drop]: When your persona ride activates, if you have a vanguard with "Canali" in its card name, COST [Discard a card], call this unit to RC.
+
+AUTO [RC]: At the end of battle this unit attacked, COST [Bind this unit face down], choose one of your units, and it gets power +5000 until end of turn. If you have a vanguard with "Canali" in its card name, COST [Soul Blast 1], draw a card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
