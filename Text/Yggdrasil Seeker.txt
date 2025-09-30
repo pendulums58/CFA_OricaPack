@@ -2331,7 +2331,9 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20577
 {
 global.CardName[CardStat] = 'Izanagi'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Avatar'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Avatar
+
+(Shift + left click to activate persona ride.)'
 
 
 global.UnitGrade[CardStat] = 4
@@ -2339,6 +2341,7 @@ global.CardInClan[CardStat] = 29
 }
 global.PowerStat[CardStat] = 18000
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRideAct[CardStat] = 1
 
 CardStat = 20578
 {

@@ -2989,3 +2989,20 @@ global.ExtraDeck[CardStat] = 1
 global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 18000
 global.UseCounters[CardStat] = 1
+
+CardStat = 21563
+{
+global.CardName[CardStat] = 'Save the mankind from the flood'
+global.CardText[CardStat] = 'Homeros/Normal Order/Mythic Saga
+
+CONT: Mythic Saga
+
+CONT: You may only use Mythic Saga order a total of one time in a fight.'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RegalisPiece[CardStat] = 1
