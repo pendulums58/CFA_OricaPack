@@ -2217,7 +2217,7 @@ global.CardName[CardStat] = 'Blade dance of nameless sword'
 global.CardText[CardStat] = 'Homeros/Human'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 106
-global.CardCopies[CardStat] = 1
+global.CardCopies[CardStat] = 4
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0

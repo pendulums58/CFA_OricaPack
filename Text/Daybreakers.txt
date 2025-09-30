@@ -4108,7 +4108,7 @@ Unique Skill - AUTO: When this unit is placed on RC other than during the battle
 AUTO [RC]: When this unit attacks, if your opponent’s vanguard is grade 3 or greater, this unit gets power +5000 until end of that battle, and if your units are all different race, or all same without this unit, it also gets power +5000 until end of that battle.'
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
-global.CardCopies[CardStat] = 1
+global.CardCopies[CardStat] = 4
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 0
