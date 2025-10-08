@@ -653,8 +653,14 @@ global.DCards[CardStat] = 105
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 5000
-global.TokenSummoner[CardStat] = 21554
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner[CardStat] = 10565
+global.TokenSummoner2[CardStat] = 10940
+global.TokenSummoner3[CardStat] = 12217
+global.TokenSummoner2Text[CardStat] = "Regalis Piece?"
+global.TokenSummoner2Button1[CardStat] = "Chalice"
+global.TokenSummoner2Button2[CardStat] = "Forbidoll"
+global.TokenSummoner2Button3[CardStat] = "Ladder"
 global.TokenSummonerQuantity[CardStat] = 1
 
 CardStat = 21554

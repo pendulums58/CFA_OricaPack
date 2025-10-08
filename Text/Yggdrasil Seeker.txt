@@ -4494,3 +4494,18 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21564
+{
+global.CardName[CardStat] = 'Clearmind EGOist'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Ophilia" in its card name, you may discard bottom of your deck. If you do, this unit gets power +5000 until end of turn. If this unit was placed by your vanguard’s ability, COST [Energy Blast 3], draw a card.
+
+AUTO [RC]: At the end of battle your vanguard with "Ophilia" in its card name attacks grade 3 or greater, COST [Counter Blast 1], stand this unit.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
