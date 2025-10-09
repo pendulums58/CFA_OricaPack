@@ -86,7 +86,15 @@ global.DCards[CardStat] = 106
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
-global.GiftAdd[CardStat] = 1
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner[CardStat] = 5820
+global.TokenSummoner2[CardStat] = 5818
+global.TokenSummoner3[CardStat] = 5819
+global.TokenSummoner2Text[CardStat] = "Gift?"
+global.TokenSummoner2Button1[CardStat] = "Force"
+global.TokenSummoner2Button2[CardStat] = "Accel"
+global.TokenSummoner2Button3[CardStat] = "Protect"
+global.TokenSummonerQuantity[CardStat] = 1
 
 CardStat = 20633
 {
