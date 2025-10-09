@@ -1536,7 +1536,15 @@ global.DCards[CardStat] = 106
 global.TriggerUnit[CardStat] = 6
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 50000
-global.GiftAdd[CardStat] = 1
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.TokenSummoner[CardStat] = 5820
+global.TokenSummoner2[CardStat] = 5818
+global.TokenSummoner3[CardStat] = 5819
+global.TokenSummoner2Text[CardStat] = "Gift?"
+global.TokenSummoner2Button1[CardStat] = "Force"
+global.TokenSummoner2Button2[CardStat] = "Accel"
+global.TokenSummoner2Button3[CardStat] = "Protect"
+global.TokenSummonerQuantity[CardStat] = 1
 
 CardStat = 21096
 {
@@ -3014,3 +3022,24 @@ global.CardInClan[CardStat] = 30
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
+
+CardStat = 21572
+{
+global.CardName[CardStat] = 'Visitor, Hanamaru'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21573
+{
+global.CardName[CardStat] = 'Pure white girl, Blanc'
+global.CardText[CardStat] = 'Homeros/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
