@@ -3759,3 +3759,17 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21574
+{
+global.CardName[CardStat] = 'Time Trash Tributor'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is placed on RC from hand, if you have a vanguard with "Frisia" in its card name, COST [Energy Blast 3], choose one of rear-guard, retire it. If you retired your rear-guard, draw a card.
+
+AUTO [Order Zone]: At the beginning of your main phase, or if your unit is placed on VC, if this unit is tied in moon, you may call this unit to RC. If you do, retire this unit at the end of turn.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

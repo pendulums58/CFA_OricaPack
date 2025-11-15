@@ -4509,3 +4509,17 @@ global.DCards[CardStat] = 101
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21575
+{
+global.CardName[CardStat] = 'Arch Wizard of investigating tomorrow'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
+
+AUTO : When this unit is retired from RC by ability of your vanguard with "Ouroboros" in its card name, if you did not called by ability with same name as this unit, you may call this unit to RC.
+
+CONT [RC]: If you retired three or more rear-guard with your ability this turn, this unit gets power +10000.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

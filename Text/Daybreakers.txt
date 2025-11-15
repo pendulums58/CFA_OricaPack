@@ -4791,3 +4791,18 @@ global.DCards[CardStat] = 100
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21576
+{
+global.CardName[CardStat] = 'Bluesilver Master, Yuki'
+global.CardText[CardStat] = 'Daybreakers/Noble
+
+CONT [VC]: During your turn, all your front row units get power +5000 for each two phantom order in your drop. If you have "Maple Butterfly" in your drop, this unit also gets drive +1.
+
+AUTO [VC]: When this unit attacks, COST [Discard a card], choose two card without sentinel from your drop, call all chosen unit to RC with same column, add all chosen order to hand. If your opponent’s vanguard is grade 3 or greater, all called units get power +5000 until end of turn.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
