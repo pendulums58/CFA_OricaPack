@@ -2072,6 +2072,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.CardCopies[CardStat] = 16
 global.EnableAttackFromBackRow[CardStat] = 1
+global.RequiredVan[CardStat] = 'Hoplites'
 
 CardStat = 21247
 {
