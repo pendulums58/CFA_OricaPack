@@ -3183,7 +3183,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 21138
 {
 global.CardName[CardStat] = 'Interduo - Black White'
-global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Ghost'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
@@ -3194,7 +3194,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 21139
 {
 global.CardName[CardStat] = 'Interduo - Wine Temptation'
-global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Ghost'
 
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 102
@@ -3204,8 +3204,8 @@ global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21140
 {
-global.CardName[CardStat] = 'Interduo party - Cynthia & Hertz'
-global.CardText[CardStat] = 'Mysterious Kabalon/Human/Omnia'
+global.CardName[CardStat] = 'Interduo party - Cynthia & Alex'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Ghost'
 
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 102
@@ -3889,3 +3889,36 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21577
+{
+global.CardName[CardStat] = 'Interduo - Thing Universe'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Ghost'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21578
+{
+global.CardName[CardStat] = 'Sword of Interduo, Alex'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21579
+{
+global.CardName[CardStat] = 'Pillar of Interduo, Synthia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Ghost'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
