@@ -3922,3 +3922,53 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21586
+{
+global.CardName[CardStat] = 'Interduo - Alice Fall'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Ghost'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21587
+{
+global.CardName[CardStat] = 'Celestial Stealer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Critical Trigger'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21588
+{
+global.CardName[CardStat] = 'Scanning Acolyte, Lethia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Critical Trigger'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21589
+{
+global.CardName[CardStat] = 'Herald of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
