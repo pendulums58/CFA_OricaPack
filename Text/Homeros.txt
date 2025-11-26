@@ -11,6 +11,18 @@ global.DCards[CardStat] = 106
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 
+CardStat = 20289
+{
+global.CardName[CardStat] = 'The one besides the GOD, Yoshua'
+global.CardText[CardStat] = 'Homeros/Human/Draw Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
 CardStat = 20627
 {
 global.CardName[CardStat] = 'Cheong Seola, Silvery Girl'

@@ -1260,23 +1260,6 @@ global.EnableAttackFromBackRow[CardStat] = 1
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 
-CardStat = 20289
-{
-global.CardName[CardStat] = 'The one besides the GOD, Yoshua'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Human
-
-Texts WIP.
-
-(SHIFT + left click to create Astral Plane.)'
-
-global.UnitGrade[CardStat] = 4
-global.DCards[CardStat] = 101
-global.Uranus[CardStat] = 1
-global.EnableAttackFromBackRow[CardStat] = 1
-}
-global.PowerStat[CardStat] = 13000
-global.DefensePowerStat[CardStat] = 0
-
 CardStat = 20290
 {
 global.CardName[CardStat] = 'The GOD delusion'
