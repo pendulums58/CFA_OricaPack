@@ -4891,3 +4891,15 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 10000
+
+CardStat = 21600
+{
+global.CardName[CardStat] = 'Scenery after the ordeal, Milenia'
+global.CardText[CardStat] = 'Daybreakers/Narrator'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Milenia'

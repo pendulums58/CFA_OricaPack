@@ -3972,3 +3972,27 @@ global.DCards[CardStat] = 102
 global.TriggerUnit[CardStat] = 4
 global.PowerStat[CardStat] = 5000
 global.DefensePowerStat[CardStat] = 15000
+
+
+CardStat = 21598
+{
+global.CardName[CardStat] = 'Warden of Yetzirah'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21602
+{
+global.CardName[CardStat] = 'Unite Order Leader, Milenia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Narrator'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Milenia'

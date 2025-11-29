@@ -382,6 +382,7 @@ global.DCards[CardStat] = 105
 global.PowerStat[CardStat] = 13000
 global.PersonaRide[CardStat] = 1
 global.DefensePowerStat[CardStat] = 0
+global.PersonaRideCardName[CardStat] = 'Milenia'
 
 CardStat = 21006
 {

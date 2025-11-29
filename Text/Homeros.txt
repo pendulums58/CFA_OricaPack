@@ -3085,3 +3085,27 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21592
+{
+global.CardName[CardStat] = 'A myth written by humankind'
+global.CardText[CardStat] = 'Homeros/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21604
+{
+global.CardName[CardStat] = 'Chill Playstyle \#Milenia'
+global.CardText[CardStat] = 'Homeros/Narrator'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Milenia'

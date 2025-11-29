@@ -4506,3 +4506,78 @@ global.DCards[CardStat] = 101
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21593
+{
+global.CardName[CardStat] = 'Information Procedure'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21594
+{
+global.CardName[CardStat] = 'Ark Wizard of Reading Nebula'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21595
+{
+global.CardName[CardStat] = 'Time Weaver of Collecting Timetide'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Omnia'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21596
+{
+global.CardName[CardStat] = 'Recollected EGOist'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Arthur'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21597
+{
+global.CardName[CardStat] = 'Sample Collecting Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21599
+{
+global.CardName[CardStat] = 'Proud Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human'
+global.UnitGrade[CardStat] = 10
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21601
+{
+global.CardName[CardStat] = 'The king swallowed tenacity, Milenia'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Narrator'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Milenia'
+
