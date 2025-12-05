@@ -3996,3 +3996,18 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Milenia'
+
+CardStat = 21607
+{
+global.CardName[CardStat] = 'Collateral Prayer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human
+
+AUTO: When this unit is placed on RC, COST [Counter Blast 1], choose a face up card from your damage zone, put into your hand. Choose a card from your hand, put into damage zone.
+
+AUTO [RC]: When this unit attacks grade 3 or greater, if you have a vanguard with "Acer" in its card name, you may power +10000 this unit. If you do, at the end of that battle, put this unit into damage zone face down, choose a card from your damage zone, heal it.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

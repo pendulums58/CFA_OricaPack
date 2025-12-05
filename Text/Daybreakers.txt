@@ -4903,3 +4903,33 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Milenia'
+
+CardStat = 21605
+{
+global.CardName[CardStat] = 'Blight to Light'
+global.CardText[CardStat] = 'Daybreakers/Normal Order/Sword Art
+
+Play this card if you have an order card in your bind or drop.
+
+Choose a card with less or equal grade to your vanguard, call it to RC, draw a card. If you persona rode this turn, that unit gets power +5000 until end of turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21606
+{
+global.CardName[CardStat] = 'Truth-chasing Wizard'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is placed on RC, if you have a vanguard with "Aethermir" in its card name, your opponent cannot intercept this turn.
+
+AUTO [RC]: At the end of your turn, COST [Counter Blast 1 & Retire this unit], choose an order card from your soul, put into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
