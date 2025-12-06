@@ -4933,3 +4933,49 @@ global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21607
+{
+global.CardName[CardStat] = 'Heavenly Flower and Earthly Moon, Lindworm'
+global.CardText[CardStat] = 'Daybreakers/Ego Sword'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21608
+{
+global.CardName[CardStat] = 'Imprinted Spell "Crystalize"'
+global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21609
+{
+global.CardName[CardStat] = 'Confluence of crossing journey, Tsubaki'
+global.CardText[CardStat] = 'Daybreakers/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21610
+{
+global.CardName[CardStat] = 'Metaphormosis'
+global.CardText[CardStat] = 'Daybreakers/Blitz Order/Phantom'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 5000
