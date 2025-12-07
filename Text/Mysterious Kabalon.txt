@@ -3997,7 +3997,7 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Milenia'
 
-CardStat = 21607
+CardStat = 21611
 {
 global.CardName[CardStat] = 'Collateral Prayer'
 global.CardText[CardStat] = 'Mysterious Kabalon/Human
