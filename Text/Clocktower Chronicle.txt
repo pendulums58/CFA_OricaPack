@@ -382,7 +382,7 @@ CardStat = 20472
 global.CardName[CardStat] = 'Stargear Maiden, Angelica'
 global.CardText[CardStat] = 'Clocktower Chronicle/Human
 
-AUTO [RC] 1/Turn : When your card is flipped, COST [Counter Blast 1], draw a card.'
+AUTO: When this unit is rode upon by grade 2, COST [Reveal a grade 3 with "Stargear" in its card name from your ride deck], search your deck for a Set Order or Order Unit with "Stargear" in its card name, reveal it and put into your hand. Shuffle your deck.'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 104
 }
@@ -511,3 +511,127 @@ global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
 global.RegalisPiece[CardStat] = 1
 global.PersonaRideAct[CardStat] = 1
+
+CardStat = 21620
+{
+global.CardName[CardStat] = 'Gearworm of Clocktower'
+global.CardText[CardStat] = 'Clocktower Chronicle/Gear Dragon/Clocktower
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21621
+global.TokenSummonerPosition[CardStat] = 'RodeUpon'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 21621
+{
+global.CardName[CardStat] = 'Clocktower'
+global.CardText[CardStat] = 'Crest
+
+WIP'
+
+global.UnitGrade[CardStat] = 0
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.RemoveFromDrop[CardStat] = 1
+global.UseCounters[CardStat] = 1
+
+CardStat = 21622
+{
+global.CardName[CardStat] = 'Stargear Maiden, Plati'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human
+
+AUTO: When this unit is rode upon by grade 2, COST [Reveal a grade 3 with "Stargear" in its card name from your ride deck], search your deck for a Set Order or Order Unit with "Stargear" in its card name, reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21623
+{
+global.CardName[CardStat] = 'Stargear Master, Eisia'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21624
+{
+global.CardName[CardStat] = 'Nightshade Planetarium'
+global.CardText[CardStat] = 'Clocktower Chronicle/Set Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21625
+{
+global.CardName[CardStat] = 'Stargears Extractor'
+global.CardText[CardStat] = 'Clocktower Chronicle/Order Unit'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21626
+{
+global.CardName[CardStat] = 'Stargears Pioneer'
+global.CardText[CardStat] = 'Clocktower Chronicle/Set Order'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21627
+{
+global.CardName[CardStat] = 'Stargears Pathfinder'
+global.CardText[CardStat] = 'Clocktower Chronicle/Order Unit'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21628
+{
+global.CardName[CardStat] = 'Stargear Goldblossom'
+global.CardText[CardStat] = 'Clocktower Chronicle/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21629
+{
+global.CardName[CardStat] = 'Denial Witch, Panalily'
+global.CardText[CardStat] = 'Clocktower Chronicle/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 104
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

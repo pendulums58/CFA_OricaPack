@@ -3785,3 +3785,45 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Milenia'
+
+CardStat = 21616
+{
+global.CardName[CardStat] = 'Demon Finder, Hedinvard'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21617
+{
+global.CardName[CardStat] = 'Spreading Roar, Varar'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21618
+{
+global.CardName[CardStat] = 'SinthVeil Spectre'
+global.CardText[CardStat] = 'Nebelheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21619
+{
+global.CardName[CardStat] = 'Pale Graveyard Keeper, Nidhogg Nastrond'
+global.CardText[CardStat] = 'Nebelheim/Wyrm Dragon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
