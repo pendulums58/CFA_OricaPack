@@ -686,8 +686,8 @@ global.CardText[CardStat] = 'Normal Order/White Light
 Play this if your vanguard is a <Colorless>!
 
 Look at the top five cards of your deck, choose up to one a card from among them, and reveal it. If you did not reveal a card, shuffle the deck, and draw a card. If you revealed a card, perform one of the following, and shuffle the deck.
-?If the revealed card is a unit card with grade less than or equal to your vanguard, call it to RC.
-?If the revealed card is a White Light card, put it into hand.
+If the revealed card is a unit card with grade less than or equal to your vanguard, call it to RC.
+If the revealed card is a White Light card, put it into hand.
 
 CONT: This card cannot be bound other than by the cost of your [Light Skill] ability.
 CONT [Bind Zone]: This card cannot be chosen by either player’s card abilities, and cannot be moved to other zones.
