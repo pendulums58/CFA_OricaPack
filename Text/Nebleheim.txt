@@ -1466,7 +1466,7 @@ global.DefensePowerStat[CardStat] = 5000
 CardStat = 20598
 {
 global.CardName[CardStat] = 'Fubuki Style - soul of camelia'
-global.CardText[CardStat] = 'Nebelheim/Ghost'
+global.CardText[CardStat] = 'Nebelheim/G Unit/Ghost'
 global.UnitGrade[CardStat] = 4
 global.DCards[CardStat] = 103
 global.ExtraDeck[CardStat] = 1
@@ -3827,3 +3827,24 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21646
+{
+global.CardName[CardStat] = 'Descendant of the Fubuki Style, Rikka'
+global.CardText[CardStat] = 'Nebelheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21647
+{
+global.CardName[CardStat] = 'Fubuki Style - zero of wave'
+global.CardText[CardStat] = 'Nebelheim/G Unit/Ghost'
+global.UnitGrade[CardStat] = 4
+global.DCards[CardStat] = 103
+global.ExtraDeck[CardStat] = 1
+}
+global.PowerStat[CardStat] = 15000

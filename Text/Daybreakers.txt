@@ -4979,3 +4979,99 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21631
+{
+global.CardName[CardStat] = 'Devote of Chrysos'
+global.CardText[CardStat] = 'Daybreakers/Human/Colorless
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21632
+{
+global.CardName[CardStat] = 'Conducting Dawn knight, Teary'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO: When this unit is rode upon by "Tsugido Assault, Rosemary", search your deck for a White Light Card, discard it, and shuffle your deck.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21633
+{
+global.CardName[CardStat] = 'Tsugido Assault, Rosemary'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO: When this unit is rode upon by a grade 3 with "Ouroboros" in its card name, choose a <Warbeast> from your hand or drop, bind it. If you bound from your hand, draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21634
+{
+global.CardName[CardStat] = 'Witch that wove the twilight, Ouroboros "Clear"'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO [VC] 1/Turn : When this unit attacks, COST [Counter Blast 1], for two <Warbeast> in your bind zone, all your front-row <Warbeast> gets power +5000 until end of turn. Choose your units with sum of grade is less or equal to your <Warbeast> in bind zone, stand it, and they get drive -1 until end of turn. 
+
+[Light Skill] - ACT [VC] 1/Turn : COST [Choose a White Light card from your hand, soul or drop, bind it], look at top five cards from your deck, choose up to two <Warbeast>, discard one of them, and call another one to RC. Shuffle your deck. Choose <Warbeast> from your drop less or equal to White Light card in your bind zone, bind it.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21635
+{
+global.CardName[CardStat] = 'Pyrite Apprentice'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO: When this unit is placed on RC during your turn, if your vanguard is <Colorless>, COST [Soul Blast 1], choose one of your <Warbeast> with same name is in your bind zone, it gets power +5000 until end of turn.
+
+CONT [RC]: If you bound your card from your drop by your ability, this unit gets power +5000.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21636
+{
+global.CardName[CardStat] = 'Aragonite Adventurer'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO: During your turn, when this card is discarded from your hand or deck, if you have a vanguard with "Ouroboros" in its card name, COST [Counter Blast 1], call this unit to RC.
+
+AUTO [RC]: When this unit attacks, if your bind zone has two or more <Warbeast> with different name, this unit gets power +5000. COST [Energy Blast 3], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21637
+{
+global.CardName[CardStat] = 'Glacial Clearwing'
+global.CardText[CardStat] = 'Daybreakers/Warbeast/Colorless
+
+AUTO: When this card is discarded from hand while riding from the ride deck, if you have a <Colorless> vanguard, COST [Soul Blast 1 or Energy Blast 3], search your deck for up to one White Light card, reveal it and put it into hand, and shuffle the deck.
+
+AUTO: When this unit is put on GC from hand, if you have a <Colorless> vanguard, COST [Counter Blast 1 or Energy Blast 3], and draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

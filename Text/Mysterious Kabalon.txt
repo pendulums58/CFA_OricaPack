@@ -4011,3 +4011,104 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21638
+{
+global.CardName[CardStat] = 'Ornio of Helix Another star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera/Colorless
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21639
+{
+global.CardName[CardStat] = 'Ornithopter of Helix Circulation'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera/Colorless'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21640
+{
+global.CardName[CardStat] = 'Negotiate Nebula'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera/Colorless'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21641
+{
+global.CardName[CardStat] = 'Connector of the broken world, Rivel "Clear"'
+global.CardText[CardStat] = 'Mysterious Kabalon/Noble/Colorless
+
+(Shift + click to get One Wing Token.)'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.TokenSummoner[CardStat] = 21642
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 21642
+
+CardStat = 21642
+{
+global.CardName[CardStat] = 'One Wing'
+global.CardText[CardStat] = 'Token Set Order/Vehicle'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21643
+{
+global.CardName[CardStat] = 'Achievet of breaking Hate'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Colorless
+
+AUTO: When this card is discarded from hand while riding from the ride deck, if you have a <Colorless> vanguard, COST [Soul Blast 1 or Energy Blast 3], search your deck for up to one White Light card, reveal it and put it into hand, and shuffle the deck.
+
+AUTO: When this unit is put on GC from hand, if you have a <Colorless> vanguard, COST [Counter Blast 1 or Energy Blast 3], and draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21644
+{
+global.CardName[CardStat] = 'Sidelight Observer'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Colorless'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21645
+{
+global.CardName[CardStat] = 'Achievet of cutting wings'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human/Colorless'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
