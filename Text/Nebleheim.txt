@@ -3848,3 +3848,114 @@ global.DCards[CardStat] = 103
 global.ExtraDeck[CardStat] = 1
 }
 global.PowerStat[CardStat] = 15000
+
+CardStat = 21656
+{
+global.CardName[CardStat] = 'Ashinamakata of Blue sky line'
+global.CardText[CardStat] = 'Nebleheim/Human/Colorless
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21657
+{
+global.CardName[CardStat] = 'Flower stands on Blue sky, Kotoshiro'
+global.CardText[CardStat] = 'Nebleheim/Human/Colorless'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21658
+{
+global.CardName[CardStat] = 'Eyes that sees blue sky, Suwa'
+global.CardText[CardStat] = 'Nebleheim/Human/Colorless'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21659
+{
+global.CardName[CardStat] = 'Glowing on blue sky, Ashitami "Clear"'
+global.CardText[CardStat] = 'Nebleheim/Human/Colorless'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21660
+{
+global.CardName[CardStat] = 'Azure Support Line, Gamma'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Colorless'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21661
+{
+global.CardName[CardStat] = 'Azure Meister, Delta'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Colorless'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21662
+{
+global.CardName[CardStat] = 'Azure Frontline, Epsilon'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Colorless'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21663
+{
+global.CardName[CardStat] = 'Blue Sky Dragoon "Pteron"'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Vehicle'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21664
+{
+global.CardName[CardStat] = 'Blue Sky Cradle "Ephemerus"'
+global.CardText[CardStat] = 'Nebleheim/Set Order/Vehicle'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 23000
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21665
+{
+global.CardName[CardStat] = 'Demure Developer, Delphin'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid/Colorless'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

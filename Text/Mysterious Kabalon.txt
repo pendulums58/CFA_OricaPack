@@ -4112,3 +4112,14 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21655
+{
+global.CardName[CardStat] = 'Daydreamer of Linking Wish'
+global.CardText[CardStat] = 'Mysterious Kabalon/Chimera/Colorless'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

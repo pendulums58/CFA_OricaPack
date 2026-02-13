@@ -2494,7 +2494,7 @@ CardStat = 20655
 global.CardName[CardStat] = 'Timeless Lotus'
 global.CardText[CardStat] = 'Daybreakers/Set Order/Mana Source
 
-CONT [Order Zone]: You may have only one of "Timeless Lotus" in your order zone.
+CONT: You may have only one of "Timeless Lotus" in your deck.
 
 AUTO [Order Zone]: When this unit rest by an ability of your vanguard with "Lostvalue" in its card name, COST [Soul Blast 1], turn all cards in your damage zone face up, and Energy Charge 10.
 
@@ -5074,4 +5074,62 @@ global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 100
 }
 global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21651
+{
+global.CardName[CardStat] = 'Inheriting Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO: When this unit is rode upon by a grade 3 with "Lostvalue" in its card name, search your deck for up to two Mana Source card with "You may only have one in a deck.", reveal it and put into your hand. Shuffle your deck. If you revealed two, choose a card from your hand, discard it.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21652
+{
+global.CardName[CardStat] = 'Rewriting Lostvalue'
+global.CardText[CardStat] = 'Daybreakers/Human
+
+AUTO [VC]: When your unit attacks, COST [Choose a Mana Source from your order zone, rest it], that unit gets power +5000 until end of that battle.
+
+AUTO [VC]: When this unit attacks, perform one "perform one of following" equal to grade of your opponent’s vanguard.
+COST  [Choose a Mana Source from your order zone, return it to your hand], Choose a Mana Source from your hand, put it into order zone.
+COST [Choose a Mana Source from your order zone, rest it], retire one of your opponent’s rear-guard.
+COST [Counter Blast 1], choose one of your rear-guard, stand it.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21653
+{
+global.CardName[CardStat] = 'Colorist of Honor, Facet'
+global.CardText[CardStat] = 'Daybreakers/Colorist
+
+AUTO: When this unit is placed on RC from hand, if you have a vanguard with "Lostvalue" in its card name, COST [Counter Blast 1], look at top five cards from your deck, choose up to one card with "Lostvalue" in its card name or Mana Source card, reveal it and put into your hand. Shuffle your deck. If you did not revealed, draw a card.
+
+AUTO [RC]: When this unit attacks, COST [rest any number of Mana Source from your order zone], this unit gets power +5000 for each Mana Source rest for this cost until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21654
+{
+global.CardName[CardStat] = 'Knight of Refraction, Prisma'
+global.CardText[CardStat] = 'Daybreakers/Angel
+
+AUTO [Drop]: When a Mana Source is putted into your order zone during your turn, if your vanguard is grade 3 or greater, COST [Counter Blast 1], call this unit to back row RC.
+
+AUTO [RC]: At the end of battle this unit boosted, if you have a vanguard with "Lostvalue" or "Tsubaki" in its card name, COST [rest a Mana Source from your order zone, and put this unit into soul], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 100
+}
+global.PowerStat[CardStat] = 8000
 global.DefensePowerStat[CardStat] = 5000
