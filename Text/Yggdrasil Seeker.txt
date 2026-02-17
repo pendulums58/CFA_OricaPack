@@ -4581,3 +4581,102 @@ global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Milenia'
 
+CardStat = 21666
+{
+global.CardName[CardStat] = 'Note Making Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Colorless
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21667
+{
+global.CardName[CardStat] = 'Knight of Devotion, Delphin'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Colorless
+
+AUTO: When this unit is rode upon by "Ark Wizard of Multicolored", look at top seven cards from your deck, search up to one <Cyberoid> and one White Light card, discard it, shuffle your deck. COST [Energy Blast 3], choose one of discarded card, put it into your hand.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21668
+{
+global.CardName[CardStat] = 'Ark Wizard of Multicolored'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Colorless
+
+AUTO: When this unit is rode upon by a grade 3 with "Cistus" in its card name, put a "Last Oath Excalibur" into your order zone, search your deck for a "Round Knight of Oath sword, Scar", reveal it and put into your hand. Shuffle your deck.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.TokenSummoner[CardStat] = 21670
+global.TokenSummonerPosition[CardStat] = 'RodeUpon'
+global.TokenSummonerQuantity[CardStat] = 1
+
+CardStat = 21669
+{
+global.CardName[CardStat] = 'Tear king of settled farce, Cistus "Clear"'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Arthur/Colorless
+
+ACT [VC] 1/Turn : COST [Counter Blast 1], Energy Charge 3. If your vanguard is grade 3 or greater, this unit gets "AUTO [VC] : When this unit attacks, if you have no energy, choose a <Cyberoid> from your drop, call it to RC, and it gets power +10000 until end of turn." until end of turn.
+
+[Light Skill] - AUTO [VC] : When your "Round Knight of Oath sword, Scar" attacks, if that unit is called by ability of this unit this turn, COST [Bind two White Light card from your hand, drop or soul], that unit performs drive check during that battle, and gets power +10000. If you have four White Light card in your bind zone, it also gets drive +1.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21670
+{
+global.CardName[CardStat] = 'Last Oath Excalibur'
+global.CardText[CardStat] = 'Token Set Order
+
+CONT [Order Zone] : You may have up to fifteen energy, and cannot ride grade 3 or greater without "Cistus" in its card name. Your "Energy Generator" loses all ACT Ability.
+
+ACT [Order Zone] : If you persona rode this turn, COST [Energy Blast 3], choose a "Round Knight of Oath sword, Scar" from your drop, put it into your hand, lose this ability during this fight.
+
+AUTO [Order Zone] : At the beginning of your ride phase, Energy Charge 3.'
+global.UnitGrade[CardStat] = 3
+global.CardInClan[CardStat] = 29
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21671
+{
+global.CardName[CardStat] = 'Fairy of Farewell, Fady'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Colorless
+
+CONT [GC] : If your vanguard is <Colorless>, this unit gets shield +5000.
+
+AUTO [RC] : When your vanguard with "Cistus" in its card name attacks, if your unit did not stand by your ability, COST [Energy Blast 3], choose one of your rear-guard same column as this unit, stand it.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21672
+{
+global.CardName[CardStat] = 'Fairy of Farewell, Fady'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Colorless
+
+AUTO : When this unit is placed on RC from hand, if you have a vanguard with "Cistus" in its card name, COST [Energy Blast 3], look at top five cards from your deck, search up to one <Cyberoid> or White Light card among them, reveal it and put into your hand. Shuffle your deck.
+
+AUTO [RC] : When this unit attacks, if you have a vanguard with "Cistus" in its card name, COST [Energy Blast 3], choose one of your rear-guard, retire it. At the end of that battle, COST [Retire this unit], draw a card.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
