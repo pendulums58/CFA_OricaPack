@@ -4703,7 +4703,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid
 
 CONT [VC] : This unit is also persona ride placed by riding from a unit with another name with "Ophilia" in its card name. If you have "Fated One of Reverse, Ophilia" in your soul, this unit gets power +5000, and get its all [Divine Skill].
 
-ACT [VC] 1/Turn : COST [Energy Blast 4], choose one of rear-guards, put it bottom of owner'’s deck, choose a unit with grade one more from your drop, call it to RC. If you putted your unit into deck, draw a card, it gets power +10000 until end of turn.
+ACT [VC] 1/Turn : COST [Energy Blast 4], choose one of rear-guards, put it bottom of owner’s deck, choose a unit with grade one more from your drop, call it to RC. If you putted your unit into deck, draw a card, it gets power +10000 until end of turn.
 
 AUTO [VC] : When this unit attacks grade 3 or greater, COST [Counter Blast 1 & lock one of your rear-guard], choose each one of rear-guards with same column, lock it. At the end of that battle, if the attack did not hit, choose one of your locked card, unlock it.'
 global.UnitGrade[CardStat] = 3
