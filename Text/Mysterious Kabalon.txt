@@ -2398,6 +2398,7 @@ global.PersonaRide[CardStat] = 1
 global.TokenSummoner[CardStat] = 20898
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
 global.AnotherSide[CardStat] = 20898
+global.PersonaRideCardName[CardStat] = 'Vega'
 
 CardStat = 20898
 {
@@ -4123,3 +4124,39 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+
+CardStat = 21675
+{
+global.CardName[CardStat] = 'Parade Party Servant'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21676
+{
+global.CardName[CardStat] = 'Pilgrim Star, Sheliak'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21677
+{
+global.CardName[CardStat] = 'Endless march of mask, Vega Ark-light'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+global.PersonaRideCardName[CardStat] = 'Vega'
