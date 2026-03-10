@@ -3959,3 +3959,85 @@ global.DCards[CardStat] = 103
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21678
+{
+global.CardName[CardStat] = 'Manager of Pale Garden'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21679
+{
+global.CardName[CardStat] = 'Red Lightning Log Canceler'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21680
+{
+global.CardName[CardStat] = 'Sage of Severance, Virna'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21681
+{
+global.CardName[CardStat] = 'Timetide Talor'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21682
+{
+global.CardName[CardStat] = 'Flushed Mirage Remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21683
+{
+global.CardName[CardStat] = 'Guardian of Bright Sea, Astrid'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21684
+{
+global.CardName[CardStat] = 'Rainy Night Crying Beast'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21685
+{
+global.CardName[CardStat] = 'Guardian of Territory Sea, Lifar'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

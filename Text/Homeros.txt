@@ -3189,3 +3189,100 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21686
+{
+global.CardName[CardStat] = 'Floating Light, Toyokumono'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21687
+{
+global.CardName[CardStat] = 'Buding Light, Ikugui'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21688
+{
+global.CardName[CardStat] = 'Smithing Light, Omodaru'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21689
+{
+global.CardName[CardStat] = 'Calamity-Expeling Light, Izunome'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21690
+{
+global.CardName[CardStat] = 'Praying Well for New Year, Yura'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21691
+{
+global.CardName[CardStat] = 'Staying Light, Suhizini'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21692
+{
+global.CardName[CardStat] = 'Falling Light, Amenooshino'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21693
+{
+global.CardName[CardStat] = 'Burning Light, Hinokagabi'
+global.CardText[CardStat] = 'Homeros/Kaminohara/Noble'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21694
+{
+global.CardName[CardStat] = 'Illuminate, Wish in heartfelt mind'
+global.CardText[CardStat] = 'Homeros/Blitz Order'
+global.UnitGrade[CardStat] = 2
+global.CardInClan[CardStat] = 30
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
