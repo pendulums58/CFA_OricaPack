@@ -4041,3 +4041,122 @@ global.DCards[CardStat] = 103
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
+
+CardStat = 21695
+{
+global.CardName[CardStat] = 'Lost in Plane, Tsuchikumo Chikaku'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21696
+{
+global.CardName[CardStat] = 'Night Mistraper, Dusk'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21697
+{
+global.CardName[CardStat] = 'Encounter with Nature, Dusk'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21698
+{
+global.CardName[CardStat] = 'Dimension Singularpoint, Dusk'
+global.CardText[CardStat] = 'Nebleheim/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21699
+{
+global.CardName[CardStat] = 'Memories of Dimensions'
+global.CardText[CardStat] = 'Nebleheim/Set Order'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21700
+{
+global.CardName[CardStat] = 'Sage of Remorse, Gloa'
+global.CardText[CardStat] = 'Nebleheim/Warbeast'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21701
+{
+global.CardName[CardStat] = 'Guardian of Distant Sea, Svein'
+global.CardText[CardStat] = 'Nebleheim/Cyberoid'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21702
+{
+global.CardName[CardStat] = 'Abstruct Mistseer'
+global.CardText[CardStat] = 'Nebleheim/Ghost'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21703
+{
+global.CardName[CardStat] = 'Colorist of Sunset, Impasto'
+global.CardText[CardStat] = 'Nebleheim/Colorist'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21704
+global.CardName[CardStat] = 'Rude Flooding Loudbeast'
+global.CardText[CardStat] = 'Nebleheim/Vargr'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21705
+{
+global.CardName[CardStat] = 'Journey started in Mist'
+global.CardText[CardStat] = 'Nebleheim/Normal Order'
+
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+global.CardInClan[CardStat] = 30
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
