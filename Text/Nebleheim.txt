@@ -4140,6 +4140,7 @@ global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
 
 CardStat = 21704
+{
 global.CardName[CardStat] = 'Rude Flooding Loudbeast'
 global.CardText[CardStat] = 'Nebleheim/Vargr'
 global.UnitGrade[CardStat] = 3
