@@ -3286,3 +3286,30 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21710
+{
+global.CardName[CardStat] = 'Protecting Smile, Kayanarumi'
+global.CardText[CardStat] = 'Homeros/Noble/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 106
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21711
+{
+global.CardName[CardStat] = 'Anima Doll, Venus'
+global.CardText[CardStat] = 'Homeros/Workeroid
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0

@@ -4161,6 +4161,9 @@ global.CardInClan[CardStat] = 30
 }
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.TokenSummoner[CardStat] = 20330
+global.TokenSummonerPosition[CardStat] = 'SHIFT'
+global.AnotherSide[CardStat] = 20330
 
 CardStat = 21706
 {
