@@ -4160,3 +4160,18 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Vega'
+
+CardStat = 21716
+{
+global.CardName[CardStat] = 'Colorist of Crystal, Gamut'
+global.CardText[CardStat] = 'Mysterious Kabalon/Colorist
+
+AUTO: When this card is putted into damage zone during your turn, look at top five cards from your deck, choose up to one card with "Teneon" in its card name, reveal it and put into your hand. Shuffle your deck.
+
+AUTO [RC]: When this unit stand by ability of your vanguard with "Teneon" in its card name, if you have no other "Colorist of Crystal, Gamut" in your RC, this unit gets power +5000 for each miracle bloomed this turn.'
+
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000

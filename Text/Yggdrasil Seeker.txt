@@ -4713,3 +4713,79 @@ global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
 global.PersonaRideCardName[CardStat] = 'Ophilia'
+
+CardStat = 21717
+{
+global.CardName[CardStat] = 'Throne Finding EGOist'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21718
+{
+global.CardName[CardStat] = 'Melody Polisher'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Demon/Critical Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 2
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21719
+{
+global.CardName[CardStat] = 'Miracle Painter'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Warbeast/Heal Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 4
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21720
+{
+global.CardName[CardStat] = 'Jail Village Wardress'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human/Front Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 5
+global.PowerStat[CardStat] = 4000
+global.DefensePowerStat[CardStat] = 15000
+
+CardStat = 21721
+{
+global.CardName[CardStat] = 'Ark Wizard of Festa Walkaround'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Cyberoid/Draw Trigger'
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 101
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 5000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21722
+{
+global.CardName[CardStat] = 'All Just Beat Masta'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Human
+
+CONT: Sentinel.
+
+AUTO: When this unit is put on GC, choose one of your units, and it cannot be hit until end of that battle. If your hand has two or more cards, choose a card from your hand, and discard it.'
+
+
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 101
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 0

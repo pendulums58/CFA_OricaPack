@@ -3313,3 +3313,13 @@ global.DCards[CardStat] = 106
 }
 global.PowerStat[CardStat] = 6000
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21715
+{
+global.CardName[CardStat] = 'God of Mock and Criticism, Krella'
+global.CardText[CardStat] = 'Homeros/Noble'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 106
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
