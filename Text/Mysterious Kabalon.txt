@@ -4175,3 +4175,94 @@ global.DCards[CardStat] = 102
 }
 global.PowerStat[CardStat] = 10000
 global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21723
+{
+global.CardName[CardStat] = 'Jeff Blur'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon
+
+AUTO: When this unit is rode upon, if you went second, draw a card.
+
+(You will be prompted to get the "Energy Generator" crest upon ride.)'
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 6000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21724
+{
+global.CardName[CardStat] = 'Bounded Prisoner of Offering Loyalty'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21725
+{
+global.CardName[CardStat] = 'Lazy follower of Roku'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21726
+{
+global.CardName[CardStat] = 'Lazy follower of Vape'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21727
+{
+global.CardName[CardStat] = 'Lazy follower of Ein'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+global.CardCopies[CardStat] = 16
+
+CardStat = 21728
+{
+global.CardName[CardStat] = 'Lazy follower of Tra'
+global.CardText[CardStat] = 'Mysterious Kabalon/Human'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21729
+{
+global.CardName[CardStat] = 'Bright Indolence, Jeff Acedia'
+global.CardText[CardStat] = 'Mysterious Kabalon/Demon'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1
+
+CardStat = 21730
+{
+global.CardName[CardStat] = 'Advancing First Star'
+global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Draw Trigger'
+
+
+global.UnitGrade[CardStat] = 0
+global.DCards[CardStat] = 102
+global.CardInClan[CardStat] = 30
+}
+global.TriggerUnit[CardStat] = 1
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
