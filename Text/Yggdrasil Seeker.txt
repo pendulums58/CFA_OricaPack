@@ -2282,7 +2282,7 @@ global.CardText[CardStat] = 'Yggdrasil Seeker/Demon'
 global.UnitGrade[CardStat] = 1
 global.DCards[CardStat] = 29
 }
-global.PowerStat[CardStat] = 8000
+global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 5000
 global.RemoveFromDrop[CardStat] = 1
 
