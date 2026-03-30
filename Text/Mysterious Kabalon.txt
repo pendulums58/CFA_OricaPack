@@ -4062,20 +4062,26 @@ global.DCards[CardStat] = 102
 global.PowerStat[CardStat] = 13000
 global.DefensePowerStat[CardStat] = 0
 global.PersonaRide[CardStat] = 1
-global.TokenSummoner[CardStat] = 21642
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
-global.AnotherSide[CardStat] = 21642
+global.TokenSummoner[CardStat] = 21642
+global.TokenSummoner2[CardStat] = 21731
+global.TokenSummoner2Text[CardStat] = "What Wing?"
+global.TokenSummoner2Button1[CardStat] = "Left"
+global.TokenSummoner2Button2[CardStat] = "Right"
+global.TokenSummonerQuantity[CardStat] = 1
 
 CardStat = 21642
 {
-global.CardName[CardStat] = 'One Wing'
-global.CardText[CardStat] = 'Token Set Order/Vehicle'
+global.CardName[CardStat] = 'Wing - Left'
+global.CardText[CardStat] = 'Token Normal Order/Arms'
 global.UnitGrade[CardStat] = 3
 global.DCards[CardStat] = 29
 global.RemoveFromDrop[CardStat] = 1
 }
-global.PowerStat[CardStat] = 10000
+global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+global.Arms[CardStat] = 1
+global.LeftArms[CardStat] = 1
 
 CardStat = 21643
 {
@@ -4255,7 +4261,7 @@ global.PersonaRide[CardStat] = 1
 
 CardStat = 21730
 {
-global.CardName[CardStat] = 'Advancing First Star'
+global.CardName[CardStat] = 'Rule of Pareto'
 global.CardText[CardStat] = 'Mysterious Kabalon/Trigger Order/Draw Trigger'
 
 
@@ -4266,3 +4272,27 @@ global.CardInClan[CardStat] = 30
 global.TriggerUnit[CardStat] = 1
 global.PowerStat[CardStat] = 0
 global.DefensePowerStat[CardStat] = 0
+
+CardStat = 21731
+{
+global.CardName[CardStat] = 'Wing - Right'
+global.CardText[CardStat] = 'Token Normal Order/Arms'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 29
+global.RemoveFromDrop[CardStat] = 1
+}
+global.PowerStat[CardStat] = 0
+global.DefensePowerStat[CardStat] = 0
+global.Arms[CardStat] = 1
+global.RightArms[CardStat] = 1
+
+CardStat = 21732
+{
+global.CardName[CardStat] = 'March Leading Partenope'
+global.CardText[CardStat] = 'Mysterious Kabalon/Avatar'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 102
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

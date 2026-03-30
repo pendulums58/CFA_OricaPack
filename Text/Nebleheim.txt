@@ -4250,3 +4250,46 @@ global.DefensePowerStat[CardStat] = 0
 global.TokenSummoner[CardStat] = 20330
 global.TokenSummonerPosition[CardStat] = 'SHIFT'
 global.AnotherSide[CardStat] = 20330
+
+CardStat = 21733
+{
+global.CardName[CardStat] = 'Shattered Memory Remanet'
+global.CardText[CardStat] = 'Nebleheim/Ghost
+
+AUTO [Drop]: When your Black Mist token retires from RC, if you have no rear-guard with same name as this card, you may call this card to RC.
+
+AUTO [RC]: When this unit boosts <Mist Arms>, that unit gets power +5000 until end of that battle. At the end of that battle, COST [Bind the boosted unit], draw a card.'
+global.UnitGrade[CardStat] = 1
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 8000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21734
+{
+global.CardName[CardStat] = 'Fog Night Pathmaker'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT [RC]: If you have a vanguard with "Desire" in its card name, this unit gets power +5000 / drive +1.
+
+AUTO : When this unit placed on GC, if you have a vanguard with "Desire" in its card name, choose one of your vanguard, and it gets power +5000 until end of that battle. And if you are in vowing, COST [Energy Blast 3], that unit gets power +5000 for each of your grade 3 rear-guard until end of that battle.'
+global.UnitGrade[CardStat] = 2
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 10000
+global.DefensePowerStat[CardStat] = 5000
+
+CardStat = 21735
+{
+global.CardName[CardStat] = 'Anxiety Mistraper, Brouillard'
+global.CardText[CardStat] = 'Nebleheim/Human
+
+CONT [Bind Zone]: This unit gets drive -1.
+
+AUTO [RC]: When this unit attacks the vanguard, if you have a vanguard with "Desire" in its card name, this unit gets power +5000 until end of that battle. If you are in vowing, at the end of that battle, choose a grade 3 from your bind zone, put it into your hand. Bind this card.'
+global.UnitGrade[CardStat] = 3
+global.DCards[CardStat] = 103
+}
+global.PowerStat[CardStat] = 13000
+global.DefensePowerStat[CardStat] = 0
+global.PersonaRide[CardStat] = 1

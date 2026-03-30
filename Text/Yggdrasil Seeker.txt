@@ -3458,7 +3458,7 @@ global.DefensePowerStat[CardStat] = 0
 CardStat = 21081
 {
 global.CardName[CardStat] = 'Heat of the summer'
-global.CardText[CardStat] = 'Yggdrasil Seeker/Blitz Order/Phantom'
+global.CardText[CardStat] = 'Yggdrasil Seeker/Normal Order/Sword Art'
 
 global.UnitGrade[CardStat] = 2
 global.DCards[CardStat] = 101
